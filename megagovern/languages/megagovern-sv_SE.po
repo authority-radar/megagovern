@@ -1,0 +1,3667 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MegaGovern 1.0.6\n"
+"Report-Msgid-Bugs-To: https://megagovern.com/support\n"
+"POT-Creation-Date: 2026-07-30 12:00+0000\n"
+"PO-Revision-Date: 2026-07-30 22:00+0100\n"
+"Last-Translator: Meganova Agency <support@megagovern.com>\n"
+"Language-Team: Swedish <support@megagovern.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: megagovern\n"
+"X-Generator: MegaGovern\n"
+
+#. Plugin Name
+msgid "MegaGovern — AI Transparency Toolkit"
+msgstr "MegaGovern — Verktygslåda för AI-transparens"
+
+#. Plugin Description
+msgid "EU AI Act Article 50 compliant transparency labels, AI content declaration, AI.txt generator, and governance dashboard for WordPress."
+msgstr "Transparensetiketter i enlighet med artikel 50 i EU:s AI-förordning, AI-innehållsdeklaration, AI.txt-generator och styrningsinstrumentpanel för WordPress."
+
+#: includes/Admin.php
+msgid "MegaGovern"
+msgstr "MegaGovern"
+
+#: includes/Admin.php templates/admin/dashboard.php
+msgid "Dashboard"
+msgstr "Instrumentpanel"
+
+#: includes/Admin.php templates/admin/transparency-center.php
+msgid "Transparency Center"
+msgstr "Transparenscenter"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/settings.php
+msgid "Regulatory Alerts"
+msgstr "Regulatoriska varningar"
+
+#: includes/Admin.php includes/Score.php templates/admin/tab-reports.php
+msgid "Reports & Evidence"
+msgstr "Rapporter och bevis"
+
+#: includes/Admin.php templates/admin/settings.php
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/Admin.php templates/admin/agency.php
+msgid "Agency Hub"
+msgstr "Byråhub"
+
+#: includes/Admin.php includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy"
+msgstr "AI-policy"
+
+#: includes/Admin.php
+msgid "Mission Control"
+msgstr "Kontrollcentral"
+
+#: includes/Admin.php
+msgid "Agency"
+msgstr "Byrå"
+
+#: includes/Admin.php
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/Admin.php
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: includes/Admin.php
+msgid "AI transparency governance at a glance."
+msgstr "AI-transparensstyrning i ett ögonkast."
+
+#: includes/Admin.php
+msgid "Manage content classifications, AI disclosures, and compliance records."
+msgstr "Hantera innehållsklassificeringar, AI-utlämnanden och efterlevnadsregister."
+
+#: includes/Admin.php
+msgid "Track AI regulations affecting your content. Updated with each plugin release."
+msgstr "Följ AI-regelverk som påverkar ditt innehåll. Uppdateras med varje plugin-version."
+
+#: includes/Admin.php
+msgid "Compliance reports, evidence bundles, and audit trails."
+msgstr "Efterlevnadsrapporter, bevispaket och revisionsspår."
+
+#: includes/Admin.php
+msgid "Configure MegaGovern for your compliance needs."
+msgstr "Konfigurera MegaGovern för dina efterlevnadsbehov."
+
+#: includes/Admin.php
+msgid "Manage multiple sites, white label settings, and team access."
+msgstr "Hantera flera webbplatser, vitmärkningsinställningar och teamåtkomst."
+
+#: includes/Admin.php
+msgid "Manage your public AI usage policy."
+msgstr "Hantera din offentliga AI-användningspolicy."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "You do not have permission to access this page."
+msgstr "Du har inte behörighet att komma åt den här sidan."
+
+#: includes/Admin.php
+msgid "Access Denied"
+msgstr "Åtkomst nekad"
+
+#: includes/Admin.php
+msgid "Fixing..."
+msgstr "Åtgärdar..."
+
+#: includes/Admin.php templates/admin/tab-disclosures.php
+msgid "Done"
+msgstr "Klart"
+
+#: includes/Admin.php
+msgid "Error — Click to retry"
+msgstr "Fel — Klicka för att försöka igen"
+
+#: includes/Admin.php
+msgid "Refreshing dashboard..."
+msgstr "Uppdaterar instrumentpanel..."
+
+#: includes/Admin.php
+msgid "Syncing..."
+msgstr "Synkroniserar..."
+
+#: includes/Admin.php
+msgid "Please select a classification."
+msgstr "Vänligen välj en klassificering."
+
+#: includes/Admin.php
+msgid "Please select at least one item."
+msgstr "Vänligen välj minst ett objekt."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "Processing..."
+msgstr "Bearbetar..."
+
+#: includes/Admin.php
+msgid "Error."
+msgstr "Fel."
+
+#: includes/Admin.php
+msgid "Failed."
+msgstr "Misslyckades."
+
+#: includes/Admin.php templates/admin/tab-content.php
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: includes/Admin.php
+msgid "No history found."
+msgstr "Ingen historik hittades."
+
+#: includes/Admin.php
+msgid "Failed to load."
+msgstr "Misslyckades att ladda."
+
+#: includes/Admin.php
+msgid "This section is coming soon."
+msgstr "Denna sektion kommer snart."
+
+#: includes/Admin.php templates/admin/settings.php templates/admin/tab-alerts.php
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/tab-content.php templates/admin/settings.php
+msgid "Pro"
+msgstr "Pro"
+
+#: mega-govern.php
+msgid "requires PHP %1$s or higher. Your site is running PHP %2$s."
+msgstr "kräver PHP %1$s eller högre. Din webbplats kör PHP %2$s."
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Human Made"
+msgstr "Skapad av människa"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "AI Modified"
+msgstr "AI-modifierad"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Fully AI-Generated"
+msgstr "Helt AI-genererad"
+
+#: includes/Declaration.php includes/Helpers.php includes/Labels.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Synthetic Media"
+msgstr "Syntetisk media"
+
+#: includes/Declaration.php
+msgid "Content created by a human"
+msgstr "Innehåll skapat av en människa"
+
+#: includes/Declaration.php
+msgid "AI Modified content - AI was used to modify pre-existing human content"
+msgstr "AI-modifierat innehåll — AI användes för att modifiera redan existerande mänskligt innehåll"
+
+#: includes/Declaration.php
+msgid "Fully AI-Generated content - No human editorial control"
+msgstr "Helt AI-genererat innehåll — Ingen mänsklig redaktionell kontroll"
+
+#: includes/Declaration.php
+msgid "AI Generated or manipulated content (Synthetic Media) - May not be authentic"
+msgstr "AI-genererat eller manipulerat innehåll (Syntetisk media) — Kan vara oäkta"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration"
+msgstr "Deklaration enligt EU:s AI-förordning"
+
+#: includes/Declaration.php
+msgid "Select content source (EU AI Act Art. 50):"
+msgstr "Välj innehållskälla (EU:s AI-förordning Art. 50):"
+
+#: includes/Declaration.php
+msgid "Current: %s"
+msgstr "Aktuell: %s"
+
+#: includes/Declaration.php
+msgid "Snapshot captured"
+msgstr "Ögonblicksbild tagen"
+
+#: includes/Declaration.php
+msgid "Required before publishing — EU AI Act Art. 50"
+msgstr "Krävs före publicering — EU:s AI-förordning Art. 50"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration required."
+msgstr "Deklaration enligt EU:s AI-förordning krävs."
+
+#: includes/Declaration.php
+msgid "Please select the content source before publishing (Article 50)."
+msgstr "Vänligen välj innehållskälla före publicering (Artikel 50)."
+
+#: includes/Declaration.php includes/Ajax.php
+msgid "Permission denied."
+msgstr "Behörighet nekad."
+
+#: includes/Declaration.php
+msgid "Invalid data."
+msgstr "Ogiltig data."
+
+#: includes/Declaration.php
+msgid "Content declared as %s."
+msgstr "Innehåll deklarerat som %s."
+
+#: includes/Declaration.php
+msgid "Declaration failed."
+msgstr "Deklaration misslyckades."
+
+#: includes/Helpers.php
+msgid "Human Authored"
+msgstr "Mänskligt författad"
+
+#: includes/Helpers.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Assisted"
+msgstr "AI-assisterad"
+
+#: includes/Helpers.php includes/Media.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Generated"
+msgstr "AI-genererad"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic"
+msgstr "Deepfake / Syntetisk"
+
+#: includes/Helpers.php
+msgid "None"
+msgstr "Ingen"
+
+#: includes/Helpers.php
+msgid "Human Created"
+msgstr "Mänskligt skapad"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic Media"
+msgstr "Deepfake / Syntetisk media"
+
+#: includes/Helpers.php
+msgid "Article declared"
+msgstr "Artikel deklarerad"
+
+#: includes/Helpers.php
+msgid "Declaration updated"
+msgstr "Deklaration uppdaterad"
+
+#: includes/Helpers.php
+msgid "Registry updated"
+msgstr "Register uppdaterat"
+
+#: includes/Helpers.php
+msgid "AI.txt regenerated"
+msgstr "AI.txt återskapad"
+
+#: includes/Helpers.php
+msgid "Label displayed"
+msgstr "Etikett visad"
+
+#: includes/Helpers.php
+msgid "Report generated"
+msgstr "Rapport genererad"
+
+#: includes/Helpers.php
+msgid "Verification updated"
+msgstr "Verifiering uppdaterad"
+
+#: includes/Helpers.php
+msgid "Alert received"
+msgstr "Varning mottagen"
+
+#: includes/Helpers.php
+msgid "Issue fixed"
+msgstr "Problem åtgärdat"
+
+#: includes/Helpers.php
+msgid "Services refreshed"
+msgstr "Tjänster uppdaterade"
+
+#: includes/Helpers.php
+msgid "Crawler blocked"
+msgstr "Crawler blockerad"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "High"
+msgstr "Hög"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Medium"
+msgstr "Medel"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Low"
+msgstr "Låg"
+
+#: includes/Helpers.php
+msgid "Healthy"
+msgstr "Frisk"
+
+#: includes/Helpers.php
+msgid "Warning"
+msgstr "Varning"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Critical"
+msgstr "Kritisk"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "European Union"
+msgstr "Europeiska unionen"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "United States"
+msgstr "USA"
+
+#: includes/Helpers.php includes/Alerts.php includes/SetupWizard.php templates/admin/settings.php
+msgid "Global"
+msgstr "Global"
+
+#: includes/Helpers.php templates/admin/settings.php
+msgid "General"
+msgstr "Allmänt"
+
+#: includes/Helpers.php
+msgid "Excellent"
+msgstr "Utmärkt"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Good"
+msgstr "Bra"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Fair"
+msgstr "Godkänd"
+
+#: includes/Helpers.php
+msgid "Needs Attention"
+msgstr "Kräver uppmärksamhet"
+
+#: includes/Helpers.php includes/Scanner.php
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/Governance.php
+msgid "Dependent services refreshed."
+msgstr "Beroende tjänster uppdaterade."
+
+#: includes/Crawler.php templates/admin/dashboard.php
+msgid "ago"
+msgstr "sedan"
+
+#: includes/Crawler.php
+msgid "Never"
+msgstr "Aldrig"
+
+#: includes/Crawler.php
+msgid "AI.txt, LLMs.txt, and Robots.txt regenerated."
+msgstr "AI.txt, LLMs.txt och Robots.txt återskapade."
+
+#: includes/Crawler.php
+msgid "Just Now"
+msgstr "Precis nu"
+
+#: includes/Labels.php templates/admin/settings.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "Human Written"
+msgstr "Mänskligt skriven"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Assisted"
+msgstr "AI-assisterad"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Generated"
+msgstr "AI-genererad"
+
+#: templates/public/label.php
+msgid "EU AI Act Art. 50"
+msgstr "EU:s AI-förordning Art. 50"
+
+#: includes/Media.php
+msgid "File not found."
+msgstr "Filen hittades inte."
+
+#: includes/Media.php
+msgid "File too large for analysis."
+msgstr "Filen är för stor för analys."
+
+#: includes/Media.php
+msgid "Unsupported format."
+msgstr "Formatet stöds inte."
+
+#: includes/Media.php
+msgid "No AI markers detected."
+msgstr "Inga AI-markörer upptäcktes."
+
+#: includes/Media.php
+msgid "EXIF metadata indicates AI tool: %s"
+msgstr "EXIF-metadata indikerar AI-verktyg: %s"
+
+#: includes/Media.php
+msgid "EXIF contains AI generation keywords."
+msgstr "EXIF innehåller AI-genereringsnyckelord."
+
+#: includes/Media.php
+msgid "C2PA Content Credentials detected — image has verifiable AI provenance."
+msgstr "C2PA-innehållslegitimation upptäckt — bilden har verifierbart AI-ursprung."
+
+#: includes/Media.php
+msgid "Stable Diffusion generation parameters detected."
+msgstr "Stable Diffusion-genereringsparametrar upptäcktes."
+
+#: includes/Media.php
+msgid "AI Declaration"
+msgstr "AI-deklaration"
+
+#: includes/Media.php
+msgid "AI Detected"
+msgstr "AI upptäckt"
+
+#: includes/Media.php
+msgid "Undeclared"
+msgstr "Odeklarerad"
+
+#: includes/Media.php
+msgid "— Select —"
+msgstr "— Välj —"
+
+#: includes/Media.php
+msgid "Detection:"
+msgstr "Detektering:"
+
+#: includes/Media.php
+msgid "Analyze Image"
+msgstr "Analysera bild"
+
+#: includes/Media.php
+msgid "Invalid attachment."
+msgstr "Ogiltig bilaga."
+
+#: includes/Media.php
+msgid "Media declared."
+msgstr "Media deklarerad."
+
+#: includes/Media.php
+msgid "Declaration saved."
+msgstr "Deklaration sparad."
+
+#: includes/Media.php
+msgid "Bulk declaration is available in Pro and Agency plans."
+msgstr "Massdeklaration finns i Pro- och Byråplanen."
+
+#: includes/Media.php
+msgid "%d image declared."
+msgid_plural "%d images declared."
+msgstr[0] "%d bild deklarerad."
+msgstr[1] "%d bilder deklarerade."
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "AI Transparency Verification"
+msgstr "AI-transparensverifiering"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verified Transparent Site"
+msgstr "Verifierad transparent webbplats"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "This website is committed to AI transparency and maintains a documented governance record through MegaGovern."
+msgstr "Denna webbplats är engagerad i AI-transparens och upprätthåller ett dokumenterat styrningsregister via MegaGovern."
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Total Declared"
+msgstr "Totalt deklarerat"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Last Updated"
+msgstr "Senast uppdaterad"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verification Hash:"
+msgstr "Verifieringshash:"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Powered by MegaGovern — AI Transparency & Disclosure Governance"
+msgstr "Drivs av MegaGovern — AI-transparens- och utlämningsstyrning"
+
+#: includes/Verification.php
+msgid "Verification data refreshed."
+msgstr "Verifieringsdata uppdaterad."
+
+#: includes/Policy.php
+msgid "AI Usage Policy"
+msgstr "AI-användningspolicy"
+
+#: includes/Policy.php
+msgid "Policy updated."
+msgstr "Policy uppdaterad."
+
+#: includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy Settings"
+msgstr "AI-policyinställningar"
+
+#: includes/Policy.php
+msgid "View Policy"
+msgstr "Visa policy"
+
+#: includes/Policy.php
+msgid "Saved."
+msgstr "Sparad."
+
+#: includes/Policy.php
+msgid "Customize Policy"
+msgstr "Anpassa policy"
+
+#: includes/Policy.php
+msgid "Custom Introduction"
+msgstr "Anpassad introduktion"
+
+#: includes/Policy.php
+msgid "Appears at the top of your AI Policy page."
+msgstr "Visas högst upp på din AI-policysida."
+
+#: includes/Policy.php
+msgid "Custom introduction is a Pro feature."
+msgstr "Anpassad introduktion är en Pro-funktion."
+
+#: includes/Policy.php
+msgid "Contact Email"
+msgstr "Kontakt-e-post"
+
+#: includes/Policy.php
+msgid "Contact Page URL"
+msgstr "Kontaktsidans URL"
+
+#: includes/Policy.php
+msgid "Save"
+msgstr "Spara"
+
+#: includes/Alerts.php
+msgid "EU AI Act — General Provisions (Enacted)"
+msgstr "EU:s AI-förordning — Allmänna bestämmelser (Antagen)"
+
+#: includes/Alerts.php
+msgid "EU AI Act — Article 50 Transparency (Effective August 2026)"
+msgstr "EU:s AI-förordning — Artikel 50 Transparens (Gäller från augusti 2026)"
+
+#: includes/Alerts.php
+msgid "US Executive Order 14110 — Safe & Secure AI"
+msgstr "USA:s verkställande order 14110 — Säker och trygg AI"
+
+#: includes/Alerts.php
+msgid "US NO AI FRAUD Act (Proposed)"
+msgstr "USA:s NO AI FRAUD-lag (Föreslagen)"
+
+#: includes/Alerts.php
+msgid "California SB 942 — AI Transparency Act (Signed)"
+msgstr "Kalifornien SB 942 — AI-transparenslagen (Undertecknad)"
+
+#: includes/Alerts.php
+msgid "California AB 2013 — AI Training Data Disclosure (Signed)"
+msgstr "Kalifornien AB 2013 — Utlämnande av AI-träningsdata (Undertecknad)"
+
+#: includes/Alerts.php
+msgid "Colorado AI Act (SB 24-205) — Effective February 2026"
+msgstr "Colorados AI-lag (SB 24-205) — Gäller från februari 2026"
+
+#: includes/Alerts.php
+msgid "Utah AI Policy Act (SB 149) — Enacted"
+msgstr "Utahs AI-policylag (SB 149) — Antagen"
+
+#: includes/Alerts.php
+msgid "China — Deep Synthesis Provisions (Enacted)"
+msgstr "Kina — Bestämmelser om djup syntes (Antagna)"
+
+#: includes/Alerts.php
+msgid "China — Generative AI Measures (Enacted)"
+msgstr "Kina — Åtgärder för generativ AI (Antagna)"
+
+#: includes/Alerts.php
+msgid "UK — AI Regulation Framework (In Development)"
+msgstr "Storbritannien — AI-regleringsramverk (Under utveckling)"
+
+#: includes/Alerts.php
+msgid "Canada — AIDA (Bill C-27) — Proposed"
+msgstr "Kanada — AIDA (Lagförslag C-27) — Föreslagen"
+
+#: includes/Alerts.php
+msgid "Brazil — AI Bill (PL 2338/2023) — In Progress"
+msgstr "Brasilien — AI-lagförslag (PL 2338/2023) — Pågående"
+
+#: includes/Alerts.php
+msgid "Japan — AI Business Guidelines (Published 2024)"
+msgstr "Japan — AI-företagsriktlinjer (Publicerade 2024)"
+
+#: includes/Alerts.php
+msgid "South Korea — AI Basic Act (Proposed 2024)"
+msgstr "Sydkorea — Grundläggande AI-lag (Föreslagen 2024)"
+
+#: includes/Alerts.php
+msgid "Australia — AI Ethics Framework (Voluntary)"
+msgstr "Australien — AI-etikramverk (Frivilligt)"
+
+#: includes/Alerts.php
+msgid "G7 — International AI Code of Conduct (Agreed 2023)"
+msgstr "G7 — Internationell AI-uppförandekod (Överenskommen 2023)"
+
+#: includes/Alerts.php
+msgid "UN — General Assembly AI Resolution (Adopted March 2024)"
+msgstr "FN — Generalförsamlingens AI-resolution (Antagen mars 2024)"
+
+#: includes/Alerts.php
+msgid "Council of Europe — AI Treaty (Opened for Signature 2024)"
+msgstr "Europarådet — AI-fördrag (Öppnat för undertecknande 2024)"
+
+#: includes/Alerts.php
+msgid "The EU AI Act entered into force on August 1, 2024. General provisions and prohibited practices apply from February 2, 2025. Transparency obligations for GPAI models apply from August 2, 2025. High-risk AI system obligations phase in through August 2, 2027."
+msgstr "EU:s AI-förordning trädde i kraft den 1 augusti 2024. Allmänna bestämmelser och förbjudna metoder gäller från den 2 februari 2025. Transparensskyldigheter för GPAI-modeller gäller från den 2 augusti 2025. Skyldigheter för AI-system med hög risk införs successivt fram till den 2 augusti 2027."
+
+#: includes/Alerts.php
+msgid "Article 50 requires clear labeling of AI-generated content including text, images, audio, and video. Deepfakes must be explicitly marked. Limited exemptions for artistic and satirical content. Applies to all content accessible in the EU."
+msgstr "Artikel 50 kräver tydlig märkning av AI-genererat innehåll inklusive text, bilder, ljud och video. Deepfakes måste markeras explicit. Begränsade undantag för konstnärligt och satiriskt innehåll. Gäller allt innehåll som är tillgängligt i EU."
+
+#: includes/Alerts.php
+msgid "Executive Order on Safe, Secure, and Trustworthy Development and Use of AI (October 2023). Requires developers of powerful AI systems to share safety test results. NIST developing AI content authentication and watermarking standards."
+msgstr "Verkställande order om säker och pålitlig utveckling och användning av AI (oktober 2023). Kräver att utvecklare av kraftfulla AI-system delar säkerhetstestresultat. NIST utvecklar standarder för AI-innehållsautentisering och vattenmärkning."
+
+#: includes/Alerts.php
+msgid "Federal bill proposed in January 2024 to establish intellectual property rights over voice and likeness against unauthorized AI-generated replicas."
+msgstr "Federalt lagförslag föreslaget i januari 2024 för att fastställa immateriella rättigheter över röst och likhet mot obehöriga AI-genererade kopior."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires providers of generative AI systems to include provenance disclosures in AI-generated content. Mandates visible and machine-readable labels for AI-generated images, video, and audio."
+msgstr "Undertecknad september 2024. Kräver att leverantörer av generativa AI-system inkluderar ursprungsutlämnanden i AI-genererat innehåll. Kräver synliga och maskinläsbara etiketter för AI-genererade bilder, video och ljud."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires developers of generative AI systems to publicly disclose information about the datasets used to train their models, including data sources and copyright status."
+msgstr "Undertecknad september 2024. Kräver att utvecklare av generativa AI-system offentligt lämnar ut information om datamängderna som används för att träna deras modeller, inklusive datakällor och upphovsrättsstatus."
+
+#: includes/Alerts.php
+msgid "Signed May 2024. First comprehensive state AI law in the US. Requires developers and deployers of high-risk AI systems to use reasonable care to protect consumers from algorithmic discrimination. Effective February 1, 2026."
+msgstr "Undertecknad maj 2024. Första omfattande delstatliga AI-lagen i USA. Kräver att utvecklare och distributörer av AI-system med hög risk använder rimlig omsorg för att skydda konsumenter från algoritmisk diskriminering. Gäller från 1 februari 2026."
+
+#: includes/Alerts.php
+msgid "Enacted March 2024. First state AI law in the US to take effect. Requires disclosure when consumers interact with generative AI in regulated occupations (healthcare, legal, financial). Effective May 1, 2024."
+msgstr "Antagen mars 2024. Första delstatliga AI-lagen i USA att träda i kraft. Kräver utlämnande när konsumenter interagerar med generativ AI i reglerade yrken (hälsovård, juridik, finans). Gäller från 1 maj 2024."
+
+#: includes/Alerts.php
+msgid "Effective January 10, 2023. Requires AI-generated content to be watermarked and clearly labeled. Deep synthesis service providers must obtain user consent, verify identities, and maintain audit logs. Applies to content accessible within China."
+msgstr "Gäller från 10 januari 2023. Kräver att AI-genererat innehåll vattenmärks och tydligt märks. Leverantörer av djup syntes-tjänster måste inhämta användarsamtycke, verifiera identiteter och underhålla revisionsloggar. Gäller innehåll som är tillgängligt i Kina."
+
+#: includes/Alerts.php
+msgid "Effective August 15, 2023. Regulates generative AI services available to the Chinese public. Requires content filtering, labeling of AI-generated output, protection of user data, and adherence to socialist core values."
+msgstr "Gäller från 15 augusti 2023. Reglerar generativa AI-tjänster som är tillgängliga för den kinesiska allmänheten. Kräver innehållsfiltrering, märkning av AI-genererade utdata, skydd av användardata och anslutning till socialistiska kärnvärden."
+
+#: includes/Alerts.php
+msgid "The UK follows a principles-based, sector-led approach via existing regulators (ICO, CMA, Ofcom, FCA). The AI Safety Institute was launched in November 2023. No comprehensive AI legislation yet; the government is consulting on targeted requirements for frontier AI."
+msgstr "Storbritannien följer ett principbaserat, sektorslett tillvägagångssätt via befintliga tillsynsmyndigheter (ICO, CMA, Ofcom, FCA). AI Safety Institute lanserades i november 2023. Ingen omfattande AI-lagstiftning än; regeringen samråder om riktade krav för gränsöverskridande AI."
+
+#: includes/Alerts.php
+msgid "The Artificial Intelligence and Data Act (AIDA) is part of Bill C-27, currently in parliamentary committee. Would establish requirements for high-impact AI systems including transparency, risk assessment, and human oversight."
+msgstr "Artificial Intelligence and Data Act (AIDA) ingår i lagförslag C-27, som för närvarande behandlas i parlamentarisk kommitté. Skulle fastställa krav för AI-system med hög påverkan inklusive transparens, riskbedömning och mänsklig översyn."
+
+#: includes/Alerts.php
+msgid "Comprehensive AI regulation under debate in the Brazilian Senate. Would establish risk-based classification of AI systems, require transparency for AI-generated content, and mandate human oversight for high-risk applications."
+msgstr "Omfattande AI-reglering under debatt i Brasiliens senat. Skulle fastställa riskbaserad klassificering av AI-system, kräva transparens för AI-genererat innehåll och kräva mänsklig översyn för högriskapplikationer."
+
+#: includes/Alerts.php
+msgid "Japan's Ministry of Economy, Trade and Industry (METI) published updated AI Guidelines in April 2024. Currently voluntary but signals future regulatory direction. Focuses on transparency, fairness, and human-centric AI."
+msgstr "Japans ministerium för ekonomi, handel och industri (METI) publicerade uppdaterade AI-riktlinjer i april 2024. För närvarande frivilliga men signalerar framtida regleringsinriktning. Fokuserar på transparens, rättvisa och människocentrerad AI."
+
+#: includes/Alerts.php
+msgid "Proposed comprehensive AI legislation introduced in the National Assembly. Would establish a legal framework for AI development, require high-risk AI transparency, and mandate labeling of AI-generated content."
+msgstr "Föreslagen omfattande AI-lagstiftning introducerad i nationalförsamlingen. Skulle fastställa ett juridiskt ramverk för AI-utveckling, kräva transparens för AI med hög risk och kräva märkning av AI-genererat innehåll."
+
+#: includes/Alerts.php
+msgid "Australia's voluntary AI Ethics Framework (updated 2024) outlines 8 principles including transparency, explainability, and accountability. The government is consulting on mandatory guardrails for high-risk AI."
+msgstr "Australiens frivilliga AI-etikramverk (uppdaterat 2024) beskriver 8 principer inklusive transparens, förklarbarhet och ansvarsskyldighet. Regeringen samråder om obligatoriska skyddsräcken för AI med hög risk."
+
+#: includes/Alerts.php
+msgid "Agreed October 30, 2023 by G7 leaders. Establishes 11 guiding principles for AI developers including transparency, accountability, and content authentication. While non-binding, it signals international regulatory direction."
+msgstr "Överenskommen den 30 oktober 2023 av G7-ledarna. Fastställer 11 vägledande principer för AI-utvecklare inklusive transparens, ansvarsskyldighet och innehållsautentisering. Även om den inte är bindande signalerar den internationell regleringsinriktning."
+
+#: includes/Alerts.php
+msgid "Adopted unanimously March 21, 2024. First-ever standalone UN General Assembly resolution on AI. Calls for safe, secure, and trustworthy AI systems that respect human rights. Encourages member states to develop regulatory frameworks."
+msgstr "Antogs enhälligt den 21 mars 2024. Första fristående FN-generalförsamlingsresolutionen om AI. Efterlyser säkra och pålitliga AI-system som respekterar mänskliga rättigheter. Uppmuntrar medlemsstater att utveckla regleringsramverk."
+
+#: includes/Alerts.php
+msgid "The Framework Convention on AI and Human Rights, Democracy, and the Rule of Law opened for signature September 2024. First legally binding international treaty on AI. Signed by EU, US, UK, and others. Requires transparency, oversight, and accountability."
+msgstr "Ramkonventionen om AI och mänskliga rättigheter, demokrati och rättsstat öppnades för undertecknande i september 2024. Första juridiskt bindande internationella fördraget om AI. Undertecknat av EU, USA, Storbritannien och andra. Kräver transparens, översyn och ansvarsskyldighet."
+
+#: includes/Alerts.php
+msgid "All"
+msgstr "Alla"
+
+#: includes/Alerts.php
+msgid "EU"
+msgstr "EU"
+
+#: includes/Alerts.php
+msgid "USA"
+msgstr "USA"
+
+#: includes/Alerts.php
+msgid "China"
+msgstr "Kina"
+
+#: includes/Alerts.php
+msgid "UK"
+msgstr "Storbritannien"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "Inte inloggad."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "Inget varnings-ID angavs."
+
+#: templates/admin/tab-alerts.php
+msgid "Alert"
+msgstr "Varning"
+
+#: templates/admin/tab-alerts.php
+msgid "Total"
+msgstr "Totalt"
+
+#: templates/admin/tab-alerts.php
+msgid "Unread"
+msgstr "Olästa"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark All Read"
+msgstr "Markera alla som lästa"
+
+#: templates/admin/tab-alerts.php
+msgid "Region"
+msgstr "Region"
+
+#: templates/admin/tab-alerts.php
+msgid "Risk"
+msgstr "Risk"
+
+#: templates/admin/tab-alerts.php
+msgid "Status"
+msgstr "Status"
+
+#: templates/admin/tab-alerts.php
+msgid "Upcoming"
+msgstr "Kommande"
+
+#: templates/admin/tab-alerts.php
+msgid "Clear Filters"
+msgstr "Rensa filter"
+
+#: templates/admin/tab-alerts.php
+msgid "View All Alerts"
+msgstr "Visa alla varningar"
+
+#: templates/admin/tab-alerts.php
+msgid "No Alerts Found"
+msgstr "Inga varningar hittades"
+
+#: templates/admin/tab-alerts.php
+msgid "No regulatory alerts match your current filters. Try adjusting or clearing your filters."
+msgstr "Inga regulatoriska varningar matchar dina nuvarande filter. Försök justera eller rensa dina filter."
+
+#: templates/admin/tab-alerts.php
+msgid "All regulatory alerts have been reviewed. New alerts will appear with the next plugin update."
+msgstr "Alla regulatoriska varningar har granskats. Nya varningar kommer med nästa plugin-uppdatering."
+
+#: templates/admin/tab-alerts.php
+msgid "New"
+msgstr "Ny"
+
+#: templates/admin/tab-alerts.php
+msgid "Official Source"
+msgstr "Officiell källa"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark as Read"
+msgstr "Markera som läst"
+
+#: templates/admin/tab-alerts.php
+msgid "Data updated with plugin releases. No external API calls."
+msgstr "Data uppdateras med plugin-versioner. Inga externa API-anrop."
+
+#: templates/admin/tab-alerts.php
+msgid "Showing %d alert"
+msgid_plural "Showing %d alerts"
+msgstr[0] "Visar %d varning"
+msgstr[1] "Visar %d varningar"
+
+#: templates/admin/tab-alerts.php
+msgid "%d days remaining"
+msgstr "%d dagar kvar"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline passed"
+msgstr "Deadline passerad"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline"
+msgstr "Deadline"
+
+#: templates/admin/tab-alerts.php
+msgid "International"
+msgstr "Internationell"
+
+#: templates/admin/tab-alerts.php
+msgid "Regulatory Alert"
+msgstr "Regulatorisk varning"
+
+#: templates/admin/tab-alerts.php
+msgid "Free plan shows International alerts only."
+msgstr "Gratisplanen visar endast internationella varningar."
+
+#: templates/admin/tab-alerts.php
+msgid "Upgrade to Pro"
+msgstr "Uppgradera till Pro"
+
+#: includes/Issues.php
+msgid "%s without declaration"
+msgstr "%s utan deklaration"
+
+#: includes/Issues.php
+msgid "Published content has no source classification."
+msgstr "Publicerat innehåll har ingen källklassificering."
+
+#: includes/Issues.php
+msgid "Declare Now"
+msgstr "Deklarera nu"
+
+#: includes/Issues.php
+msgid "AI.txt not updated recently"
+msgstr "AI.txt inte uppdaterad nyligen"
+
+#: includes/Issues.php
+msgid "Your AI.txt file may be stale."
+msgstr "Din AI.txt-fil kan vara inaktuell."
+
+#: includes/Issues.php
+msgid "Regenerate Now"
+msgstr "Återskapa nu"
+
+#: includes/Issues.php
+msgid "Verification page may be outdated"
+msgstr "Verifieringssidan kan vara inaktuell"
+
+#: includes/Issues.php
+msgid "Your public verification page may not reflect the latest data."
+msgstr "Din offentliga verifieringssida kanske inte återspeglar den senaste datan."
+
+#: includes/Issues.php
+msgid "Refresh Now"
+msgstr "Uppdatera nu"
+
+#: includes/Issues.php
+msgid "%d unread regulatory alert"
+msgid_plural "%d unread regulatory alerts"
+msgstr[0] "%d oläst regulatorisk varning"
+msgstr[1] "%d olästa regulatoriska varningar"
+
+#: includes/Issues.php
+msgid "You have regulatory updates to review."
+msgstr "Du har regulatoriska uppdateringar att granska."
+
+#: includes/Issues.php
+msgid "View Alerts"
+msgstr "Visa varningar"
+
+#: includes/Issues.php
+msgid "No recent transparency activity"
+msgstr "Ingen senaste transparensaktivitet"
+
+#: includes/Issues.php
+msgid "Your site hasn't declared any content sources in over 30 days."
+msgstr "Din webbplats har inte deklarerat några innehållskällor på över 30 dagar."
+
+#: includes/Issues.php
+msgid "Declare Content"
+msgstr "Deklarera innehåll"
+
+#: includes/Issues.php
+msgid "%d media files lack AI declaration"
+msgstr "%d mediafiler saknar AI-deklaration"
+
+#: includes/Issues.php
+msgid "Review Media"
+msgstr "Granska media"
+
+#: includes/Score.php
+msgid "Content Declaration"
+msgstr "Innehållsdeklaration"
+
+#: includes/Score.php
+msgid "Transparency Labels"
+msgstr "Transparensetiketter"
+
+#: includes/Score.php
+msgid "AI.txt File"
+msgstr "AI.txt-fil"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Crawler Protection"
+msgstr "Crawlerskydd"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Verification Page"
+msgstr "Verifieringssida"
+
+#: includes/Score.php
+msgid "Transparency for AI-generated content"
+msgstr "Transparens för AI-genererat innehåll"
+
+#: includes/Score.php
+msgid "Content Declaration + Labels"
+msgstr "Innehållsdeklaration + etiketter"
+
+#: includes/Score.php
+msgid "Disclosure of AI-manipulated media"
+msgstr "Utlämnande av AI-manipulerad media"
+
+#: includes/Score.php
+msgid "C2PA Image Metadata (Enterprise)"
+msgstr "C2PA-bildmetadata (Enterprise)"
+
+#: includes/Score.php
+msgid "Emotion recognition & biometric disclosure"
+msgstr "Känsloigenkänning och biometriskt utlämnande"
+
+#: includes/Score.php
+msgid "Not in scope"
+msgstr "Inte inom ramen"
+
+#: includes/Score.php
+msgid "Machine-readable AI labeling"
+msgstr "Maskinläsbar AI-märkning"
+
+#: includes/Score.php
+msgid "AI.txt Generator"
+msgstr "AI.txt-generator"
+
+#: includes/Score.php
+msgid "Transparency obligations for AI systems"
+msgstr "Transparensskyldigheter för AI-system"
+
+#: includes/Score.php
+msgid "Verification Page + Registry"
+msgstr "Verifieringssida + Register"
+
+#: includes/Reports.php
+msgid "All time"
+msgstr "All tid"
+
+#: includes/Reports.php
+msgid "Present"
+msgstr "Nuvarande"
+
+#: includes/Reports.php
+msgid "PDF report generated."
+msgstr "PDF-rapport genererad."
+
+#: includes/Reports.php
+msgid ""
+"Hello,\n"
+"\n"
+"Your scheduled compliance report is attached.\n"
+"\n"
+"Summary:\n"
+"- Total Declared: %d\n"
+"- Human Written: %d\n"
+"- AI Assisted: %d\n"
+"- AI Generated: %d\n"
+"\n"
+"View full transparency: %s\n"
+"\n"
+"— MegaGovern"
+msgstr ""
+"Hej,\n"
+"\n"
+"Din schemalagda efterlevnadsrapport är bifogad.\n"
+"\n"
+"Sammanfattning:\n"
+"- Totalt deklarerat: %d\n"
+"- Mänskligt skriven: %d\n"
+"- AI-assisterad: %d\n"
+"- AI-genererad: %d\n"
+"\n"
+"Se fullständig transparens: %s\n"
+"\n"
+"— MegaGovern"
+
+#: includes/Reports.php templates/public/report-pdf.php
+msgid "MegaGovern Compliance Report"
+msgstr "MegaGovern efterlevnadsrapport"
+
+#: includes/Reports.php
+msgid "You do not have sufficient permissions."
+msgstr "Du har inte tillräckliga behörigheter."
+
+#: includes/Reports.php
+msgid "Scheduled report emailed to %s."
+msgstr "Schemalagd rapport skickad via e-post till %s."
+
+#: includes/Reports.php
+msgid "[%1$s] Transparency Report — %2$d%% Coverage — %3$s"
+msgstr "[%1$s] Transparensrapport — %2$d%% täckning — %3$s"
+
+#: includes/Reports.php
+msgid "Your scheduled transparency report is attached."
+msgstr "Din schemalagda transparensrapport är bifogad."
+
+#: includes/Reports.php
+msgid "Coverage:"
+msgstr "Täckning:"
+
+#: includes/Reports.php
+msgid "Declared:"
+msgstr "Deklarerat:"
+
+#: includes/Reports.php
+msgid "published items"
+msgstr "publicerade objekt"
+
+#: includes/Reports.php
+msgid "View Verification Page"
+msgstr "Visa verifieringssida"
+
+#: includes/Reports.php
+msgid "View AI.txt"
+msgstr "Visa AI.txt"
+
+#: includes/Reports.php
+msgid "DISCLAIMER:"
+msgstr "ANSVARSFRISKRIVNING:"
+
+#: includes/Reports.php
+msgid "This report is generated for transparency and documentation purposes only. It does not constitute legal compliance certification or legal advice. Consult qualified legal counsel for compliance determinations specific to your jurisdiction."
+msgstr "Denna rapport genereras endast för transparens- och dokumentationsändamål. Den utgör inte juridisk efterlevnadscertifiering eller juridisk rådgivning. Rådfråga kvalificerad juridisk rådgivare för efterlevnadsbeslut specifika för din jurisdiktion."
+
+#: includes/Reports.php
+msgid "This report was automatically generated by MegaGovern — AI Content Governance & Transparency Platform. Sent to %s on a %s schedule."
+msgstr "Denna rapport genererades automatiskt av MegaGovern — AI-innehållsstyrnings- och transparensplattform. Skickad till %s enligt ett %s-schema."
+
+#: includes/Evidence.php
+msgid "Security check failed."
+msgstr "Säkerhetskontroll misslyckades."
+
+#: includes/Evidence.php
+msgid "You do not have permission to download evidence bundles."
+msgstr "Du har inte behörighet att ladda ner bevispaket."
+
+#: includes/Evidence.php
+msgid "Failed to initialize zip compressor."
+msgstr "Misslyckades att initiera zip-komprimerare."
+
+#: includes/Evidence.php
+msgid "No AI usage policy published yet."
+msgstr "Ingen AI-användningspolicy publicerad ännu."
+
+#: includes/Evidence.php
+msgid "Evidence bundle file not found."
+msgstr "Bevispaketfilen hittades inte."
+
+#: includes/Evidence.php
+msgid "Content Snapshot"
+msgstr "Innehållsögonblicksbild"
+
+#: includes/Evidence.php
+msgid "Post ID"
+msgstr "Inläggs-ID"
+
+#: includes/Evidence.php
+msgid "Declared As"
+msgstr "Deklarerat som"
+
+#: includes/Evidence.php
+msgid "Declared At"
+msgstr "Deklarerat den"
+
+#: includes/Evidence.php
+msgid "Content Hash (SHA-256)"
+msgstr "Innehållshash (SHA-256)"
+
+#: includes/Evidence.php
+msgid "This evidence bundle is a transparency and documentation toolkit output. It does NOT constitute legal compliance certification or legal advice."
+msgstr "Detta bevispaket är ett resultat av transparens- och dokumentationsverktygslådan. Det utgör INTE juridisk efterlevnadscertifiering eller juridisk rådgivning."
+
+#: includes/Scanner.php
+msgid "Content Review requires Pro or Agency plan."
+msgstr "Innehållsgranskning kräver Pro- eller Byråplan."
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Find Undeclared Content"
+msgstr "Hitta odeklarerat innehåll"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Scanning..."
+msgstr "Skannar..."
+
+#: includes/Scanner.php
+msgid "%d post ready for review."
+msgid_plural "%d posts ready for review."
+msgstr[0] "%d inlägg redo för granskning."
+msgstr[1] "%d inlägg redo för granskning."
+
+#: includes/Scanner.php
+msgid "No declarations provided."
+msgstr "Inga deklarationer angavs."
+
+#: includes/Scanner.php
+msgid "%d declaration applied."
+msgid_plural "%d declarations applied."
+msgstr[0] "%d deklaration tillämpad."
+msgstr[1] "%d deklarationer tillämpade."
+
+#: includes/Scanner.php
+msgid "Review results dismissed."
+msgstr "Granskningsresultat avvisade."
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "Ogiltig data."
+
+#: includes/Ajax.php
+msgid "No valid post IDs provided."
+msgstr "Inga giltiga inläggs-ID angavs."
+
+#: includes/Ajax.php
+msgid "Invalid declaration type."
+msgstr "Ogiltig deklarationstyp."
+
+#: includes/Ajax.php
+msgid "%d post updated."
+msgid_plural "%d posts updated."
+msgstr[0] "%d inlägg uppdaterat."
+msgstr[1] "%d inlägg uppdaterade."
+
+#: includes/Ajax.php
+msgid "Bulk declaration"
+msgstr "Massdeklaration"
+
+#: includes/Ajax.php
+msgid "Required classes not found."
+msgstr "Nödvändiga klasser hittades inte."
+
+#: includes/Ajax.php
+msgid "Declared as"
+msgstr "Deklarerat som"
+
+#: includes/Ajax.php
+msgid "Updated to"
+msgstr "Uppdaterat till"
+
+#: includes/Ajax.php
+msgid "System"
+msgstr "System"
+
+#: includes/Ajax.php
+msgid "Agency class not found."
+msgstr "Byråklass hittades inte."
+
+#: includes/Ajax.php
+msgid "Site not found."
+msgstr "Webbplats hittades inte."
+
+#: includes/Ajax.php
+msgid "Agency bulk report for %s."
+msgstr "Byråns massrapport för %s."
+
+#: includes/Ajax.php
+msgid "Report generated for %s."
+msgstr "Rapport genererad för %s."
+
+#: includes/Ajax.php
+msgid "Archive class not found."
+msgstr "Arkivklass hittades inte."
+
+#: includes/Ajax.php
+msgid "Invalid post ID."
+msgstr "Ogiltigt inläggs-ID."
+
+#: includes/Ajax.php
+msgid "Exemption revoked."
+msgstr "Undantag återkallat."
+
+#: includes/Ajax.php
+msgid "Failed to revoke exemption."
+msgstr "Misslyckades att återkalla undantag."
+
+#: includes/Ajax.php
+msgid "Exemption restored."
+msgstr "Undantag återställt."
+
+#: includes/Ajax.php
+msgid "Failed to restore exemption."
+msgstr "Misslyckades att återställa undantag."
+
+#: includes/Ajax.php
+msgid "Crawler class not found."
+msgstr "Crawlerklass hittades inte."
+
+#: includes/Ajax.php
+msgid "AI.txt regenerated."
+msgstr "AI.txt återskapad."
+
+#: includes/Ajax.php
+msgid "LLMs.txt regenerated."
+msgstr "LLMs.txt återskapad."
+
+#: includes/Ajax.php
+msgid "Robots.txt regenerated."
+msgstr "Robots.txt återskapad."
+
+#: includes/Ajax.php
+msgid "Invalid file type."
+msgstr "Ogiltig filtyp."
+
+#: includes/Ajax.php
+msgid "All assets regenerated."
+msgstr "Alla tillgångar återskapade."
+
+#: includes/Ajax.php
+msgid "Cache cleared."
+msgstr "Cache rensad."
+
+#: includes/Ajax.php
+msgid "Public files rebuilt."
+msgstr "Offentliga filer återuppbyggda."
+
+#: includes/Ajax.php
+msgid "Too many auto-fix requests. Please wait."
+msgstr "För många automatiska åtgärdsförfrågningar. Vänligen vänta."
+
+#: includes/Ajax.php
+msgid "AI detection and file generation completed."
+msgstr "AI-detektering och filgenerering slutförd."
+
+#: includes/Ajax.php
+msgid "Verification class not found."
+msgstr "Verifieringsklass hittades inte."
+
+#: includes/Ajax.php
+msgid "Verification page refreshed successfully."
+msgstr "Verifieringssida uppdaterad framgångsrikt."
+
+#: includes/Ajax.php
+msgid "Unknown issue type."
+msgstr "Okänd problemtyp."
+
+#: includes/Ajax.php
+msgid "AIAccess class not found."
+msgstr "AIAccess-klass hittades inte."
+
+#: includes/Ajax.php
+msgid "Policy updated."
+msgstr "Policy uppdaterad."
+
+#: includes/Ajax.php
+msgid "Option name required."
+msgstr "Alternativnamn krävs."
+
+#: includes/Ajax.php
+msgid "Invalid data format."
+msgstr "Ogiltigt dataformat."
+
+#: includes/Ajax.php
+msgid "Saved"
+msgstr "Sparad"
+
+#: includes/Ajax.php
+msgid "Test report sent."
+msgstr "Testrapport skickad."
+
+#: includes/Ajax.php
+msgid "Failed to send email. Check your server settings."
+msgstr "Misslyckades att skicka e-post. Kontrollera dina serverinställningar."
+
+#: includes/Ajax.php
+msgid "Content scanned and index refreshed."
+msgstr "Innehåll skannat och index uppdaterat."
+
+#: includes/Ajax.php
+msgid "Synced"
+msgstr "Synkroniserad"
+
+#: includes/Ajax.php
+msgid "AI Smart Declaration applied"
+msgstr "AI Smart-deklaration tillämpad"
+
+#: includes/Cron.php
+msgid "Unknown Site"
+msgstr "Okänd webbplats"
+
+#: includes/Cron.php
+msgid "Score dropped: %d%% → %d%%"
+msgstr "Poäng sjönk: %d%% → %d%%"
+
+#: includes/Cron.php
+msgid "%d undeclared posts"
+msgstr "%d odeklarerade inlägg"
+
+#: includes/Cron.php
+msgid "%d undeclared posts — no declarations in %d days"
+msgstr "%d odeklarerade inlägg — inga deklarationer på %d dagar"
+
+#: includes/Cron.php
+msgid "Content needs source declaration"
+msgstr "Innehåll behöver källförklaring"
+
+#: includes/Cron.php
+msgid "AI.txt not updated — %d days"
+msgstr "AI.txt inte uppdaterad — %d dagar"
+
+#: includes/Cron.php
+msgid "Regenerate AI.txt on client site"
+msgstr "Återskapa AI.txt på kundwebbplatsen"
+
+#: includes/Cron.php
+msgid "Site health check failed — API unreachable"
+msgstr "Hälsokontroll av webbplats misslyckades — API nås inte"
+
+#: includes/Cron.php
+msgid "Check site connectivity"
+msgstr "Kontrollera webbplatsanslutning"
+
+#: includes/Cron.php
+msgid "No reason provided"
+msgstr "Ingen anledning angiven"
+
+#: includes/Agency.php
+msgid "Site limit reached. Maximum %d sites allowed."
+msgstr "Webbplatsgräns nådd. Max %d webbplatser tillåtna."
+
+#: includes/Agency.php
+msgid "License system not available."
+msgstr "Licenssystemet är inte tillgängligt."
+
+#: includes/Agency.php
+msgid "User is already a team member."
+msgstr "Användaren är redan en teammedlem."
+
+#: includes/Agency.php
+msgid "Site not found."
+msgstr "Webbplats hittades inte."
+
+#: includes/Agency.php
+msgid "Site synced."
+msgstr "Webbplats synkroniserad."
+
+#: includes/Usage.php
+msgid "Unlimited"
+msgstr "Obegränsad"
+
+#: includes/Usage.php
+msgid "Scans"
+msgstr "Skannningar"
+
+#: includes/Usage.php templates/admin/tab-content.php
+msgid "Words"
+msgstr "Ord"
+
+#: includes/SetupWizard.php
+msgid "MegaGovern Setup"
+msgstr "MegaGovern-installation"
+
+#: includes/SetupWizard.php
+msgid "Welcome to MegaGovern"
+msgstr "Välkommen till MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "AI Transparency & Disclosure Governance Platform"
+msgstr "AI-transparens- och utlämningsstyrningsplattform"
+
+#: includes/SetupWizard.php
+msgid "Where do you operate?"
+msgstr "Var verkar du?"
+
+#: includes/SetupWizard.php
+msgid "This helps us show you relevant regulatory alerts."
+msgstr "Detta hjälper oss att visa dig relevanta regulatoriska varningar."
+
+#: includes/SetupWizard.php
+msgid "EU AI Act compliance alerts"
+msgstr "Varningar för efterlevnad av EU:s AI-förordning"
+
+#: includes/SetupWizard.php
+msgid "Colorado AI Act & state law alerts"
+msgstr "Varningar för Colorados AI-lag och delstatliga lagar"
+
+#: includes/SetupWizard.php
+msgid "All regulatory alerts"
+msgstr "Alla regulatoriska varningar"
+
+#: includes/SetupWizard.php
+msgid "How should disclosure labels appear?"
+msgstr "Hur ska utlämningsetiketter visas?"
+
+#: includes/SetupWizard.php
+msgid "Choose where the AI transparency label shows on your content."
+msgstr "Välj var AI-transparensetiketten ska visas på ditt innehåll."
+
+#: includes/SetupWizard.php
+msgid "Top of content"
+msgstr "Överst i innehållet"
+
+#: includes/SetupWizard.php
+msgid "Label appears before the article"
+msgstr "Etiketten visas före artikeln"
+
+#: includes/SetupWizard.php
+msgid "Bottom of content"
+msgstr "Längst ner i innehållet"
+
+#: includes/SetupWizard.php
+msgid "Label appears after the article"
+msgstr "Etiketten visas efter artikeln"
+
+#: includes/SetupWizard.php
+msgid "Both top and bottom"
+msgstr "Både överst och längst ner"
+
+#: includes/SetupWizard.php
+msgid "Maximum visibility"
+msgstr "Maximal synlighet"
+
+#: includes/SetupWizard.php
+msgid "Before you start"
+msgstr "Innan du börjar"
+
+#: includes/SetupWizard.php
+msgid "Important — Please Read"
+msgstr "Viktigt — Vänligen läs"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does:"
+msgstr "Vad MegaGovern gör:"
+
+#: includes/SetupWizard.php
+msgid "Document how AI is used in your content"
+msgstr "Dokumentera hur AI används i ditt innehåll"
+
+#: includes/SetupWizard.php
+msgid "Publish transparency labels and AI.txt files"
+msgstr "Publicera transparensetiketter och AI.txt-filer"
+
+#: includes/SetupWizard.php
+msgid "Generate governance records and reports"
+msgstr "Generera styrningsregister och rapporter"
+
+#: includes/SetupWizard.php
+msgid "Alert you to major regulatory developments"
+msgstr "Varna dig om större regulatoriska utvecklingar"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does NOT Do:"
+msgstr "Vad MegaGovern INTE gör:"
+
+#: includes/SetupWizard.php
+msgid "It does NOT detect AI-generated content"
+msgstr "Det upptäcker INTE AI-genererat innehåll"
+
+#: includes/SetupWizard.php
+msgid "It does NOT guarantee legal compliance"
+msgstr "Det garanterar INTE juridisk efterlevnad"
+
+#: includes/SetupWizard.php
+msgid "It does NOT replace legal advice from a qualified attorney"
+msgstr "Det ersätter INTE juridisk rådgivning från en kvalificerad advokat"
+
+#: includes/SetupWizard.php
+msgid "You are in control."
+msgstr "Du är i kontroll."
+
+#: includes/SetupWizard.php
+msgid "You declare the source of each piece of content. MegaGovern documents your declarations and helps you disclose them."
+msgstr "Du deklarerar källan för varje innehållsdel. MegaGovern dokumenterar dina deklarationer och hjälper dig att lämna ut dem."
+
+#: includes/SetupWizard.php
+msgid "I understand that MegaGovern is a documentation tool, not a compliance guarantee or legal advisor."
+msgstr "Jag förstår att MegaGovern är ett dokumentationsverktyg, inte en efterlevnadsgaranti eller juridisk rådgivare."
+
+#: includes/SetupWizard.php
+msgid "← Back"
+msgstr "← Tillbaka"
+
+#: includes/SetupWizard.php
+msgid "Next Step →"
+msgstr "Nästa steg →"
+
+#: includes/SetupWizard.php
+msgid "Complete Setup"
+msgstr "Slutför installation"
+
+#: includes/SetupWizard.php
+msgid "You must accept the disclaimer to continue."
+msgstr "Du måste acceptera ansvarsfriskrivningen för att fortsätta."
+
+#: includes/SetupWizard.php
+msgid "You do not have permission."
+msgstr "Du har inte behörighet."
+
+#: includes/SetupWizard.php
+msgid "Display"
+msgstr "Visning"
+
+#: includes/SetupWizard.php
+msgid "Ready"
+msgstr "Klar"
+
+#: templates/admin/dashboard.php
+msgid "AI Transparency Governance"
+msgstr "AI-transparensstyrning"
+
+#: templates/admin/dashboard.php
+msgid "Governance Score"
+msgstr "Styrningspoäng"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Declared"
+msgstr "Deklarerat"
+
+#: templates/admin/dashboard.php
+msgid "Pending"
+msgstr "Väntande"
+
+#: templates/admin/dashboard.php
+msgid "Issues"
+msgstr "Problem"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Content Review"
+msgstr "Innehållsgranskning"
+
+#: templates/admin/dashboard.php
+msgid "Available on Pro plan."
+msgstr "Tillgänglig i Pro-planen."
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: templates/admin/dashboard.php templates/admin/tab-disclosures.php
+msgid "AI.txt"
+msgstr "AI.txt"
+
+#: templates/admin/dashboard.php
+msgid "Labels"
+msgstr "Etiketter"
+
+#: templates/admin/dashboard.php
+msgid "Action Center"
+msgstr "Åtgärdscen"
+
+#: templates/admin/dashboard.php
+msgid "All systems compliant."
+msgstr "Alla system i efterlevnad."
+
+#: templates/admin/dashboard.php
+msgid "Compliance Journey"
+msgstr "Efterlevnadsresa"
+
+#: templates/admin/dashboard.php
+msgid "Recent Activity"
+msgstr "Senaste aktivitet"
+
+#: templates/admin/dashboard.php
+msgid "No activity yet."
+msgstr "Ingen aktivitet ännu."
+
+#: templates/admin/dashboard.php
+msgid "Unlock Pro"
+msgstr "Lås upp Pro"
+
+#: templates/admin/dashboard.php
+msgid "Quick Links"
+msgstr "Snabblänkar"
+
+#: templates/admin/dashboard.php templates/admin/transparency-center.php
+msgid "Content Hub"
+msgstr "Innehållshub"
+
+#: templates/admin/dashboard.php
+msgid "Verification"
+msgstr "Verifiering"
+
+#: templates/admin/dashboard.php templates/admin/settings.php
+msgid "Reports"
+msgstr "Rapporter"
+
+#: templates/admin/dashboard.php
+msgid "New Post"
+msgstr "Nytt inlägg"
+
+#: templates/admin/dashboard.php
+msgid "Access Denied"
+msgstr "Åtkomst nekad"
+
+#: templates/admin/dashboard.php
+msgid "Invalid security token."
+msgstr "Ogiltig säkerhetstoken."
+
+#: templates/admin/dashboard.php
+msgid "Security Check Failed"
+msgstr "Säkerhetskontroll misslyckades"
+
+#: templates/admin/dashboard.php
+msgid "New here? Three steps to get started:"
+msgstr "Ny här? Tre steg för att komma igång:"
+
+#: templates/admin/dashboard.php
+msgid "Classify your first piece of content"
+msgstr "Klassificera din första innehållsdel"
+
+#: templates/admin/dashboard.php
+msgid "Go"
+msgstr "Gå"
+
+#: templates/admin/dashboard.php
+msgid "Confirm transparency labels are enabled"
+msgstr "Bekräfta att transparensetiketter är aktiverade"
+
+#: templates/admin/dashboard.php
+msgid "View your public transparency page"
+msgstr "Visa din offentliga transparenssida"
+
+#: templates/admin/dashboard.php
+msgid "View"
+msgstr "Visa"
+
+#: templates/admin/dashboard.php
+msgid "View Public Page"
+msgstr "Visa offentlig sida"
+
+#: templates/admin/dashboard.php
+msgid "~%d day left at your current pace"
+msgid_plural "~%d days left at your current pace"
+msgstr[0] "~%d dag kvar i din nuvarande takt"
+msgstr[1] "~%d dagar kvar i din nuvarande takt"
+
+#: templates/admin/dashboard.php
+msgid "No declarations yet"
+msgstr "Inga deklarationer ännu"
+
+#: templates/admin/dashboard.php
+msgid "to full coverage"
+msgstr "till full täckning"
+
+#: templates/admin/dashboard.php
+msgid "Content Status"
+msgstr "Innehållsstatus"
+
+#: templates/admin/dashboard.php
+msgid "%d items need declaration."
+msgstr "%d objekt behöver deklaration."
+
+#: templates/admin/dashboard.php
+msgid "Full Content Hub"
+msgstr "Fullständig innehållshub"
+
+#: templates/admin/dashboard.php
+msgid "All content declared. Great job!"
+msgstr "Allt innehåll deklarerat. Bra jobbat!"
+
+#: templates/admin/dashboard.php
+msgid "Fix All Auto-Fixable (%d)"
+msgstr "Åtgärda alla automatiskt åtgärdbara (%d)"
+
+#: templates/admin/dashboard.php
+msgid "All systems in good standing."
+msgstr "Alla system i gott skick."
+
+#: templates/admin/dashboard.php
+msgid "Transparency Journey"
+msgstr "Transparensresa"
+
+#: templates/admin/dashboard.php
+msgid "Verification hash"
+msgstr "Verifieringshash"
+
+#: templates/admin/dashboard.php
+msgid "Upgrade Now"
+msgstr "Uppgradera nu"
+
+#: templates/admin/transparency-center.php
+msgid "Access Denied"
+msgstr "Åtkomst nekad"
+
+#: templates/admin/transparency-center.php templates/admin/tab-disclosures.php templates/admin/tab-archive.php
+msgid "Active"
+msgstr "Aktiv"
+
+#: templates/admin/transparency-center.php
+msgid "Disclosures & AI Files"
+msgstr "Utlämnanden och AI-filer"
+
+#: templates/admin/transparency-center.php templates/admin/tab-archive.php
+msgid "Legacy Archive"
+msgstr "Legacyarkiv"
+
+#: templates/admin/transparency-center.php
+msgid "Just now"
+msgstr "Precis nu"
+
+#: templates/admin/tab-content.php templates/admin/tab-reports.php
+msgid "Total Indexed"
+msgstr "Totalt indexerat"
+
+#: templates/admin/tab-content.php
+msgid "%d unclassified items detected."
+msgstr "%d oklassificerade objekt upptäckta."
+
+#: templates/admin/tab-content.php
+msgid "Review Undeclared"
+msgstr "Granska odeklarerade"
+
+#: templates/admin/tab-content.php
+msgid "Review undeclared content and apply declarations manually."
+msgstr "Granska odeklarerat innehåll och tillämpa deklarationer manuellt."
+
+#: templates/admin/tab-content.php
+msgid "items ready for review."
+msgstr "objekt redo för granskning."
+
+#: templates/admin/tab-content.php
+msgid "Last review: %s"
+msgstr "Senaste granskning: %s"
+
+#: templates/admin/tab-content.php
+msgid "%d undeclared posts ready for review."
+msgstr "%d odeklarerade inlägg redo för granskning."
+
+#: templates/admin/tab-content.php
+msgid "Review & Apply"
+msgstr "Granska och tillämpa"
+
+#: templates/admin/tab-content.php
+msgid "Dismiss"
+msgstr "Avvisa"
+
+#: templates/admin/tab-content.php
+msgid "Loading results..."
+msgstr "Laddar resultat..."
+
+#: templates/admin/tab-content.php
+msgid "All content declared."
+msgstr "Allt innehåll deklarerat."
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Title"
+msgstr "Titel"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Type"
+msgstr "Typ"
+
+#: templates/admin/tab-content.php
+msgid "Declaration"
+msgstr "Deklaration"
+
+#: templates/admin/tab-content.php
+msgid "Human"
+msgstr "Människa"
+
+#: templates/admin/tab-content.php
+msgid "Apply Selected"
+msgstr "Tillämpa valda"
+
+#: templates/admin/tab-content.php
+msgid "Applying..."
+msgstr "Tillämpar..."
+
+#: templates/admin/tab-content.php
+msgid "Retry"
+msgstr "Försök igen"
+
+#: templates/admin/tab-content.php
+msgid "Failed to load results."
+msgstr "Misslyckades att ladda resultat."
+
+#: templates/admin/tab-content.php
+msgid "Bulk Declaration"
+msgstr "Massdeklaration"
+
+#: templates/admin/tab-content.php
+msgid "Select posts and classify them all at once."
+msgstr "Välj inlägg och klassificera dem alla på en gång."
+
+#: templates/admin/tab-content.php
+msgid "Select classification..."
+msgstr "Välj klassificering..."
+
+#: templates/admin/tab-content.php
+msgid "Classify Selected"
+msgstr "Klassificera valda"
+
+#: templates/admin/tab-content.php
+msgid "selected"
+msgstr "valda"
+
+#: templates/admin/tab-content.php
+msgid "Filter & Search"
+msgstr "Filtrera och sök"
+
+#: templates/admin/tab-content.php
+msgid "All Statuses"
+msgstr "Alla statusar"
+
+#: templates/admin/tab-content.php
+msgid "All Types"
+msgstr "Alla typer"
+
+#: templates/admin/tab-content.php
+msgid "Search..."
+msgstr "Sök..."
+
+#: templates/admin/tab-content.php
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: templates/admin/tab-content.php
+msgid "Reset"
+msgstr "Återställ"
+
+#: templates/admin/tab-content.php
+msgid "results"
+msgstr "resultat"
+
+#: templates/admin/tab-content.php
+msgid "Content"
+msgstr "Innehåll"
+
+#: templates/admin/tab-content.php
+msgid "Authorized By"
+msgstr "Auktoriserad av"
+
+#: templates/admin/tab-content.php
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: templates/admin/tab-content.php
+msgid "Unassigned"
+msgstr "Ej tilldelad"
+
+#: templates/admin/tab-content.php
+msgid "Edit"
+msgstr "Redigera"
+
+#: templates/admin/tab-content.php
+msgid "View History"
+msgstr "Visa historik"
+
+#: templates/admin/tab-content.php
+msgid "No Content Found"
+msgstr "Inget innehåll hittades"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or create new content."
+msgstr "Justera filter eller skapa nytt innehåll."
+
+#: templates/admin/tab-content.php
+msgid "Create Content"
+msgstr "Skapa innehåll"
+
+#: templates/admin/tab-content.php
+msgid "Declaration History"
+msgstr "Deklarationshistorik"
+
+#: templates/admin/tab-content.php
+msgid "Please select a classification type."
+msgstr "Vänligen välj en klassificeringstyp."
+
+#: templates/admin/tab-content.php
+msgid "Please select at least one post."
+msgstr "Vänligen välj minst ett inlägg."
+
+#: templates/admin/tab-content.php
+msgid "Loading history..."
+msgstr "Laddar historik..."
+
+#: templates/admin/tab-content.php
+msgid "Failed to load history."
+msgstr "Misslyckades att ladda historik."
+
+#: templates/admin/tab-content.php
+msgid "(No Title)"
+msgstr "(Ingen titel)"
+
+#: templates/admin/tab-content.php
+msgid "Clear"
+msgstr "Rensa"
+
+#: templates/admin/tab-content.php
+msgid "Review Now"
+msgstr "Granska nu"
+
+#: templates/admin/tab-content.php
+msgid "Re-scan"
+msgstr "Skanna om"
+
+#: templates/admin/tab-content.php
+msgid "Review..."
+msgstr "Granska..."
+
+#: templates/admin/tab-content.php
+msgid "Modified"
+msgstr "Modifierad"
+
+#: templates/admin/tab-content.php
+msgid "Generated"
+msgstr "Genererad"
+
+#: templates/admin/tab-content.php
+msgid "Synthetic"
+msgstr "Syntetisk"
+
+#: templates/admin/tab-content.php
+msgid "Error updating declaration."
+msgstr "Fel vid uppdatering av deklaration."
+
+#: templates/admin/tab-content.php
+msgid "Server error occurred."
+msgstr "Serverfel uppstod."
+
+#: templates/admin/tab-content.php
+msgid "Apply this classification to all selected items?"
+msgstr "Tillämpa denna klassificering på alla valda objekt?"
+
+#: templates/admin/tab-content.php
+msgid "Failed to apply declarations."
+msgstr "Misslyckades att tillämpa deklarationer."
+
+#: templates/admin/tab-content.php
+msgid "Security token missing. Please refresh the page."
+msgstr "Säkerhetstoken saknas. Vänligen uppdatera sidan."
+
+#: templates/admin/tab-content.php
+msgid "Could not load history."
+msgstr "Kunde inte ladda historik."
+
+#: templates/admin/tab-content.php
+msgid "Scan failed."
+msgstr "Skann misslyckades."
+
+#: templates/admin/tab-content.php
+msgid "Server error. Please try again."
+msgstr "Serverfel. Vänligen försök igen."
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or run a new Review to find undeclared content."
+msgstr "Justera filter eller kör en ny granskning för att hitta odeklarerat innehåll."
+
+#: templates/admin/tab-content.php
+msgid "Content Review Queue"
+msgstr "Innehållsgranskningskö"
+
+#: templates/admin/tab-content.php
+msgid "Undeclared posts found. Run a review to classify them."
+msgstr "Odeklarerade inlägg hittades. Kör en granskning för att klassificera dem."
+
+#: templates/admin/tab-content.php
+msgid "All content has been declared."
+msgstr "Allt innehåll har deklarerats."
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Labels"
+msgstr "Innehållsetiketter"
+
+#: templates/admin/tab-disclosures.php
+msgid "Configure how AI transparency labels appear on your content."
+msgstr "Konfigurera hur AI-transparensetiketter visas på ditt innehåll."
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Position"
+msgstr "Etikettposition"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current position:"
+msgstr "Nuvarande position:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current style:"
+msgstr "Nuvarande stil:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Change in Settings"
+msgstr "Ändra i inställningar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Preview"
+msgstr "Etikettförhandsvisning"
+
+#: templates/admin/tab-disclosures.php
+msgid "Labels Active"
+msgstr "Etiketter aktiva"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI-utlämningsfiler"
+
+#: templates/admin/tab-disclosures.php
+msgid "Machine-readable transparency files for AI systems and crawlers."
+msgstr "Maskinläsbara transparensfiler för AI-system och crawlers."
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto"
+msgstr "Auto"
+
+#: templates/admin/tab-disclosures.php
+msgid "Manual"
+msgstr "Manuell"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — AI usage, governance, compliance."
+msgstr "Fullständigt transparensutlämnande — AI-användning, styrning, efterlevnad."
+
+#: templates/admin/tab-disclosures.php
+msgid "View"
+msgstr "Visa"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy"
+msgstr "Kopiera"
+
+#: templates/admin/tab-disclosures.php
+msgid "LLMs.txt"
+msgstr "LLMs.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index — grouped by declaration type."
+msgstr "AI-läsbart innehållsindex — grupperat efter deklarationstyp."
+
+#: templates/admin/tab-disclosures.php
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 30 bots, 3-tier policy."
+msgstr "Crawler-åtkomstkontroll — 30 bots, 3-nivåpolicy."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Files"
+msgstr "Återskapa alla filer"
+
+#: templates/admin/tab-disclosures.php
+msgid "Force regeneration of AI.txt, LLMs.txt, and Robots.txt."
+msgstr "Tvinga återskapande av AI.txt, LLMs.txt och Robots.txt."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All"
+msgstr "Återskapa alla"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Pages"
+msgstr "Offentliga transparenssidor"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages that demonstrate your AI transparency commitment."
+msgstr "Offentliga sidor som visar ditt engagemang för AI-transparens."
+
+#: templates/admin/tab-disclosures.php
+msgid "Editable"
+msgstr "Redigerbar"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Only"
+msgstr "Endast visning"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Policy"
+msgstr "Visa policy"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy URL"
+msgstr "Kopiera URL"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Page"
+msgstr "Visa sida"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verification Active"
+msgstr "Verifiering aktiv"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copied"
+msgstr "Kopierad"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerating..."
+msgstr "Återskapar..."
+
+#: templates/admin/tab-disclosures.php
+msgid "N/A"
+msgstr "Ej tillämplig"
+
+#: templates/admin/tab-disclosures.php
+msgid "Last Updated: %s"
+msgstr "Senast uppdaterad: %s"
+
+#: templates/admin/tab-disclosures.php
+msgid "Your AI.txt reflects only %d%% of published content."
+msgstr "Din AI.txt återspeglar endast %d%% av publicerat innehåll."
+
+#: templates/admin/tab-disclosures.php
+msgid "%d items remain undeclared."
+msgstr "%d objekt förblir odeklarerade."
+
+#: templates/admin/tab-disclosures.php
+msgid "Review Undeclared Items"
+msgstr "Granska odeklarerade objekt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verify"
+msgstr "Verifiera"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI-utlämningsfiler"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — 16 sections."
+msgstr "Fullständigt transparensutlämnande — 16 sektioner."
+
+#: templates/admin/tab-disclosures.php
+msgid "View Raw"
+msgstr "Visa rå"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy as MD"
+msgstr "Kopiera som MD"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto-regenerated on declaration change."
+msgstr "Auto-återskapad vid deklarationsändring."
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index with Priority Signals."
+msgstr "AI-läsbart innehållsindex med prioritetssignaler."
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 34 bots, 3-tier policy."
+msgstr "Crawler-åtkomstkontroll — 34 bots, 3-nivåpolicy."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Documents"
+msgstr "Offentliga transparensdokument"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages for visitors, auditors, and regulators."
+msgstr "Offentliga sidor för besökare, revisorer och tillsynsmyndigheter."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public"
+msgstr "Offentlig"
+
+#: templates/admin/tab-disclosures.php
+msgid "Open"
+msgstr "Öppna"
+
+#: templates/admin/tab-disclosures.php
+msgid "Upgrade to Edit"
+msgstr "Uppgradera för att redigera"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Snapshots & Evidence"
+msgstr "Innehållsögonblicksbilder och bevis"
+
+#: templates/admin/tab-disclosures.php
+msgid "PDF Reports"
+msgstr "PDF-rapporter"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Maintenance"
+msgstr "Transparensunderhåll"
+
+#: templates/admin/tab-disclosures.php
+msgid "System diagnostics and maintenance tools."
+msgstr "Systemdiagnostik och underhållsverktyg."
+
+#: templates/admin/tab-disclosures.php
+msgid "Diagnostics"
+msgstr "Diagnostik"
+
+#: templates/admin/tab-disclosures.php
+msgid "WordPress Rewrites"
+msgstr "WordPress-omskrivningar"
+
+#: templates/admin/tab-disclosures.php
+msgid "File Permissions"
+msgstr "Filbehörigheter"
+
+#: templates/admin/tab-disclosures.php
+msgid "Output Directory"
+msgstr "Utdatakatalog"
+
+#: templates/admin/tab-disclosures.php
+msgid "Writable"
+msgstr "Skrivbar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Assets"
+msgstr "Transparenstillgångar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Up-to-date"
+msgstr "Aktuell"
+
+#: templates/admin/tab-disclosures.php
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Assets"
+msgstr "Återskapa alla tillgångar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Clear Generated Cache"
+msgstr "Rensa genererad cache"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuild Public Files"
+msgstr "Återuppbygg offentliga filer"
+
+#: templates/admin/tab-disclosures.php
+msgid "Failed to copy."
+msgstr "Misslyckades att kopiera."
+
+#: templates/admin/tab-disclosures.php
+msgid "Fetching..."
+msgstr "Hämtar..."
+
+#: templates/admin/tab-disclosures.php
+msgid "..."
+msgstr "..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Clearing..."
+msgstr "Rensar..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Cleared"
+msgstr "Rensad"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuilding..."
+msgstr "Återuppbygger..."
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content"
+msgstr "Undantaget innehåll"
+
+#: templates/admin/tab-archive.php
+msgid "Cutoff Date"
+msgstr "Sista datum"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold"
+msgstr "Redigeringströskel"
+
+#: templates/admin/tab-archive.php
+msgid "Archive Settings"
+msgstr "Arkivinställningar"
+
+#: templates/admin/tab-archive.php
+msgid "Compliance Cutoff Date"
+msgstr "Sista datum för efterlevnad"
+
+#: templates/admin/tab-archive.php
+msgid "Content before this date is exempt."
+msgstr "Innehåll före detta datum är undantaget."
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold (%)"
+msgstr "Redigeringströskel (%)"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke exemption if edit exceeds this %."
+msgstr "Återkalla undantag om redigering överstiger denna %."
+
+#: templates/admin/tab-archive.php
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content Log"
+msgstr "Logg över undantaget innehåll"
+
+#: templates/admin/tab-archive.php
+msgid "Items"
+msgstr "Objekt"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke"
+msgstr "Återkalla"
+
+#: templates/admin/tab-archive.php
+msgid "Restore"
+msgstr "Återställ"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt"
+msgstr "Undantaget"
+
+#: templates/admin/tab-archive.php
+msgid "Revoked"
+msgstr "Återkallad"
+
+#: templates/admin/tab-archive.php
+msgid "How Legacy Archive Works"
+msgstr "Hur Legacy-arkivet fungerar"
+
+#: templates/admin/tab-archive.php
+msgid "Set Cutoff Date"
+msgstr "Ange sista datum"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold Monitoring"
+msgstr "Övervakning av redigeringströskel"
+
+#: templates/admin/tab-archive.php
+msgid "Manual Override"
+msgstr "Manuell åsidosättning"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date. Classified as Legacy — Exempt from mandatory AI declaration under EU AI Act Article 50."
+msgstr "Historiskt innehåll publicerat före sista datum. Klassificerat som Legacy — Undantaget från obligatorisk AI-deklaration enligt EU:s AI-förordning Artikel 50."
+
+#: templates/admin/tab-archive.php
+msgid "EU AI Act — Article 50"
+msgstr "EU:s AI-förordning — Artikel 50"
+
+#: templates/admin/tab-archive.php
+msgid "The EU AI Act enters into force on August 2, 2025. Content published before the cutoff date is classified as Legacy and is exempt from mandatory AI declaration requirements. All content published after this date must be declared."
+msgstr "EU:s AI-förordning träder i kraft den 2 augusti 2025. Innehåll publicerat före sista datum klassificeras som Legacy och är undantaget från obligatoriska AI-deklarationskrav. Allt innehåll publicerat efter detta datum måste deklareras."
+
+#: templates/admin/tab-archive.php
+msgid "Undeclared Legacy"
+msgstr "Odeklarerat Legacy"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date, classified as Legacy — Exempt."
+msgstr "Historiskt innehåll publicerat före sista datum, klassificerat som Legacy — Undantaget."
+
+#: templates/admin/tab-archive.php
+msgid "(No title)"
+msgstr "(Ingen titel)"
+
+#: templates/admin/tab-archive.php
+msgid "No exempt content found. Content published after the cutoff date will not be automatically exempt."
+msgstr "Inget undantaget innehåll hittades. Innehåll publicerat efter sista datum kommer inte automatiskt undantas."
+
+#: templates/admin/tab-archive.php
+msgid "Define the compliance cutoff date. Content published before this date is eligible for legacy exemption."
+msgstr "Definiera sista datum för efterlevnad. Innehåll publicerat före detta datum är berättigat till legacy-undantag."
+
+#: templates/admin/tab-archive.php
+msgid "If an exempt article is edited and changes exceed the threshold, the exemption is automatically revoked."
+msgstr "Om en undantagen artikel redigeras och ändringarna överstiger tröskeln, återkallas undantaget automatiskt."
+
+#: templates/admin/tab-archive.php
+msgid "You can manually revoke or restore exemptions from the Exempt Content Log above."
+msgstr "Du kan manuellt återkalla eller återställa undantag från Logg över undantaget innehåll ovan."
+
+#: templates/admin/tab-archive.php
+msgid "Are you sure you want to revoke this exemption? The post will return to the Content Hub for standard declaration."
+msgstr "Är du säker på att du vill återkalla detta undantag? Inlägget kommer att återgå till Innehållshuben för standarddeklaration."
+
+#: templates/admin/tab-archive.php
+msgid "An error occurred. Please try again."
+msgstr "Ett fel uppstod. Vänligen försök igen."
+
+#: templates/admin/tab-archive.php
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: templates/admin/tab-archive.php
+msgid "Unlock Full Archive Management"
+msgstr "Lås upp fullständig arkivhantering"
+
+#: templates/admin/tab-archive.php
+msgid "Advanced filtering, bulk exemption, and audit trail for legacy content."
+msgstr "Avancerad filtrering, massundantag och revisionsspår för legacy-innehåll."
+
+#: templates/admin/tab-archive.php
+msgid "Published"
+msgstr "Publicerad"
+
+#: templates/admin/tab-reports.php
+msgid "Compliance Reports"
+msgstr "Efterlevnadsrapporter"
+
+#: templates/admin/tab-reports.php
+msgid "Generate compliance documentation for your records."
+msgstr "Generera efterlevnadsdokumentation för dina register."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report"
+msgstr "PDF-rapport"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report (Pro)"
+msgstr "PDF-rapport (Pro)"
+
+#: templates/admin/tab-reports.php
+msgid "Export CSV"
+msgstr "Exportera CSV"
+
+#: templates/admin/tab-reports.php
+msgid "Date Range"
+msgstr "Datumintervall"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Schedule Reports"
+msgstr "Schemalägg rapporter"
+
+#: templates/admin/tab-reports.php
+msgid "Weekly/Monthly auto-delivery to "
+msgstr "Veckovis/månatlig automatisk leverans till "
+
+#: templates/admin/tab-reports.php
+msgid "Configure scheduling"
+msgstr "Konfigurera schemaläggning"
+
+#: templates/admin/tab-reports.php
+msgid "Transparency Registry"
+msgstr "Transparensregister"
+
+#: templates/admin/tab-reports.php
+msgid "Local"
+msgstr "Lokal"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Site ID"
+msgstr "Webbplats-ID"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Trail"
+msgstr "Beviskedja"
+
+#: templates/admin/tab-reports.php
+msgid "No evidence logs yet. Governance actions will appear here."
+msgstr "Inga bevisloggar ännu. Styrningsåtgärder kommer att visas här."
+
+#: templates/admin/tab-reports.php
+msgid "Attestation & Archiving"
+msgstr "Intygande och arkivering"
+
+#: templates/admin/tab-reports.php
+msgid "Registry Integrity"
+msgstr "Registerintegritet"
+
+#: templates/admin/tab-reports.php
+msgid "Active & Secure"
+msgstr "Aktiv och säker"
+
+#: templates/admin/tab-reports.php
+msgid "Anchored Logs"
+msgstr "Förankrade loggar"
+
+#: templates/admin/tab-reports.php
+msgid "Records"
+msgstr "Register"
+
+#: templates/admin/tab-reports.php
+msgid "Tamper Protection"
+msgstr "Skydd mot manipulering"
+
+#: templates/admin/tab-reports.php
+msgid "SHA-256 Enabled"
+msgstr "SHA-256 aktiverad"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Retention"
+msgstr "Bevisförvaring"
+
+#: templates/admin/tab-reports.php
+msgid "Days"
+msgstr "Dagar"
+
+#: templates/admin/tab-reports.php
+msgid "Download Evidence Bundle (.zip)"
+msgstr "Ladda ner bevispaket (.zip)"
+
+#: templates/admin/tab-reports.php
+msgid "Includes AI.txt, classification snapshot, and governance timeline."
+msgstr "Inkluderar AI.txt, klassificeringsögonblicksbild och styrningstidslinje."
+
+#: templates/admin/tab-reports.php
+msgid "Action"
+msgstr "Åtgärd"
+
+#: templates/admin/tab-reports.php
+msgid "Scheduled Reports"
+msgstr "Schemalagda rapporter"
+
+#: templates/admin/tab-reports.php
+msgid "%1$s delivery to %2$s"
+msgstr "%1$s leverans till %2$s"
+
+#: templates/admin/tab-reports.php
+msgid "Not scheduled"
+msgstr "Ej schemalagd"
+
+#: templates/admin/tab-reports.php
+msgid "This evidence bundle is for transparency and documentation purposes only. It does not constitute legal compliance certification."
+msgstr "Detta bevispaket är endast för transparens- och dokumentationsändamål. Det utgör inte juridisk efterlevnadscertifiering."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Reports & Structured Evidence Bundles"
+msgstr "PDF-rapporter och strukturerade bevispaket"
+
+#: templates/admin/tab-reports.php
+msgid "Content Snapshots at Time of Declaration"
+msgstr "Innehållsögonblicksbilder vid deklarationstillfället"
+
+#: templates/admin/tab-reports.php
+msgid "Media Provenance Capture (EXIF/IPTC/C2PA)"
+msgstr "Medieursprungskontroll (EXIF/IPTC/C2PA)"
+
+#: templates/admin/tab-reports.php
+msgid "Custom Label Text & Colors"
+msgstr "Anpassad etiketttext och färger"
+
+#: templates/admin/settings.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräckliga behörigheter för att komma åt den här sidan."
+
+#: templates/admin/settings.php
+msgid "Platform Settings"
+msgstr "Plattformsinställningar"
+
+#: templates/admin/settings.php
+msgid "Configure license, content types, labels, automation, alerts, and reports."
+msgstr "Konfigurera licens, innehållstyper, etiketter, automatisering, varningar och rapporter."
+
+#: templates/admin/settings.php
+msgid "Content & Labels"
+msgstr "Innehåll och etiketter"
+
+#: templates/admin/settings.php
+msgid "Automation"
+msgstr "Automatisering"
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr "Licens"
+
+#: templates/admin/settings.php
+msgid "Site ID:"
+msgstr "Webbplats-ID:"
+
+#: templates/admin/settings.php
+msgid "Sync Free License"
+msgstr "Synkronisera gratislicens"
+
+#: templates/admin/settings.php
+msgid "Opt-in to enable automatic updates and support."
+msgstr "Välj att aktivera automatiska uppdateringar och support."
+
+#: templates/admin/settings.php
+msgid "Upgrade License"
+msgstr "Uppgradera licens"
+
+#: templates/admin/settings.php
+msgid "Manage Account"
+msgstr "Hantera konto"
+
+#: templates/admin/settings.php
+msgid "You previously skipped this. Connect to enable automatic updates."
+msgstr "Du hoppade tidigare över detta. Anslut för att aktivera automatiska uppdateringar."
+
+#: templates/admin/settings.php
+msgid "Jurisdiction"
+msgstr "Jurisdiktion"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering."
+msgstr "Välj din primära regulatoriska jurisdiktion för varningsfiltrering."
+
+#: templates/admin/settings.php
+msgid "Save Region"
+msgstr "Spara region"
+
+#: templates/admin/settings.php
+msgid "Label Style"
+msgstr "Etikettstil"
+
+#: templates/admin/settings.php
+msgid "Choose how AI transparency labels appear on your content."
+msgstr "Välj hur AI-transparensetiketter visas på ditt innehåll."
+
+#: templates/admin/settings.php
+msgid "Official EU Icon"
+msgstr "Officiell EU-ikon"
+
+#: templates/admin/settings.php
+msgid "Pill Style"
+msgstr "Pillerstil"
+
+#: templates/admin/settings.php
+msgid "Minimal Text"
+msgstr "Minimal text"
+
+#: templates/admin/settings.php
+msgid "Banner Style"
+msgstr "Bannerstil"
+
+#: templates/admin/settings.php
+msgid "Outline Card"
+msgstr "Konturkort"
+
+#: templates/admin/settings.php
+msgid "Default"
+msgstr "Standard"
+
+#: templates/admin/settings.php
+msgid "Placement"
+msgstr "Placering"
+
+#: templates/admin/settings.php
+msgid "Top of Content (Recommended)"
+msgstr "Överst i innehållet (Rekommenderas)"
+
+#: templates/admin/settings.php
+msgid "Both Top & Bottom"
+msgstr "Både överst och längst ner"
+
+#: templates/admin/settings.php
+msgid "Manual Only (Shortcode)"
+msgstr "Endast manuell (Shortcode)"
+
+#: templates/admin/settings.php
+msgid "Disclosure must appear before or at the point of exposure to comply with transparency principles."
+msgstr "Utlämnande måste visas före eller vid exponeringstillfället för att följa transparensprinciperna."
+
+#: templates/admin/settings.php
+msgid "Uses the EU's official AI content icons; this does not constitute formal adherence to the Code of Practice."
+msgstr "Använder EU:s officiella AI-innehållsikoner; detta utgör inte formell anslutning till Code of Practice."
+
+#: templates/admin/settings.php
+msgid "Save Label Settings"
+msgstr "Spara etikettinställningar"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Anpassad etiketttext"
+
+#: templates/admin/settings.php
+msgid "Customize the text displayed for each declaration type."
+msgstr "Anpassa texten som visas för varje deklarationstyp."
+
+#: templates/admin/settings.php
+msgid "Custom label text is available on Pro and Agency plans."
+msgstr "Anpassad etiketttext finns i Pro- och Byråplanerna."
+
+#: templates/admin/settings.php
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: templates/admin/settings.php
+msgid "Save Custom Text"
+msgstr "Spara anpassad text"
+
+#: templates/admin/settings.php
+msgid "Tracked Post Types"
+msgstr "Spårade inläggstyper"
+
+#: templates/admin/settings.php
+msgid "Select which content types require a source declaration before publishing."
+msgstr "Välj vilka innehållstyper som kräver en källdeklaration före publicering."
+
+#: templates/admin/settings.php
+msgid "PRO"
+msgstr "PRO"
+
+#: templates/admin/settings.php
+msgid "Save Content Types"
+msgstr "Spara innehållstyper"
+
+#: templates/admin/settings.php
+msgid "Auto-regenerate disclosure files"
+msgstr "Auto-återskapa utlämningsfiler"
+
+#: templates/admin/settings.php
+msgid "Rebuild AI.txt, LLMs.txt, and Robots.txt automatically when a declaration changes."
+msgstr "Återuppbygg AI.txt, LLMs.txt och Robots.txt automatiskt när en deklaration ändras."
+
+#: templates/admin/settings.php
+msgid "Auto-update verification"
+msgstr "Auto-uppdatera verifiering"
+
+#: templates/admin/settings.php
+msgid "Keep the public verification page in sync with declarations."
+msgstr "Håll den offentliga verifieringssidan synkroniserad med deklarationer."
+
+#: templates/admin/settings.php
+msgid "Automatic on Pro/Agency (always on):"
+msgstr "Automatiskt i Pro/Byrå (alltid på):"
+
+#: templates/admin/settings.php
+msgid "Content Snapshot captured at the moment of each declaration"
+msgstr "Innehållsögonblicksbild tagen vid tidpunkten för varje deklaration"
+
+#: templates/admin/settings.php
+msgid "Media Provenance metadata captured at upload time"
+msgstr "Medieursprungsmetadata tagen vid uppladdningstillfället"
+
+#: templates/admin/settings.php
+msgid "Save Automation"
+msgstr "Spara automatisering"
+
+#: templates/admin/settings.php
+msgid "Email & Reports"
+msgstr "E-post och rapporter"
+
+#: templates/admin/settings.php
+msgid "Report Frequency"
+msgstr "Rapportfrekvens"
+
+#: templates/admin/settings.php
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: templates/admin/settings.php
+msgid "Weekly"
+msgstr "Veckovis"
+
+#: templates/admin/settings.php
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#: templates/admin/settings.php
+msgid "Quarterly"
+msgstr "Kvartalsvis"
+
+#: templates/admin/settings.php
+msgid "Report Email"
+msgstr "Rapport-e-post"
+
+#: templates/admin/settings.php
+msgid "Save Email Settings"
+msgstr "Spara e-postinställningar"
+
+#: templates/admin/settings.php
+msgid "Regulatory alerts are pulled from a public, non-personal data feed. No site content or data is ever transmitted."
+msgstr "Regulatoriska varningar hämtas från ett offentligt, icke-personligt dataflöde. Inget webbplatsinnehåll eller data överförs någonsin."
+
+#: templates/admin/settings.php
+msgid "Source"
+msgstr "Källa"
+
+#: templates/admin/settings.php
+msgid "Public Regulatory Feed (read-only)"
+msgstr "Offentligt regulatoriskt flöde (skrivskyddat)"
+
+#: templates/admin/settings.php
+msgid "Frequency"
+msgstr "Frekvens"
+
+#: templates/admin/settings.php
+msgid "Daily"
+msgstr "Dagligen"
+
+#: templates/admin/settings.php
+msgid "This is the only external data fetch in MegaGovern. All other features operate entirely locally."
+msgstr "Detta är den enda externa datahämtningen i MegaGovern. Alla andra funktioner fungerar helt lokalt."
+
+#: templates/admin/settings.php
+msgid "White Label — Active"
+msgstr "Vitmärkning — Aktiv"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding is removed from public-facing elements."
+msgstr "MegaGoverns varumärke tas bort från offentliga element."
+
+#: templates/admin/settings.php
+msgid "Unlock Pro — Full Transparency Suite"
+msgstr "Lås upp Pro — Fullständig transparenssvit"
+
+#: templates/admin/settings.php
+msgid "Custom AI Policy Editor"
+msgstr "Anpassad AI-policyredigerare"
+
+#: templates/admin/settings.php
+msgid "Content Snapshots & Evidence Bundles"
+msgstr "Innehållsögonblicksbilder och bevispaket"
+
+#: templates/admin/settings.php
+msgid "PDF Reports & Evidence Export"
+msgstr "PDF-rapporter och bevisexport"
+
+#: templates/admin/settings.php
+msgid "Regulatory Alerts — All Jurisdictions"
+msgstr "Regulatoriska varningar — Alla jurisdiktioner"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Anpassad etiketttext"
+
+#: templates/admin/settings.php
+msgid "365-Day Evidence Retention"
+msgstr "365-dagars bevisförvaring"
+
+#: templates/admin/settings.php
+msgid "All Post Types Support"
+msgstr "Stöd för alla inläggstyper"
+
+#: templates/admin/settings.php
+msgid "Priority Support"
+msgstr "Prioriterad support"
+
+#: templates/admin/settings.php
+msgid "When someone asks you to prove it, this is what you hand them."
+msgstr "När någon ber dig att bevisa det, är detta vad du ger dem."
+
+#: templates/admin/settings.php
+msgid "Upgrade Now"
+msgstr "Uppgradera nu"
+
+#: templates/admin/settings.php
+msgid "AI Transparency Notice"
+msgstr "AI-transparensmeddelande"
+
+#: templates/admin/settings.php
+msgid "Display a professional AI transparency notice bar on your frontend to inform visitors about AI-generated content."
+msgstr "Visa en professionell AI-transparensmeddelandefält på ditt frontend för att informera besökare om AI-genererat innehåll."
+
+#: templates/admin/settings.php
+msgid "Enable Notice"
+msgstr "Aktivera meddelande"
+
+#: templates/admin/settings.php
+msgid "Show the AI transparency notice on your frontend."
+msgstr "Visa AI-transparensmeddelandet på ditt frontend."
+
+#: templates/admin/settings.php
+msgid "Notice Position"
+msgstr "Meddelandeposition"
+
+#: templates/admin/settings.php
+msgid "Top of Page"
+msgstr "Överst på sidan"
+
+#: templates/admin/settings.php
+msgid "Bottom of Page"
+msgstr "Längst ner på sidan"
+
+#: templates/admin/settings.php
+msgid "Dismiss Duration (Days)"
+msgstr "Avvisningstid (dagar)"
+
+#: templates/admin/settings.php
+msgid "How many days to hide the notice after dismissal."
+msgstr "Hur många dagar meddelandet ska döljas efter avvisning."
+
+#: templates/admin/settings.php
+msgid "Color customization is available on Pro and Agency plans."
+msgstr "Färganpassning finns i Pro- och Byråplanerna."
+
+#: templates/admin/settings.php
+msgid "Background"
+msgstr "Bakgrund"
+
+#: templates/admin/settings.php
+msgid "Text Color"
+msgstr "Textfärg"
+
+#: templates/admin/settings.php
+msgid "Link Color"
+msgstr "Länkfärg"
+
+#: templates/admin/settings.php
+msgid "Upgrade to Pro to customize colors."
+msgstr "Uppgradera till Pro för att anpassa färger."
+
+#: templates/admin/settings.php
+msgid "Show Logo"
+msgstr "Visa logotyp"
+
+#: templates/admin/settings.php
+msgid "Display MegaGovern logo."
+msgstr "Visa MegaGoverns logotyp."
+
+#: templates/admin/settings.php
+msgid "Show Icon"
+msgstr "Visa ikon"
+
+#: templates/admin/settings.php
+msgid "Display AI shield icon."
+msgstr "Visa AI-sköldikon."
+
+#: templates/admin/settings.php
+msgid "AI Policy Page"
+msgstr "AI-policysida"
+
+#: templates/admin/settings.php
+msgid "— Default Transparency Page —"
+msgstr "— Standardtransparenssida —"
+
+#: templates/admin/settings.php
+msgid "Select a custom page for your AI policy. Leave empty to use /transparency."
+msgstr "Välj en anpassad sida för din AI-policy. Lämna tomt för att använda /transparency."
+
+#: templates/admin/settings.php
+msgid "Custom Notice Text"
+msgstr "Anpassad meddelandetext"
+
+#: templates/admin/settings.php
+msgid "Leave empty for default text. Custom text is available on Pro and Agency plans."
+msgstr "Lämna tomt för standardtext. Anpassad text finns i Pro- och Byråplanerna."
+
+#: templates/admin/settings.php
+msgid "White Label Active"
+msgstr "Vitmärkning aktiv"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding removed from the notice bar."
+msgstr "MegaGoverns varumärke borttaget från meddelandefältet."
+
+#: templates/admin/settings.php
+msgid "Save Notice Settings"
+msgstr "Spara meddelandeinställningar"
+
+#: templates/admin/settings.php
+msgid "Live Preview"
+msgstr "Liveförhandsvisning"
+
+#: templates/admin/settings.php
+msgid "This is how the notice will appear on your frontend:"
+msgstr "Så här kommer meddelandet att visas på ditt frontend:"
+
+#: templates/admin/settings.php
+msgid "This website uses artificial intelligence in some of its content."
+msgstr "Denna webbplats använder artificiell intelligens i en del av sitt innehåll."
+
+#: templates/admin/settings.php
+msgid "View AI Policy"
+msgstr "Visa AI-policy"
+
+#: templates/admin/settings.php
+msgid "Preview updates based on your settings above."
+msgstr "Förhandsvisning uppdateras baserat på dina inställningar ovan."
+
+#: templates/admin/settings.php
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/admin/settings.php
+msgid "Manually display the notice anywhere using this shortcode:"
+msgstr "Visa meddelandet manuellt var som helst med denna shortcode:"
+
+#: templates/admin/settings.php
+msgid "Use this in posts, pages, or widget areas."
+msgstr "Använd detta i inlägg, sidor eller widgetområden."
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering and compliance defaults."
+msgstr "Välj din primära regulatoriska jurisdiktion för varningsfiltrering och standardvärden för efterlevnad."
+
+#: templates/admin/settings.php
+msgid "Automation & Reports"
+msgstr "Automatisering och rapporter"
+
+#: templates/admin/settings.php
+msgid "AI Notice"
+msgstr "AI-meddelande"
+
+#: templates/admin/agency.php
+msgid "You do not have permission to manage agency settings."
+msgstr "Du har inte behörighet att hantera byråinställningar."
+
+#: templates/admin/agency.php
+msgid "Manage sites, white label, team, and reports."
+msgstr "Hantera webbplatser, vitmärkning, team och rapporter."
+
+#: templates/admin/agency.php
+msgid "Site limit reached. Upgrade to add more sites."
+msgstr "Webbplatsgräns nådd. Uppgradera för att lägga till fler webbplatser."
+
+#: templates/admin/agency.php
+msgid "Invalid site URL. Please enter a valid URL."
+msgstr "Ogiltig webbplats-URL. Vänligen ange en giltig URL."
+
+#: templates/admin/agency.php
+msgid "Site added."
+msgstr "Webbplats tillagd."
+
+#: templates/admin/agency.php
+msgid "Site removed."
+msgstr "Webbplats borttagen."
+
+#: templates/admin/agency.php
+msgid "White Label saved."
+msgstr "Vitmärkning sparad."
+
+#: templates/admin/agency.php
+msgid "Member added."
+msgstr "Medlem tillagd."
+
+#: templates/admin/agency.php
+msgid "Member removed."
+msgstr "Medlem borttagen."
+
+#: templates/admin/agency.php
+msgid "You're using %1$d/%2$d sites — only %3$d site(s) remaining."
+msgstr "Du använder %1$d/%2$d webbplatser — endast %3$d webbplats(er) kvar."
+
+#: templates/admin/agency.php
+msgid "Sites"
+msgstr "Webbplatser"
+
+#: templates/admin/agency.php
+msgid "White Label"
+msgstr "Vitmärkning"
+
+#: templates/admin/agency.php
+msgid "Bulk Reports"
+msgstr "Massrapporter"
+
+#: templates/admin/agency.php
+msgid "Team"
+msgstr "Team"
+
+#: templates/admin/agency.php
+msgid "Total Sites"
+msgstr "Totalt antal webbplatser"
+
+#: templates/admin/agency.php
+msgid "Compliant"
+msgstr "Efterlevande"
+
+#: templates/admin/agency.php
+msgid "Attention"
+msgstr "Uppmärksamhet"
+
+#: templates/admin/agency.php
+msgid "Managed Sites"
+msgstr "Hanterade webbplatser"
+
+#: templates/admin/agency.php
+msgid "Site"
+msgstr "Webbplats"
+
+#: templates/admin/agency.php
+msgid "Score"
+msgstr "Poäng"
+
+#: templates/admin/agency.php
+msgid "Poor"
+msgstr "Dålig"
+
+#: templates/admin/agency.php
+msgid "Open"
+msgstr "Öppna"
+
+#: templates/admin/agency.php
+msgid "No sites added."
+msgstr "Inga webbplatser tillagda."
+
+#: templates/admin/agency.php
+msgid "sites used"
+msgstr "använda webbplatser"
+
+#: templates/admin/agency.php
+msgid "remaining"
+msgstr "återstående"
+
+#: templates/admin/agency.php
+msgid "Add Site"
+msgstr "Lägg till webbplats"
+
+#: templates/admin/agency.php
+msgid "Site Name"
+msgstr "Webbplatsnamn"
+
+#: templates/admin/agency.php
+msgid "Add"
+msgstr "Lägg till"
+
+#: templates/admin/agency.php
+msgid "Site limit reached."
+msgstr "Webbplatsgräns nådd."
+
+#: templates/admin/agency.php
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/agency.php
+msgid "Remove this site?"
+msgstr "Ta bort denna webbplats?"
+
+#: templates/admin/agency.php
+msgid "White Label Branding"
+msgstr "Vitmärkningsvarumärke"
+
+#: templates/admin/agency.php
+msgid "Agency Name"
+msgstr "Byrånamn"
+
+#: templates/admin/agency.php
+msgid "Logo URL"
+msgstr "Logotyp-URL"
+
+#: templates/admin/agency.php
+msgid "Brand Color"
+msgstr "Varumärkesfärg"
+
+#: templates/admin/agency.php
+msgid "Footer Text"
+msgstr "Sidfotstext"
+
+#: templates/admin/agency.php
+msgid "Powered by [Agency]"
+msgstr "Drivs av [Byrå]"
+
+#: templates/admin/agency.php
+msgid "Hide Branding"
+msgstr "Dölj varumärke"
+
+#: templates/admin/agency.php
+msgid "Remove MegaGovern from public pages"
+msgstr "Ta bort MegaGovern från offentliga sidor"
+
+#: templates/admin/agency.php
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: templates/admin/agency.php
+msgid "Generate All Reports"
+msgstr "Generera alla rapporter"
+
+#: templates/admin/agency.php
+msgid "Generate compliance reports for all %d sites."
+msgstr "Generera efterlevnadsrapporter för alla %d webbplatser."
+
+#: templates/admin/agency.php
+msgid "Auto-generate monthly compliance reports."
+msgstr "Auto-generera månatliga efterlevnadsrapporter."
+
+#: templates/admin/agency.php
+msgid "Enable scheduled monthly reports"
+msgstr "Aktivera schemalagda månatliga rapporter"
+
+#: templates/admin/agency.php
+msgid "Save Schedule"
+msgstr "Spara schema"
+
+#: templates/admin/agency.php
+msgid "Add Team Member"
+msgstr "Lägg till teammedlem"
+
+#: templates/admin/agency.php
+msgid "Admin"
+msgstr "Administratör"
+
+#: templates/admin/agency.php
+msgid "Manager"
+msgstr "Chef"
+
+#: templates/admin/agency.php
+msgid "Editor"
+msgstr "Redigerare"
+
+#: templates/admin/agency.php
+msgid "Contributor"
+msgstr "Bidragsgivare"
+
+#: templates/admin/agency.php
+msgid "Team Members"
+msgstr "Teammedlemmar"
+
+#: templates/admin/agency.php
+msgid "User"
+msgstr "Användare"
+
+#: templates/admin/agency.php
+msgid "Role"
+msgstr "Roll"
+
+#: templates/admin/agency.php
+msgid "Remove this member?"
+msgstr "Ta bort denna medlem?"
+
+#: templates/admin/agency.php
+msgid "No team members added."
+msgstr "Inga teammedlemmar tillagda."
+
+#: templates/admin/agency.php
+msgid "Plan Details"
+msgstr "Planinformation"
+
+#: templates/admin/agency.php
+msgid "Plan"
+msgstr "Plan"
+
+#: templates/admin/agency.php
+msgid "Site Limit"
+msgstr "Webbplatsgräns"
+
+#: templates/admin/agency.php
+msgid "Included"
+msgstr "Ingår"
+
+#: templates/admin/agency.php
+msgid "Team Access"
+msgstr "Teamåtkomst"
+
+#: templates/admin/tab-governance.php
+msgid "Regulatory Intelligence"
+msgstr "Regulatorisk intelligens"
+
+#: templates/admin/tab-governance.php
+msgid "Live"
+msgstr "Live"
+
+#: templates/admin/tab-governance.php
+msgid "Total Directives"
+msgstr "Totalt antal direktiv"
+
+#: templates/admin/tab-governance.php
+msgid "Jurisdictions"
+msgstr "Jurisdiktioner"
+
+#: templates/admin/tab-governance.php
+msgid "Source Tier"
+msgstr "Källnivå"
+
+#: templates/admin/tab-governance.php
+msgid "Verified"
+msgstr "Verifierad"
+
+#: templates/admin/tab-governance.php
+msgid "Latest Directives"
+msgstr "Senaste direktiv"
+
+#: templates/admin/tab-governance.php
+msgid "No regulatory alerts yet."
+msgstr "Inga regulatoriska varningar ännu."
+
+#: templates/admin/tab-governance.php
+msgid "Mark All as Read"
+msgstr "Markera alla som lästa"
+
+#: templates/admin/tab-governance.php
+msgid "Full Regulatory Feed"
+msgstr "Fullständigt regulatoriskt flöde"
+
+#: templates/admin/tab-governance.php
+msgid "Unlock live jurisdiction filtering, verified source feeds, and automated alert tracking."
+msgstr "Lås upp live-jurisdiktionsfiltrering, verifierade källflöden och automatiserad varningsspårning."
+
+#: templates/admin/tab-governance.php
+msgid "EU AI Act — Article Coverage"
+msgstr "EU:s AI-förordning — Artikelöversikt"
+
+#: templates/admin/tab-governance.php
+msgid "Overall Coverage Score"
+msgstr "Total täckningspoäng"
+
+#: templates/admin/tab-governance.php
+msgid "%d of %d directives covered"
+msgstr "%d av %d direktiv täckta"
+
+#: templates/admin/tab-governance.php
+msgid "Action Item:"
+msgstr "Åtgärdspunkt:"
+
+#: templates/admin/tab-governance.php
+msgid "Review uncovered directives"
+msgstr "Granska otäckta direktiv"
+
+#: templates/admin/notice-settings.php
+msgid "AI Notice Settings"
+msgstr "AI-meddelandeinställningar"
+
+#: templates/admin/notice-settings.php
+msgid "Customize the AI transparency notice bar displayed on your website."
+msgstr "Anpassa AI-transparensmeddelandefältet som visas på din webbplats."
+
+#: templates/admin/notice-settings.php
+msgid "Show AI transparency notice on the frontend."
+msgstr "Visa AI-transparensmeddelande på frontend."
+
+#: templates/admin/notice-settings.php
+msgid "Position"
+msgstr "Position"
+
+#: templates/admin/notice-settings.php
+msgid "Top of page"
+msgstr "Överst på sidan"
+
+#: templates/admin/notice-settings.php
+msgid "Bottom of page"
+msgstr "Längst ner på sidan"
+
+#: templates/admin/notice-settings.php
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: templates/admin/notice-settings.php
+msgid "Display MegaGovern logo in the notice."
+msgstr "Visa MegaGoverns logotyp i meddelandet."
+
+#: templates/admin/notice-settings.php
+msgid "Display AI shield icon in the notice."
+msgstr "Visa AI-sköldikon i meddelandet."
+
+#: templates/admin/notice-settings.php
+msgid "— Select page —"
+msgstr "— Välj sida —"
+
+#: templates/admin/notice-settings.php
+msgid "Select the page where your AI policy is displayed."
+msgstr "Välj sidan där din AI-policy visas."
+
+#: templates/admin/notice-settings.php
+msgid "Custom Text"
+msgstr "Anpassad text"
+
+#: templates/admin/notice-settings.php
+msgid "Custom notice text. Leave empty for default."
+msgstr "Anpassad meddelandetext. Lämna tomt för standard."
+
+#: templates/public/badge.php
+msgid "Transparent Site"
+msgstr "Transparent webbplats"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency"
+msgstr "Transparens"
+
+#: templates/public/transparency-drawer.php
+msgid "Toggle transparency information"
+msgstr "Växla transparensinformation"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Center"
+msgstr "Transparenscenter"
+
+#: templates/public/transparency-drawer.php
+msgid "Close"
+msgstr "Stäng"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Summary"
+msgstr "Transparenssammanfattning"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Human Written"
+msgstr "Deklarerat som mänskligt skriven"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Assisted"
+msgstr "Deklarerat som AI-assisterad"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Generated"
+msgstr "Deklarerat som AI-genererad"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Synthetic Media"
+msgstr "Deklarerat som syntetisk media"
+
+#: templates/public/transparency-drawer.php
+msgid "Last Declaration"
+msgstr "Senaste deklaration"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Records"
+msgstr "Transparensregister"
+
+#: templates/public/transparency-drawer.php
+msgid "Verification Status"
+msgstr "Verifieringsstatus"
+
+#: templates/public/transparency-drawer.php
+msgid "Verified"
+msgstr "Verifierad"
+
+#: templates/public/transparency-drawer.php
+msgid "View Transparency Page"
+msgstr "Visa transparenssida"
+
+#: templates/public/transparency-drawer.php
+msgid "Read AI Policy"
+msgstr "Läs AI-policy"
+
+#: templates/public/transparency-drawer.php
+msgid "Download AI.txt"
+msgstr "Ladda ner AI.txt"
+
+#: templates/public/transparency-drawer.php
+msgid "Verify Transparency"
+msgstr "Verifiera transparens"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency information aligned with EU AI Act Article 50 disclosure goals."
+msgstr "Transparensinformation i linje med EU:s AI-förordning Artikel 50:s utlämningsmål."
+
+#: templates/public/transparency-drawer.php
+msgid "Powered by MegaGovern"
+msgstr "Drivs av MegaGovern"
+
+#: templates/public/verify-page.php
+msgid "Not available"
+msgstr "Ej tillgänglig"
+
+#: templates/public/verify-page.php
+msgid "About This Page"
+msgstr "Om denna sida"
+
+#: templates/public/verify-page.php
+msgid "This website voluntarily maintains an AI Content Transparency Registry and publishes AI disclosure information. All content sources are declared and recorded in a verifiable transparency registry, providing proof of responsible AI governance."
+msgstr "Denna webbplats upprätthåller frivilligt ett AI-innehållstransparensregister och publicerar AI-utlämnandinformation. Alla innehållskällor deklareras och registreras i ett verifierbart transparensregister, vilket ger bevis på ansvarsfull AI-styrning."
+
+#: templates/public/verify-page.php
+msgid "Total Declared Articles"
+msgstr "Totalt antal deklarerade artiklar"
+
+#: templates/public/verify-page.php
+msgid "Machine-readable file"
+msgstr "Maskinläsbar fil"
+
+#: templates/public/verify-page.php
+msgid "Verification"
+msgstr "Verifiering"
+
+#: templates/public/verify-page.php
+msgid "Registry ID"
+msgstr "Register-ID"
+
+#: templates/public/verify-page.php
+msgid "Generated"
+msgstr "Genererad"
+
+#: templates/public/verify-page.php
+msgid "Generated automatically from the website's Transparency Registry by megagovern.com."
+msgstr "Genereras automatiskt från webbplatsens transparensregister av megagovern.com."
+
+#: templates/public/report-pdf.php
+msgid "MegaGovern — AI Transparency & Compliance Report"
+msgstr "MegaGovern — AI-transparens- och efterlevnadsrapport"
+
+#: templates/public/report-pdf.php
+msgid "Site:"
+msgstr "Webbplats:"
+
+#: templates/public/report-pdf.php
+msgid "URL:"
+msgstr "URL:"
+
+#: templates/public/report-pdf.php
+msgid "Generated:"
+msgstr "Genererad:"
+
+#: templates/public/report-pdf.php
+msgid "Period:"
+msgstr "Period:"
+
+#: templates/public/report-pdf.php
+msgid "%1$s of %2$s published items declared"
+msgstr "%1$s av %2$s publicerade objekt deklarerade"
+
+#: templates/public/report-pdf.php
+msgid "Declaration Breakdown"
+msgstr "Deklarationsuppdelning"
+
+#: templates/public/report-pdf.php
+msgid "Synthetic / Deepfake"
+msgstr "Syntetisk / Deepfake"
+
+#: templates/public/report-pdf.php
+msgid "Transparency Measures"
+msgstr "Transparensåtgärder"
+
+#: templates/public/report-pdf.php
+msgid "Measure"
+msgstr "Åtgärd"
+
+#: templates/public/report-pdf.php
+msgid "Details"
+msgstr "Detaljer"
+
+#: templates/public/report-pdf.php
+msgid "Not started"
+msgstr "Ej påbörjad"
+
+#: templates/public/report-pdf.php
+msgid "posts declared"
+msgstr "deklarerade inlägg"
+
+#: templates/public/report-pdf.php
+msgid "Not published"
+msgstr "Ej publicerad"
+
+#: templates/public/report-pdf.php
+msgid "Not active"
+msgstr "Ej aktiv"
+
+#: templates/public/report-pdf.php
+msgid "Content Labels"
+msgstr "Innehållsetiketter"
+
+#: templates/public/report-pdf.php
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: templates/public/report-pdf.php
+msgid "SHA-256 Integrity"
+msgstr "SHA-256-integritet"
+
+#: templates/public/report-pdf.php
+msgid "Content hashes generated on declaration"
+msgstr "Innehållshashar genererade vid deklaration"
+
+#: templates/public/report-pdf.php
+msgid "IMPORTANT LEGAL DISCLAIMER"
+msgstr "VIKTIG JURIDISK ANSVARSFRISKRIVNING"
+
+#: templates/public/report-pdf.php
+msgid "This report is generated by the MegaGovern plugin for transparency and documentation purposes only. It does NOT constitute legal advice, legal compliance certification, or a guarantee of regulatory compliance. Legal compliance depends on your jurisdiction, your content, and your legal counsel."
+msgstr "Denna rapport genereras av MegaGovern-plugin endast för transparens- och dokumentationsändamål. Den utgör INTE juridisk rådgivning, juridisk efterlevnadscertifiering eller en garanti för regulatorisk efterlevnad. Juridisk efterlevnad beror på din jurisdiktion, ditt innehåll och din juridiska rådgivare."
+
+#: templates/public/report-pdf.php
+msgid "Meganova Agency makes no representations or warranties regarding the completeness or accuracy of this data for legal purposes. Users should consult qualified legal counsel for compliance determinations specific to their situation."
+msgstr "Meganova Agency lämnar inga utfästelser eller garantier angående fullständigheten eller noggrannheten av dessa data för juridiska ändamål. Användare bör rådfråga kvalificerad juridisk rådgivare för efterlevnadsbeslut specifika för deras situation."
+
+#: templates/public/report-pdf.php
+msgid "Generated by MegaGovern v%s — AI Transparency & Documentation Toolkit"
+msgstr "Genererad av MegaGovern v%s — AI-transparens- och dokumentationsverktygslåda"
+
+#: templates/public/report-pdf.php
+msgid "https://megagovern.com"
+msgstr "https://megagovern.com"
+
+#: includes/Core.php
+msgid "Content declaration type (human, ai_assisted, ai_generated, deepfake)"
+msgstr "Innehållsdeklarationstyp (human, ai_assisted, ai_generated, deepfake)"
+
+#: includes/Core.php
+msgid "User ID who declared the content"
+msgstr "Användar-ID som deklarerade innehållet"
+
+#: includes/Core.php
+msgid "Timestamp when content was declared"
+msgstr "Tidsstämpel när innehållet deklarerades"
+
+#: includes/Core.php
+msgid "Flag if declaration is stale due to content edits exceeding threshold"
+msgstr "Flagga om deklaration är inaktuell på grund av innehållsredigeringar som överstiger tröskeln"
+
+#: includes/Core.php
+msgid "SHA-256 hash of published content"
+msgstr "SHA-256-hash av publicerat innehåll"
+
+#: includes/Core.php
+msgid "Legacy archive exemption flag"
+msgstr "Legacy-arkivundantagsflagga"
+
+#: includes/Core.php
+msgid "Exemption revocation flag"
+msgstr "Flagga för återkallelse av undantag"
+
+#: includes/Core.php
+msgid "Action dismissed flag"
+msgstr "Flagga för avvisad åtgärd"
+
+#: includes/Core.php
+msgid "Action pending flag"
+msgstr "Flagga för väntande åtgärd"
+
+#: includes/Helpers.php
+msgid "Enacted"
+msgstr "Antagen"
+
+#: includes/Helpers.php
+msgid "Proposed"
+msgstr "Föreslagen"
+
+#: includes/Helpers.php
+msgid "Framework"
+msgstr "Ramverk"
+
+#: includes/Helpers.php
+msgid "Voluntary"
+msgstr "Frivillig"
+
+#: includes/Helpers.php
+msgid "Text"
+msgstr "Text"
+
+#: includes/Helpers.php
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/Helpers.php
+msgid "Audio"
+msgstr "Ljud"
+
+#: includes/Helpers.php
+msgid "Video"
+msgstr "Video"
+
+#: includes/Helpers.php
+msgid "Deepfakes"
+msgstr "Deepfakes"
+
+#: includes/Evidence.php
+msgid "No description provided."
+msgstr "Ingen beskrivning angiven."
+
+#: includes/Evidence.php
+msgid "Free plan shows International alerts only."
+msgstr "Gratisplanen visar endast internationella varningar."
+
+#: includes/Evidence.php
+msgid "Upgrade to Pro"
+msgstr "Uppgradera till Pro"
+
+#: mega-govern.php
+msgid "MegaGovern Test Report"
+msgstr "MegaGovern testrapport"
+
+#: mega-govern.php
+msgid "This is a test report from MegaGovern.\n\nIf you're seeing this, your email settings are working correctly."
+msgstr "Detta är en testrapport från MegaGovern.\n\nOm du ser detta fungerar dina e-postinställningar korrekt."

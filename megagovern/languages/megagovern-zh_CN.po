@@ -1,0 +1,3660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MegaGovern 1.0.6\n"
+"Report-Msgid-Bugs-To: https://megagovern.com/support\n"
+"POT-Creation-Date: 2026-07-30 12:00+0000\n"
+"PO-Revision-Date: 2026-07-30 22:00+0100\n"
+"Last-Translator: Meganova Agency <support@megagovern.com>\n"
+"Language-Team: Chinese (Simplified) <support@megagovern.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: megagovern\n"
+"X-Generator: MegaGovern\n"
+
+#. Plugin Name
+msgid "MegaGovern — AI Transparency Toolkit"
+msgstr "MegaGovern — AI 透明度工具包"
+
+#. Plugin Description
+msgid "EU AI Act Article 50 compliant transparency labels, AI content declaration, AI.txt generator, and governance dashboard for WordPress."
+msgstr "符合欧盟人工智能法案第 50 条的透明度标签、AI 内容声明、AI.txt 生成器以及 WordPress 治理仪表板。"
+
+#: includes/Admin.php
+msgid "MegaGovern"
+msgstr "MegaGovern"
+
+#: includes/Admin.php templates/admin/dashboard.php
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: includes/Admin.php templates/admin/transparency-center.php
+msgid "Transparency Center"
+msgstr "透明度中心"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/settings.php
+msgid "Regulatory Alerts"
+msgstr "监管警报"
+
+#: includes/Admin.php includes/Score.php templates/admin/tab-reports.php
+msgid "Reports & Evidence"
+msgstr "报告与证据"
+
+#: includes/Admin.php templates/admin/settings.php
+msgid "Settings"
+msgstr "设置"
+
+#: includes/Admin.php templates/admin/agency.php
+msgid "Agency Hub"
+msgstr "机构中心"
+
+#: includes/Admin.php includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy"
+msgstr "AI 政策"
+
+#: includes/Admin.php
+msgid "Mission Control"
+msgstr "任务控制中心"
+
+#: includes/Admin.php
+msgid "Agency"
+msgstr "机构"
+
+#: includes/Admin.php
+msgid "Documentation"
+msgstr "文档"
+
+#: includes/Admin.php
+msgid "Refresh"
+msgstr "刷新"
+
+#: includes/Admin.php
+msgid "AI transparency governance at a glance."
+msgstr "AI 透明度治理一目了然。"
+
+#: includes/Admin.php
+msgid "Manage content classifications, AI disclosures, and compliance records."
+msgstr "管理内容分类、AI 披露和合规记录。"
+
+#: includes/Admin.php
+msgid "Track AI regulations affecting your content. Updated with each plugin release."
+msgstr "跟踪影响您内容的 AI 法规。每次插件发布时更新。"
+
+#: includes/Admin.php
+msgid "Compliance reports, evidence bundles, and audit trails."
+msgstr "合规报告、证据包和审计跟踪。"
+
+#: includes/Admin.php
+msgid "Configure MegaGovern for your compliance needs."
+msgstr "根据您的合规需求配置 MegaGovern。"
+
+#: includes/Admin.php
+msgid "Manage multiple sites, white label settings, and team access."
+msgstr "管理多个站点、白标设置和团队访问权限。"
+
+#: includes/Admin.php
+msgid "Manage your public AI usage policy."
+msgstr "管理您的公开 AI 使用政策。"
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "You do not have permission to access this page."
+msgstr "您没有权限访问此页面。"
+
+#: includes/Admin.php
+msgid "Access Denied"
+msgstr "访问被拒绝"
+
+#: includes/Admin.php
+msgid "Fixing..."
+msgstr "正在修复..."
+
+#: includes/Admin.php templates/admin/tab-disclosures.php
+msgid "Done"
+msgstr "完成"
+
+#: includes/Admin.php
+msgid "Error — Click to retry"
+msgstr "错误 — 点击重试"
+
+#: includes/Admin.php
+msgid "Refreshing dashboard..."
+msgstr "正在刷新仪表板..."
+
+#: includes/Admin.php
+msgid "Syncing..."
+msgstr "正在同步..."
+
+#: includes/Admin.php
+msgid "Please select a classification."
+msgstr "请选择分类。"
+
+#: includes/Admin.php
+msgid "Please select at least one item."
+msgstr "请至少选择一项。"
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "Processing..."
+msgstr "正在处理..."
+
+#: includes/Admin.php
+msgid "Error."
+msgstr "错误。"
+
+#: includes/Admin.php
+msgid "Failed."
+msgstr "失败。"
+
+#: includes/Admin.php templates/admin/tab-content.php
+msgid "Loading..."
+msgstr "正在加载..."
+
+#: includes/Admin.php
+msgid "No history found."
+msgstr "未找到历史记录。"
+
+#: includes/Admin.php
+msgid "Failed to load."
+msgstr "加载失败。"
+
+#: includes/Admin.php
+msgid "This section is coming soon."
+msgstr "此部分即将推出。"
+
+#: includes/Admin.php templates/admin/settings.php templates/admin/tab-alerts.php
+msgid "Free"
+msgstr "免费"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/tab-content.php templates/admin/settings.php
+msgid "Pro"
+msgstr "专业版"
+
+#: mega-govern.php
+msgid "requires PHP %1$s or higher. Your site is running PHP %2$s."
+msgstr "需要 PHP %1$s 或更高版本。您的站点正在运行 PHP %2$s。"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Human Made"
+msgstr "人工制作"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "AI Modified"
+msgstr "AI 修改"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Fully AI-Generated"
+msgstr "完全由 AI 生成"
+
+#: includes/Declaration.php includes/Helpers.php includes/Labels.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Synthetic Media"
+msgstr "合成媒体"
+
+#: includes/Declaration.php
+msgid "Content created by a human"
+msgstr "由人类创建的内容"
+
+#: includes/Declaration.php
+msgid "AI Modified content - AI was used to modify pre-existing human content"
+msgstr "AI 修改的内容 — 使用 AI 修改了预先存在的人类内容"
+
+#: includes/Declaration.php
+msgid "Fully AI-Generated content - No human editorial control"
+msgstr "完全由 AI 生成的内容 — 无人工编辑控制"
+
+#: includes/Declaration.php
+msgid "AI Generated or manipulated content (Synthetic Media) - May not be authentic"
+msgstr "AI 生成或操纵的内容（合成媒体）— 可能不真实"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration"
+msgstr "欧盟人工智能法案声明"
+
+#: includes/Declaration.php
+msgid "Select content source (EU AI Act Art. 50):"
+msgstr "选择内容来源（欧盟人工智能法案第 50 条）："
+
+#: includes/Declaration.php
+msgid "Current: %s"
+msgstr "当前：%s"
+
+#: includes/Declaration.php
+msgid "Snapshot captured"
+msgstr "已捕获快照"
+
+#: includes/Declaration.php
+msgid "Required before publishing — EU AI Act Art. 50"
+msgstr "发布前必须 — 欧盟人工智能法案第 50 条"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration required."
+msgstr "需要欧盟人工智能法案声明。"
+
+#: includes/Declaration.php
+msgid "Please select the content source before publishing (Article 50)."
+msgstr "请在发布前选择内容来源（第 50 条）。"
+
+#: includes/Declaration.php includes/Ajax.php
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+#: includes/Declaration.php
+msgid "Invalid data."
+msgstr "数据无效。"
+
+#: includes/Declaration.php
+msgid "Content declared as %s."
+msgstr "内容声明为 %s。"
+
+#: includes/Declaration.php
+msgid "Declaration failed."
+msgstr "声明失败。"
+
+#: includes/Helpers.php
+msgid "Human Authored"
+msgstr "人类创作"
+
+#: includes/Helpers.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Assisted"
+msgstr "AI 辅助"
+
+#: includes/Helpers.php includes/Media.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Generated"
+msgstr "AI 生成"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic"
+msgstr "深度伪造 / 合成"
+
+#: includes/Helpers.php
+msgid "None"
+msgstr "无"
+
+#: includes/Helpers.php
+msgid "Human Created"
+msgstr "人类创建"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic Media"
+msgstr "深度伪造 / 合成媒体"
+
+#: includes/Helpers.php
+msgid "Article declared"
+msgstr "文章已声明"
+
+#: includes/Helpers.php
+msgid "Declaration updated"
+msgstr "声明已更新"
+
+#: includes/Helpers.php
+msgid "Registry updated"
+msgstr "注册表已更新"
+
+#: includes/Helpers.php
+msgid "AI.txt regenerated"
+msgstr "AI.txt 已重新生成"
+
+#: includes/Helpers.php
+msgid "Label displayed"
+msgstr "标签已显示"
+
+#: includes/Helpers.php
+msgid "Report generated"
+msgstr "报告已生成"
+
+#: includes/Helpers.php
+msgid "Verification updated"
+msgstr "验证已更新"
+
+#: includes/Helpers.php
+msgid "Alert received"
+msgstr "已收到警报"
+
+#: includes/Helpers.php
+msgid "Issue fixed"
+msgstr "问题已修复"
+
+#: includes/Helpers.php
+msgid "Services refreshed"
+msgstr "服务已刷新"
+
+#: includes/Helpers.php
+msgid "Crawler blocked"
+msgstr "爬虫已被阻止"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "High"
+msgstr "高"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Medium"
+msgstr "中"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Low"
+msgstr "低"
+
+#: includes/Helpers.php
+msgid "Healthy"
+msgstr "健康"
+
+#: includes/Helpers.php
+msgid "Warning"
+msgstr "警告"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Critical"
+msgstr "严重"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "European Union"
+msgstr "欧盟"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "United States"
+msgstr "美国"
+
+#: includes/Helpers.php includes/Alerts.php includes/SetupWizard.php templates/admin/settings.php
+msgid "Global"
+msgstr "全球"
+
+#: includes/Helpers.php templates/admin/settings.php
+msgid "General"
+msgstr "常规"
+
+#: includes/Helpers.php
+msgid "Excellent"
+msgstr "优秀"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Good"
+msgstr "良好"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Fair"
+msgstr "一般"
+
+#: includes/Helpers.php
+msgid "Needs Attention"
+msgstr "需要注意"
+
+#: includes/Helpers.php includes/Scanner.php
+msgid "Unknown"
+msgstr "未知"
+
+#: includes/Governance.php
+msgid "Dependent services refreshed."
+msgstr "依赖服务已刷新。"
+
+#: includes/Crawler.php templates/admin/dashboard.php
+msgid "ago"
+msgstr "前"
+
+#: includes/Crawler.php
+msgid "Never"
+msgstr "从未"
+
+#: includes/Crawler.php
+msgid "AI.txt, LLMs.txt, and Robots.txt regenerated."
+msgstr "AI.txt、LLMs.txt 和 Robots.txt 已重新生成。"
+
+#: includes/Crawler.php
+msgid "Just Now"
+msgstr "刚刚"
+
+#: includes/Labels.php templates/admin/settings.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "Human Written"
+msgstr "人类撰写"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Assisted"
+msgstr "AI 辅助"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Generated"
+msgstr "AI 生成"
+
+#: templates/public/label.php
+msgid "EU AI Act Art. 50"
+msgstr "欧盟人工智能法案第 50 条"
+
+#: includes/Media.php
+msgid "File not found."
+msgstr "文件未找到。"
+
+#: includes/Media.php
+msgid "File too large for analysis."
+msgstr "文件过大无法分析。"
+
+#: includes/Media.php
+msgid "Unsupported format."
+msgstr "不支持的格式。"
+
+#: includes/Media.php
+msgid "No AI markers detected."
+msgstr "未检测到 AI 标记。"
+
+#: includes/Media.php
+msgid "EXIF metadata indicates AI tool: %s"
+msgstr "EXIF 元数据指示 AI 工具：%s"
+
+#: includes/Media.php
+msgid "EXIF contains AI generation keywords."
+msgstr "EXIF 包含 AI 生成关键词。"
+
+#: includes/Media.php
+msgid "C2PA Content Credentials detected — image has verifiable AI provenance."
+msgstr "检测到 C2PA 内容凭证 — 图像具有可验证的 AI 来源。"
+
+#: includes/Media.php
+msgid "Stable Diffusion generation parameters detected."
+msgstr "检测到 Stable Diffusion 生成参数。"
+
+#: includes/Media.php
+msgid "AI Declaration"
+msgstr "AI 声明"
+
+#: includes/Media.php
+msgid "AI Detected"
+msgstr "检测到 AI"
+
+#: includes/Media.php
+msgid "Undeclared"
+msgstr "未声明"
+
+#: includes/Media.php
+msgid "— Select —"
+msgstr "— 选择 —"
+
+#: includes/Media.php
+msgid "Detection:"
+msgstr "检测："
+
+#: includes/Media.php
+msgid "Analyze Image"
+msgstr "分析图像"
+
+#: includes/Media.php
+msgid "Invalid attachment."
+msgstr "无效附件。"
+
+#: includes/Media.php
+msgid "Media declared."
+msgstr "媒体已声明。"
+
+#: includes/Media.php
+msgid "Declaration saved."
+msgstr "声明已保存。"
+
+#: includes/Media.php
+msgid "Bulk declaration is available in Pro and Agency plans."
+msgstr "批量声明在专业版和机构版计划中可用。"
+
+#: includes/Media.php
+msgid "%d image declared."
+msgid_plural "%d images declared."
+msgstr[0] "%d 张图像已声明。"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "AI Transparency Verification"
+msgstr "AI 透明度验证"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verified Transparent Site"
+msgstr "已验证透明站点"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "This website is committed to AI transparency and maintains a documented governance record through MegaGovern."
+msgstr "本网站致力于 AI 透明度，并通过 MegaGovern 维护有记录的治理记录。"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Total Declared"
+msgstr "已声明总数"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verification Hash:"
+msgstr "验证哈希："
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Powered by MegaGovern — AI Transparency & Disclosure Governance"
+msgstr "由 MegaGovern 提供支持 — AI 透明度与披露治理"
+
+#: includes/Verification.php
+msgid "Verification data refreshed."
+msgstr "验证数据已刷新。"
+
+#: includes/Policy.php
+msgid "AI Usage Policy"
+msgstr "AI 使用政策"
+
+#: includes/Policy.php
+msgid "Policy updated."
+msgstr "政策已更新。"
+
+#: includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy Settings"
+msgstr "AI 政策设置"
+
+#: includes/Policy.php
+msgid "View Policy"
+msgstr "查看政策"
+
+#: includes/Policy.php
+msgid "Saved."
+msgstr "已保存。"
+
+#: includes/Policy.php
+msgid "Customize Policy"
+msgstr "自定义政策"
+
+#: includes/Policy.php
+msgid "Custom Introduction"
+msgstr "自定义介绍"
+
+#: includes/Policy.php
+msgid "Appears at the top of your AI Policy page."
+msgstr "显示在您的 AI 政策页面顶部。"
+
+#: includes/Policy.php
+msgid "Custom introduction is a Pro feature."
+msgstr "自定义介绍是专业版功能。"
+
+#: includes/Policy.php
+msgid "Contact Email"
+msgstr "联系邮箱"
+
+#: includes/Policy.php
+msgid "Contact Page URL"
+msgstr "联系页面 URL"
+
+#: includes/Policy.php
+msgid "Save"
+msgstr "保存"
+
+#: includes/Alerts.php
+msgid "EU AI Act — General Provisions (Enacted)"
+msgstr "欧盟人工智能法案 — 一般规定（已颁布）"
+
+#: includes/Alerts.php
+msgid "EU AI Act — Article 50 Transparency (Effective August 2026)"
+msgstr "欧盟人工智能法案 — 第 50 条透明度（2026 年 8 月生效）"
+
+#: includes/Alerts.php
+msgid "US Executive Order 14110 — Safe & Secure AI"
+msgstr "美国行政命令 14110 — 安全可靠的 AI"
+
+#: includes/Alerts.php
+msgid "US NO AI FRAUD Act (Proposed)"
+msgstr "美国 NO AI FRAUD 法案（已提议）"
+
+#: includes/Alerts.php
+msgid "California SB 942 — AI Transparency Act (Signed)"
+msgstr "加利福尼亚州 SB 942 — AI 透明度法案（已签署）"
+
+#: includes/Alerts.php
+msgid "California AB 2013 — AI Training Data Disclosure (Signed)"
+msgstr "加利福尼亚州 AB 2013 — AI 训练数据披露（已签署）"
+
+#: includes/Alerts.php
+msgid "Colorado AI Act (SB 24-205) — Effective February 2026"
+msgstr "科罗拉多州 AI 法案（SB 24-205）— 2026 年 2 月生效"
+
+#: includes/Alerts.php
+msgid "Utah AI Policy Act (SB 149) — Enacted"
+msgstr "犹他州 AI 政策法案（SB 149）— 已颁布"
+
+#: includes/Alerts.php
+msgid "China — Deep Synthesis Provisions (Enacted)"
+msgstr "中国 — 深度合成规定（已颁布）"
+
+#: includes/Alerts.php
+msgid "China — Generative AI Measures (Enacted)"
+msgstr "中国 — 生成式 AI 管理办法（已颁布）"
+
+#: includes/Alerts.php
+msgid "UK — AI Regulation Framework (In Development)"
+msgstr "英国 — AI 监管框架（制定中）"
+
+#: includes/Alerts.php
+msgid "Canada — AIDA (Bill C-27) — Proposed"
+msgstr "加拿大 — AIDA（C-27 法案）— 已提议"
+
+#: includes/Alerts.php
+msgid "Brazil — AI Bill (PL 2338/2023) — In Progress"
+msgstr "巴西 — AI 法案（PL 2338/2023）— 进行中"
+
+#: includes/Alerts.php
+msgid "Japan — AI Business Guidelines (Published 2024)"
+msgstr "日本 — AI 商业指南（2024 年发布）"
+
+#: includes/Alerts.php
+msgid "South Korea — AI Basic Act (Proposed 2024)"
+msgstr "韩国 — AI 基本法（2024 年提议）"
+
+#: includes/Alerts.php
+msgid "Australia — AI Ethics Framework (Voluntary)"
+msgstr "澳大利亚 — AI 伦理框架（自愿）"
+
+#: includes/Alerts.php
+msgid "G7 — International AI Code of Conduct (Agreed 2023)"
+msgstr "七国集团 — 国际 AI 行为准则（2023 年达成）"
+
+#: includes/Alerts.php
+msgid "UN — General Assembly AI Resolution (Adopted March 2024)"
+msgstr "联合国 — 大会 AI 决议（2024 年 3 月通过）"
+
+#: includes/Alerts.php
+msgid "Council of Europe — AI Treaty (Opened for Signature 2024)"
+msgstr "欧洲委员会 — AI 条约（2024 年开放签署）"
+
+#: includes/Alerts.php
+msgid "The EU AI Act entered into force on August 1, 2024. General provisions and prohibited practices apply from February 2, 2025. Transparency obligations for GPAI models apply from August 2, 2025. High-risk AI system obligations phase in through August 2, 2027."
+msgstr "欧盟人工智能法案于 2024 年 8 月 1 日生效。一般规定和禁止行为自 2025 年 2 月 2 日起适用。GPAI 模型的透明度义务自 2025 年 8 月 2 日起适用。高风险 AI 系统的义务在 2027 年 8 月 2 日前分阶段实施。"
+
+#: includes/Alerts.php
+msgid "Article 50 requires clear labeling of AI-generated content including text, images, audio, and video. Deepfakes must be explicitly marked. Limited exemptions for artistic and satirical content. Applies to all content accessible in the EU."
+msgstr "第 50 条要求对 AI 生成的内容进行清晰标注，包括文本、图像、音频和视频。深度伪造必须明确标记。艺术和讽刺内容有有限豁免。适用于在欧盟可访问的所有内容。"
+
+#: includes/Alerts.php
+msgid "Executive Order on Safe, Secure, and Trustworthy Development and Use of AI (October 2023). Requires developers of powerful AI systems to share safety test results. NIST developing AI content authentication and watermarking standards."
+msgstr "关于 AI 安全、可靠和可信发展与使用的行政命令（2023 年 10 月）。要求强大 AI 系统的开发者分享安全测试结果。NIST 正在制定 AI 内容认证和水印标准。"
+
+#: includes/Alerts.php
+msgid "Federal bill proposed in January 2024 to establish intellectual property rights over voice and likeness against unauthorized AI-generated replicas."
+msgstr "2024 年 1 月提出的联邦法案，旨在建立对声音和肖像的知识产权，以防止未经授权的 AI 生成复制品。"
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires providers of generative AI systems to include provenance disclosures in AI-generated content. Mandates visible and machine-readable labels for AI-generated images, video, and audio."
+msgstr "2024 年 9 月签署。要求生成式 AI 系统的提供者在 AI 生成内容中包含来源披露。强制要求为 AI 生成的图像、视频和音频提供可见且机器可读的标签。"
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires developers of generative AI systems to publicly disclose information about the datasets used to train their models, including data sources and copyright status."
+msgstr "2024 年 9 月签署。要求生成式 AI 系统的开发者公开披露用于训练其模型的数据集信息，包括数据来源和版权状态。"
+
+#: includes/Alerts.php
+msgid "Signed May 2024. First comprehensive state AI law in the US. Requires developers and deployers of high-risk AI systems to use reasonable care to protect consumers from algorithmic discrimination. Effective February 1, 2026."
+msgstr "2024 年 5 月签署。美国第一部全面的州级 AI 法律。要求高风险 AI 系统的开发者和部署者采取合理注意保护消费者免受算法歧视。2026 年 2 月 1 日生效。"
+
+#: includes/Alerts.php
+msgid "Enacted March 2024. First state AI law in the US to take effect. Requires disclosure when consumers interact with generative AI in regulated occupations (healthcare, legal, financial). Effective May 1, 2024."
+msgstr "2024 年 3 月颁布。美国第一部生效的州级 AI 法律。要求当消费者在受监管职业（医疗、法律、金融）中与生成式 AI 互动时进行披露。2024 年 5 月 1 日生效。"
+
+#: includes/Alerts.php
+msgid "Effective January 10, 2023. Requires AI-generated content to be watermarked and clearly labeled. Deep synthesis service providers must obtain user consent, verify identities, and maintain audit logs. Applies to content accessible within China."
+msgstr "2023 年 1 月 10 日生效。要求 AI 生成内容加水印并清晰标注。深度合成服务提供者必须获得用户同意、验证身份并维护审计日志。适用于在中国境内可访问的内容。"
+
+#: includes/Alerts.php
+msgid "Effective August 15, 2023. Regulates generative AI services available to the Chinese public. Requires content filtering, labeling of AI-generated output, protection of user data, and adherence to socialist core values."
+msgstr "2023 年 8 月 15 日生效。规范向中国公众提供的生成式 AI 服务。要求内容过滤、AI 生成输出的标注、用户数据保护以及遵守社会主义核心价值观。"
+
+#: includes/Alerts.php
+msgid "The UK follows a principles-based, sector-led approach via existing regulators (ICO, CMA, Ofcom, FCA). The AI Safety Institute was launched in November 2023. No comprehensive AI legislation yet; the government is consulting on targeted requirements for frontier AI."
+msgstr "英国遵循基于原则、行业主导的方法，通过现有监管机构（ICO、CMA、Ofcom、FCA）进行。AI 安全研究所于 2023 年 11 月启动。尚无全面的 AI 立法；政府正在就前沿 AI 的针对性要求进行咨询。"
+
+#: includes/Alerts.php
+msgid "The Artificial Intelligence and Data Act (AIDA) is part of Bill C-27, currently in parliamentary committee. Would establish requirements for high-impact AI systems including transparency, risk assessment, and human oversight."
+msgstr "《人工智能和数据法案》（AIDA）是 C-27 法案的一部分，目前在议会委员会审议中。将为高影响力 AI 系统建立要求，包括透明度、风险评估和人工监督。"
+
+#: includes/Alerts.php
+msgid "Comprehensive AI regulation under debate in the Brazilian Senate. Would establish risk-based classification of AI systems, require transparency for AI-generated content, and mandate human oversight for high-risk applications."
+msgstr "巴西参议院正在辩论全面的 AI 监管。将建立基于风险的 AI 系统分类，要求 AI 生成内容的透明度，并强制对高风险应用进行人工监督。"
+
+#: includes/Alerts.php
+msgid "Japan's Ministry of Economy, Trade and Industry (METI) published updated AI Guidelines in April 2024. Currently voluntary but signals future regulatory direction. Focuses on transparency, fairness, and human-centric AI."
+msgstr "日本经济产业省（METI）于 2024 年 4 月发布了更新的 AI 指南。目前是自愿性的，但标志着未来的监管方向。重点关注透明度、公平性和以人为本的 AI。"
+
+#: includes/Alerts.php
+msgid "Proposed comprehensive AI legislation introduced in the National Assembly. Would establish a legal framework for AI development, require high-risk AI transparency, and mandate labeling of AI-generated content."
+msgstr "国民议会提出的全面 AI 立法。将为 AI 发展建立法律框架，要求高风险 AI 的透明度，并强制标注 AI 生成内容。"
+
+#: includes/Alerts.php
+msgid "Australia's voluntary AI Ethics Framework (updated 2024) outlines 8 principles including transparency, explainability, and accountability. The government is consulting on mandatory guardrails for high-risk AI."
+msgstr "澳大利亚自愿性 AI 伦理框架（2024 年更新）概述了 8 项原则，包括透明度、可解释性和问责制。政府正在就高风险 AI 的强制性护栏进行咨询。"
+
+#: includes/Alerts.php
+msgid "Agreed October 30, 2023 by G7 leaders. Establishes 11 guiding principles for AI developers including transparency, accountability, and content authentication. While non-binding, it signals international regulatory direction."
+msgstr "2023 年 10 月 30 日由七国集团领导人达成一致。为 AI 开发者确立了 11 项指导原则，包括透明度、问责制和内容认证。虽然不具约束力，但标志着国际监管方向。"
+
+#: includes/Alerts.php
+msgid "Adopted unanimously March 21, 2024. First-ever standalone UN General Assembly resolution on AI. Calls for safe, secure, and trustworthy AI systems that respect human rights. Encourages member states to develop regulatory frameworks."
+msgstr "2024 年 3 月 21 日一致通过。首个独立的联合国大会关于 AI 的决议。呼吁建立安全、可靠和值得信赖的、尊重人权的 AI 系统。鼓励成员国制定监管框架。"
+
+#: includes/Alerts.php
+msgid "The Framework Convention on AI and Human Rights, Democracy, and the Rule of Law opened for signature September 2024. First legally binding international treaty on AI. Signed by EU, US, UK, and others. Requires transparency, oversight, and accountability."
+msgstr "《关于 AI 与人权、民主和法治的框架公约》于 2024 年 9 月开放签署。首个具有法律约束力的国际 AI 条约。由欧盟、美国、英国等签署。要求透明度、监督和问责制。"
+
+#: includes/Alerts.php
+msgid "All"
+msgstr "全部"
+
+#: includes/Alerts.php
+msgid "EU"
+msgstr "欧盟"
+
+#: includes/Alerts.php
+msgid "USA"
+msgstr "美国"
+
+#: includes/Alerts.php
+msgid "China"
+msgstr "中国"
+
+#: includes/Alerts.php
+msgid "UK"
+msgstr "英国"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "未登录。"
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "未提供警报 ID。"
+
+#: templates/admin/tab-alerts.php
+msgid "Alert"
+msgstr "警报"
+
+#: templates/admin/tab-alerts.php
+msgid "Total"
+msgstr "总计"
+
+#: templates/admin/tab-alerts.php
+msgid "Unread"
+msgstr "未读"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark All Read"
+msgstr "全部标记为已读"
+
+#: templates/admin/tab-alerts.php
+msgid "Region"
+msgstr "地区"
+
+#: templates/admin/tab-alerts.php
+msgid "Risk"
+msgstr "风险"
+
+#: templates/admin/tab-alerts.php
+msgid "Status"
+msgstr "状态"
+
+#: templates/admin/tab-alerts.php
+msgid "Upcoming"
+msgstr "即将到来"
+
+#: templates/admin/tab-alerts.php
+msgid "Clear Filters"
+msgstr "清除筛选"
+
+#: templates/admin/tab-alerts.php
+msgid "View All Alerts"
+msgstr "查看所有警报"
+
+#: templates/admin/tab-alerts.php
+msgid "No Alerts Found"
+msgstr "未找到警报"
+
+#: templates/admin/tab-alerts.php
+msgid "No regulatory alerts match your current filters. Try adjusting or clearing your filters."
+msgstr "没有符合您当前筛选条件的监管警报。请尝试调整或清除筛选条件。"
+
+#: templates/admin/tab-alerts.php
+msgid "All regulatory alerts have been reviewed. New alerts will appear with the next plugin update."
+msgstr "所有监管警报已审阅。新警报将在下次插件更新时出现。"
+
+#: templates/admin/tab-alerts.php
+msgid "New"
+msgstr "新"
+
+#: templates/admin/tab-alerts.php
+msgid "Official Source"
+msgstr "官方来源"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark as Read"
+msgstr "标记为已读"
+
+#: templates/admin/tab-alerts.php
+msgid "Data updated with plugin releases. No external API calls."
+msgstr "数据随插件版本更新。无外部 API 调用。"
+
+#: templates/admin/tab-alerts.php
+msgid "Showing %d alert"
+msgid_plural "Showing %d alerts"
+msgstr[0] "显示 %d 条警报"
+
+#: templates/admin/tab-alerts.php
+msgid "%d days remaining"
+msgstr "剩余 %d 天"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline passed"
+msgstr "截止日期已过"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline"
+msgstr "截止日期"
+
+#: templates/admin/tab-alerts.php
+msgid "International"
+msgstr "国际"
+
+#: templates/admin/tab-alerts.php
+msgid "Regulatory Alert"
+msgstr "监管警报"
+
+#: templates/admin/tab-alerts.php
+msgid "Free plan shows International alerts only."
+msgstr "免费版仅显示国际警报。"
+
+#: templates/admin/tab-alerts.php
+msgid "Upgrade to Pro"
+msgstr "升级到专业版"
+
+#: includes/Issues.php
+msgid "%s without declaration"
+msgstr "%s 无声明"
+
+#: includes/Issues.php
+msgid "Published content has no source classification."
+msgstr "已发布内容没有来源分类。"
+
+#: includes/Issues.php
+msgid "Declare Now"
+msgstr "立即声明"
+
+#: includes/Issues.php
+msgid "AI.txt not updated recently"
+msgstr "AI.txt 近期未更新"
+
+#: includes/Issues.php
+msgid "Your AI.txt file may be stale."
+msgstr "您的 AI.txt 文件可能已过时。"
+
+#: includes/Issues.php
+msgid "Regenerate Now"
+msgstr "立即重新生成"
+
+#: includes/Issues.php
+msgid "Verification page may be outdated"
+msgstr "验证页面可能已过时"
+
+#: includes/Issues.php
+msgid "Your public verification page may not reflect the latest data."
+msgstr "您的公开验证页面可能未反映最新数据。"
+
+#: includes/Issues.php
+msgid "Refresh Now"
+msgstr "立即刷新"
+
+#: includes/Issues.php
+msgid "%d unread regulatory alert"
+msgid_plural "%d unread regulatory alerts"
+msgstr[0] "%d 条未读监管警报"
+
+#: includes/Issues.php
+msgid "You have regulatory updates to review."
+msgstr "您有监管更新需要审阅。"
+
+#: includes/Issues.php
+msgid "View Alerts"
+msgstr "查看警报"
+
+#: includes/Issues.php
+msgid "No recent transparency activity"
+msgstr "近期无透明度活动"
+
+#: includes/Issues.php
+msgid "Your site hasn't declared any content sources in over 30 days."
+msgstr "您的站点已超过 30 天未声明任何内容来源。"
+
+#: includes/Issues.php
+msgid "Declare Content"
+msgstr "声明内容"
+
+#: includes/Issues.php
+msgid "%d media files lack AI declaration"
+msgstr "%d 个媒体文件缺少 AI 声明"
+
+#: includes/Issues.php
+msgid "Review Media"
+msgstr "审阅媒体"
+
+#: includes/Score.php
+msgid "Content Declaration"
+msgstr "内容声明"
+
+#: includes/Score.php
+msgid "Transparency Labels"
+msgstr "透明度标签"
+
+#: includes/Score.php
+msgid "AI.txt File"
+msgstr "AI.txt 文件"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Crawler Protection"
+msgstr "爬虫保护"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Verification Page"
+msgstr "验证页面"
+
+#: includes/Score.php
+msgid "Transparency for AI-generated content"
+msgstr "AI 生成内容的透明度"
+
+#: includes/Score.php
+msgid "Content Declaration + Labels"
+msgstr "内容声明 + 标签"
+
+#: includes/Score.php
+msgid "Disclosure of AI-manipulated media"
+msgstr "AI 操纵媒体的披露"
+
+#: includes/Score.php
+msgid "C2PA Image Metadata (Enterprise)"
+msgstr "C2PA 图像元数据（企业版）"
+
+#: includes/Score.php
+msgid "Emotion recognition & biometric disclosure"
+msgstr "情绪识别与生物识别披露"
+
+#: includes/Score.php
+msgid "Not in scope"
+msgstr "不在范围内"
+
+#: includes/Score.php
+msgid "Machine-readable AI labeling"
+msgstr "机器可读的 AI 标注"
+
+#: includes/Score.php
+msgid "AI.txt Generator"
+msgstr "AI.txt 生成器"
+
+#: includes/Score.php
+msgid "Transparency obligations for AI systems"
+msgstr "AI 系统的透明度义务"
+
+#: includes/Score.php
+msgid "Verification Page + Registry"
+msgstr "验证页面 + 注册表"
+
+#: includes/Reports.php
+msgid "All time"
+msgstr "全部时间"
+
+#: includes/Reports.php
+msgid "Present"
+msgstr "当前"
+
+#: includes/Reports.php
+msgid "PDF report generated."
+msgstr "PDF 报告已生成。"
+
+#: includes/Reports.php
+msgid ""
+"Hello,\n"
+"\n"
+"Your scheduled compliance report is attached.\n"
+"\n"
+"Summary:\n"
+"- Total Declared: %d\n"
+"- Human Written: %d\n"
+"- AI Assisted: %d\n"
+"- AI Generated: %d\n"
+"\n"
+"View full transparency: %s\n"
+"\n"
+"— MegaGovern"
+msgstr ""
+"您好，\n"
+"\n"
+"您预定的合规报告已附上。\n"
+"\n"
+"摘要：\n"
+"- 已声明总数：%d\n"
+"- 人类撰写：%d\n"
+"- AI 辅助：%d\n"
+"- AI 生成：%d\n"
+"\n"
+"查看完整透明度：%s\n"
+"\n"
+"— MegaGovern"
+
+#: includes/Reports.php templates/public/report-pdf.php
+msgid "MegaGovern Compliance Report"
+msgstr "MegaGovern 合规报告"
+
+#: includes/Reports.php
+msgid "You do not have sufficient permissions."
+msgstr "您没有足够的权限。"
+
+#: includes/Reports.php
+msgid "Scheduled report emailed to %s."
+msgstr "预定报告已通过电子邮件发送至 %s。"
+
+#: includes/Reports.php
+msgid "[%1$s] Transparency Report — %2$d%% Coverage — %3$s"
+msgstr "[%1$s] 透明度报告 — %2$d%% 覆盖率 — %3$s"
+
+#: includes/Reports.php
+msgid "Your scheduled transparency report is attached."
+msgstr "您预定的透明度报告已附上。"
+
+#: includes/Reports.php
+msgid "Coverage:"
+msgstr "覆盖率："
+
+#: includes/Reports.php
+msgid "Declared:"
+msgstr "已声明："
+
+#: includes/Reports.php
+msgid "published items"
+msgstr "已发布项目"
+
+#: includes/Reports.php
+msgid "View Verification Page"
+msgstr "查看验证页面"
+
+#: includes/Reports.php
+msgid "View AI.txt"
+msgstr "查看 AI.txt"
+
+#: includes/Reports.php
+msgid "DISCLAIMER:"
+msgstr "免责声明："
+
+#: includes/Reports.php
+msgid "This report is generated for transparency and documentation purposes only. It does not constitute legal compliance certification or legal advice. Consult qualified legal counsel for compliance determinations specific to your jurisdiction."
+msgstr "本报告仅供透明度和文档记录目的而生成。不构成法律合规认证或法律建议。请就您所在司法管辖区的具体合规问题咨询合格的法律顾问。"
+
+#: includes/Reports.php
+msgid "This report was automatically generated by MegaGovern — AI Content Governance & Transparency Platform. Sent to %s on a %s schedule."
+msgstr "本报告由 MegaGovern — AI 内容治理与透明度平台自动生成。按 %s 计划发送至 %s。"
+
+#: includes/Evidence.php
+msgid "Security check failed."
+msgstr "安全检查失败。"
+
+#: includes/Evidence.php
+msgid "You do not have permission to download evidence bundles."
+msgstr "您没有权限下载证据包。"
+
+#: includes/Evidence.php
+msgid "Failed to initialize zip compressor."
+msgstr "初始化 zip 压缩器失败。"
+
+#: includes/Evidence.php
+msgid "No AI usage policy published yet."
+msgstr "尚未发布 AI 使用政策。"
+
+#: includes/Evidence.php
+msgid "Evidence bundle file not found."
+msgstr "未找到证据包文件。"
+
+#: includes/Evidence.php
+msgid "Content Snapshot"
+msgstr "内容快照"
+
+#: includes/Evidence.php
+msgid "Post ID"
+msgstr "文章 ID"
+
+#: includes/Evidence.php
+msgid "Declared As"
+msgstr "声明为"
+
+#: includes/Evidence.php
+msgid "Declared At"
+msgstr "声明时间"
+
+#: includes/Evidence.php
+msgid "Content Hash (SHA-256)"
+msgstr "内容哈希（SHA-256）"
+
+#: includes/Evidence.php
+msgid "This evidence bundle is a transparency and documentation toolkit output. It does NOT constitute legal compliance certification or legal advice."
+msgstr "本证据包是透明度和文档工具包的输出。不构成法律合规认证或法律建议。"
+
+#: includes/Scanner.php
+msgid "Content Review requires Pro or Agency plan."
+msgstr "内容审阅需要专业版或机构版计划。"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Find Undeclared Content"
+msgstr "查找未声明内容"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Scanning..."
+msgstr "正在扫描..."
+
+#: includes/Scanner.php
+msgid "%d post ready for review."
+msgid_plural "%d posts ready for review."
+msgstr[0] "%d 篇文章准备好进行审阅。"
+
+#: includes/Scanner.php
+msgid "No declarations provided."
+msgstr "未提供声明。"
+
+#: includes/Scanner.php
+msgid "%d declaration applied."
+msgid_plural "%d declarations applied."
+msgstr[0] "%d 条声明已应用。"
+
+#: includes/Scanner.php
+msgid "Review results dismissed."
+msgstr "审阅结果已忽略。"
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "数据无效。"
+
+#: includes/Ajax.php
+msgid "No valid post IDs provided."
+msgstr "未提供有效的文章 ID。"
+
+#: includes/Ajax.php
+msgid "Invalid declaration type."
+msgstr "无效的声明类型。"
+
+#: includes/Ajax.php
+msgid "%d post updated."
+msgid_plural "%d posts updated."
+msgstr[0] "%d 篇文章已更新。"
+
+#: includes/Ajax.php
+msgid "Bulk declaration"
+msgstr "批量声明"
+
+#: includes/Ajax.php
+msgid "Required classes not found."
+msgstr "未找到所需的类。"
+
+#: includes/Ajax.php
+msgid "Declared as"
+msgstr "声明为"
+
+#: includes/Ajax.php
+msgid "Updated to"
+msgstr "更新为"
+
+#: includes/Ajax.php
+msgid "System"
+msgstr "系统"
+
+#: includes/Ajax.php
+msgid "Agency class not found."
+msgstr "未找到机构类。"
+
+#: includes/Ajax.php
+msgid "Site not found."
+msgstr "未找到站点。"
+
+#: includes/Ajax.php
+msgid "Agency bulk report for %s."
+msgstr "机构批量报告 %s。"
+
+#: includes/Ajax.php
+msgid "Report generated for %s."
+msgstr "为 %s 生成报告。"
+
+#: includes/Ajax.php
+msgid "Archive class not found."
+msgstr "未找到存档类。"
+
+#: includes/Ajax.php
+msgid "Invalid post ID."
+msgstr "无效的文章 ID。"
+
+#: includes/Ajax.php
+msgid "Exemption revoked."
+msgstr "豁免已撤销。"
+
+#: includes/Ajax.php
+msgid "Failed to revoke exemption."
+msgstr "撤销豁免失败。"
+
+#: includes/Ajax.php
+msgid "Exemption restored."
+msgstr "豁免已恢复。"
+
+#: includes/Ajax.php
+msgid "Failed to restore exemption."
+msgstr "恢复豁免失败。"
+
+#: includes/Ajax.php
+msgid "Crawler class not found."
+msgstr "未找到爬虫类。"
+
+#: includes/Ajax.php
+msgid "AI.txt regenerated."
+msgstr "AI.txt 已重新生成。"
+
+#: includes/Ajax.php
+msgid "LLMs.txt regenerated."
+msgstr "LLMs.txt 已重新生成。"
+
+#: includes/Ajax.php
+msgid "Robots.txt regenerated."
+msgstr "Robots.txt 已重新生成。"
+
+#: includes/Ajax.php
+msgid "Invalid file type."
+msgstr "无效的文件类型。"
+
+#: includes/Ajax.php
+msgid "All assets regenerated."
+msgstr "所有资源已重新生成。"
+
+#: includes/Ajax.php
+msgid "Cache cleared."
+msgstr "缓存已清除。"
+
+#: includes/Ajax.php
+msgid "Public files rebuilt."
+msgstr "公共文件已重建。"
+
+#: includes/Ajax.php
+msgid "Too many auto-fix requests. Please wait."
+msgstr "自动修复请求过多。请稍候。"
+
+#: includes/Ajax.php
+msgid "AI detection and file generation completed."
+msgstr "AI 检测和文件生成已完成。"
+
+#: includes/Ajax.php
+msgid "Verification class not found."
+msgstr "未找到验证类。"
+
+#: includes/Ajax.php
+msgid "Verification page refreshed successfully."
+msgstr "验证页面已成功刷新。"
+
+#: includes/Ajax.php
+msgid "Unknown issue type."
+msgstr "未知问题类型。"
+
+#: includes/Ajax.php
+msgid "AIAccess class not found."
+msgstr "未找到 AIAccess 类。"
+
+#: includes/Ajax.php
+msgid "Policy updated."
+msgstr "政策已更新。"
+
+#: includes/Ajax.php
+msgid "Option name required."
+msgstr "需要选项名称。"
+
+#: includes/Ajax.php
+msgid "Invalid data format."
+msgstr "无效的数据格式。"
+
+#: includes/Ajax.php
+msgid "Saved"
+msgstr "已保存"
+
+#: includes/Ajax.php
+msgid "Test report sent."
+msgstr "测试报告已发送。"
+
+#: includes/Ajax.php
+msgid "Failed to send email. Check your server settings."
+msgstr "发送电子邮件失败。请检查您的服务器设置。"
+
+#: includes/Ajax.php
+msgid "Content scanned and index refreshed."
+msgstr "内容已扫描，索引已刷新。"
+
+#: includes/Ajax.php
+msgid "Synced"
+msgstr "已同步"
+
+#: includes/Ajax.php
+msgid "AI Smart Declaration applied"
+msgstr "AI 智能声明已应用"
+
+#: includes/Cron.php
+msgid "Unknown Site"
+msgstr "未知站点"
+
+#: includes/Cron.php
+msgid "Score dropped: %d%% → %d%%"
+msgstr "分数下降：%d%% → %d%%"
+
+#: includes/Cron.php
+msgid "%d undeclared posts"
+msgstr "%d 篇未声明文章"
+
+#: includes/Cron.php
+msgid "%d undeclared posts — no declarations in %d days"
+msgstr "%d 篇未声明文章 — %d 天内无声明"
+
+#: includes/Cron.php
+msgid "Content needs source declaration"
+msgstr "内容需要来源声明"
+
+#: includes/Cron.php
+msgid "AI.txt not updated — %d days"
+msgstr "AI.txt 未更新 — %d 天"
+
+#: includes/Cron.php
+msgid "Regenerate AI.txt on client site"
+msgstr "在客户站点重新生成 AI.txt"
+
+#: includes/Cron.php
+msgid "Site health check failed — API unreachable"
+msgstr "站点健康检查失败 — API 无法访问"
+
+#: includes/Cron.php
+msgid "Check site connectivity"
+msgstr "检查站点连接"
+
+#: includes/Cron.php
+msgid "No reason provided"
+msgstr "未提供原因"
+
+#: includes/Agency.php
+msgid "Site limit reached. Maximum %d sites allowed."
+msgstr "已达到站点限制。最多允许 %d 个站点。"
+
+#: includes/Agency.php
+msgid "License system not available."
+msgstr "许可证系统不可用。"
+
+#: includes/Agency.php
+msgid "User is already a team member."
+msgstr "用户已是团队成员。"
+
+#: includes/Agency.php
+msgid "Site not found."
+msgstr "未找到站点。"
+
+#: includes/Agency.php
+msgid "Site synced."
+msgstr "站点已同步。"
+
+#: includes/Usage.php
+msgid "Unlimited"
+msgstr "无限制"
+
+#: includes/Usage.php
+msgid "Scans"
+msgstr "扫描次数"
+
+#: includes/Usage.php templates/admin/tab-content.php
+msgid "Words"
+msgstr "字数"
+
+#: includes/SetupWizard.php
+msgid "MegaGovern Setup"
+msgstr "MegaGovern 设置"
+
+#: includes/SetupWizard.php
+msgid "Welcome to MegaGovern"
+msgstr "欢迎使用 MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "AI Transparency & Disclosure Governance Platform"
+msgstr "AI 透明度与披露治理平台"
+
+#: includes/SetupWizard.php
+msgid "Where do you operate?"
+msgstr "您在哪个地区运营？"
+
+#: includes/SetupWizard.php
+msgid "This helps us show you relevant regulatory alerts."
+msgstr "这有助于我们向您显示相关的监管警报。"
+
+#: includes/SetupWizard.php
+msgid "EU AI Act compliance alerts"
+msgstr "欧盟人工智能法案合规警报"
+
+#: includes/SetupWizard.php
+msgid "Colorado AI Act & state law alerts"
+msgstr "科罗拉多州 AI 法案和州法律警报"
+
+#: includes/SetupWizard.php
+msgid "All regulatory alerts"
+msgstr "所有监管警报"
+
+#: includes/SetupWizard.php
+msgid "How should disclosure labels appear?"
+msgstr "披露标签应如何显示？"
+
+#: includes/SetupWizard.php
+msgid "Choose where the AI transparency label shows on your content."
+msgstr "选择 AI 透明度标签在您内容中的显示位置。"
+
+#: includes/SetupWizard.php
+msgid "Top of content"
+msgstr "内容顶部"
+
+#: includes/SetupWizard.php
+msgid "Label appears before the article"
+msgstr "标签显示在文章之前"
+
+#: includes/SetupWizard.php
+msgid "Bottom of content"
+msgstr "内容底部"
+
+#: includes/SetupWizard.php
+msgid "Label appears after the article"
+msgstr "标签显示在文章之后"
+
+#: includes/SetupWizard.php
+msgid "Both top and bottom"
+msgstr "顶部和底部均显示"
+
+#: includes/SetupWizard.php
+msgid "Maximum visibility"
+msgstr "最大可见度"
+
+#: includes/SetupWizard.php
+msgid "Before you start"
+msgstr "开始之前"
+
+#: includes/SetupWizard.php
+msgid "Important — Please Read"
+msgstr "重要 — 请阅读"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does:"
+msgstr "MegaGovern 的功能："
+
+#: includes/SetupWizard.php
+msgid "Document how AI is used in your content"
+msgstr "记录 AI 在您内容中的使用方式"
+
+#: includes/SetupWizard.php
+msgid "Publish transparency labels and AI.txt files"
+msgstr "发布透明度标签和 AI.txt 文件"
+
+#: includes/SetupWizard.php
+msgid "Generate governance records and reports"
+msgstr "生成治理记录和报告"
+
+#: includes/SetupWizard.php
+msgid "Alert you to major regulatory developments"
+msgstr "提醒您关注重大监管发展"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does NOT Do:"
+msgstr "MegaGovern 不会做的事情："
+
+#: includes/SetupWizard.php
+msgid "It does NOT detect AI-generated content"
+msgstr "不会检测 AI 生成的内容"
+
+#: includes/SetupWizard.php
+msgid "It does NOT guarantee legal compliance"
+msgstr "不保证法律合规性"
+
+#: includes/SetupWizard.php
+msgid "It does NOT replace legal advice from a qualified attorney"
+msgstr "不替代合格律师的法律建议"
+
+#: includes/SetupWizard.php
+msgid "You are in control."
+msgstr "您掌握控制权。"
+
+#: includes/SetupWizard.php
+msgid "You declare the source of each piece of content. MegaGovern documents your declarations and helps you disclose them."
+msgstr "您声明每项内容的来源。MegaGovern 记录您的声明并帮助您进行披露。"
+
+#: includes/SetupWizard.php
+msgid "I understand that MegaGovern is a documentation tool, not a compliance guarantee or legal advisor."
+msgstr "我理解 MegaGovern 是一个文档工具，不是合规保证或法律顾问。"
+
+#: includes/SetupWizard.php
+msgid "← Back"
+msgstr "← 返回"
+
+#: includes/SetupWizard.php
+msgid "Next Step →"
+msgstr "下一步 →"
+
+#: includes/SetupWizard.php
+msgid "Complete Setup"
+msgstr "完成设置"
+
+#: includes/SetupWizard.php
+msgid "You must accept the disclaimer to continue."
+msgstr "您必须接受免责声明才能继续。"
+
+#: includes/SetupWizard.php
+msgid "You do not have permission."
+msgstr "您没有权限。"
+
+#: includes/SetupWizard.php
+msgid "Display"
+msgstr "显示"
+
+#: includes/SetupWizard.php
+msgid "Ready"
+msgstr "就绪"
+
+#: templates/admin/dashboard.php
+msgid "AI Transparency Governance"
+msgstr "AI 透明度治理"
+
+#: templates/admin/dashboard.php
+msgid "Governance Score"
+msgstr "治理评分"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Declared"
+msgstr "已声明"
+
+#: templates/admin/dashboard.php
+msgid "Pending"
+msgstr "待处理"
+
+#: templates/admin/dashboard.php
+msgid "Issues"
+msgstr "问题"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Content Review"
+msgstr "内容审阅"
+
+#: templates/admin/dashboard.php
+msgid "Available on Pro plan."
+msgstr "专业版计划可用。"
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr "系统状态"
+
+#: templates/admin/dashboard.php templates/admin/tab-disclosures.php
+msgid "AI.txt"
+msgstr "AI.txt"
+
+#: templates/admin/dashboard.php
+msgid "Labels"
+msgstr "标签"
+
+#: templates/admin/dashboard.php
+msgid "Action Center"
+msgstr "操作中心"
+
+#: templates/admin/dashboard.php
+msgid "All systems compliant."
+msgstr "所有系统均合规。"
+
+#: templates/admin/dashboard.php
+msgid "Compliance Journey"
+msgstr "合规之旅"
+
+#: templates/admin/dashboard.php
+msgid "Recent Activity"
+msgstr "最近活动"
+
+#: templates/admin/dashboard.php
+msgid "No activity yet."
+msgstr "暂无活动。"
+
+#: templates/admin/dashboard.php
+msgid "Unlock Pro"
+msgstr "解锁专业版"
+
+#: templates/admin/dashboard.php
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: templates/admin/dashboard.php templates/admin/transparency-center.php
+msgid "Content Hub"
+msgstr "内容中心"
+
+#: templates/admin/dashboard.php
+msgid "Verification"
+msgstr "验证"
+
+#: templates/admin/dashboard.php templates/admin/settings.php
+msgid "Reports"
+msgstr "报告"
+
+#: templates/admin/dashboard.php
+msgid "New Post"
+msgstr "新文章"
+
+#: templates/admin/dashboard.php
+msgid "Access Denied"
+msgstr "访问被拒绝"
+
+#: templates/admin/dashboard.php
+msgid "Invalid security token."
+msgstr "无效的安全令牌。"
+
+#: templates/admin/dashboard.php
+msgid "Security Check Failed"
+msgstr "安全检查失败"
+
+#: templates/admin/dashboard.php
+msgid "New here? Three steps to get started:"
+msgstr "新用户？三步开始："
+
+#: templates/admin/dashboard.php
+msgid "Classify your first piece of content"
+msgstr "对您的内容进行首次分类"
+
+#: templates/admin/dashboard.php
+msgid "Go"
+msgstr "前往"
+
+#: templates/admin/dashboard.php
+msgid "Confirm transparency labels are enabled"
+msgstr "确认透明度标签已启用"
+
+#: templates/admin/dashboard.php
+msgid "View your public transparency page"
+msgstr "查看您的公开透明度页面"
+
+#: templates/admin/dashboard.php
+msgid "View"
+msgstr "查看"
+
+#: templates/admin/dashboard.php
+msgid "View Public Page"
+msgstr "查看公开页面"
+
+#: templates/admin/dashboard.php
+msgid "~%d day left at your current pace"
+msgid_plural "~%d days left at your current pace"
+msgstr[0] "按当前速度剩余约 %d 天"
+
+#: templates/admin/dashboard.php
+msgid "No declarations yet"
+msgstr "暂无声明"
+
+#: templates/admin/dashboard.php
+msgid "to full coverage"
+msgstr "至完全覆盖"
+
+#: templates/admin/dashboard.php
+msgid "Content Status"
+msgstr "内容状态"
+
+#: templates/admin/dashboard.php
+msgid "%d items need declaration."
+msgstr "%d 个项目需要声明。"
+
+#: templates/admin/dashboard.php
+msgid "Full Content Hub"
+msgstr "完整内容中心"
+
+#: templates/admin/dashboard.php
+msgid "All content declared. Great job!"
+msgstr "所有内容已声明。做得很好！"
+
+#: templates/admin/dashboard.php
+msgid "Fix All Auto-Fixable (%d)"
+msgstr "修复所有可自动修复项（%d）"
+
+#: templates/admin/dashboard.php
+msgid "All systems in good standing."
+msgstr "所有系统状态良好。"
+
+#: templates/admin/dashboard.php
+msgid "Transparency Journey"
+msgstr "透明度之旅"
+
+#: templates/admin/dashboard.php
+msgid "Verification hash"
+msgstr "验证哈希"
+
+#: templates/admin/dashboard.php
+msgid "Upgrade Now"
+msgstr "立即升级"
+
+#: templates/admin/transparency-center.php
+msgid "Access Denied"
+msgstr "访问被拒绝"
+
+#: templates/admin/transparency-center.php templates/admin/tab-disclosures.php templates/admin/tab-archive.php
+msgid "Active"
+msgstr "活跃"
+
+#: templates/admin/transparency-center.php
+msgid "Disclosures & AI Files"
+msgstr "披露与 AI 文件"
+
+#: templates/admin/transparency-center.php templates/admin/tab-archive.php
+msgid "Legacy Archive"
+msgstr "遗留存档"
+
+#: templates/admin/transparency-center.php
+msgid "Just now"
+msgstr "刚刚"
+
+#: templates/admin/tab-content.php templates/admin/tab-reports.php
+msgid "Total Indexed"
+msgstr "已索引总数"
+
+#: templates/admin/tab-content.php
+msgid "%d unclassified items detected."
+msgstr "检测到 %d 个未分类项目。"
+
+#: templates/admin/tab-content.php
+msgid "Review Undeclared"
+msgstr "审阅未声明内容"
+
+#: templates/admin/tab-content.php
+msgid "Review undeclared content and apply declarations manually."
+msgstr "审阅未声明内容并手动应用声明。"
+
+#: templates/admin/tab-content.php
+msgid "items ready for review."
+msgstr "个项目准备好进行审阅。"
+
+#: templates/admin/tab-content.php
+msgid "Last review: %s"
+msgstr "上次审阅：%s"
+
+#: templates/admin/tab-content.php
+msgid "%d undeclared posts ready for review."
+msgstr "%d 篇未声明文章准备好进行审阅。"
+
+#: templates/admin/tab-content.php
+msgid "Review & Apply"
+msgstr "审阅并应用"
+
+#: templates/admin/tab-content.php
+msgid "Dismiss"
+msgstr "忽略"
+
+#: templates/admin/tab-content.php
+msgid "Loading results..."
+msgstr "正在加载结果..."
+
+#: templates/admin/tab-content.php
+msgid "All content declared."
+msgstr "所有内容已声明。"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Title"
+msgstr "标题"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Type"
+msgstr "类型"
+
+#: templates/admin/tab-content.php
+msgid "Declaration"
+msgstr "声明"
+
+#: templates/admin/tab-content.php
+msgid "Human"
+msgstr "人工"
+
+#: templates/admin/tab-content.php
+msgid "Apply Selected"
+msgstr "应用所选"
+
+#: templates/admin/tab-content.php
+msgid "Applying..."
+msgstr "正在应用..."
+
+#: templates/admin/tab-content.php
+msgid "Retry"
+msgstr "重试"
+
+#: templates/admin/tab-content.php
+msgid "Failed to load results."
+msgstr "加载结果失败。"
+
+#: templates/admin/tab-content.php
+msgid "Bulk Declaration"
+msgstr "批量声明"
+
+#: templates/admin/tab-content.php
+msgid "Select posts and classify them all at once."
+msgstr "选择文章并一次性全部分类。"
+
+#: templates/admin/tab-content.php
+msgid "Select classification..."
+msgstr "选择分类..."
+
+#: templates/admin/tab-content.php
+msgid "Classify Selected"
+msgstr "分类所选"
+
+#: templates/admin/tab-content.php
+msgid "selected"
+msgstr "已选择"
+
+#: templates/admin/tab-content.php
+msgid "Filter & Search"
+msgstr "筛选与搜索"
+
+#: templates/admin/tab-content.php
+msgid "All Statuses"
+msgstr "所有状态"
+
+#: templates/admin/tab-content.php
+msgid "All Types"
+msgstr "所有类型"
+
+#: templates/admin/tab-content.php
+msgid "Search..."
+msgstr "搜索..."
+
+#: templates/admin/tab-content.php
+msgid "Apply"
+msgstr "应用"
+
+#: templates/admin/tab-content.php
+msgid "Reset"
+msgstr "重置"
+
+#: templates/admin/tab-content.php
+msgid "results"
+msgstr "结果"
+
+#: templates/admin/tab-content.php
+msgid "Content"
+msgstr "内容"
+
+#: templates/admin/tab-content.php
+msgid "Authorized By"
+msgstr "授权人"
+
+#: templates/admin/tab-content.php
+msgid "Actions"
+msgstr "操作"
+
+#: templates/admin/tab-content.php
+msgid "Unassigned"
+msgstr "未分配"
+
+#: templates/admin/tab-content.php
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/admin/tab-content.php
+msgid "View History"
+msgstr "查看历史"
+
+#: templates/admin/tab-content.php
+msgid "No Content Found"
+msgstr "未找到内容"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or create new content."
+msgstr "调整筛选条件或创建新内容。"
+
+#: templates/admin/tab-content.php
+msgid "Create Content"
+msgstr "创建内容"
+
+#: templates/admin/tab-content.php
+msgid "Declaration History"
+msgstr "声明历史"
+
+#: templates/admin/tab-content.php
+msgid "Please select a classification type."
+msgstr "请选择分类类型。"
+
+#: templates/admin/tab-content.php
+msgid "Please select at least one post."
+msgstr "请至少选择一篇文章。"
+
+#: templates/admin/tab-content.php
+msgid "Loading history..."
+msgstr "正在加载历史..."
+
+#: templates/admin/tab-content.php
+msgid "Failed to load history."
+msgstr "加载历史失败。"
+
+#: templates/admin/tab-content.php
+msgid "(No Title)"
+msgstr "（无标题）"
+
+#: templates/admin/tab-content.php
+msgid "Clear"
+msgstr "清除"
+
+#: templates/admin/tab-content.php
+msgid "Review Now"
+msgstr "立即审阅"
+
+#: templates/admin/tab-content.php
+msgid "Re-scan"
+msgstr "重新扫描"
+
+#: templates/admin/tab-content.php
+msgid "Review..."
+msgstr "审阅..."
+
+#: templates/admin/tab-content.php
+msgid "Modified"
+msgstr "已修改"
+
+#: templates/admin/tab-content.php
+msgid "Generated"
+msgstr "已生成"
+
+#: templates/admin/tab-content.php
+msgid "Synthetic"
+msgstr "合成"
+
+#: templates/admin/tab-content.php
+msgid "Error updating declaration."
+msgstr "更新声明出错。"
+
+#: templates/admin/tab-content.php
+msgid "Server error occurred."
+msgstr "发生服务器错误。"
+
+#: templates/admin/tab-content.php
+msgid "Apply this classification to all selected items?"
+msgstr "将此分类应用于所有选中的项目？"
+
+#: templates/admin/tab-content.php
+msgid "Failed to apply declarations."
+msgstr "应用声明失败。"
+
+#: templates/admin/tab-content.php
+msgid "Security token missing. Please refresh the page."
+msgstr "缺少安全令牌。请刷新页面。"
+
+#: templates/admin/tab-content.php
+msgid "Could not load history."
+msgstr "无法加载历史。"
+
+#: templates/admin/tab-content.php
+msgid "Scan failed."
+msgstr "扫描失败。"
+
+#: templates/admin/tab-content.php
+msgid "Server error. Please try again."
+msgstr "服务器错误。请重试。"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or run a new Review to find undeclared content."
+msgstr "调整筛选条件或运行新的审阅以查找未声明内容。"
+
+#: templates/admin/tab-content.php
+msgid "Content Review Queue"
+msgstr "内容审阅队列"
+
+#: templates/admin/tab-content.php
+msgid "Undeclared posts found. Run a review to classify them."
+msgstr "找到未声明文章。运行审阅以对其进行分类。"
+
+#: templates/admin/tab-content.php
+msgid "All content has been declared."
+msgstr "所有内容均已声明。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Labels"
+msgstr "内容标签"
+
+#: templates/admin/tab-disclosures.php
+msgid "Configure how AI transparency labels appear on your content."
+msgstr "配置 AI 透明度标签在您内容中的显示方式。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Position"
+msgstr "标签位置"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current position:"
+msgstr "当前位置："
+
+#: templates/admin/tab-disclosures.php
+msgid "Current style:"
+msgstr "当前样式："
+
+#: templates/admin/tab-disclosures.php
+msgid "Change in Settings"
+msgstr "在设置中更改"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Preview"
+msgstr "标签预览"
+
+#: templates/admin/tab-disclosures.php
+msgid "Labels Active"
+msgstr "标签已激活"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI 披露文件"
+
+#: templates/admin/tab-disclosures.php
+msgid "Machine-readable transparency files for AI systems and crawlers."
+msgstr "用于 AI 系统和爬虫的机器可读透明度文件。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto"
+msgstr "自动"
+
+#: templates/admin/tab-disclosures.php
+msgid "Manual"
+msgstr "手动"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — AI usage, governance, compliance."
+msgstr "完整的透明度披露 — AI 使用、治理、合规。"
+
+#: templates/admin/tab-disclosures.php
+msgid "View"
+msgstr "查看"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy"
+msgstr "复制"
+
+#: templates/admin/tab-disclosures.php
+msgid "LLMs.txt"
+msgstr "LLMs.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index — grouped by declaration type."
+msgstr "AI 可读内容索引 — 按声明类型分组。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 30 bots, 3-tier policy."
+msgstr "爬虫访问控制 — 30 个机器人，3 层策略。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Files"
+msgstr "重新生成所有文件"
+
+#: templates/admin/tab-disclosures.php
+msgid "Force regeneration of AI.txt, LLMs.txt, and Robots.txt."
+msgstr "强制重新生成 AI.txt、LLMs.txt 和 Robots.txt。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All"
+msgstr "全部重新生成"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Pages"
+msgstr "公开透明度页面"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages that demonstrate your AI transparency commitment."
+msgstr "展示您对 AI 透明度承诺的公开页面。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Editable"
+msgstr "可编辑"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Only"
+msgstr "仅查看"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Policy"
+msgstr "查看政策"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy URL"
+msgstr "复制 URL"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Page"
+msgstr "查看页面"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verification Active"
+msgstr "验证已激活"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copied"
+msgstr "已复制"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerating..."
+msgstr "正在重新生成..."
+
+#: templates/admin/tab-disclosures.php
+msgid "N/A"
+msgstr "不适用"
+
+#: templates/admin/tab-disclosures.php
+msgid "Last Updated: %s"
+msgstr "最后更新：%s"
+
+#: templates/admin/tab-disclosures.php
+msgid "Your AI.txt reflects only %d%% of published content."
+msgstr "您的 AI.txt 仅反映 %d%% 的已发布内容。"
+
+#: templates/admin/tab-disclosures.php
+msgid "%d items remain undeclared."
+msgstr "%d 个项目仍未声明。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Review Undeclared Items"
+msgstr "审阅未声明项目"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verify"
+msgstr "验证"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI 披露文件"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — 16 sections."
+msgstr "完整的透明度披露 — 16 个部分。"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Raw"
+msgstr "查看原始内容"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy as MD"
+msgstr "复制为 MD"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto-regenerated on declaration change."
+msgstr "声明更改时自动重新生成。"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index with Priority Signals."
+msgstr "带有优先级信号的 AI 可读内容索引。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 34 bots, 3-tier policy."
+msgstr "爬虫访问控制 — 34 个机器人，3 层策略。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Documents"
+msgstr "公开透明度文档"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages for visitors, auditors, and regulators."
+msgstr "面向访客、审计员和监管机构的公开页面。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public"
+msgstr "公开"
+
+#: templates/admin/tab-disclosures.php
+msgid "Open"
+msgstr "打开"
+
+#: templates/admin/tab-disclosures.php
+msgid "Upgrade to Edit"
+msgstr "升级以编辑"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Snapshots & Evidence"
+msgstr "内容快照与证据"
+
+#: templates/admin/tab-disclosures.php
+msgid "PDF Reports"
+msgstr "PDF 报告"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Maintenance"
+msgstr "透明度维护"
+
+#: templates/admin/tab-disclosures.php
+msgid "System diagnostics and maintenance tools."
+msgstr "系统诊断与维护工具。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: templates/admin/tab-disclosures.php
+msgid "WordPress Rewrites"
+msgstr "WordPress 重写"
+
+#: templates/admin/tab-disclosures.php
+msgid "File Permissions"
+msgstr "文件权限"
+
+#: templates/admin/tab-disclosures.php
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: templates/admin/tab-disclosures.php
+msgid "Writable"
+msgstr "可写"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Assets"
+msgstr "透明度资源"
+
+#: templates/admin/tab-disclosures.php
+msgid "Up-to-date"
+msgstr "最新"
+
+#: templates/admin/tab-disclosures.php
+msgid "Actions"
+msgstr "操作"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Assets"
+msgstr "重新生成所有资源"
+
+#: templates/admin/tab-disclosures.php
+msgid "Clear Generated Cache"
+msgstr "清除生成的缓存"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuild Public Files"
+msgstr "重建公共文件"
+
+#: templates/admin/tab-disclosures.php
+msgid "Failed to copy."
+msgstr "复制失败。"
+
+#: templates/admin/tab-disclosures.php
+msgid "Fetching..."
+msgstr "正在获取..."
+
+#: templates/admin/tab-disclosures.php
+msgid "..."
+msgstr "..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Clearing..."
+msgstr "正在清除..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Cleared"
+msgstr "已清除"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuilding..."
+msgstr "正在重建..."
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content"
+msgstr "豁免内容"
+
+#: templates/admin/tab-archive.php
+msgid "Cutoff Date"
+msgstr "截止日期"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold"
+msgstr "编辑阈值"
+
+#: templates/admin/tab-archive.php
+msgid "Archive Settings"
+msgstr "存档设置"
+
+#: templates/admin/tab-archive.php
+msgid "Compliance Cutoff Date"
+msgstr "合规截止日期"
+
+#: templates/admin/tab-archive.php
+msgid "Content before this date is exempt."
+msgstr "此日期之前的内容豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold (%)"
+msgstr "编辑阈值（%）"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke exemption if edit exceeds this %."
+msgstr "如果编辑超过此百分比，则撤销豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content Log"
+msgstr "豁免内容日志"
+
+#: templates/admin/tab-archive.php
+msgid "Items"
+msgstr "项目"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke"
+msgstr "撤销"
+
+#: templates/admin/tab-archive.php
+msgid "Restore"
+msgstr "恢复"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt"
+msgstr "已豁免"
+
+#: templates/admin/tab-archive.php
+msgid "Revoked"
+msgstr "已撤销"
+
+#: templates/admin/tab-archive.php
+msgid "How Legacy Archive Works"
+msgstr "遗留存档工作原理"
+
+#: templates/admin/tab-archive.php
+msgid "Set Cutoff Date"
+msgstr "设置截止日期"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold Monitoring"
+msgstr "编辑阈值监控"
+
+#: templates/admin/tab-archive.php
+msgid "Manual Override"
+msgstr "手动覆盖"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date. Classified as Legacy — Exempt from mandatory AI declaration under EU AI Act Article 50."
+msgstr "在截止日期之前发布的历史内容。分类为遗留 — 根据欧盟人工智能法案第 50 条豁免强制性 AI 声明。"
+
+#: templates/admin/tab-archive.php
+msgid "EU AI Act — Article 50"
+msgstr "欧盟人工智能法案 — 第 50 条"
+
+#: templates/admin/tab-archive.php
+msgid "The EU AI Act enters into force on August 2, 2025. Content published before the cutoff date is classified as Legacy and is exempt from mandatory AI declaration requirements. All content published after this date must be declared."
+msgstr "欧盟人工智能法案于 2025 年 8 月 2 日生效。在截止日期之前发布的内容被分类为遗留，并豁免强制性 AI 声明要求。此日期之后发布的所有内容都必须声明。"
+
+#: templates/admin/tab-archive.php
+msgid "Undeclared Legacy"
+msgstr "未声明的遗留内容"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date, classified as Legacy — Exempt."
+msgstr "在截止日期之前发布的历史内容，分类为遗留 — 豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "(No title)"
+msgstr "（无标题）"
+
+#: templates/admin/tab-archive.php
+msgid "No exempt content found. Content published after the cutoff date will not be automatically exempt."
+msgstr "未找到豁免内容。在截止日期之后发布的内容不会自动豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "Define the compliance cutoff date. Content published before this date is eligible for legacy exemption."
+msgstr "定义合规截止日期。在此日期之前发布的内容有资格获得遗留豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "If an exempt article is edited and changes exceed the threshold, the exemption is automatically revoked."
+msgstr "如果豁免文章被编辑且更改超过阈值，豁免将被自动撤销。"
+
+#: templates/admin/tab-archive.php
+msgid "You can manually revoke or restore exemptions from the Exempt Content Log above."
+msgstr "您可以从上面的豁免内容日志中手动撤销或恢复豁免。"
+
+#: templates/admin/tab-archive.php
+msgid "Are you sure you want to revoke this exemption? The post will return to the Content Hub for standard declaration."
+msgstr "您确定要撤销此豁免吗？该文章将返回内容中心进行标准声明。"
+
+#: templates/admin/tab-archive.php
+msgid "An error occurred. Please try again."
+msgstr "发生错误。请重试。"
+
+#: templates/admin/tab-archive.php
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: templates/admin/tab-archive.php
+msgid "Unlock Full Archive Management"
+msgstr "解锁完整存档管理"
+
+#: templates/admin/tab-archive.php
+msgid "Advanced filtering, bulk exemption, and audit trail for legacy content."
+msgstr "遗留内容的高级筛选、批量豁免和审计跟踪。"
+
+#: templates/admin/tab-archive.php
+msgid "Published"
+msgstr "已发布"
+
+#: templates/admin/tab-reports.php
+msgid "Compliance Reports"
+msgstr "合规报告"
+
+#: templates/admin/tab-reports.php
+msgid "Generate compliance documentation for your records."
+msgstr "为您的记录生成合规文档。"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report"
+msgstr "PDF 报告"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report (Pro)"
+msgstr "PDF 报告（专业版）"
+
+#: templates/admin/tab-reports.php
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+#: templates/admin/tab-reports.php
+msgid "Date Range"
+msgstr "日期范围"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Schedule Reports"
+msgstr "安排报告"
+
+#: templates/admin/tab-reports.php
+msgid "Weekly/Monthly auto-delivery to "
+msgstr "每周/每月自动发送至 "
+
+#: templates/admin/tab-reports.php
+msgid "Configure scheduling"
+msgstr "配置日程安排"
+
+#: templates/admin/tab-reports.php
+msgid "Transparency Registry"
+msgstr "透明度注册表"
+
+#: templates/admin/tab-reports.php
+msgid "Local"
+msgstr "本地"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Site ID"
+msgstr "站点 ID"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Trail"
+msgstr "证据追踪"
+
+#: templates/admin/tab-reports.php
+msgid "No evidence logs yet. Governance actions will appear here."
+msgstr "暂无证据日志。治理操作将显示在此处。"
+
+#: templates/admin/tab-reports.php
+msgid "Attestation & Archiving"
+msgstr "认证与存档"
+
+#: templates/admin/tab-reports.php
+msgid "Registry Integrity"
+msgstr "注册表完整性"
+
+#: templates/admin/tab-reports.php
+msgid "Active & Secure"
+msgstr "活跃且安全"
+
+#: templates/admin/tab-reports.php
+msgid "Anchored Logs"
+msgstr "锚定日志"
+
+#: templates/admin/tab-reports.php
+msgid "Records"
+msgstr "记录"
+
+#: templates/admin/tab-reports.php
+msgid "Tamper Protection"
+msgstr "防篡改保护"
+
+#: templates/admin/tab-reports.php
+msgid "SHA-256 Enabled"
+msgstr "已启用 SHA-256"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Retention"
+msgstr "证据保留"
+
+#: templates/admin/tab-reports.php
+msgid "Days"
+msgstr "天"
+
+#: templates/admin/tab-reports.php
+msgid "Download Evidence Bundle (.zip)"
+msgstr "下载证据包（.zip）"
+
+#: templates/admin/tab-reports.php
+msgid "Includes AI.txt, classification snapshot, and governance timeline."
+msgstr "包括 AI.txt、分类快照和治理时间线。"
+
+#: templates/admin/tab-reports.php
+msgid "Action"
+msgstr "操作"
+
+#: templates/admin/tab-reports.php
+msgid "Scheduled Reports"
+msgstr "预定报告"
+
+#: templates/admin/tab-reports.php
+msgid "%1$s delivery to %2$s"
+msgstr "%1$s 发送至 %2$s"
+
+#: templates/admin/tab-reports.php
+msgid "Not scheduled"
+msgstr "未安排"
+
+#: templates/admin/tab-reports.php
+msgid "This evidence bundle is for transparency and documentation purposes only. It does not constitute legal compliance certification."
+msgstr "本证据包仅供透明度和文档记录目的使用。不构成法律合规认证。"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Reports & Structured Evidence Bundles"
+msgstr "PDF 报告与结构化证据包"
+
+#: templates/admin/tab-reports.php
+msgid "Content Snapshots at Time of Declaration"
+msgstr "声明时的内容快照"
+
+#: templates/admin/tab-reports.php
+msgid "Media Provenance Capture (EXIF/IPTC/C2PA)"
+msgstr "媒体来源捕获（EXIF/IPTC/C2PA）"
+
+#: templates/admin/tab-reports.php
+msgid "Custom Label Text & Colors"
+msgstr "自定义标签文本与颜色"
+
+#: templates/admin/settings.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+#: templates/admin/settings.php
+msgid "Platform Settings"
+msgstr "平台设置"
+
+#: templates/admin/settings.php
+msgid "Configure license, content types, labels, automation, alerts, and reports."
+msgstr "配置许可证、内容类型、标签、自动化、警报和报告。"
+
+#: templates/admin/settings.php
+msgid "Content & Labels"
+msgstr "内容与标签"
+
+#: templates/admin/settings.php
+msgid "Automation"
+msgstr "自动化"
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr "许可证"
+
+#: templates/admin/settings.php
+msgid "Site ID:"
+msgstr "站点 ID："
+
+#: templates/admin/settings.php
+msgid "Sync Free License"
+msgstr "同步免费许可证"
+
+#: templates/admin/settings.php
+msgid "Opt-in to enable automatic updates and support."
+msgstr "选择启用自动更新和支持。"
+
+#: templates/admin/settings.php
+msgid "Upgrade License"
+msgstr "升级许可证"
+
+#: templates/admin/settings.php
+msgid "Manage Account"
+msgstr "管理帐户"
+
+#: templates/admin/settings.php
+msgid "You previously skipped this. Connect to enable automatic updates."
+msgstr "您之前跳过了此步骤。连接以启用自动更新。"
+
+#: templates/admin/settings.php
+msgid "Jurisdiction"
+msgstr "司法管辖区"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering."
+msgstr "选择您的主要监管司法管辖区以进行警报过滤。"
+
+#: templates/admin/settings.php
+msgid "Save Region"
+msgstr "保存地区"
+
+#: templates/admin/settings.php
+msgid "Label Style"
+msgstr "标签样式"
+
+#: templates/admin/settings.php
+msgid "Choose how AI transparency labels appear on your content."
+msgstr "选择 AI 透明度标签在您内容中的显示样式。"
+
+#: templates/admin/settings.php
+msgid "Official EU Icon"
+msgstr "官方欧盟图标"
+
+#: templates/admin/settings.php
+msgid "Pill Style"
+msgstr "药丸样式"
+
+#: templates/admin/settings.php
+msgid "Minimal Text"
+msgstr "极简文本"
+
+#: templates/admin/settings.php
+msgid "Banner Style"
+msgstr "横幅样式"
+
+#: templates/admin/settings.php
+msgid "Outline Card"
+msgstr "轮廓卡片"
+
+#: templates/admin/settings.php
+msgid "Default"
+msgstr "默认"
+
+#: templates/admin/settings.php
+msgid "Placement"
+msgstr "位置"
+
+#: templates/admin/settings.php
+msgid "Top of Content (Recommended)"
+msgstr "内容顶部（推荐）"
+
+#: templates/admin/settings.php
+msgid "Both Top & Bottom"
+msgstr "顶部和底部"
+
+#: templates/admin/settings.php
+msgid "Manual Only (Shortcode)"
+msgstr "仅手动（短代码）"
+
+#: templates/admin/settings.php
+msgid "Disclosure must appear before or at the point of exposure to comply with transparency principles."
+msgstr "披露必须在曝光之前或之时出现，以符合透明度原则。"
+
+#: templates/admin/settings.php
+msgid "Uses the EU's official AI content icons; this does not constitute formal adherence to the Code of Practice."
+msgstr "使用欧盟官方 AI 内容图标；这不构成对行为准则的正式遵守。"
+
+#: templates/admin/settings.php
+msgid "Save Label Settings"
+msgstr "保存标签设置"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "自定义标签文本"
+
+#: templates/admin/settings.php
+msgid "Customize the text displayed for each declaration type."
+msgstr "自定义每种声明类型显示的文本。"
+
+#: templates/admin/settings.php
+msgid "Custom label text is available on Pro and Agency plans."
+msgstr "自定义标签文本在专业版和机构版计划中可用。"
+
+#: templates/admin/settings.php
+msgid "Upgrade"
+msgstr "升级"
+
+#: templates/admin/settings.php
+msgid "Save Custom Text"
+msgstr "保存自定义文本"
+
+#: templates/admin/settings.php
+msgid "Tracked Post Types"
+msgstr "跟踪的文章类型"
+
+#: templates/admin/settings.php
+msgid "Select which content types require a source declaration before publishing."
+msgstr "选择哪些内容类型在发布前需要来源声明。"
+
+#: templates/admin/settings.php
+msgid "PRO"
+msgstr "专业版"
+
+#: templates/admin/settings.php
+msgid "Save Content Types"
+msgstr "保存内容类型"
+
+#: templates/admin/settings.php
+msgid "Auto-regenerate disclosure files"
+msgstr "自动重新生成披露文件"
+
+#: templates/admin/settings.php
+msgid "Rebuild AI.txt, LLMs.txt, and Robots.txt automatically when a declaration changes."
+msgstr "声明更改时自动重建 AI.txt、LLMs.txt 和 Robots.txt。"
+
+#: templates/admin/settings.php
+msgid "Auto-update verification"
+msgstr "自动更新验证"
+
+#: templates/admin/settings.php
+msgid "Keep the public verification page in sync with declarations."
+msgstr "保持公开验证页面与声明同步。"
+
+#: templates/admin/settings.php
+msgid "Automatic on Pro/Agency (always on):"
+msgstr "专业版/机构版自动（始终开启）："
+
+#: templates/admin/settings.php
+msgid "Content Snapshot captured at the moment of each declaration"
+msgstr "每次声明时捕获的内容快照"
+
+#: templates/admin/settings.php
+msgid "Media Provenance metadata captured at upload time"
+msgstr "上传时捕获的媒体来源元数据"
+
+#: templates/admin/settings.php
+msgid "Save Automation"
+msgstr "保存自动化设置"
+
+#: templates/admin/settings.php
+msgid "Email & Reports"
+msgstr "电子邮件与报告"
+
+#: templates/admin/settings.php
+msgid "Report Frequency"
+msgstr "报告频率"
+
+#: templates/admin/settings.php
+msgid "Disabled"
+msgstr "已禁用"
+
+#: templates/admin/settings.php
+msgid "Weekly"
+msgstr "每周"
+
+#: templates/admin/settings.php
+msgid "Monthly"
+msgstr "每月"
+
+#: templates/admin/settings.php
+msgid "Quarterly"
+msgstr "每季度"
+
+#: templates/admin/settings.php
+msgid "Report Email"
+msgstr "报告邮箱"
+
+#: templates/admin/settings.php
+msgid "Save Email Settings"
+msgstr "保存电子邮件设置"
+
+#: templates/admin/settings.php
+msgid "Regulatory alerts are pulled from a public, non-personal data feed. No site content or data is ever transmitted."
+msgstr "监管警报从公共的非个人数据源获取。不会传输任何站点内容或数据。"
+
+#: templates/admin/settings.php
+msgid "Source"
+msgstr "来源"
+
+#: templates/admin/settings.php
+msgid "Public Regulatory Feed (read-only)"
+msgstr "公共监管数据源（只读）"
+
+#: templates/admin/settings.php
+msgid "Frequency"
+msgstr "频率"
+
+#: templates/admin/settings.php
+msgid "Daily"
+msgstr "每日"
+
+#: templates/admin/settings.php
+msgid "This is the only external data fetch in MegaGovern. All other features operate entirely locally."
+msgstr "这是 MegaGovern 中唯一的外部数据获取。所有其他功能完全在本地运行。"
+
+#: templates/admin/settings.php
+msgid "White Label — Active"
+msgstr "白标 — 已激活"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding is removed from public-facing elements."
+msgstr "MegaGovern 品牌标识已从面向公众的元素中移除。"
+
+#: templates/admin/settings.php
+msgid "Unlock Pro — Full Transparency Suite"
+msgstr "解锁专业版 — 完整透明度套件"
+
+#: templates/admin/settings.php
+msgid "Custom AI Policy Editor"
+msgstr "自定义 AI 政策编辑器"
+
+#: templates/admin/settings.php
+msgid "Content Snapshots & Evidence Bundles"
+msgstr "内容快照与证据包"
+
+#: templates/admin/settings.php
+msgid "PDF Reports & Evidence Export"
+msgstr "PDF 报告与证据导出"
+
+#: templates/admin/settings.php
+msgid "Regulatory Alerts — All Jurisdictions"
+msgstr "监管警报 — 所有司法管辖区"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "自定义标签文本"
+
+#: templates/admin/settings.php
+msgid "365-Day Evidence Retention"
+msgstr "365 天证据保留"
+
+#: templates/admin/settings.php
+msgid "All Post Types Support"
+msgstr "所有文章类型支持"
+
+#: templates/admin/settings.php
+msgid "Priority Support"
+msgstr "优先支持"
+
+#: templates/admin/settings.php
+msgid "When someone asks you to prove it, this is what you hand them."
+msgstr "当有人要求您证明时，这就是您提供的内容。"
+
+#: templates/admin/settings.php
+msgid "Upgrade Now"
+msgstr "立即升级"
+
+#: templates/admin/settings.php
+msgid "AI Transparency Notice"
+msgstr "AI 透明度通知"
+
+#: templates/admin/settings.php
+msgid "Display a professional AI transparency notice bar on your frontend to inform visitors about AI-generated content."
+msgstr "在前端显示专业的 AI 透明度通知栏，告知访客有关 AI 生成内容的信息。"
+
+#: templates/admin/settings.php
+msgid "Enable Notice"
+msgstr "启用通知"
+
+#: templates/admin/settings.php
+msgid "Show the AI transparency notice on your frontend."
+msgstr "在前端显示 AI 透明度通知。"
+
+#: templates/admin/settings.php
+msgid "Notice Position"
+msgstr "通知位置"
+
+#: templates/admin/settings.php
+msgid "Top of Page"
+msgstr "页面顶部"
+
+#: templates/admin/settings.php
+msgid "Bottom of Page"
+msgstr "页面底部"
+
+#: templates/admin/settings.php
+msgid "Dismiss Duration (Days)"
+msgstr "关闭持续时间（天）"
+
+#: templates/admin/settings.php
+msgid "How many days to hide the notice after dismissal."
+msgstr "关闭后隐藏通知的天数。"
+
+#: templates/admin/settings.php
+msgid "Color customization is available on Pro and Agency plans."
+msgstr "颜色自定义在专业版和机构版计划中可用。"
+
+#: templates/admin/settings.php
+msgid "Background"
+msgstr "背景"
+
+#: templates/admin/settings.php
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: templates/admin/settings.php
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: templates/admin/settings.php
+msgid "Upgrade to Pro to customize colors."
+msgstr "升级到专业版以自定义颜色。"
+
+#: templates/admin/settings.php
+msgid "Show Logo"
+msgstr "显示徽标"
+
+#: templates/admin/settings.php
+msgid "Display MegaGovern logo."
+msgstr "显示 MegaGovern 徽标。"
+
+#: templates/admin/settings.php
+msgid "Show Icon"
+msgstr "显示图标"
+
+#: templates/admin/settings.php
+msgid "Display AI shield icon."
+msgstr "显示 AI 盾牌图标。"
+
+#: templates/admin/settings.php
+msgid "AI Policy Page"
+msgstr "AI 政策页面"
+
+#: templates/admin/settings.php
+msgid "— Default Transparency Page —"
+msgstr "— 默认透明度页面 —"
+
+#: templates/admin/settings.php
+msgid "Select a custom page for your AI policy. Leave empty to use /transparency."
+msgstr "为您的 AI 政策选择自定义页面。留空以使用 /transparency。"
+
+#: templates/admin/settings.php
+msgid "Custom Notice Text"
+msgstr "自定义通知文本"
+
+#: templates/admin/settings.php
+msgid "Leave empty for default text. Custom text is available on Pro and Agency plans."
+msgstr "留空以使用默认文本。自定义文本在专业版和机构版计划中可用。"
+
+#: templates/admin/settings.php
+msgid "White Label Active"
+msgstr "白标已激活"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding removed from the notice bar."
+msgstr "MegaGovern 品牌标识已从通知栏中移除。"
+
+#: templates/admin/settings.php
+msgid "Save Notice Settings"
+msgstr "保存通知设置"
+
+#: templates/admin/settings.php
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: templates/admin/settings.php
+msgid "This is how the notice will appear on your frontend:"
+msgstr "通知在您前端的显示方式如下："
+
+#: templates/admin/settings.php
+msgid "This website uses artificial intelligence in some of its content."
+msgstr "本网站在部分内容中使用人工智能。"
+
+#: templates/admin/settings.php
+msgid "View AI Policy"
+msgstr "查看 AI 政策"
+
+#: templates/admin/settings.php
+msgid "Preview updates based on your settings above."
+msgstr "根据您上面的设置预览更新。"
+
+#: templates/admin/settings.php
+msgid "Shortcode"
+msgstr "短代码"
+
+#: templates/admin/settings.php
+msgid "Manually display the notice anywhere using this shortcode:"
+msgstr "使用此短代码在任何位置手动显示通知："
+
+#: templates/admin/settings.php
+msgid "Use this in posts, pages, or widget areas."
+msgstr "在文章、页面或小工具区域使用。"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering and compliance defaults."
+msgstr "选择您的主要监管司法管辖区以进行警报过滤和合规默认设置。"
+
+#: templates/admin/settings.php
+msgid "Automation & Reports"
+msgstr "自动化与报告"
+
+#: templates/admin/settings.php
+msgid "AI Notice"
+msgstr "AI 通知"
+
+#: templates/admin/agency.php
+msgid "You do not have permission to manage agency settings."
+msgstr "您没有权限管理机构设置。"
+
+#: templates/admin/agency.php
+msgid "Manage sites, white label, team, and reports."
+msgstr "管理站点、白标、团队和报告。"
+
+#: templates/admin/agency.php
+msgid "Site limit reached. Upgrade to add more sites."
+msgstr "已达到站点限制。升级以添加更多站点。"
+
+#: templates/admin/agency.php
+msgid "Invalid site URL. Please enter a valid URL."
+msgstr "无效的站点 URL。请输入有效的 URL。"
+
+#: templates/admin/agency.php
+msgid "Site added."
+msgstr "站点已添加。"
+
+#: templates/admin/agency.php
+msgid "Site removed."
+msgstr "站点已移除。"
+
+#: templates/admin/agency.php
+msgid "White Label saved."
+msgstr "白标已保存。"
+
+#: templates/admin/agency.php
+msgid "Member added."
+msgstr "成员已添加。"
+
+#: templates/admin/agency.php
+msgid "Member removed."
+msgstr "成员已移除。"
+
+#: templates/admin/agency.php
+msgid "You're using %1$d/%2$d sites — only %3$d site(s) remaining."
+msgstr "您正在使用 %1$d/%2$d 个站点 — 仅剩 %3$d 个站点。"
+
+#: templates/admin/agency.php
+msgid "Sites"
+msgstr "站点"
+
+#: templates/admin/agency.php
+msgid "White Label"
+msgstr "白标"
+
+#: templates/admin/agency.php
+msgid "Bulk Reports"
+msgstr "批量报告"
+
+#: templates/admin/agency.php
+msgid "Team"
+msgstr "团队"
+
+#: templates/admin/agency.php
+msgid "Total Sites"
+msgstr "站点总数"
+
+#: templates/admin/agency.php
+msgid "Compliant"
+msgstr "合规"
+
+#: templates/admin/agency.php
+msgid "Attention"
+msgstr "需注意"
+
+#: templates/admin/agency.php
+msgid "Managed Sites"
+msgstr "已管理站点"
+
+#: templates/admin/agency.php
+msgid "Site"
+msgstr "站点"
+
+#: templates/admin/agency.php
+msgid "Score"
+msgstr "评分"
+
+#: templates/admin/agency.php
+msgid "Poor"
+msgstr "较差"
+
+#: templates/admin/agency.php
+msgid "Open"
+msgstr "打开"
+
+#: templates/admin/agency.php
+msgid "No sites added."
+msgstr "未添加站点。"
+
+#: templates/admin/agency.php
+msgid "sites used"
+msgstr "已使用站点"
+
+#: templates/admin/agency.php
+msgid "remaining"
+msgstr "剩余"
+
+#: templates/admin/agency.php
+msgid "Add Site"
+msgstr "添加站点"
+
+#: templates/admin/agency.php
+msgid "Site Name"
+msgstr "站点名称"
+
+#: templates/admin/agency.php
+msgid "Add"
+msgstr "添加"
+
+#: templates/admin/agency.php
+msgid "Site limit reached."
+msgstr "已达到站点限制。"
+
+#: templates/admin/agency.php
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/agency.php
+msgid "Remove this site?"
+msgstr "移除此站点？"
+
+#: templates/admin/agency.php
+msgid "White Label Branding"
+msgstr "白标品牌"
+
+#: templates/admin/agency.php
+msgid "Agency Name"
+msgstr "机构名称"
+
+#: templates/admin/agency.php
+msgid "Logo URL"
+msgstr "徽标 URL"
+
+#: templates/admin/agency.php
+msgid "Brand Color"
+msgstr "品牌颜色"
+
+#: templates/admin/agency.php
+msgid "Footer Text"
+msgstr "页脚文本"
+
+#: templates/admin/agency.php
+msgid "Powered by [Agency]"
+msgstr "由 [机构] 提供支持"
+
+#: templates/admin/agency.php
+msgid "Hide Branding"
+msgstr "隐藏品牌"
+
+#: templates/admin/agency.php
+msgid "Remove MegaGovern from public pages"
+msgstr "从公开页面移除 MegaGovern"
+
+#: templates/admin/agency.php
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: templates/admin/agency.php
+msgid "Generate All Reports"
+msgstr "生成所有报告"
+
+#: templates/admin/agency.php
+msgid "Generate compliance reports for all %d sites."
+msgstr "为所有 %d 个站点生成合规报告。"
+
+#: templates/admin/agency.php
+msgid "Auto-generate monthly compliance reports."
+msgstr "自动生成月度合规报告。"
+
+#: templates/admin/agency.php
+msgid "Enable scheduled monthly reports"
+msgstr "启用预定的月度报告"
+
+#: templates/admin/agency.php
+msgid "Save Schedule"
+msgstr "保存日程"
+
+#: templates/admin/agency.php
+msgid "Add Team Member"
+msgstr "添加团队成员"
+
+#: templates/admin/agency.php
+msgid "Admin"
+msgstr "管理员"
+
+#: templates/admin/agency.php
+msgid "Manager"
+msgstr "经理"
+
+#: templates/admin/agency.php
+msgid "Editor"
+msgstr "编辑"
+
+#: templates/admin/agency.php
+msgid "Contributor"
+msgstr "贡献者"
+
+#: templates/admin/agency.php
+msgid "Team Members"
+msgstr "团队成员"
+
+#: templates/admin/agency.php
+msgid "User"
+msgstr "用户"
+
+#: templates/admin/agency.php
+msgid "Role"
+msgstr "角色"
+
+#: templates/admin/agency.php
+msgid "Remove this member?"
+msgstr "移除这位成员？"
+
+#: templates/admin/agency.php
+msgid "No team members added."
+msgstr "未添加团队成员。"
+
+#: templates/admin/agency.php
+msgid "Plan Details"
+msgstr "计划详情"
+
+#: templates/admin/agency.php
+msgid "Plan"
+msgstr "计划"
+
+#: templates/admin/agency.php
+msgid "Site Limit"
+msgstr "站点限制"
+
+#: templates/admin/agency.php
+msgid "Included"
+msgstr "包含"
+
+#: templates/admin/agency.php
+msgid "Team Access"
+msgstr "团队访问权限"
+
+#: templates/admin/tab-governance.php
+msgid "Regulatory Intelligence"
+msgstr "监管情报"
+
+#: templates/admin/tab-governance.php
+msgid "Live"
+msgstr "实时"
+
+#: templates/admin/tab-governance.php
+msgid "Total Directives"
+msgstr "指令总数"
+
+#: templates/admin/tab-governance.php
+msgid "Jurisdictions"
+msgstr "司法管辖区"
+
+#: templates/admin/tab-governance.php
+msgid "Source Tier"
+msgstr "来源层级"
+
+#: templates/admin/tab-governance.php
+msgid "Verified"
+msgstr "已验证"
+
+#: templates/admin/tab-governance.php
+msgid "Latest Directives"
+msgstr "最新指令"
+
+#: templates/admin/tab-governance.php
+msgid "No regulatory alerts yet."
+msgstr "暂无监管警报。"
+
+#: templates/admin/tab-governance.php
+msgid "Mark All as Read"
+msgstr "全部标记为已读"
+
+#: templates/admin/tab-governance.php
+msgid "Full Regulatory Feed"
+msgstr "完整监管数据源"
+
+#: templates/admin/tab-governance.php
+msgid "Unlock live jurisdiction filtering, verified source feeds, and automated alert tracking."
+msgstr "解锁实时司法管辖区过滤、已验证来源数据源和自动化警报跟踪。"
+
+#: templates/admin/tab-governance.php
+msgid "EU AI Act — Article Coverage"
+msgstr "欧盟人工智能法案 — 条款覆盖"
+
+#: templates/admin/tab-governance.php
+msgid "Overall Coverage Score"
+msgstr "总体覆盖评分"
+
+#: templates/admin/tab-governance.php
+msgid "%d of %d directives covered"
+msgstr "已覆盖 %d 条指令中的 %d 条"
+
+#: templates/admin/tab-governance.php
+msgid "Action Item:"
+msgstr "操作项："
+
+#: templates/admin/tab-governance.php
+msgid "Review uncovered directives"
+msgstr "审阅未覆盖的指令"
+
+#: templates/admin/notice-settings.php
+msgid "AI Notice Settings"
+msgstr "AI 通知设置"
+
+#: templates/admin/notice-settings.php
+msgid "Customize the AI transparency notice bar displayed on your website."
+msgstr "自定义网站上显示的 AI 透明度通知栏。"
+
+#: templates/admin/notice-settings.php
+msgid "Show AI transparency notice on the frontend."
+msgstr "在前端显示 AI 透明度通知。"
+
+#: templates/admin/notice-settings.php
+msgid "Position"
+msgstr "位置"
+
+#: templates/admin/notice-settings.php
+msgid "Top of page"
+msgstr "页面顶部"
+
+#: templates/admin/notice-settings.php
+msgid "Bottom of page"
+msgstr "页面底部"
+
+#: templates/admin/notice-settings.php
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: templates/admin/notice-settings.php
+msgid "Display MegaGovern logo in the notice."
+msgstr "在通知中显示 MegaGovern 徽标。"
+
+#: templates/admin/notice-settings.php
+msgid "Display AI shield icon in the notice."
+msgstr "在通知中显示 AI 盾牌图标。"
+
+#: templates/admin/notice-settings.php
+msgid "— Select page —"
+msgstr "— 选择页面 —"
+
+#: templates/admin/notice-settings.php
+msgid "Select the page where your AI policy is displayed."
+msgstr "选择显示您 AI 政策的页面。"
+
+#: templates/admin/notice-settings.php
+msgid "Custom Text"
+msgstr "自定义文本"
+
+#: templates/admin/notice-settings.php
+msgid "Custom notice text. Leave empty for default."
+msgstr "自定义通知文本。留空以使用默认文本。"
+
+#: templates/public/badge.php
+msgid "Transparent Site"
+msgstr "透明站点"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency"
+msgstr "透明度"
+
+#: templates/public/transparency-drawer.php
+msgid "Toggle transparency information"
+msgstr "切换透明度信息"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Center"
+msgstr "透明度中心"
+
+#: templates/public/transparency-drawer.php
+msgid "Close"
+msgstr "关闭"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Summary"
+msgstr "透明度摘要"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Human Written"
+msgstr "声明为人类撰写"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Assisted"
+msgstr "声明为 AI 辅助"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Generated"
+msgstr "声明为 AI 生成"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Synthetic Media"
+msgstr "声明为合成媒体"
+
+#: templates/public/transparency-drawer.php
+msgid "Last Declaration"
+msgstr "上次声明"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Records"
+msgstr "透明度记录"
+
+#: templates/public/transparency-drawer.php
+msgid "Verification Status"
+msgstr "验证状态"
+
+#: templates/public/transparency-drawer.php
+msgid "Verified"
+msgstr "已验证"
+
+#: templates/public/transparency-drawer.php
+msgid "View Transparency Page"
+msgstr "查看透明度页面"
+
+#: templates/public/transparency-drawer.php
+msgid "Read AI Policy"
+msgstr "阅读 AI 政策"
+
+#: templates/public/transparency-drawer.php
+msgid "Download AI.txt"
+msgstr "下载 AI.txt"
+
+#: templates/public/transparency-drawer.php
+msgid "Verify Transparency"
+msgstr "验证透明度"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency information aligned with EU AI Act Article 50 disclosure goals."
+msgstr "透明度信息符合欧盟人工智能法案第 50 条的披露目标。"
+
+#: templates/public/transparency-drawer.php
+msgid "Powered by MegaGovern"
+msgstr "由 MegaGovern 提供支持"
+
+#: templates/public/verify-page.php
+msgid "Not available"
+msgstr "不可用"
+
+#: templates/public/verify-page.php
+msgid "About This Page"
+msgstr "关于此页面"
+
+#: templates/public/verify-page.php
+msgid "This website voluntarily maintains an AI Content Transparency Registry and publishes AI disclosure information. All content sources are declared and recorded in a verifiable transparency registry, providing proof of responsible AI governance."
+msgstr "本网站自愿维护 AI 内容透明度注册表并发布 AI 披露信息。所有内容来源均在可验证的透明度注册表中声明和记录，提供负责任的 AI 治理证明。"
+
+#: templates/public/verify-page.php
+msgid "Total Declared Articles"
+msgstr "已声明文章总数"
+
+#: templates/public/verify-page.php
+msgid "Machine-readable file"
+msgstr "机器可读文件"
+
+#: templates/public/verify-page.php
+msgid "Verification"
+msgstr "验证"
+
+#: templates/public/verify-page.php
+msgid "Registry ID"
+msgstr "注册表 ID"
+
+#: templates/public/verify-page.php
+msgid "Generated"
+msgstr "已生成"
+
+#: templates/public/verify-page.php
+msgid "Generated automatically from the website's Transparency Registry by megagovern.com."
+msgstr "由 megagovern.com 从网站的透明度注册表自动生成。"
+
+#: templates/public/report-pdf.php
+msgid "MegaGovern — AI Transparency & Compliance Report"
+msgstr "MegaGovern — AI 透明度与合规报告"
+
+#: templates/public/report-pdf.php
+msgid "Site:"
+msgstr "站点："
+
+#: templates/public/report-pdf.php
+msgid "URL:"
+msgstr "URL："
+
+#: templates/public/report-pdf.php
+msgid "Generated:"
+msgstr "生成时间："
+
+#: templates/public/report-pdf.php
+msgid "Period:"
+msgstr "周期："
+
+#: templates/public/report-pdf.php
+msgid "%1$s of %2$s published items declared"
+msgstr "已声明 %2$s 个已发布项目中的 %1$s 个"
+
+#: templates/public/report-pdf.php
+msgid "Declaration Breakdown"
+msgstr "声明分类"
+
+#: templates/public/report-pdf.php
+msgid "Synthetic / Deepfake"
+msgstr "合成 / 深度伪造"
+
+#: templates/public/report-pdf.php
+msgid "Transparency Measures"
+msgstr "透明度措施"
+
+#: templates/public/report-pdf.php
+msgid "Measure"
+msgstr "措施"
+
+#: templates/public/report-pdf.php
+msgid "Details"
+msgstr "详情"
+
+#: templates/public/report-pdf.php
+msgid "Not started"
+msgstr "未开始"
+
+#: templates/public/report-pdf.php
+msgid "posts declared"
+msgstr "已声明文章"
+
+#: templates/public/report-pdf.php
+msgid "Not published"
+msgstr "未发布"
+
+#: templates/public/report-pdf.php
+msgid "Not active"
+msgstr "未激活"
+
+#: templates/public/report-pdf.php
+msgid "Content Labels"
+msgstr "内容标签"
+
+#: templates/public/report-pdf.php
+msgid "Disabled"
+msgstr "已禁用"
+
+#: templates/public/report-pdf.php
+msgid "SHA-256 Integrity"
+msgstr "SHA-256 完整性"
+
+#: templates/public/report-pdf.php
+msgid "Content hashes generated on declaration"
+msgstr "声明时生成的内容哈希"
+
+#: templates/public/report-pdf.php
+msgid "IMPORTANT LEGAL DISCLAIMER"
+msgstr "重要法律免责声明"
+
+#: templates/public/report-pdf.php
+msgid "This report is generated by the MegaGovern plugin for transparency and documentation purposes only. It does NOT constitute legal advice, legal compliance certification, or a guarantee of regulatory compliance. Legal compliance depends on your jurisdiction, your content, and your legal counsel."
+msgstr "本报告由 MegaGovern 插件生成，仅供透明度和文档记录目的。不构成法律建议、法律合规认证或监管合规保证。法律合规取决于您的司法管辖区、内容和法律顾问。"
+
+#: templates/public/report-pdf.php
+msgid "Meganova Agency makes no representations or warranties regarding the completeness or accuracy of this data for legal purposes. Users should consult qualified legal counsel for compliance determinations specific to their situation."
+msgstr "Meganova Agency 对此数据用于法律目的的完整性或准确性不作任何陈述或保证。用户应就适合其情况的具体合规决定咨询合格的法律顾问。"
+
+#: templates/public/report-pdf.php
+msgid "Generated by MegaGovern v%s — AI Transparency & Documentation Toolkit"
+msgstr "由 MegaGovern v%s 生成 — AI 透明度与文档工具包"
+
+#: templates/public/report-pdf.php
+msgid "https://megagovern.com"
+msgstr "https://megagovern.com"
+
+#: includes/Core.php
+msgid "Content declaration type (human, ai_assisted, ai_generated, deepfake)"
+msgstr "内容声明类型（人工、ai辅助、ai生成、深度伪造）"
+
+#: includes/Core.php
+msgid "User ID who declared the content"
+msgstr "声明内容的用户 ID"
+
+#: includes/Core.php
+msgid "Timestamp when content was declared"
+msgstr "内容声明时的时间戳"
+
+#: includes/Core.php
+msgid "Flag if declaration is stale due to content edits exceeding threshold"
+msgstr "标记声明是否因内容编辑超过阈值而过期"
+
+#: includes/Core.php
+msgid "SHA-256 hash of published content"
+msgstr "已发布内容的 SHA-256 哈希"
+
+#: includes/Core.php
+msgid "Legacy archive exemption flag"
+msgstr "遗留存档豁免标记"
+
+#: includes/Core.php
+msgid "Exemption revocation flag"
+msgstr "豁免撤销标记"
+
+#: includes/Core.php
+msgid "Action dismissed flag"
+msgstr "操作已忽略标记"
+
+#: includes/Core.php
+msgid "Action pending flag"
+msgstr "操作待处理标记"
+
+#: includes/Helpers.php
+msgid "Enacted"
+msgstr "已颁布"
+
+#: includes/Helpers.php
+msgid "Proposed"
+msgstr "已提议"
+
+#: includes/Helpers.php
+msgid "Framework"
+msgstr "框架"
+
+#: includes/Helpers.php
+msgid "Voluntary"
+msgstr "自愿"
+
+#: includes/Helpers.php
+msgid "Text"
+msgstr "文本"
+
+#: includes/Helpers.php
+msgid "Images"
+msgstr "图像"
+
+#: includes/Helpers.php
+msgid "Audio"
+msgstr "音频"
+
+#: includes/Helpers.php
+msgid "Video"
+msgstr "视频"
+
+#: includes/Helpers.php
+msgid "Deepfakes"
+msgstr "深度伪造"
+
+#: includes/Evidence.php
+msgid "No description provided."
+msgstr "未提供描述。"
+
+#: includes/Evidence.php
+msgid "Free plan shows International alerts only."
+msgstr "免费版仅显示国际警报。"
+
+#: includes/Evidence.php
+msgid "Upgrade to Pro"
+msgstr "升级到专业版"
+
+#: mega-govern.php
+msgid "MegaGovern Test Report"
+msgstr "MegaGovern 测试报告"
+
+#: mega-govern.php
+msgid "This is a test report from MegaGovern.\n\nIf you're seeing this, your email settings are working correctly."
+msgstr "这是 MegaGovern 的测试报告。\n\n如果您看到此消息，说明您的电子邮件设置工作正常。"

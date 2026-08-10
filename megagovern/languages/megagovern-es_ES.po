@@ -1,0 +1,3847 @@
+# MegaGovern — AI Transparency Toolkit
+# Copyright (C) 2026 MegaGovern
+# This file is distributed under the same license as the MegaGovern package.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: MegaGovern 1.0.4\n"
+"Report-Msgid-Bugs-To: https://megagovern.com/support\n"
+"POT-Creation-Date: 2026-05-30 12:00+0000\n"
+"PO-Revision-Date: 2026-05-30 18:00+0100\n"
+"Last-Translator: Tu Nombre <tuemail@ejemplo.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: megagovern\n"
+"X-Generator: Poedit 3.0\n"
+
+#. Plugin Name
+msgid "MegaGovern — AI Transparency Toolkit"
+msgstr "MegaGovern — Kit de Transparencia para IA"
+
+#. Plugin Description
+msgid "EU AI Act Article 50 compliant transparency labels, AI content declaration, AI.txt generator, and governance dashboard for WordPress."
+msgstr "Etiquetas de transparencia conformes con el Artículo 50 de la Ley de IA de la UE, declaración de contenido de IA, generador de AI.txt y panel de gobernanza para WordPress."
+
+# ============================================
+# ADMIN — Menu & Pages
+# ============================================
+
+#: includes/Admin.php
+msgid "MegaGovern"
+msgstr "MegaGovern"
+
+#: includes/Admin.php templates/admin/dashboard.php
+msgid "Dashboard"
+msgstr "Panel de Control"
+
+#: includes/Admin.php templates/admin/transparency-center.php
+msgid "Transparency Center"
+msgstr "Centro de Transparencia"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/settings.php
+msgid "Regulatory Alerts"
+msgstr "Alertas Regulatorias"
+
+#: includes/Admin.php includes/Score.php templates/admin/tab-reports.php
+msgid "Reports & Evidence"
+msgstr "Informes y Evidencias"
+
+#: includes/Admin.php templates/admin/settings.php
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/Admin.php templates/admin/agency.php
+msgid "Agency Hub"
+msgstr "Centro de Agencia"
+
+#: includes/Admin.php includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy"
+msgstr "Política de IA"
+
+#: includes/Admin.php
+msgid "Mission Control"
+msgstr "Centro de Control"
+
+#: includes/Admin.php
+msgid "Agency"
+msgstr "Agencia"
+
+# ============================================
+# ADMIN — Top Bar & Common
+# ============================================
+
+#: includes/Admin.php
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/Admin.php
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: includes/Admin.php
+msgid "AI transparency governance at a glance."
+msgstr "Gobernanza de transparencia de IA de un vistazo."
+
+#: includes/Admin.php
+msgid "Manage content classifications, AI disclosures, and compliance records."
+msgstr "Gestiona clasificaciones de contenido, divulgaciones de IA y registros de cumplimiento."
+
+#: includes/Admin.php
+msgid "Track AI regulations affecting your content. Updated with each plugin release."
+msgstr "Sigue las regulaciones de IA que afectan tu contenido. Actualizado con cada lanzamiento del plugin."
+
+#: includes/Admin.php
+msgid "Compliance reports, evidence bundles, and audit trails."
+msgstr "Informes de cumplimiento, paquetes de evidencias y pistas de auditoría."
+
+#: includes/Admin.php
+msgid "Configure MegaGovern for your compliance needs."
+msgstr "Configura MegaGovern según tus necesidades de cumplimiento."
+
+#: includes/Admin.php
+msgid "Manage multiple sites, white label settings, and team access."
+msgstr "Gestiona múltiples sitios, configuraciones de marca blanca y acceso de equipo."
+
+#: includes/Admin.php
+msgid "Manage your public AI usage policy."
+msgstr "Gestiona tu política pública de uso de IA."
+
+# ============================================
+# ADMIN — Common Messages
+# ============================================
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "You do not have permission to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+#: includes/Admin.php
+msgid "Access Denied"
+msgstr "Acceso Denegado"
+
+#: includes/Admin.php
+msgid "Fixing..."
+msgstr "Reparando..."
+
+#: includes/Admin.php templates/admin/tab-disclosures.php
+msgid "Done"
+msgstr "Hecho"
+
+#: includes/Admin.php
+msgid "Error — Click to retry"
+msgstr "Error — Haz clic para reintentar"
+
+#: includes/Admin.php
+msgid "Refreshing dashboard..."
+msgstr "Actualizando panel de control..."
+
+#: includes/Admin.php
+msgid "Syncing..."
+msgstr "Sincronizando..."
+
+#: includes/Admin.php
+msgid "Please select a classification."
+msgstr "Por favor, selecciona una clasificación."
+
+#: includes/Admin.php
+msgid "Please select at least one item."
+msgstr "Por favor, selecciona al menos un elemento."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "Processing..."
+msgstr "Procesando..."
+
+#: includes/Admin.php
+msgid "Error."
+msgstr "Error."
+
+#: includes/Admin.php
+msgid "Failed."
+msgstr "Falló."
+
+#: includes/Admin.php templates/admin/tab-content.php
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: includes/Admin.php
+msgid "No history found."
+msgstr "No se encontró historial."
+
+#: includes/Admin.php
+msgid "Failed to load."
+msgstr "Error al cargar."
+
+#: includes/Admin.php
+msgid "This section is coming soon."
+msgstr "Esta sección estará disponible próximamente."
+
+#: includes/Admin.php templates/admin/settings.php templates/admin/tab-alerts.php
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/tab-content.php templates/admin/settings.php
+msgid "Pro"
+msgstr "Pro"
+
+# ============================================
+# PHP VERSION CHECK
+# ============================================
+
+#: mega-govern.php
+msgid "requires PHP %1$s or higher. Your site is running PHP %2$s."
+msgstr "requiere PHP %1$s o superior. Tu sitio está ejecutando PHP %2$s."
+
+# ============================================
+# DECLARATION TYPES
+# ============================================
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Human Made"
+msgstr "Hecho por Humanos"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "AI Modified"
+msgstr "Modificado por IA"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Fully AI-Generated"
+msgstr "Totalmente Generado por IA"
+
+#: includes/Declaration.php includes/Helpers.php includes/Labels.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Synthetic Media"
+msgstr "Medios Sintéticos"
+
+#: includes/Declaration.php
+msgid "Content created by a human"
+msgstr "Contenido creado por un humano"
+
+#: includes/Declaration.php
+msgid "AI Modified content - AI was used to modify pre-existing human content"
+msgstr "Contenido modificado por IA - Se utilizó IA para modificar contenido humano preexistente"
+
+#: includes/Declaration.php
+msgid "Fully AI-Generated content - No human editorial control"
+msgstr "Contenido totalmente generado por IA - Sin control editorial humano"
+
+#: includes/Declaration.php
+msgid "AI Generated or manipulated content (Synthetic Media) - May not be authentic"
+msgstr "Contenido generado o manipulado por IA (Medios Sintéticos) - Puede no ser auténtico"
+
+# ============================================
+# DECLARATION — META BOX
+# ============================================
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration"
+msgstr "Declaración de la Ley de IA de la UE"
+
+#: includes/Declaration.php
+msgid "Select content source (EU AI Act Art. 50):"
+msgstr "Selecciona la fuente del contenido (Art. 50 de la Ley de IA de la UE):"
+
+#: includes/Declaration.php
+msgid "Current: %s"
+msgstr "Actual: %s"
+
+#: includes/Declaration.php
+msgid "Snapshot captured"
+msgstr "Captura instantánea realizada"
+
+#: includes/Declaration.php
+msgid "Required before publishing — EU AI Act Art. 50"
+msgstr "Requerido antes de publicar — Art. 50 de la Ley de IA de la UE"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration required."
+msgstr "Declaración de la Ley de IA de la UE requerida."
+
+#: includes/Declaration.php
+msgid "Please select the content source before publishing (Article 50)."
+msgstr "Por favor, selecciona la fuente del contenido antes de publicar (Artículo 50)."
+
+# ============================================
+# DECLARATION — AJAX
+# ============================================
+
+#: includes/Declaration.php includes/Ajax.php
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+#: includes/Declaration.php
+msgid "Invalid data."
+msgstr "Datos inválidos."
+
+#: includes/Declaration.php
+msgid "Content declared as %s."
+msgstr "Contenido declarado como %s."
+
+#: includes/Declaration.php
+msgid "Declaration failed."
+msgstr "Declaración fallida."
+
+# ============================================
+# HELPERS — Labels & Types
+# ============================================
+
+#: includes/Helpers.php
+msgid "Human Authored"
+msgstr "Creado por Humanos"
+
+#: includes/Helpers.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Assisted"
+msgstr "Asistido por IA"
+
+#: includes/Helpers.php includes/Media.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Generated"
+msgstr "Generado por IA"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic"
+msgstr "Deepfake / Sintético"
+
+#: includes/Helpers.php
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/Helpers.php
+msgid "Human Created"
+msgstr "Creado por Humanos"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic Media"
+msgstr "Deepfake / Medios Sintéticos"
+
+#: includes/Helpers.php
+msgid "Article declared"
+msgstr "Artículo declarado"
+
+#: includes/Helpers.php
+msgid "Declaration updated"
+msgstr "Declaración actualizada"
+
+#: includes/Helpers.php
+msgid "Registry updated"
+msgstr "Registro actualizado"
+
+#: includes/Helpers.php
+msgid "AI.txt regenerated"
+msgstr "AI.txt regenerado"
+
+#: includes/Helpers.php
+msgid "Label displayed"
+msgstr "Etiqueta mostrada"
+
+#: includes/Helpers.php
+msgid "Report generated"
+msgstr "Informe generado"
+
+#: includes/Helpers.php
+msgid "Verification updated"
+msgstr "Verificación actualizada"
+
+#: includes/Helpers.php
+msgid "Alert received"
+msgstr "Alerta recibida"
+
+#: includes/Helpers.php
+msgid "Issue fixed"
+msgstr "Problema solucionado"
+
+#: includes/Helpers.php
+msgid "Services refreshed"
+msgstr "Servicios actualizados"
+
+#: includes/Helpers.php
+msgid "Crawler blocked"
+msgstr "Rastreador bloqueado"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "High"
+msgstr "Alta"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Medium"
+msgstr "Media"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Low"
+msgstr "Baja"
+
+#: includes/Helpers.php
+msgid "Healthy"
+msgstr "Saludable"
+
+#: includes/Helpers.php
+msgid "Warning"
+msgstr "Advertencia"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Critical"
+msgstr "Crítica"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "European Union"
+msgstr "Unión Europea"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: includes/Helpers.php includes/Alerts.php includes/SetupWizard.php templates/admin/settings.php
+msgid "Global"
+msgstr "Global"
+
+#: includes/Helpers.php templates/admin/settings.php
+msgid "General"
+msgstr "General"
+
+#: includes/Helpers.php
+msgid "Excellent"
+msgstr "Excelente"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Good"
+msgstr "Bueno"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Fair"
+msgstr "Aceptable"
+
+#: includes/Helpers.php
+msgid "Needs Attention"
+msgstr "Necesita Atención"
+
+#: includes/Helpers.php includes/Scanner.php
+msgid "Unknown"
+msgstr "Desconocido"
+
+# ============================================
+# GOVERNANCE
+# ============================================
+
+#: includes/Governance.php
+msgid "Dependent services refreshed."
+msgstr "Servicios dependientes actualizados."
+
+# ============================================
+# CRAWLER
+# ============================================
+
+#: includes/Crawler.php templates/admin/dashboard.php
+msgid "ago"
+msgstr "atrás"
+
+#: includes/Crawler.php
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/Crawler.php
+msgid "AI.txt, LLMs.txt, and Robots.txt regenerated."
+msgstr "AI.txt, LLMs.txt y Robots.txt regenerados."
+
+#: includes/Crawler.php
+msgid "Just Now"
+msgstr "Justo Ahora"
+
+# ============================================
+# LABELS
+# ============================================
+
+#: includes/Labels.php templates/admin/settings.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "Human Written"
+msgstr "Escrito por Humanos"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Assisted"
+msgstr "Asistido por IA"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Generated"
+msgstr "Generado por IA"
+
+#: templates/public/label.php
+msgid "EU AI Act Art. 50"
+msgstr "Art. 50 Ley de IA de la UE"
+
+# ============================================
+# MEDIA
+# ============================================
+
+#: includes/Media.php
+msgid "File not found."
+msgstr "Archivo no encontrado."
+
+#: includes/Media.php
+msgid "File too large for analysis."
+msgstr "Archivo demasiado grande para análisis."
+
+#: includes/Media.php
+msgid "Unsupported format."
+msgstr "Formato no compatible."
+
+#: includes/Media.php
+msgid "No AI markers detected."
+msgstr "No se detectaron marcadores de IA."
+
+#: includes/Media.php
+msgid "EXIF metadata indicates AI tool: %s"
+msgstr "Los metadatos EXIF indican herramienta de IA: %s"
+
+#: includes/Media.php
+msgid "EXIF contains AI generation keywords."
+msgstr "EXIF contiene palabras clave de generación de IA."
+
+#: includes/Media.php
+msgid "C2PA Content Credentials detected — image has verifiable AI provenance."
+msgstr "Credenciales de Contenido C2PA detectadas — la imagen tiene procedencia verificable de IA."
+
+#: includes/Media.php
+msgid "Stable Diffusion generation parameters detected."
+msgstr "Parámetros de generación de Stable Diffusion detectados."
+
+#: includes/Media.php
+msgid "AI Declaration"
+msgstr "Declaración de IA"
+
+#: includes/Media.php
+msgid "AI Detected"
+msgstr "IA Detectada"
+
+#: includes/Media.php
+msgid "Undeclared"
+msgstr "No Declarado"
+
+#: includes/Media.php
+msgid "— Select —"
+msgstr "— Seleccionar —"
+
+#: includes/Media.php
+msgid "Detection:"
+msgstr "Detección:"
+
+#: includes/Media.php
+msgid "Analyze Image"
+msgstr "Analizar Imagen"
+
+#: includes/Media.php
+msgid "Invalid attachment."
+msgstr "Archivo adjunto inválido."
+
+#: includes/Media.php
+msgid "Media declared."
+msgstr "Medio declarado."
+
+#: includes/Media.php
+msgid "Declaration saved."
+msgstr "Declaración guardada."
+
+#: includes/Media.php
+msgid "Bulk declaration is available in Pro and Agency plans."
+msgstr "La declaración masiva está disponible en los planes Pro y Agencia."
+
+#: includes/Media.php
+msgid "%d image declared."
+msgid_plural "%d images declared."
+msgstr[0] "%d imagen declarada."
+msgstr[1] "%d imágenes declaradas."
+
+# ============================================
+# VERIFICATION
+# ============================================
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "AI Transparency Verification"
+msgstr "Verificación de Transparencia de IA"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verified Transparent Site"
+msgstr "Sitio Transparente Verificado"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "This website is committed to AI transparency and maintains a documented governance record through MegaGovern."
+msgstr "Este sitio web está comprometido con la transparencia de IA y mantiene un registro de gobernanza documentado a través de MegaGovern."
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Total Declared"
+msgstr "Total Declarado"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Last Updated"
+msgstr "Última Actualización"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verification Hash:"
+msgstr "Hash de Verificación:"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Powered by MegaGovern — AI Transparency & Disclosure Governance"
+msgstr "Desarrollado por MegaGovern — Gobernanza de Transparencia y Divulgación de IA"
+
+#: includes/Verification.php
+msgid "Verification data refreshed."
+msgstr "Datos de verificación actualizados."
+
+# ============================================
+# POLICY
+# ============================================
+
+#: includes/Policy.php
+msgid "AI Usage Policy"
+msgstr "Política de Uso de IA"
+
+#: includes/Policy.php
+msgid "Policy updated."
+msgstr "Política actualizada."
+
+#: includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy Settings"
+msgstr "Configuración de Política de IA"
+
+#: includes/Policy.php
+msgid "View Policy"
+msgstr "Ver Política"
+
+#: includes/Policy.php
+msgid "Saved."
+msgstr "Guardado."
+
+#: includes/Policy.php
+msgid "Customize Policy"
+msgstr "Personalizar Política"
+
+#: includes/Policy.php
+msgid "Custom Introduction"
+msgstr "Introducción Personalizada"
+
+#: includes/Policy.php
+msgid "Appears at the top of your AI Policy page."
+msgstr "Aparece en la parte superior de tu página de Política de IA."
+
+#: includes/Policy.php
+msgid "Custom introduction is a Pro feature."
+msgstr "La introducción personalizada es una función Pro."
+
+#: includes/Policy.php
+msgid "Contact Email"
+msgstr "Correo de Contacto"
+
+#: includes/Policy.php
+msgid "Contact Page URL"
+msgstr "URL de Página de Contacto"
+
+#: includes/Policy.php
+msgid "Save"
+msgstr "Guardar"
+
+# ============================================
+# ALERTS
+# ============================================
+
+#: includes/Alerts.php
+msgid "EU AI Act — General Provisions (Enacted)"
+msgstr "Ley de IA de la UE — Disposiciones Generales (Promulgada)"
+
+#: includes/Alerts.php
+msgid "EU AI Act — Article 50 Transparency (Effective August 2026)"
+msgstr "Ley de IA de la UE — Artículo 50 Transparencia (Vigente Agosto 2026)"
+
+#: includes/Alerts.php
+msgid "US Executive Order 14110 — Safe & Secure AI"
+msgstr "Orden Ejecutiva de EE.UU. 14110 — IA Segura y Protegida"
+
+#: includes/Alerts.php
+msgid "US NO AI FRAUD Act (Proposed)"
+msgstr "Ley NO AI FRAUD de EE.UU. (Propuesta)"
+
+#: includes/Alerts.php
+msgid "California SB 942 — AI Transparency Act (Signed)"
+msgstr "SB 942 de California — Ley de Transparencia de IA (Firmada)"
+
+#: includes/Alerts.php
+msgid "California AB 2013 — AI Training Data Disclosure (Signed)"
+msgstr "AB 2013 de California — Divulgación de Datos de Entrenamiento de IA (Firmada)"
+
+#: includes/Alerts.php
+msgid "Colorado AI Act (SB 24-205) — Effective February 2026"
+msgstr "Ley de IA de Colorado (SB 24-205) — Vigente Febrero 2026"
+
+#: includes/Alerts.php
+msgid "Utah AI Policy Act (SB 149) — Enacted"
+msgstr "Ley de Política de IA de Utah (SB 149) — Promulgada"
+
+#: includes/Alerts.php
+msgid "China — Deep Synthesis Provisions (Enacted)"
+msgstr "China — Disposiciones de Síntesis Profunda (Promulgadas)"
+
+#: includes/Alerts.php
+msgid "China — Generative AI Measures (Enacted)"
+msgstr "China — Medidas de IA Generativa (Promulgadas)"
+
+#: includes/Alerts.php
+msgid "UK — AI Regulation Framework (In Development)"
+msgstr "Reino Unido — Marco Regulatorio de IA (En Desarrollo)"
+
+#: includes/Alerts.php
+msgid "Canada — AIDA (Bill C-27) — Proposed"
+msgstr "Canadá — AIDA (Proyecto de Ley C-27) — Propuesto"
+
+#: includes/Alerts.php
+msgid "Brazil — AI Bill (PL 2338/2023) — In Progress"
+msgstr "Brasil — Proyecto de Ley de IA (PL 2338/2023) — En Progreso"
+
+#: includes/Alerts.php
+msgid "Japan — AI Business Guidelines (Published 2024)"
+msgstr "Japón — Directrices de Negocios de IA (Publicadas 2024)"
+
+#: includes/Alerts.php
+msgid "South Korea — AI Basic Act (Proposed 2024)"
+msgstr "Corea del Sur — Ley Básica de IA (Propuesta 2024)"
+
+#: includes/Alerts.php
+msgid "Australia — AI Ethics Framework (Voluntary)"
+msgstr "Australia — Marco Ético de IA (Voluntario)"
+
+#: includes/Alerts.php
+msgid "G7 — International AI Code of Conduct (Agreed 2023)"
+msgstr "G7 — Código Internacional de Conducta de IA (Acordado 2023)"
+
+#: includes/Alerts.php
+msgid "UN — General Assembly AI Resolution (Adopted March 2024)"
+msgstr "ONU — Resolución de IA de la Asamblea General (Adoptada Marzo 2024)"
+
+#: includes/Alerts.php
+msgid "Council of Europe — AI Treaty (Opened for Signature 2024)"
+msgstr "Consejo de Europa — Tratado de IA (Abierto a Firma 2024)"
+
+#: includes/Alerts.php
+msgid "The EU AI Act entered into force on August 1, 2024. General provisions and prohibited practices apply from February 2, 2025. Transparency obligations for GPAI models apply from August 2, 2025. High-risk AI system obligations phase in through August 2, 2027."
+msgstr "La Ley de IA de la UE entró en vigor el 1 de agosto de 2024. Las disposiciones generales y prácticas prohibidas se aplican desde el 2 de febrero de 2025. Las obligaciones de transparencia para modelos GPAI se aplican desde el 2 de agosto de 2025. Las obligaciones para sistemas de IA de alto riesgo se implementan gradualmente hasta el 2 de agosto de 2027."
+
+#: includes/Alerts.php
+msgid "Article 50 requires clear labeling of AI-generated content including text, images, audio, and video. Deepfakes must be explicitly marked. Limited exemptions for artistic and satirical content. Applies to all content accessible in the EU."
+msgstr "El Artículo 50 requiere el etiquetado claro de contenido generado por IA, incluyendo texto, imágenes, audio y video. Los deepfakes deben estar marcados explícitamente. Exenciones limitadas para contenido artístico y satírico. Se aplica a todo el contenido accesible en la UE."
+
+#: includes/Alerts.php
+msgid "Executive Order on Safe, Secure, and Trustworthy Development and Use of AI (October 2023). Requires developers of powerful AI systems to share safety test results. NIST developing AI content authentication and watermarking standards."
+msgstr "Orden Ejecutiva sobre Desarrollo y Uso Seguro, Protegido y Confiable de IA (Octubre 2023). Requiere que los desarrolladores de sistemas de IA potentes compartan resultados de pruebas de seguridad. NIST está desarrollando estándares de autenticación y marcas de agua para contenido de IA."
+
+#: includes/Alerts.php
+msgid "Federal bill proposed in January 2024 to establish intellectual property rights over voice and likeness against unauthorized AI-generated replicas."
+msgstr "Proyecto de ley federal propuesto en enero de 2024 para establecer derechos de propiedad intelectual sobre voz y semejanza contra réplicas no autorizadas generadas por IA."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires providers of generative AI systems to include provenance disclosures in AI-generated content. Mandates visible and machine-readable labels for AI-generated images, video, and audio."
+msgstr "Firmado en septiembre de 2024. Requiere que los proveedores de sistemas de IA generativa incluyan divulgaciones de procedencia en el contenido generado por IA. Obliga a etiquetas visibles y legibles por máquina para imágenes, video y audio generados por IA."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires developers of generative AI systems to publicly disclose information about the datasets used to train their models, including data sources and copyright status."
+msgstr "Firmado en septiembre de 2024. Requiere que los desarrolladores de sistemas de IA generativa divulguen públicamente información sobre los conjuntos de datos utilizados para entrenar sus modelos, incluyendo fuentes de datos y estado de derechos de autor."
+
+#: includes/Alerts.php
+msgid "Signed May 2024. First comprehensive state AI law in the US. Requires developers and deployers of high-risk AI systems to use reasonable care to protect consumers from algorithmic discrimination. Effective February 1, 2026."
+msgstr "Firmado en mayo de 2024. Primera ley estatal integral de IA en EE.UU. Requiere que los desarrolladores y desplegadores de sistemas de IA de alto riesgo utilicen cuidado razonable para proteger a los consumidores de la discriminación algorítmica. Vigente desde el 1 de febrero de 2026."
+
+#: includes/Alerts.php
+msgid "Enacted March 2024. First state AI law in the US to take effect. Requires disclosure when consumers interact with generative AI in regulated occupations (healthcare, legal, financial). Effective May 1, 2024."
+msgstr "Promulgada en marzo de 2024. Primera ley estatal de IA en EE.UU. en entrar en vigor. Requiere divulgación cuando los consumidores interactúan con IA generativa en ocupaciones reguladas (sanidad, legal, financiero). Vigente desde el 1 de mayo de 2024."
+
+#: includes/Alerts.php
+msgid "Effective January 10, 2023. Requires AI-generated content to be watermarked and clearly labeled. Deep synthesis service providers must obtain user consent, verify identities, and maintain audit logs. Applies to content accessible within China."
+msgstr "Vigente desde el 10 de enero de 2023. Requiere que el contenido generado por IA tenga marcas de agua y etiquetas claras. Los proveedores de servicios de síntesis profunda deben obtener el consentimiento del usuario, verificar identidades y mantener registros de auditoría. Se aplica al contenido accesible dentro de China."
+
+#: includes/Alerts.php
+msgid "Effective August 15, 2023. Regulates generative AI services available to the Chinese public. Requires content filtering, labeling of AI-generated output, protection of user data, and adherence to socialist core values."
+msgstr "Vigente desde el 15 de agosto de 2023. Regula los servicios de IA generativa disponibles para el público chino. Requiere filtrado de contenido, etiquetado de resultados generados por IA, protección de datos de usuarios y adhesión a los valores socialistas fundamentales."
+
+#: includes/Alerts.php
+msgid "The UK follows a principles-based, sector-led approach via existing regulators (ICO, CMA, Ofcom, FCA). The AI Safety Institute was launched in November 2023. No comprehensive AI legislation yet; the government is consulting on targeted requirements for frontier AI."
+msgstr "El Reino Unido sigue un enfoque basado en principios y liderado por sectores a través de reguladores existentes (ICO, CMA, Ofcom, FCA). El Instituto de Seguridad de IA se lanzó en noviembre de 2023. Aún no hay legislación integral de IA; el gobierno está consultando sobre requisitos específicos para IA de frontera."
+
+#: includes/Alerts.php
+msgid "The Artificial Intelligence and Data Act (AIDA) is part of Bill C-27, currently in parliamentary committee. Would establish requirements for high-impact AI systems including transparency, risk assessment, and human oversight."
+msgstr "La Ley de Inteligencia Artificial y Datos (AIDA) es parte del Proyecto de Ley C-27, actualmente en comité parlamentario. Establecería requisitos para sistemas de IA de alto impacto incluyendo transparencia, evaluación de riesgos y supervisión humana."
+
+#: includes/Alerts.php
+msgid "Comprehensive AI regulation under debate in the Brazilian Senate. Would establish risk-based classification of AI systems, require transparency for AI-generated content, and mandate human oversight for high-risk applications."
+msgstr "Regulación integral de IA en debate en el Senado brasileño. Establecería clasificación basada en riesgo de sistemas de IA, requeriría transparencia para contenido generado por IA y obligaría a supervisión humana para aplicaciones de alto riesgo."
+
+#: includes/Alerts.php
+msgid "Japan's Ministry of Economy, Trade and Industry (METI) published updated AI Guidelines in April 2024. Currently voluntary but signals future regulatory direction. Focuses on transparency, fairness, and human-centric AI."
+msgstr "El Ministerio de Economía, Comercio e Industria de Japón (METI) publicó Directrices de IA actualizadas en abril de 2024. Actualmente voluntarias pero señalan la dirección regulatoria futura. Se centran en transparencia, equidad e IA centrada en el ser humano."
+
+#: includes/Alerts.php
+msgid "Proposed comprehensive AI legislation introduced in the National Assembly. Would establish a legal framework for AI development, require high-risk AI transparency, and mandate labeling of AI-generated content."
+msgstr "Legislación integral de IA propuesta introducida en la Asamblea Nacional. Establecería un marco legal para el desarrollo de IA, requeriría transparencia de IA de alto riesgo y obligaría al etiquetado de contenido generado por IA."
+
+#: includes/Alerts.php
+msgid "Australia's voluntary AI Ethics Framework (updated 2024) outlines 8 principles including transparency, explainability, and accountability. The government is consulting on mandatory guardrails for high-risk AI."
+msgstr "El Marco Ético de IA voluntario de Australia (actualizado 2024) describe 8 principios incluyendo transparencia, explicabilidad y responsabilidad. El gobierno está consultando sobre barreras obligatorias para IA de alto riesgo."
+
+#: includes/Alerts.php
+msgid "Agreed October 30, 2023 by G7 leaders. Establishes 11 guiding principles for AI developers including transparency, accountability, and content authentication. While non-binding, it signals international regulatory direction."
+msgstr "Acordado el 30 de octubre de 2023 por los líderes del G7. Establece 11 principios rectores para desarrolladores de IA incluyendo transparencia, responsabilidad y autenticación de contenido. Aunque no es vinculante, señala la dirección regulatoria internacional."
+
+#: includes/Alerts.php
+msgid "Adopted unanimously March 21, 2024. First-ever standalone UN General Assembly resolution on AI. Calls for safe, secure, and trustworthy AI systems that respect human rights. Encourages member states to develop regulatory frameworks."
+msgstr "Adoptada por unanimidad el 21 de marzo de 2024. Primera resolución independiente de la Asamblea General de la ONU sobre IA. Pide sistemas de IA seguros, protegidos y confiables que respeten los derechos humanos. Alienta a los estados miembros a desarrollar marcos regulatorios."
+
+#: includes/Alerts.php
+msgid "The Framework Convention on AI and Human Rights, Democracy, and the Rule of Law opened for signature September 2024. First legally binding international treaty on AI. Signed by EU, US, UK, and others. Requires transparency, oversight, and accountability."
+msgstr "El Convenio Marco sobre IA y Derechos Humanos, Democracia y Estado de Derecho se abrió a la firma en septiembre de 2024. Primer tratado internacional jurídicamente vinculante sobre IA. Firmado por UE, EE.UU., Reino Unido y otros. Requiere transparencia, supervisión y responsabilidad."
+
+#: includes/Alerts.php
+msgid "All"
+msgstr "Todos"
+
+#: includes/Alerts.php
+msgid "EU"
+msgstr "UE"
+
+#: includes/Alerts.php
+msgid "USA"
+msgstr "EE.UU."
+
+#: includes/Alerts.php
+msgid "China"
+msgstr "China"
+
+#: includes/Alerts.php
+msgid "UK"
+msgstr "Reino Unido"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "No has iniciado sesión."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "No se proporcionó ID de alerta."
+
+# ============================================
+# ALERTS — UI
+# ============================================
+
+#: templates/admin/tab-alerts.php
+msgid "Alert"
+msgstr "Alerta"
+
+#: templates/admin/tab-alerts.php
+msgid "Total"
+msgstr "Total"
+
+#: templates/admin/tab-alerts.php
+msgid "Unread"
+msgstr "No leídas"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark All Read"
+msgstr "Marcar Todo como Leído"
+
+#: templates/admin/tab-alerts.php
+msgid "Region"
+msgstr "Región"
+
+#: templates/admin/tab-alerts.php
+msgid "Risk"
+msgstr "Riesgo"
+
+#: templates/admin/tab-alerts.php
+msgid "Status"
+msgstr "Estado"
+
+#: templates/admin/tab-alerts.php
+msgid "Upcoming"
+msgstr "Próximas"
+
+#: templates/admin/tab-alerts.php
+msgid "Clear Filters"
+msgstr "Limpiar Filtros"
+
+#: templates/admin/tab-alerts.php
+msgid "View All Alerts"
+msgstr "Ver Todas las Alertas"
+
+#: templates/admin/tab-alerts.php
+msgid "No Alerts Found"
+msgstr "No se Encontraron Alertas"
+
+#: templates/admin/tab-alerts.php
+msgid "No regulatory alerts match your current filters. Try adjusting or clearing your filters."
+msgstr "No hay alertas regulatorias que coincidan con tus filtros actuales. Intenta ajustar o limpiar tus filtros."
+
+#: templates/admin/tab-alerts.php
+msgid "All regulatory alerts have been reviewed. New alerts will appear with the next plugin update."
+msgstr "Todas las alertas regulatorias han sido revisadas. Las nuevas alertas aparecerán con la próxima actualización del plugin."
+
+#: templates/admin/tab-alerts.php
+msgid "New"
+msgstr "Nueva"
+
+#: templates/admin/tab-alerts.php
+msgid "Official Source"
+msgstr "Fuente Oficial"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark as Read"
+msgstr "Marcar como Leída"
+
+#: templates/admin/tab-alerts.php
+msgid "Data updated with plugin releases. No external API calls."
+msgstr "Datos actualizados con los lanzamientos del plugin. Sin llamadas externas a API."
+
+#: templates/admin/tab-alerts.php
+msgid "Showing %d alert"
+msgid_plural "Showing %d alerts"
+msgstr[0] "Mostrando %d alerta"
+msgstr[1] "Mostrando %d alertas"
+
+#: templates/admin/tab-alerts.php
+msgid "%d days remaining"
+msgstr "%d días restantes"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline passed"
+msgstr "Plazo vencido"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline"
+msgstr "Plazo"
+
+#: templates/admin/tab-alerts.php
+msgid "International"
+msgstr "Internacional"
+
+#: templates/admin/tab-alerts.php
+msgid "Regulatory Alert"
+msgstr "Alerta Regulatoria"
+
+#: templates/admin/tab-alerts.php
+msgid "Free plan shows International alerts only."
+msgstr "El plan Gratis muestra solo alertas Internacionales."
+
+#: templates/admin/tab-alerts.php
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+# ============================================
+# ISSUES
+# ============================================
+
+#: includes/Issues.php
+msgid "%s without declaration"
+msgstr "%s sin declaración"
+
+#: includes/Issues.php
+msgid "Published content has no source classification."
+msgstr "El contenido publicado no tiene clasificación de fuente."
+
+#: includes/Issues.php
+msgid "Declare Now"
+msgstr "Declarar Ahora"
+
+#: includes/Issues.php
+msgid "AI.txt not updated recently"
+msgstr "AI.txt no actualizado recientemente"
+
+#: includes/Issues.php
+msgid "Your AI.txt file may be stale."
+msgstr "Tu archivo AI.txt puede estar obsoleto."
+
+#: includes/Issues.php
+msgid "Regenerate Now"
+msgstr "Regenerar Ahora"
+
+#: includes/Issues.php
+msgid "Verification page may be outdated"
+msgstr "La página de verificación puede estar desactualizada"
+
+#: includes/Issues.php
+msgid "Your public verification page may not reflect the latest data."
+msgstr "Tu página de verificación pública puede no reflejar los datos más recientes."
+
+#: includes/Issues.php
+msgid "Refresh Now"
+msgstr "Actualizar Ahora"
+
+#: includes/Issues.php
+msgid "%d unread regulatory alert"
+msgid_plural "%d unread regulatory alerts"
+msgstr[0] "%d alerta regulatoria no leída"
+msgstr[1] "%d alertas regulatorias no leídas"
+
+#: includes/Issues.php
+msgid "You have regulatory updates to review."
+msgstr "Tienes actualizaciones regulatorias para revisar."
+
+#: includes/Issues.php
+msgid "View Alerts"
+msgstr "Ver Alertas"
+
+#: includes/Issues.php
+msgid "No recent transparency activity"
+msgstr "Sin actividad de transparencia reciente"
+
+#: includes/Issues.php
+msgid "Your site hasn't declared any content sources in over 30 days."
+msgstr "Tu sitio no ha declarado fuentes de contenido en más de 30 días."
+
+#: includes/Issues.php
+msgid "Declare Content"
+msgstr "Declarar Contenido"
+
+#: includes/Issues.php
+msgid "%d media files lack AI declaration"
+msgstr "%d archivos multimedia carecen de declaración de IA"
+
+#: includes/Issues.php
+msgid "Review Media"
+msgstr "Revisar Multimedia"
+
+# ============================================
+# SCORE
+# ============================================
+
+#: includes/Score.php
+msgid "Content Declaration"
+msgstr "Declaración de Contenido"
+
+#: includes/Score.php
+msgid "Transparency Labels"
+msgstr "Etiquetas de Transparencia"
+
+#: includes/Score.php
+msgid "AI.txt File"
+msgstr "Archivo AI.txt"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Crawler Protection"
+msgstr "Protección de Rastreadores"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Verification Page"
+msgstr "Página de Verificación"
+
+#: includes/Score.php
+msgid "Transparency for AI-generated content"
+msgstr "Transparencia para contenido generado por IA"
+
+#: includes/Score.php
+msgid "Content Declaration + Labels"
+msgstr "Declaración de Contenido + Etiquetas"
+
+#: includes/Score.php
+msgid "Disclosure of AI-manipulated media"
+msgstr "Divulgación de medios manipulados por IA"
+
+#: includes/Score.php
+msgid "C2PA Image Metadata (Enterprise)"
+msgstr "Metadatos de Imagen C2PA (Enterprise)"
+
+#: includes/Score.php
+msgid "Emotion recognition & biometric disclosure"
+msgstr "Reconocimiento de emociones y divulgación biométrica"
+
+#: includes/Score.php
+msgid "Not in scope"
+msgstr "No en alcance"
+
+#: includes/Score.php
+msgid "Machine-readable AI labeling"
+msgstr "Etiquetado de IA legible por máquina"
+
+#: includes/Score.php
+msgid "AI.txt Generator"
+msgstr "Generador de AI.txt"
+
+#: includes/Score.php
+msgid "Transparency obligations for AI systems"
+msgstr "Obligaciones de transparencia para sistemas de IA"
+
+#: includes/Score.php
+msgid "Verification Page + Registry"
+msgstr "Página de Verificación + Registro"
+
+# ============================================
+# REPORTS
+# ============================================
+
+#: includes/Reports.php
+msgid "All time"
+msgstr "Todo el tiempo"
+
+#: includes/Reports.php
+msgid "Present"
+msgstr "Presente"
+
+#: includes/Reports.php
+msgid "PDF report generated."
+msgstr "Informe PDF generado."
+
+#: includes/Reports.php
+msgid ""
+"Hello,\n"
+"\n"
+"Your scheduled compliance report is attached.\n"
+"\n"
+"Summary:\n"
+"- Total Declared: %d\n"
+"- Human Written: %d\n"
+"- AI Assisted: %d\n"
+"- AI Generated: %d\n"
+"\n"
+"View full transparency: %s\n"
+"\n"
+"— MegaGovern"
+msgstr ""
+"Hola,\n"
+"\n"
+"Tu informe de cumplimiento programado está adjunto.\n"
+"\n"
+"Resumen:\n"
+"- Total Declarado: %d\n"
+"- Escrito por Humanos: %d\n"
+"- Asistido por IA: %d\n"
+"- Generado por IA: %d\n"
+"\n"
+"Ver transparencia completa: %s\n"
+"\n"
+"— MegaGovern"
+
+#: includes/Reports.php templates/public/report-pdf.php
+msgid "MegaGovern Compliance Report"
+msgstr "Informe de Cumplimiento de MegaGovern"
+
+#: includes/Reports.php
+msgid "You do not have sufficient permissions."
+msgstr "No tienes permisos suficientes."
+
+#: includes/Reports.php
+msgid "Scheduled report emailed to %s."
+msgstr "Informe programado enviado por correo a %s."
+
+#: includes/Reports.php
+msgid "[%1$s] Transparency Report — %2$d%% Coverage — %3$s"
+msgstr "[%1$s] Informe de Transparencia — %2$d%% Cobertura — %3$s"
+
+#: includes/Reports.php
+msgid "Your scheduled transparency report is attached."
+msgstr "Tu informe de transparencia programado está adjunto."
+
+#: includes/Reports.php
+msgid "Coverage:"
+msgstr "Cobertura:"
+
+#: includes/Reports.php
+msgid "Declared:"
+msgstr "Declarado:"
+
+#: includes/Reports.php
+msgid "published items"
+msgstr "elementos publicados"
+
+#: includes/Reports.php
+msgid "View Verification Page"
+msgstr "Ver Página de Verificación"
+
+#: includes/Reports.php
+msgid "View AI.txt"
+msgstr "Ver AI.txt"
+
+#: includes/Reports.php
+msgid "DISCLAIMER:"
+msgstr "AVISO LEGAL:"
+
+#: includes/Reports.php
+msgid "This report is generated for transparency and documentation purposes only. It does not constitute legal compliance certification or legal advice. Consult qualified legal counsel for compliance determinations specific to your jurisdiction."
+msgstr "Este informe se genera únicamente con fines de transparencia y documentación. No constituye certificación de cumplimiento legal ni asesoramiento jurídico. Consulta con asesor legal calificado para determinaciones de cumplimiento específicas de tu jurisdicción."
+
+#: includes/Reports.php
+msgid "This report was automatically generated by MegaGovern — AI Content Governance & Transparency Platform. Sent to %s on a %s schedule."
+msgstr "Este informe fue generado automáticamente por MegaGovern — Plataforma de Gobernanza de Contenido de IA y Transparencia. Enviado a %s con una programación %s."
+
+# ============================================
+# EVIDENCE
+# ============================================
+
+#: includes/Evidence.php
+msgid "Security check failed."
+msgstr "Verificación de seguridad fallida."
+
+#: includes/Evidence.php
+msgid "You do not have permission to download evidence bundles."
+msgstr "No tienes permiso para descargar paquetes de evidencias."
+
+#: includes/Evidence.php
+msgid "Failed to initialize zip compressor."
+msgstr "Error al inicializar el compresor zip."
+
+#: includes/Evidence.php
+msgid "No AI usage policy published yet."
+msgstr "Aún no se ha publicado una política de uso de IA."
+
+#: includes/Evidence.php
+msgid "Evidence bundle file not found."
+msgstr "Archivo de paquete de evidencias no encontrado."
+
+#: includes/Evidence.php
+msgid "Content Snapshot"
+msgstr "Captura de Contenido"
+
+#: includes/Evidence.php
+msgid "Post ID"
+msgstr "ID de Publicación"
+
+#: includes/Evidence.php
+msgid "Declared As"
+msgstr "Declarado Como"
+
+#: includes/Evidence.php
+msgid "Declared At"
+msgstr "Declarado En"
+
+#: includes/Evidence.php
+msgid "Content Hash (SHA-256)"
+msgstr "Hash de Contenido (SHA-256)"
+
+#: includes/Evidence.php
+msgid "This evidence bundle is a transparency and documentation toolkit output. It does NOT constitute legal compliance certification or legal advice."
+msgstr "Este paquete de evidencias es una salida del kit de transparencia y documentación. NO constituye certificación de cumplimiento legal ni asesoramiento jurídico."
+
+# ============================================
+# SCANNER
+# ============================================
+
+#: includes/Scanner.php
+msgid "Content Review requires Pro or Agency plan."
+msgstr "La Revisión de Contenido requiere el plan Pro o Agencia."
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Find Undeclared Content"
+msgstr "Buscar Contenido No Declarado"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Scanning..."
+msgstr "Escaneando..."
+
+#: includes/Scanner.php
+msgid "%d post ready for review."
+msgid_plural "%d posts ready for review."
+msgstr[0] "%d publicación lista para revisar."
+msgstr[1] "%d publicaciones listas para revisar."
+
+#: includes/Scanner.php
+msgid "No declarations provided."
+msgstr "No se proporcionaron declaraciones."
+
+#: includes/Scanner.php
+msgid "%d declaration applied."
+msgid_plural "%d declarations applied."
+msgstr[0] "%d declaración aplicada."
+msgstr[1] "%d declaraciones aplicadas."
+
+#: includes/Scanner.php
+msgid "Review results dismissed."
+msgstr "Resultados de revisión descartados."
+
+# ============================================
+# AJAX
+# ============================================
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "Datos inválidos."
+
+#: includes/Ajax.php
+msgid "No valid post IDs provided."
+msgstr "No se proporcionaron IDs de publicación válidos."
+
+#: includes/Ajax.php
+msgid "Invalid declaration type."
+msgstr "Tipo de declaración inválido."
+
+#: includes/Ajax.php
+msgid "%d post updated."
+msgid_plural "%d posts updated."
+msgstr[0] "%d publicación actualizada."
+msgstr[1] "%d publicaciones actualizadas."
+
+#: includes/Ajax.php
+msgid "Bulk declaration"
+msgstr "Declaración masiva"
+
+#: includes/Ajax.php
+msgid "Required classes not found."
+msgstr "Clases requeridas no encontradas."
+
+#: includes/Ajax.php
+msgid "Declared as"
+msgstr "Declarado como"
+
+#: includes/Ajax.php
+msgid "Updated to"
+msgstr "Actualizado a"
+
+#: includes/Ajax.php
+msgid "System"
+msgstr "Sistema"
+
+#: includes/Ajax.php
+msgid "Agency class not found."
+msgstr "Clase de Agencia no encontrada."
+
+#: includes/Ajax.php
+msgid "Site not found."
+msgstr "Sitio no encontrado."
+
+#: includes/Ajax.php
+msgid "Agency bulk report for %s."
+msgstr "Informe masivo de agencia para %s."
+
+#: includes/Ajax.php
+msgid "Report generated for %s."
+msgstr "Informe generado para %s."
+
+#: includes/Ajax.php
+msgid "Archive class not found."
+msgstr "Clase de Archivo no encontrada."
+
+#: includes/Ajax.php
+msgid "Invalid post ID."
+msgstr "ID de publicación inválido."
+
+#: includes/Ajax.php
+msgid "Exemption revoked."
+msgstr "Exención revocada."
+
+#: includes/Ajax.php
+msgid "Failed to revoke exemption."
+msgstr "Error al revocar la exención."
+
+#: includes/Ajax.php
+msgid "Exemption restored."
+msgstr "Exención restaurada."
+
+#: includes/Ajax.php
+msgid "Failed to restore exemption."
+msgstr "Error al restaurar la exención."
+
+#: includes/Ajax.php
+msgid "Crawler class not found."
+msgstr "Clase de Rastreador no encontrada."
+
+#: includes/Ajax.php
+msgid "AI.txt regenerated."
+msgstr "AI.txt regenerado."
+
+#: includes/Ajax.php
+msgid "LLMs.txt regenerated."
+msgstr "LLMs.txt regenerado."
+
+#: includes/Ajax.php
+msgid "Robots.txt regenerated."
+msgstr "Robots.txt regenerado."
+
+#: includes/Ajax.php
+msgid "Invalid file type."
+msgstr "Tipo de archivo inválido."
+
+#: includes/Ajax.php
+msgid "All assets regenerated."
+msgstr "Todos los activos regenerados."
+
+#: includes/Ajax.php
+msgid "Cache cleared."
+msgstr "Caché limpiada."
+
+#: includes/Ajax.php
+msgid "Public files rebuilt."
+msgstr "Archivos públicos reconstruidos."
+
+#: includes/Ajax.php
+msgid "Too many auto-fix requests. Please wait."
+msgstr "Demasiadas solicitudes de reparación automática. Por favor, espera."
+
+#: includes/Ajax.php
+msgid "AI detection and file generation completed."
+msgstr "Detección de IA y generación de archivos completadas."
+
+#: includes/Ajax.php
+msgid "Verification class not found."
+msgstr "Clase de Verificación no encontrada."
+
+#: includes/Ajax.php
+msgid "Verification page refreshed successfully."
+msgstr "Página de verificación actualizada correctamente."
+
+#: includes/Ajax.php
+msgid "Unknown issue type."
+msgstr "Tipo de problema desconocido."
+
+#: includes/Ajax.php
+msgid "AIAccess class not found."
+msgstr "Clase AIAccess no encontrada."
+
+#: includes/Ajax.php
+msgid "Policy updated."
+msgstr "Política actualizada."
+
+#: includes/Ajax.php
+msgid "Option name required."
+msgstr "Nombre de opción requerido."
+
+#: includes/Ajax.php
+msgid "Invalid data format."
+msgstr "Formato de datos inválido."
+
+#: includes/Ajax.php
+msgid "Saved"
+msgstr "Guardado"
+
+#: includes/Ajax.php
+msgid "Test report sent."
+msgstr "Informe de prueba enviado."
+
+#: includes/Ajax.php
+msgid "Failed to send email. Check your server settings."
+msgstr "Error al enviar el correo. Verifica la configuración de tu servidor."
+
+#: includes/Ajax.php
+msgid "Content scanned and index refreshed."
+msgstr "Contenido escaneado e índice actualizado."
+
+#: includes/Ajax.php
+msgid "Synced"
+msgstr "Sincronizado"
+
+#: includes/Ajax.php
+msgid "AI Smart Declaration applied"
+msgstr "Declaración Inteligente de IA aplicada"
+
+# ============================================
+# CRON
+# ============================================
+
+#: includes/Cron.php
+msgid "Unknown Site"
+msgstr "Sitio Desconocido"
+
+#: includes/Cron.php
+msgid "Score dropped: %d%% → %d%%"
+msgstr "Puntuación descendió: %d%% → %d%%"
+
+#: includes/Cron.php
+msgid "%d undeclared posts"
+msgstr "%d publicaciones no declaradas"
+
+#: includes/Cron.php
+msgid "%d undeclared posts — no declarations in %d days"
+msgstr "%d publicaciones no declaradas — sin declaraciones en %d días"
+
+#: includes/Cron.php
+msgid "Content needs source declaration"
+msgstr "El contenido necesita declaración de fuente"
+
+#: includes/Cron.php
+msgid "AI.txt not updated — %d days"
+msgstr "AI.txt no actualizado — %d días"
+
+#: includes/Cron.php
+msgid "Regenerate AI.txt on client site"
+msgstr "Regenerar AI.txt en el sitio del cliente"
+
+#: includes/Cron.php
+msgid "Site health check failed — API unreachable"
+msgstr "Verificación de salud del sitio fallida — API inalcanzable"
+
+#: includes/Cron.php
+msgid "Check site connectivity"
+msgstr "Verificar conectividad del sitio"
+
+#: includes/Cron.php
+msgid "No reason provided"
+msgstr "No se proporcionó motivo"
+
+# ============================================
+# AGENCY
+# ============================================
+
+#: includes/Agency.php
+msgid "Site limit reached. Maximum %d sites allowed."
+msgstr "Límite de sitios alcanzado. Máximo %d sitios permitidos."
+
+#: includes/Agency.php
+msgid "License system not available."
+msgstr "Sistema de licencia no disponible."
+
+#: includes/Agency.php
+msgid "User is already a team member."
+msgstr "El usuario ya es miembro del equipo."
+
+#: includes/Agency.php
+msgid "Site not found."
+msgstr "Sitio no encontrado."
+
+#: includes/Agency.php
+msgid "Site synced."
+msgstr "Sitio sincronizado."
+
+# ============================================
+# USAGE
+# ============================================
+
+#: includes/Usage.php
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: includes/Usage.php
+msgid "Scans"
+msgstr "Escaneos"
+
+#: includes/Usage.php templates/admin/tab-content.php
+msgid "Words"
+msgstr "Palabras"
+
+# ============================================
+# SETUP WIZARD
+# ============================================
+
+#: includes/SetupWizard.php
+msgid "MegaGovern Setup"
+msgstr "Configuración de MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "Welcome to MegaGovern"
+msgstr "Bienvenido a MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "AI Transparency & Disclosure Governance Platform"
+msgstr "Plataforma de Gobernanza de Transparencia y Divulgación de IA"
+
+#: includes/SetupWizard.php
+msgid "Where do you operate?"
+msgstr "¿Dónde operas?"
+
+#: includes/SetupWizard.php
+msgid "This helps us show you relevant regulatory alerts."
+msgstr "Esto nos ayuda a mostrarte alertas regulatorias relevantes."
+
+#: includes/SetupWizard.php
+msgid "EU AI Act compliance alerts"
+msgstr "Alertas de cumplimiento de la Ley de IA de la UE"
+
+#: includes/SetupWizard.php
+msgid "Colorado AI Act & state law alerts"
+msgstr "Alertas de la Ley de IA de Colorado y leyes estatales"
+
+#: includes/SetupWizard.php
+msgid "All regulatory alerts"
+msgstr "Todas las alertas regulatorias"
+
+#: includes/SetupWizard.php
+msgid "How should disclosure labels appear?"
+msgstr "¿Cómo deben aparecer las etiquetas de divulgación?"
+
+#: includes/SetupWizard.php
+msgid "Choose where the AI transparency label shows on your content."
+msgstr "Elige dónde aparece la etiqueta de transparencia de IA en tu contenido."
+
+#: includes/SetupWizard.php
+msgid "Top of content"
+msgstr "Parte superior del contenido"
+
+#: includes/SetupWizard.php
+msgid "Label appears before the article"
+msgstr "La etiqueta aparece antes del artículo"
+
+#: includes/SetupWizard.php
+msgid "Bottom of content"
+msgstr "Parte inferior del contenido"
+
+#: includes/SetupWizard.php
+msgid "Label appears after the article"
+msgstr "La etiqueta aparece después del artículo"
+
+#: includes/SetupWizard.php
+msgid "Both top and bottom"
+msgstr "Ambos, superior e inferior"
+
+#: includes/SetupWizard.php
+msgid "Maximum visibility"
+msgstr "Visibilidad máxima"
+
+#: includes/SetupWizard.php
+msgid "Before you start"
+msgstr "Antes de empezar"
+
+#: includes/SetupWizard.php
+msgid "Important — Please Read"
+msgstr "Importante — Por favor, Lee"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does:"
+msgstr "Qué hace MegaGovern:"
+
+#: includes/SetupWizard.php
+msgid "Document how AI is used in your content"
+msgstr "Documentar cómo se utiliza la IA en tu contenido"
+
+#: includes/SetupWizard.php
+msgid "Publish transparency labels and AI.txt files"
+msgstr "Publicar etiquetas de transparencia y archivos AI.txt"
+
+#: includes/SetupWizard.php
+msgid "Generate governance records and reports"
+msgstr "Generar registros e informes de gobernanza"
+
+#: includes/SetupWizard.php
+msgid "Alert you to major regulatory developments"
+msgstr "Alertarte sobre desarrollos regulatorios importantes"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does NOT Do:"
+msgstr "Qué NO hace MegaGovern:"
+
+#: includes/SetupWizard.php
+msgid "It does NOT detect AI-generated content"
+msgstr "NO detecta contenido generado por IA"
+
+#: includes/SetupWizard.php
+msgid "It does NOT guarantee legal compliance"
+msgstr "NO garantiza el cumplimiento legal"
+
+#: includes/SetupWizard.php
+msgid "It does NOT replace legal advice from a qualified attorney"
+msgstr "NO reemplaza el asesoramiento legal de un abogado calificado"
+
+#: includes/SetupWizard.php
+msgid "You are in control."
+msgstr "Tú tienes el control."
+
+#: includes/SetupWizard.php
+msgid "You declare the source of each piece of content. MegaGovern documents your declarations and helps you disclose them."
+msgstr "Tú declaras la fuente de cada pieza de contenido. MegaGovern documenta tus declaraciones y te ayuda a divulgarlas."
+
+#: includes/SetupWizard.php
+msgid "I understand that MegaGovern is a documentation tool, not a compliance guarantee or legal advisor."
+msgstr "Entiendo que MegaGovern es una herramienta de documentación, no una garantía de cumplimiento ni un asesor legal."
+
+#: includes/SetupWizard.php
+msgid "← Back"
+msgstr "← Atrás"
+
+#: includes/SetupWizard.php
+msgid "Next Step →"
+msgstr "Siguiente Paso →"
+
+#: includes/SetupWizard.php
+msgid "Complete Setup"
+msgstr "Completar Configuración"
+
+#: includes/SetupWizard.php
+msgid "You must accept the disclaimer to continue."
+msgstr "Debes aceptar el aviso legal para continuar."
+
+#: includes/SetupWizard.php
+msgid "You do not have permission."
+msgstr "No tienes permiso."
+
+#: includes/SetupWizard.php
+msgid "Display"
+msgstr "Mostrar"
+
+#: includes/SetupWizard.php
+msgid "Ready"
+msgstr "Listo"
+
+# ============================================
+# DASHBOARD — Mission Control
+# ============================================
+
+#: templates/admin/dashboard.php
+msgid "AI Transparency Governance"
+msgstr "Gobernanza de Transparencia de IA"
+
+#: templates/admin/dashboard.php
+msgid "Governance Score"
+msgstr "Puntuación de Gobernanza"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Declared"
+msgstr "Declarado"
+
+#: templates/admin/dashboard.php
+msgid "Pending"
+msgstr "Pendiente"
+
+#: templates/admin/dashboard.php
+msgid "Issues"
+msgstr "Problemas"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Content Review"
+msgstr "Revisión de Contenido"
+
+#: templates/admin/dashboard.php
+msgid "Available on Pro plan."
+msgstr "Disponible en el plan Pro."
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr "Estado del Sistema"
+
+#: templates/admin/dashboard.php templates/admin/tab-disclosures.php
+msgid "AI.txt"
+msgstr "AI.txt"
+
+#: templates/admin/dashboard.php
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: templates/admin/dashboard.php
+msgid "Action Center"
+msgstr "Centro de Acción"
+
+#: templates/admin/dashboard.php
+msgid "All systems compliant."
+msgstr "Todos los sistemas cumplen."
+
+#: templates/admin/dashboard.php
+msgid "Compliance Journey"
+msgstr "Viaje de Cumplimiento"
+
+#: templates/admin/dashboard.php
+msgid "Recent Activity"
+msgstr "Actividad Reciente"
+
+#: templates/admin/dashboard.php
+msgid "No activity yet."
+msgstr "Sin actividad aún."
+
+#: templates/admin/dashboard.php
+msgid "Unlock Pro"
+msgstr "Desbloquear Pro"
+
+#: templates/admin/dashboard.php
+msgid "Quick Links"
+msgstr "Enlaces Rápidos"
+
+#: templates/admin/dashboard.php templates/admin/transparency-center.php
+msgid "Content Hub"
+msgstr "Centro de Contenido"
+
+#: templates/admin/dashboard.php
+msgid "Verification"
+msgstr "Verificación"
+
+#: templates/admin/dashboard.php templates/admin/settings.php
+msgid "Reports"
+msgstr "Informes"
+
+#: templates/admin/dashboard.php
+msgid "New Post"
+msgstr "Nueva Publicación"
+
+#: templates/admin/dashboard.php
+msgid "Access Denied"
+msgstr "Acceso Denegado"
+
+#: templates/admin/dashboard.php
+msgid "Invalid security token."
+msgstr "Token de seguridad inválido."
+
+#: templates/admin/dashboard.php
+msgid "Security Check Failed"
+msgstr "Verificación de Seguridad Fallida"
+
+#: templates/admin/dashboard.php
+msgid "New here? Three steps to get started:"
+msgstr "¿Nuevo aquí? Tres pasos para empezar:"
+
+#: templates/admin/dashboard.php
+msgid "Classify your first piece of content"
+msgstr "Clasifica tu primer contenido"
+
+#: templates/admin/dashboard.php
+msgid "Go"
+msgstr "Ir"
+
+#: templates/admin/dashboard.php
+msgid "Confirm transparency labels are enabled"
+msgstr "Confirma que las etiquetas de transparencia están habilitadas"
+
+#: templates/admin/dashboard.php
+msgid "View your public transparency page"
+msgstr "Ver tu página de transparencia pública"
+
+#: templates/admin/dashboard.php
+msgid "View"
+msgstr "Ver"
+
+#: templates/admin/dashboard.php
+msgid "View Public Page"
+msgstr "Ver Página Pública"
+
+#: templates/admin/dashboard.php
+msgid "~%d day left at your current pace"
+msgid_plural "~%d days left at your current pace"
+msgstr[0] "~%d día restante a tu ritmo actual"
+msgstr[1] "~%d días restantes a tu ritmo actual"
+
+#: templates/admin/dashboard.php
+msgid "No declarations yet"
+msgstr "Sin declaraciones aún"
+
+#: templates/admin/dashboard.php
+msgid "to full coverage"
+msgstr "para cobertura completa"
+
+#: templates/admin/dashboard.php
+msgid "Content Status"
+msgstr "Estado del Contenido"
+
+#: templates/admin/dashboard.php
+msgid "%d items need declaration."
+msgstr "%d elementos necesitan declaración."
+
+#: templates/admin/dashboard.php
+msgid "Full Content Hub"
+msgstr "Centro de Contenido Completo"
+
+#: templates/admin/dashboard.php
+msgid "All content declared. Great job!"
+msgstr "Todo el contenido declarado. ¡Buen trabajo!"
+
+#: templates/admin/dashboard.php
+msgid "Fix All Auto-Fixable (%d)"
+msgstr "Reparar Todo lo Reparable Automáticamente (%d)"
+
+#: templates/admin/dashboard.php
+msgid "All systems in good standing."
+msgstr "Todos los sistemas en buen estado."
+
+#: templates/admin/dashboard.php
+msgid "Transparency Journey"
+msgstr "Viaje de Transparencia"
+
+#: templates/admin/dashboard.php
+msgid "Verification hash"
+msgstr "Hash de verificación"
+
+#: templates/admin/dashboard.php
+msgid "Upgrade Now"
+msgstr "Actualizar Ahora"
+
+# ============================================
+# TRANSPARENCY CENTER — Content Hub
+# ============================================
+
+#: templates/admin/transparency-center.php
+msgid "Access Denied"
+msgstr "Acceso Denegado"
+
+#: templates/admin/transparency-center.php templates/admin/tab-disclosures.php templates/admin/tab-archive.php
+msgid "Active"
+msgstr "Activo"
+
+#: templates/admin/transparency-center.php
+msgid "Disclosures & AI Files"
+msgstr "Divulgaciones y Archivos de IA"
+
+#: templates/admin/transparency-center.php templates/admin/tab-archive.php
+msgid "Legacy Archive"
+msgstr "Archivo Heredado"
+
+#: templates/admin/transparency-center.php
+msgid "Just now"
+msgstr "Justo ahora"
+
+# ============================================
+# TAB — Content Hub
+# ============================================
+
+#: templates/admin/tab-content.php templates/admin/tab-reports.php
+msgid "Total Indexed"
+msgstr "Total Indexado"
+
+#: templates/admin/tab-content.php
+msgid "%d unclassified items detected."
+msgstr "%d elementos no clasificados detectados."
+
+#: templates/admin/tab-content.php
+msgid "Review Undeclared"
+msgstr "Revisar No Declarados"
+
+#: templates/admin/tab-content.php
+msgid "Review undeclared content and apply declarations manually."
+msgstr "Revisa contenido no declarado y aplica declaraciones manualmente."
+
+#: templates/admin/tab-content.php
+msgid "items ready for review."
+msgstr "elementos listos para revisar."
+
+#: templates/admin/tab-content.php
+msgid "Last review: %s"
+msgstr "Última revisión: %s"
+
+#: templates/admin/tab-content.php
+msgid "%d undeclared posts ready for review."
+msgstr "%d publicaciones no declaradas listas para revisar."
+
+#: templates/admin/tab-content.php
+msgid "Review & Apply"
+msgstr "Revisar y Aplicar"
+
+#: templates/admin/tab-content.php
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: templates/admin/tab-content.php
+msgid "Loading results..."
+msgstr "Cargando resultados..."
+
+#: templates/admin/tab-content.php
+msgid "All content declared."
+msgstr "Todo el contenido declarado."
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Title"
+msgstr "Título"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/admin/tab-content.php
+msgid "Declaration"
+msgstr "Declaración"
+
+#: templates/admin/tab-content.php
+msgid "Human"
+msgstr "Humano"
+
+#: templates/admin/tab-content.php
+msgid "Apply Selected"
+msgstr "Aplicar Seleccionados"
+
+#: templates/admin/tab-content.php
+msgid "Applying..."
+msgstr "Aplicando..."
+
+#: templates/admin/tab-content.php
+msgid "Retry"
+msgstr "Reintentar"
+
+#: templates/admin/tab-content.php
+msgid "Failed to load results."
+msgstr "Error al cargar los resultados."
+
+#: templates/admin/tab-content.php
+msgid "Bulk Declaration"
+msgstr "Declaración Masiva"
+
+#: templates/admin/tab-content.php
+msgid "Select posts and classify them all at once."
+msgstr "Selecciona publicaciones y clasifícalas todas a la vez."
+
+#: templates/admin/tab-content.php
+msgid "Select classification..."
+msgstr "Selecciona clasificación..."
+
+#: templates/admin/tab-content.php
+msgid "Classify Selected"
+msgstr "Clasificar Seleccionados"
+
+#: templates/admin/tab-content.php
+msgid "selected"
+msgstr "seleccionados"
+
+#: templates/admin/tab-content.php
+msgid "Filter & Search"
+msgstr "Filtrar y Buscar"
+
+#: templates/admin/tab-content.php
+msgid "All Statuses"
+msgstr "Todos los Estados"
+
+#: templates/admin/tab-content.php
+msgid "All Types"
+msgstr "Todos los Tipos"
+
+#: templates/admin/tab-content.php
+msgid "Search..."
+msgstr "Buscar..."
+
+#: templates/admin/tab-content.php
+msgid "Apply"
+msgstr "Aplicar"
+
+#: templates/admin/tab-content.php
+msgid "Reset"
+msgstr "Restablecer"
+
+#: templates/admin/tab-content.php
+msgid "results"
+msgstr "resultados"
+
+#: templates/admin/tab-content.php
+msgid "Content"
+msgstr "Contenido"
+
+#: templates/admin/tab-content.php
+msgid "Authorized By"
+msgstr "Autorizado Por"
+
+#: templates/admin/tab-content.php
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/admin/tab-content.php
+msgid "Unassigned"
+msgstr "Sin Asignar"
+
+#: templates/admin/tab-content.php
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/admin/tab-content.php
+msgid "View History"
+msgstr "Ver Historial"
+
+#: templates/admin/tab-content.php
+msgid "No Content Found"
+msgstr "No se Encontró Contenido"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or create new content."
+msgstr "Ajusta los filtros o crea nuevo contenido."
+
+#: templates/admin/tab-content.php
+msgid "Create Content"
+msgstr "Crear Contenido"
+
+#: templates/admin/tab-content.php
+msgid "Declaration History"
+msgstr "Historial de Declaraciones"
+
+#: templates/admin/tab-content.php
+msgid "Please select a classification type."
+msgstr "Por favor, selecciona un tipo de clasificación."
+
+#: templates/admin/tab-content.php
+msgid "Please select at least one post."
+msgstr "Por favor, selecciona al menos una publicación."
+
+#: templates/admin/tab-content.php
+msgid "Loading history..."
+msgstr "Cargando historial..."
+
+#: templates/admin/tab-content.php
+msgid "Failed to load history."
+msgstr "Error al cargar el historial."
+
+#: templates/admin/tab-content.php
+msgid "(No Title)"
+msgstr "(Sin Título)"
+
+#: templates/admin/tab-content.php
+msgid "Clear"
+msgstr "Limpiar"
+
+#: templates/admin/tab-content.php
+msgid "Review Now"
+msgstr "Revisar Ahora"
+
+#: templates/admin/tab-content.php
+msgid "Re-scan"
+msgstr "Reescanear"
+
+#: templates/admin/tab-content.php
+msgid "Review..."
+msgstr "Revisar..."
+
+#: templates/admin/tab-content.php
+msgid "Modified"
+msgstr "Modificado"
+
+#: templates/admin/tab-content.php
+msgid "Generated"
+msgstr "Generado"
+
+#: templates/admin/tab-content.php
+msgid "Synthetic"
+msgstr "Sintético"
+
+#: templates/admin/tab-content.php
+msgid "Error updating declaration."
+msgstr "Error al actualizar la declaración."
+
+#: templates/admin/tab-content.php
+msgid "Server error occurred."
+msgstr "Ocurrió un error del servidor."
+
+#: templates/admin/tab-content.php
+msgid "Apply this classification to all selected items?"
+msgstr "¿Aplicar esta clasificación a todos los elementos seleccionados?"
+
+#: templates/admin/tab-content.php
+msgid "Failed to apply declarations."
+msgstr "Error al aplicar las declaraciones."
+
+#: templates/admin/tab-content.php
+msgid "Security token missing. Please refresh the page."
+msgstr "Falta el token de seguridad. Por favor, actualiza la página."
+
+#: templates/admin/tab-content.php
+msgid "Could not load history."
+msgstr "No se pudo cargar el historial."
+
+#: templates/admin/tab-content.php
+msgid "Scan failed."
+msgstr "Escaneo fallido."
+
+#: templates/admin/tab-content.php
+msgid "Server error. Please try again."
+msgstr "Error del servidor. Por favor, inténtalo de nuevo."
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or run a new Review to find undeclared content."
+msgstr "Ajusta los filtros o ejecuta una nueva Revisión para encontrar contenido no declarado."
+
+#: templates/admin/tab-content.php
+msgid "Content Review Queue"
+msgstr "Cola de Revisión de Contenido"
+
+#: templates/admin/tab-content.php
+msgid "Undeclared posts found. Run a review to classify them."
+msgstr "Publicaciones no declaradas encontradas. Ejecuta una revisión para clasificarlas."
+
+#: templates/admin/tab-content.php
+msgid "All content has been declared."
+msgstr "Todo el contenido ha sido declarado."
+
+# ============================================
+# TAB — Disclosures & AI Files
+# ============================================
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Labels"
+msgstr "Etiquetas de Contenido"
+
+#: templates/admin/tab-disclosures.php
+msgid "Configure how AI transparency labels appear on your content."
+msgstr "Configura cómo aparecen las etiquetas de transparencia de IA en tu contenido."
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Position"
+msgstr "Posición de la Etiqueta"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current position:"
+msgstr "Posición actual:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current style:"
+msgstr "Estilo actual:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Change in Settings"
+msgstr "Cambiar en Ajustes"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Preview"
+msgstr "Vista Previa de la Etiqueta"
+
+#: templates/admin/tab-disclosures.php
+msgid "Labels Active"
+msgstr "Etiquetas Activas"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "Archivos de Divulgación de IA"
+
+#: templates/admin/tab-disclosures.php
+msgid "Machine-readable transparency files for AI systems and crawlers."
+msgstr "Archivos de transparencia legibles por máquina para sistemas de IA y rastreadores."
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto"
+msgstr "Automático"
+
+#: templates/admin/tab-disclosures.php
+msgid "Manual"
+msgstr "Manual"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — AI usage, governance, compliance."
+msgstr "Divulgación de transparencia completa — Uso de IA, gobernanza, cumplimiento."
+
+#: templates/admin/tab-disclosures.php
+msgid "View"
+msgstr "Ver"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy"
+msgstr "Copiar"
+
+#: templates/admin/tab-disclosures.php
+msgid "LLMs.txt"
+msgstr "LLMs.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index — grouped by declaration type."
+msgstr "Índice de contenido legible por IA — agrupado por tipo de declaración."
+
+#: templates/admin/tab-disclosures.php
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 30 bots, 3-tier policy."
+msgstr "Control de acceso de rastreadores — 30 bots, política de 3 niveles."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Files"
+msgstr "Regenerar Todos los Archivos"
+
+#: templates/admin/tab-disclosures.php
+msgid "Force regeneration of AI.txt, LLMs.txt, and Robots.txt."
+msgstr "Forzar la regeneración de AI.txt, LLMs.txt y Robots.txt."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All"
+msgstr "Regenerar Todo"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Pages"
+msgstr "Páginas de Transparencia Pública"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages that demonstrate your AI transparency commitment."
+msgstr "Páginas orientadas al público que demuestran tu compromiso con la transparencia de IA."
+
+#: templates/admin/tab-disclosures.php
+msgid "Editable"
+msgstr "Editable"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Only"
+msgstr "Solo Ver"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Policy"
+msgstr "Ver Política"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy URL"
+msgstr "Copiar URL"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Page"
+msgstr "Ver Página"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verification Active"
+msgstr "Verificación Activa"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copied"
+msgstr "Copiado"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerating..."
+msgstr "Regenerando..."
+
+#: templates/admin/tab-disclosures.php
+msgid "N/A"
+msgstr "N/A"
+
+#: templates/admin/tab-disclosures.php
+msgid "Last Updated: %s"
+msgstr "Última Actualización: %s"
+
+#: templates/admin/tab-disclosures.php
+msgid "Your AI.txt reflects only %d%% of published content."
+msgstr "Tu AI.txt refleja solo el %d%% del contenido publicado."
+
+#: templates/admin/tab-disclosures.php
+msgid "%d items remain undeclared."
+msgstr "%d elementos permanecen sin declarar."
+
+#: templates/admin/tab-disclosures.php
+msgid "Review Undeclared Items"
+msgstr "Revisar Elementos No Declarados"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verify"
+msgstr "Verificar"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "Archivos de Divulgación de IA"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — 16 sections."
+msgstr "Divulgación de transparencia completa — 16 secciones."
+
+#: templates/admin/tab-disclosures.php
+msgid "View Raw"
+msgstr "Ver Crudo"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy as MD"
+msgstr "Copiar como MD"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto-regenerated on declaration change."
+msgstr "Auto-regenerado al cambiar la declaración."
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index with Priority Signals."
+msgstr "Índice de contenido legible por IA con Señales de Prioridad."
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 34 bots, 3-tier policy."
+msgstr "Control de acceso de rastreadores — 34 bots, política de 3 niveles."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Documents"
+msgstr "Documentos de Transparencia Pública"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages for visitors, auditors, and regulators."
+msgstr "Páginas orientadas al público para visitantes, auditores y reguladores."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public"
+msgstr "Público"
+
+#: templates/admin/tab-disclosures.php
+msgid "Open"
+msgstr "Abierto"
+
+#: templates/admin/tab-disclosures.php
+msgid "Upgrade to Edit"
+msgstr "Actualizar para Editar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Snapshots & Evidence"
+msgstr "Capturas de Contenido y Evidencias"
+
+#: templates/admin/tab-disclosures.php
+msgid "PDF Reports"
+msgstr "Informes PDF"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Maintenance"
+msgstr "Mantenimiento de Transparencia"
+
+#: templates/admin/tab-disclosures.php
+msgid "System diagnostics and maintenance tools."
+msgstr "Herramientas de diagnóstico y mantenimiento del sistema."
+
+#: templates/admin/tab-disclosures.php
+msgid "Diagnostics"
+msgstr "Diagnóstico"
+
+#: templates/admin/tab-disclosures.php
+msgid "WordPress Rewrites"
+msgstr "Reescrituras de WordPress"
+
+#: templates/admin/tab-disclosures.php
+msgid "File Permissions"
+msgstr "Permisos de Archivos"
+
+#: templates/admin/tab-disclosures.php
+msgid "Output Directory"
+msgstr "Directorio de Salida"
+
+#: templates/admin/tab-disclosures.php
+msgid "Writable"
+msgstr "Escribible"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Assets"
+msgstr "Activos de Transparencia"
+
+#: templates/admin/tab-disclosures.php
+msgid "Up-to-date"
+msgstr "Actualizado"
+
+#: templates/admin/tab-disclosures.php
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Assets"
+msgstr "Regenerar Todos los Activos"
+
+#: templates/admin/tab-disclosures.php
+msgid "Clear Generated Cache"
+msgstr "Limpiar Caché Generada"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuild Public Files"
+msgstr "Reconstruir Archivos Públicos"
+
+#: templates/admin/tab-disclosures.php
+msgid "Failed to copy."
+msgstr "Error al copiar."
+
+#: templates/admin/tab-disclosures.php
+msgid "Fetching..."
+msgstr "Obteniendo..."
+
+#: templates/admin/tab-disclosures.php
+msgid "..."
+msgstr "..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Clearing..."
+msgstr "Limpiando..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Cleared"
+msgstr "Limpiado"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuilding..."
+msgstr "Reconstruyendo..."
+
+# ============================================
+# TAB — Legacy Archive
+# ============================================
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content"
+msgstr "Contenido Exento"
+
+#: templates/admin/tab-archive.php
+msgid "Cutoff Date"
+msgstr "Fecha Límite"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold"
+msgstr "Umbral de Edición"
+
+#: templates/admin/tab-archive.php
+msgid "Archive Settings"
+msgstr "Configuración de Archivo"
+
+#: templates/admin/tab-archive.php
+msgid "Compliance Cutoff Date"
+msgstr "Fecha Límite de Cumplimiento"
+
+#: templates/admin/tab-archive.php
+msgid "Content before this date is exempt."
+msgstr "El contenido anterior a esta fecha está exento."
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold (%)"
+msgstr "Umbral de Edición (%)"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke exemption if edit exceeds this %."
+msgstr "Revocar la exención si la edición supera este %."
+
+#: templates/admin/tab-archive.php
+msgid "Save Settings"
+msgstr "Guardar Configuración"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content Log"
+msgstr "Registro de Contenido Exento"
+
+#: templates/admin/tab-archive.php
+msgid "Items"
+msgstr "Elementos"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke"
+msgstr "Revocar"
+
+#: templates/admin/tab-archive.php
+msgid "Restore"
+msgstr "Restaurar"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt"
+msgstr "Exento"
+
+#: templates/admin/tab-archive.php
+msgid "Revoked"
+msgstr "Revocado"
+
+#: templates/admin/tab-archive.php
+msgid "How Legacy Archive Works"
+msgstr "Cómo Funciona el Archivo Heredado"
+
+#: templates/admin/tab-archive.php
+msgid "Set Cutoff Date"
+msgstr "Establecer Fecha Límite"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold Monitoring"
+msgstr "Monitoreo de Umbral de Edición"
+
+#: templates/admin/tab-archive.php
+msgid "Manual Override"
+msgstr "Anulación Manual"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date. Classified as Legacy — Exempt from mandatory AI declaration under EU AI Act Article 50."
+msgstr "Contenido histórico publicado antes de la fecha límite. Clasificado como Heredado — Exento de la declaración obligatoria de IA según el Artículo 50 de la Ley de IA de la UE."
+
+#: templates/admin/tab-archive.php
+msgid "EU AI Act — Article 50"
+msgstr "Ley de IA de la UE — Artículo 50"
+
+#: templates/admin/tab-archive.php
+msgid "The EU AI Act enters into force on August 2, 2025. Content published before the cutoff date is classified as Legacy and is exempt from mandatory AI declaration requirements. All content published after this date must be declared."
+msgstr "La Ley de IA de la UE entra en vigor el 2 de agosto de 2025. El contenido publicado antes de la fecha límite se clasifica como Heredado y está exento de los requisitos de declaración obligatoria de IA. Todo el contenido publicado después de esta fecha debe ser declarado."
+
+#: templates/admin/tab-archive.php
+msgid "Undeclared Legacy"
+msgstr "Heredado No Declarado"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date, classified as Legacy — Exempt."
+msgstr "Contenido histórico publicado antes de la fecha límite, clasificado como Heredado — Exento."
+
+#: templates/admin/tab-archive.php
+msgid "(No title)"
+msgstr "(Sin título)"
+
+#: templates/admin/tab-archive.php
+msgid "No exempt content found. Content published after the cutoff date will not be automatically exempt."
+msgstr "No se encontró contenido exento. El contenido publicado después de la fecha límite no será automáticamente exento."
+
+#: templates/admin/tab-archive.php
+msgid "Define the compliance cutoff date. Content published before this date is eligible for legacy exemption."
+msgstr "Define la fecha límite de cumplimiento. El contenido publicado antes de esta fecha es elegible para exención heredada."
+
+#: templates/admin/tab-archive.php
+msgid "If an exempt article is edited and changes exceed the threshold, the exemption is automatically revoked."
+msgstr "Si un artículo exento es editado y los cambios superan el umbral, la exención se revoca automáticamente."
+
+#: templates/admin/tab-archive.php
+msgid "You can manually revoke or restore exemptions from the Exempt Content Log above."
+msgstr "Puedes revocar o restaurar exenciones manualmente desde el Registro de Contenido Exento arriba."
+
+#: templates/admin/tab-archive.php
+msgid "Are you sure you want to revoke this exemption? The post will return to the Content Hub for standard declaration."
+msgstr "¿Estás seguro de que quieres revocar esta exención? La publicación volverá al Centro de Contenido para la declaración estándar."
+
+#: templates/admin/tab-archive.php
+msgid "An error occurred. Please try again."
+msgstr "Ocurrió un error. Por favor, inténtalo de nuevo."
+
+#: templates/admin/tab-archive.php
+msgid "Settings saved."
+msgstr "Configuración guardada."
+
+#: templates/admin/tab-archive.php
+msgid "Unlock Full Archive Management"
+msgstr "Desbloquear Gestión Completa de Archivo"
+
+#: templates/admin/tab-archive.php
+msgid "Advanced filtering, bulk exemption, and audit trail for legacy content."
+msgstr "Filtrado avanzado, exención masiva y pista de auditoría para contenido heredado."
+
+#: templates/admin/tab-archive.php
+msgid "Published"
+msgstr "Publicado"
+
+# ============================================
+# TAB — Reports & Evidence
+# ============================================
+
+#: templates/admin/tab-reports.php
+msgid "Compliance Reports"
+msgstr "Informes de Cumplimiento"
+
+#: templates/admin/tab-reports.php
+msgid "Generate compliance documentation for your records."
+msgstr "Genera documentación de cumplimiento para tus registros."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report"
+msgstr "Informe PDF"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report (Pro)"
+msgstr "Informe PDF (Pro)"
+
+#: templates/admin/tab-reports.php
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: templates/admin/tab-reports.php
+msgid "Date Range"
+msgstr "Rango de Fechas"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Schedule Reports"
+msgstr "Programar Informes"
+
+#: templates/admin/tab-reports.php
+msgid "Weekly/Monthly auto-delivery to "
+msgstr "Entrega automática semanal/mensual a "
+
+#: templates/admin/tab-reports.php
+msgid "Configure scheduling"
+msgstr "Configurar programación"
+
+#: templates/admin/tab-reports.php
+msgid "Transparency Registry"
+msgstr "Registro de Transparencia"
+
+#: templates/admin/tab-reports.php
+msgid "Local"
+msgstr "Local"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Site ID"
+msgstr "ID del Sitio"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Trail"
+msgstr "Rastro de Evidencias"
+
+#: templates/admin/tab-reports.php
+msgid "No evidence logs yet. Governance actions will appear here."
+msgstr "Aún no hay registros de evidencias. Las acciones de gobernanza aparecerán aquí."
+
+#: templates/admin/tab-reports.php
+msgid "Attestation & Archiving"
+msgstr "Atestación y Archivado"
+
+#: templates/admin/tab-reports.php
+msgid "Registry Integrity"
+msgstr "Integridad del Registro"
+
+#: templates/admin/tab-reports.php
+msgid "Active & Secure"
+msgstr "Activo y Seguro"
+
+#: templates/admin/tab-reports.php
+msgid "Anchored Logs"
+msgstr "Registros Anclados"
+
+#: templates/admin/tab-reports.php
+msgid "Records"
+msgstr "Registros"
+
+#: templates/admin/tab-reports.php
+msgid "Tamper Protection"
+msgstr "Protección contra Manipulación"
+
+#: templates/admin/tab-reports.php
+msgid "SHA-256 Enabled"
+msgstr "SHA-256 Habilitado"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Retention"
+msgstr "Retención de Evidencias"
+
+#: templates/admin/tab-reports.php
+msgid "Days"
+msgstr "Días"
+
+#: templates/admin/tab-reports.php
+msgid "Download Evidence Bundle (.zip)"
+msgstr "Descargar Paquete de Evidencias (.zip)"
+
+#: templates/admin/tab-reports.php
+msgid "Includes AI.txt, classification snapshot, and governance timeline."
+msgstr "Incluye AI.txt, captura de clasificación y línea de tiempo de gobernanza."
+
+#: templates/admin/tab-reports.php
+msgid "Action"
+msgstr "Acción"
+
+#: templates/admin/tab-reports.php
+msgid "Scheduled Reports"
+msgstr "Informes Programados"
+
+#: templates/admin/tab-reports.php
+msgid "%1$s delivery to %2$s"
+msgstr "Entrega %1$s a %2$s"
+
+#: templates/admin/tab-reports.php
+msgid "Not scheduled"
+msgstr "No programado"
+
+#: templates/admin/tab-reports.php
+msgid "This evidence bundle is for transparency and documentation purposes only. It does not constitute legal compliance certification."
+msgstr "Este paquete de evidencias es únicamente para fines de transparencia y documentación. No constituye certificación de cumplimiento legal."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Reports & Structured Evidence Bundles"
+msgstr "Informes PDF y Paquetes de Evidencias Estructurados"
+
+#: templates/admin/tab-reports.php
+msgid "Content Snapshots at Time of Declaration"
+msgstr "Capturas de Contenido en el Momento de la Declaración"
+
+#: templates/admin/tab-reports.php
+msgid "Media Provenance Capture (EXIF/IPTC/C2PA)"
+msgstr "Captura de Procedencia de Medios (EXIF/IPTC/C2PA)"
+
+#: templates/admin/tab-reports.php
+msgid "Custom Label Text & Colors"
+msgstr "Texto y Colores de Etiqueta Personalizados"
+
+# ============================================
+# SETTINGS
+# ============================================
+
+#: templates/admin/settings.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos suficientes para acceder a esta página."
+
+#: templates/admin/settings.php
+msgid "Platform Settings"
+msgstr "Configuración de la Plataforma"
+
+#: templates/admin/settings.php
+msgid "Configure license, content types, labels, automation, alerts, and reports."
+msgstr "Configura licencia, tipos de contenido, etiquetas, automatización, alertas e informes."
+
+#: templates/admin/settings.php
+msgid "Content & Labels"
+msgstr "Contenido y Etiquetas"
+
+#: templates/admin/settings.php
+msgid "Automation"
+msgstr "Automatización"
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr "Licencia"
+
+#: templates/admin/settings.php
+msgid "Site ID:"
+msgstr "ID del Sitio:"
+
+#: templates/admin/settings.php
+msgid "Sync Free License"
+msgstr "Sincronizar Licencia Gratuita"
+
+#: templates/admin/settings.php
+msgid "Opt-in to enable automatic updates and support."
+msgstr "Acepta para habilitar actualizaciones automáticas y soporte."
+
+#: templates/admin/settings.php
+msgid "Upgrade License"
+msgstr "Actualizar Licencia"
+
+#: templates/admin/settings.php
+msgid "Manage Account"
+msgstr "Gestionar Cuenta"
+
+#: templates/admin/settings.php
+msgid "You previously skipped this. Connect to enable automatic updates."
+msgstr "Anteriormente omitiste esto. Conéctate para habilitar actualizaciones automáticas."
+
+#: templates/admin/settings.php
+msgid "Jurisdiction"
+msgstr "Jurisdicción"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering."
+msgstr "Selecciona tu jurisdicción regulatoria principal para el filtrado de alertas."
+
+#: templates/admin/settings.php
+msgid "Save Region"
+msgstr "Guardar Región"
+
+#: templates/admin/settings.php
+msgid "Label Style"
+msgstr "Estilo de Etiqueta"
+
+#: templates/admin/settings.php
+msgid "Choose how AI transparency labels appear on your content."
+msgstr "Elige cómo aparecen las etiquetas de transparencia de IA en tu contenido."
+
+#: templates/admin/settings.php
+msgid "Official EU Icon"
+msgstr "Icono Oficial de la UE"
+
+#: templates/admin/settings.php
+msgid "Pill Style"
+msgstr "Estilo Píldora"
+
+#: templates/admin/settings.php
+msgid "Minimal Text"
+msgstr "Texto Mínimo"
+
+#: templates/admin/settings.php
+msgid "Banner Style"
+msgstr "Estilo Banner"
+
+#: templates/admin/settings.php
+msgid "Outline Card"
+msgstr "Tarjeta con Borde"
+
+#: templates/admin/settings.php
+msgid "Default"
+msgstr "Predeterminado"
+
+#: templates/admin/settings.php
+msgid "Placement"
+msgstr "Ubicación"
+
+#: templates/admin/settings.php
+msgid "Top of Content (Recommended)"
+msgstr "Parte Superior del Contenido (Recomendado)"
+
+#: templates/admin/settings.php
+msgid "Both Top & Bottom"
+msgstr "Ambos Superior e Inferior"
+
+#: templates/admin/settings.php
+msgid "Manual Only (Shortcode)"
+msgstr "Solo Manual (Shortcode)"
+
+#: templates/admin/settings.php
+msgid "Disclosure must appear before or at the point of exposure to comply with transparency principles."
+msgstr "La divulgación debe aparecer antes o en el punto de exposición para cumplir con los principios de transparencia."
+
+#: templates/admin/settings.php
+msgid "Uses the EU's official AI content icons; this does not constitute formal adherence to the Code of Practice."
+msgstr "Utiliza los iconos oficiales de contenido de IA de la UE; esto no constituye una adhesión formal al Código de Práctica."
+
+#: templates/admin/settings.php
+msgid "Save Label Settings"
+msgstr "Guardar Configuración de Etiquetas"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Texto de Etiqueta Personalizado"
+
+#: templates/admin/settings.php
+msgid "Customize the text displayed for each declaration type."
+msgstr "Personaliza el texto mostrado para cada tipo de declaración."
+
+#: templates/admin/settings.php
+msgid "Custom label text is available on Pro and Agency plans."
+msgstr "El texto de etiqueta personalizado está disponible en los planes Pro y Agencia."
+
+#: templates/admin/settings.php
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: templates/admin/settings.php
+msgid "Save Custom Text"
+msgstr "Guardar Texto Personalizado"
+
+#: templates/admin/settings.php
+msgid "Tracked Post Types"
+msgstr "Tipos de Publicación Rastreados"
+
+#: templates/admin/settings.php
+msgid "Select which content types require a source declaration before publishing."
+msgstr "Selecciona qué tipos de contenido requieren una declaración de fuente antes de publicar."
+
+#: templates/admin/settings.php
+msgid "PRO"
+msgstr "PRO"
+
+#: templates/admin/settings.php
+msgid "Save Content Types"
+msgstr "Guardar Tipos de Contenido"
+
+#: templates/admin/settings.php
+msgid "Auto-regenerate disclosure files"
+msgstr "Auto-regenerar archivos de divulgación"
+
+#: templates/admin/settings.php
+msgid "Rebuild AI.txt, LLMs.txt, and Robots.txt automatically when a declaration changes."
+msgstr "Reconstruye AI.txt, LLMs.txt y Robots.txt automáticamente cuando cambia una declaración."
+
+#: templates/admin/settings.php
+msgid "Auto-update verification"
+msgstr "Auto-actualizar verificación"
+
+#: templates/admin/settings.php
+msgid "Keep the public verification page in sync with declarations."
+msgstr "Mantén la página de verificación pública sincronizada con las declaraciones."
+
+#: templates/admin/settings.php
+msgid "Automatic on Pro/Agency (always on):"
+msgstr "Automático en Pro/Agencia (siempre activo):"
+
+#: templates/admin/settings.php
+msgid "Content Snapshot captured at the moment of each declaration"
+msgstr "Captura de Contenido realizada en el momento de cada declaración"
+
+#: templates/admin/settings.php
+msgid "Media Provenance metadata captured at upload time"
+msgstr "Metadatos de Procedencia de Medios capturados al subir"
+
+#: templates/admin/settings.php
+msgid "Save Automation"
+msgstr "Guardar Automatización"
+
+#: templates/admin/settings.php
+msgid "Email & Reports"
+msgstr "Correo e Informes"
+
+#: templates/admin/settings.php
+msgid "Report Frequency"
+msgstr "Frecuencia de Informes"
+
+#: templates/admin/settings.php
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: templates/admin/settings.php
+msgid "Weekly"
+msgstr "Semanal"
+
+#: templates/admin/settings.php
+msgid "Monthly"
+msgstr "Mensual"
+
+#: templates/admin/settings.php
+msgid "Quarterly"
+msgstr "Trimestral"
+
+#: templates/admin/settings.php
+msgid "Report Email"
+msgstr "Correo de Informes"
+
+#: templates/admin/settings.php
+msgid "Save Email Settings"
+msgstr "Guardar Configuración de Correo"
+
+#: templates/admin/settings.php
+msgid "Regulatory alerts are pulled from a public, non-personal data feed. No site content or data is ever transmitted."
+msgstr "Las alertas regulatorias se obtienen de una fuente de datos pública y no personal. Nunca se transmite contenido ni datos del sitio."
+
+#: templates/admin/settings.php
+msgid "Source"
+msgstr "Fuente"
+
+#: templates/admin/settings.php
+msgid "Public Regulatory Feed (read-only)"
+msgstr "Fuente Regulatoria Pública (solo lectura)"
+
+#: templates/admin/settings.php
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: templates/admin/settings.php
+msgid "Daily"
+msgstr "Diario"
+
+#: templates/admin/settings.php
+msgid "This is the only external data fetch in MegaGovern. All other features operate entirely locally."
+msgstr "Esta es la única obtención de datos externos en MegaGovern. Todas las demás funciones operan completamente de forma local."
+
+#: templates/admin/settings.php
+msgid "White Label — Active"
+msgstr "Marca Blanca — Activa"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding is removed from public-facing elements."
+msgstr "La marca de MegaGovern se elimina de los elementos públicos."
+
+#: templates/admin/settings.php
+msgid "Unlock Pro — Full Transparency Suite"
+msgstr "Desbloquea Pro — Suite Completa de Transparencia"
+
+#: templates/admin/settings.php
+msgid "Custom AI Policy Editor"
+msgstr "Editor de Política de IA Personalizado"
+
+#: templates/admin/settings.php
+msgid "Content Snapshots & Evidence Bundles"
+msgstr "Capturas de Contenido y Paquetes de Evidencias"
+
+#: templates/admin/settings.php
+msgid "PDF Reports & Evidence Export"
+msgstr "Informes PDF y Exportación de Evidencias"
+
+#: templates/admin/settings.php
+msgid "Regulatory Alerts — All Jurisdictions"
+msgstr "Alertas Regulatorias — Todas las Jurisdicciones"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Texto de Etiqueta Personalizado"
+
+#: templates/admin/settings.php
+msgid "365-Day Evidence Retention"
+msgstr "Retención de Evidencias de 365 Días"
+
+#: templates/admin/settings.php
+msgid "All Post Types Support"
+msgstr "Soporte para Todos los Tipos de Publicación"
+
+#: templates/admin/settings.php
+msgid "Priority Support"
+msgstr "Soporte Prioritario"
+
+#: templates/admin/settings.php
+msgid "When someone asks you to prove it, this is what you hand them."
+msgstr "Cuando alguien te pide que lo demuestres, esto es lo que le entregas."
+
+#: templates/admin/settings.php
+msgid "Upgrade Now"
+msgstr "Actualizar Ahora"
+
+#: templates/admin/settings.php
+msgid "AI Transparency Notice"
+msgstr "Aviso de Transparencia de IA"
+
+#: templates/admin/settings.php
+msgid "Display a professional AI transparency notice bar on your frontend to inform visitors about AI-generated content."
+msgstr "Muestra una barra de aviso de transparencia de IA profesional en tu frontend para informar a los visitantes sobre el contenido generado por IA."
+
+#: templates/admin/settings.php
+msgid "Enable Notice"
+msgstr "Habilitar Aviso"
+
+#: templates/admin/settings.php
+msgid "Show the AI transparency notice on your frontend."
+msgstr "Muestra el aviso de transparencia de IA en tu frontend."
+
+#: templates/admin/settings.php
+msgid "Notice Position"
+msgstr "Posición del Aviso"
+
+#: templates/admin/settings.php
+msgid "Top of Page"
+msgstr "Parte Superior de la Página"
+
+#: templates/admin/settings.php
+msgid "Bottom of Page"
+msgstr "Parte Inferior de la Página"
+
+#: templates/admin/settings.php
+msgid "Dismiss Duration (Days)"
+msgstr "Duración de Despido (Días)"
+
+#: templates/admin/settings.php
+msgid "How many days to hide the notice after dismissal."
+msgstr "Cuántos días ocultar el aviso después de descartarlo."
+
+#: templates/admin/settings.php
+msgid "Color customization is available on Pro and Agency plans."
+msgstr "La personalización de colores está disponible en los planes Pro y Agencia."
+
+#: templates/admin/settings.php
+msgid "Background"
+msgstr "Fondo"
+
+#: templates/admin/settings.php
+msgid "Text Color"
+msgstr "Color del Texto"
+
+#: templates/admin/settings.php
+msgid "Link Color"
+msgstr "Color del Enlace"
+
+#: templates/admin/settings.php
+msgid "Upgrade to Pro to customize colors."
+msgstr "Actualiza a Pro para personalizar colores."
+
+#: templates/admin/settings.php
+msgid "Show Logo"
+msgstr "Mostrar Logo"
+
+#: templates/admin/settings.php
+msgid "Display MegaGovern logo."
+msgstr "Muestra el logo de MegaGovern."
+
+#: templates/admin/settings.php
+msgid "Show Icon"
+msgstr "Mostrar Icono"
+
+#: templates/admin/settings.php
+msgid "Display AI shield icon."
+msgstr "Muestra el icono de escudo de IA."
+
+#: templates/admin/settings.php
+msgid "AI Policy Page"
+msgstr "Página de Política de IA"
+
+#: templates/admin/settings.php
+msgid "— Default Transparency Page —"
+msgstr "— Página de Transparencia Predeterminada —"
+
+#: templates/admin/settings.php
+msgid "Select a custom page for your AI policy. Leave empty to use /transparency."
+msgstr "Selecciona una página personalizada para tu política de IA. Déjalo vacío para usar /transparency."
+
+#: templates/admin/settings.php
+msgid "Custom Notice Text"
+msgstr "Texto de Aviso Personalizado"
+
+#: templates/admin/settings.php
+msgid "Leave empty for default text. Custom text is available on Pro and Agency plans."
+msgstr "Déjalo vacío para el texto predeterminado. El texto personalizado está disponible en los planes Pro y Agencia."
+
+#: templates/admin/settings.php
+msgid "White Label Active"
+msgstr "Marca Blanca Activa"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding removed from the notice bar."
+msgstr "Marca de MegaGovern eliminada de la barra de aviso."
+
+#: templates/admin/settings.php
+msgid "Save Notice Settings"
+msgstr "Guardar Configuración de Aviso"
+
+#: templates/admin/settings.php
+msgid "Live Preview"
+msgstr "Vista Previa en Vivo"
+
+#: templates/admin/settings.php
+msgid "This is how the notice will appear on your frontend:"
+msgstr "Así es como aparecerá el aviso en tu frontend:"
+
+#: templates/admin/settings.php
+msgid "This website uses artificial intelligence in some of its content."
+msgstr "Este sitio web utiliza inteligencia artificial en parte de su contenido."
+
+#: templates/admin/settings.php
+msgid "View AI Policy"
+msgstr "Ver Política de IA"
+
+#: templates/admin/settings.php
+msgid "Preview updates based on your settings above."
+msgstr "Las vistas previas se actualizan según tu configuración anterior."
+
+#: templates/admin/settings.php
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/admin/settings.php
+msgid "Manually display the notice anywhere using this shortcode:"
+msgstr "Muestra el aviso manualmente en cualquier lugar usando este shortcode:"
+
+#: templates/admin/settings.php
+msgid "Use this in posts, pages, or widget areas."
+msgstr "Usa esto en publicaciones, páginas o áreas de widgets."
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering and compliance defaults."
+msgstr "Selecciona tu jurisdicción regulatoria principal para el filtrado de alertas y valores predeterminados de cumplimiento."
+
+#: templates/admin/settings.php
+msgid "Automation & Reports"
+msgstr "Automatización e Informes"
+
+#: templates/admin/settings.php
+msgid "AI Notice"
+msgstr "Aviso de IA"
+
+# ============================================
+# AGENCY
+# ============================================
+
+#: templates/admin/agency.php
+msgid "You do not have permission to manage agency settings."
+msgstr "No tienes permiso para gestionar la configuración de la agencia."
+
+#: templates/admin/agency.php
+msgid "Manage sites, white label, team, and reports."
+msgstr "Gestiona sitios, marca blanca, equipo e informes."
+
+#: templates/admin/agency.php
+msgid "Site limit reached. Upgrade to add more sites."
+msgstr "Límite de sitios alcanzado. Actualiza para añadir más sitios."
+
+#: templates/admin/agency.php
+msgid "Invalid site URL. Please enter a valid URL."
+msgstr "URL de sitio inválida. Por favor, introduce una URL válida."
+
+#: templates/admin/agency.php
+msgid "Site added."
+msgstr "Sitio añadido."
+
+#: templates/admin/agency.php
+msgid "Site removed."
+msgstr "Sitio eliminado."
+
+#: templates/admin/agency.php
+msgid "White Label saved."
+msgstr "Marca blanca guardada."
+
+#: templates/admin/agency.php
+msgid "Member added."
+msgstr "Miembro añadido."
+
+#: templates/admin/agency.php
+msgid "Member removed."
+msgstr "Miembro eliminado."
+
+#: templates/admin/agency.php
+msgid "You're using %1$d/%2$d sites — only %3$d site(s) remaining."
+msgstr "Estás usando %1$d/%2$d sitios — solo %3$d sitio(s) restantes."
+
+#: templates/admin/agency.php
+msgid "Sites"
+msgstr "Sitios"
+
+#: templates/admin/agency.php
+msgid "White Label"
+msgstr "Marca Blanca"
+
+#: templates/admin/agency.php
+msgid "Bulk Reports"
+msgstr "Informes Masivos"
+
+#: templates/admin/agency.php
+msgid "Team"
+msgstr "Equipo"
+
+#: templates/admin/agency.php
+msgid "Total Sites"
+msgstr "Total de Sitios"
+
+#: templates/admin/agency.php
+msgid "Compliant"
+msgstr "Cumplidor"
+
+#: templates/admin/agency.php
+msgid "Attention"
+msgstr "Atención"
+
+#: templates/admin/agency.php
+msgid "Managed Sites"
+msgstr "Sitios Gestionados"
+
+#: templates/admin/agency.php
+msgid "Site"
+msgstr "Sitio"
+
+#: templates/admin/agency.php
+msgid "Score"
+msgstr "Puntuación"
+
+#: templates/admin/agency.php
+msgid "Poor"
+msgstr "Deficiente"
+
+#: templates/admin/agency.php
+msgid "Open"
+msgstr "Abrir"
+
+#: templates/admin/agency.php
+msgid "No sites added."
+msgstr "No se añadieron sitios."
+
+#: templates/admin/agency.php
+msgid "sites used"
+msgstr "sitios usados"
+
+#: templates/admin/agency.php
+msgid "remaining"
+msgstr "restantes"
+
+#: templates/admin/agency.php
+msgid "Add Site"
+msgstr "Añadir Sitio"
+
+#: templates/admin/agency.php
+msgid "Site Name"
+msgstr "Nombre del Sitio"
+
+#: templates/admin/agency.php
+msgid "Add"
+msgstr "Añadir"
+
+#: templates/admin/agency.php
+msgid "Site limit reached."
+msgstr "Límite de sitios alcanzado."
+
+#: templates/admin/agency.php
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/agency.php
+msgid "Remove this site?"
+msgstr "¿Eliminar este sitio?"
+
+#: templates/admin/agency.php
+msgid "White Label Branding"
+msgstr "Marca Blanca"
+
+#: templates/admin/agency.php
+msgid "Agency Name"
+msgstr "Nombre de la Agencia"
+
+#: templates/admin/agency.php
+msgid "Logo URL"
+msgstr "URL del Logo"
+
+#: templates/admin/agency.php
+msgid "Brand Color"
+msgstr "Color de Marca"
+
+#: templates/admin/agency.php
+msgid "Footer Text"
+msgstr "Texto de Pie de Página"
+
+#: templates/admin/agency.php
+msgid "Powered by [Agency]"
+msgstr "Desarrollado por [Agencia]"
+
+#: templates/admin/agency.php
+msgid "Hide Branding"
+msgstr "Ocultar Marca"
+
+#: templates/admin/agency.php
+msgid "Remove MegaGovern from public pages"
+msgstr "Eliminar MegaGovern de las páginas públicas"
+
+#: templates/admin/agency.php
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: templates/admin/agency.php
+msgid "Generate All Reports"
+msgstr "Generar Todos los Informes"
+
+#: templates/admin/agency.php
+msgid "Generate compliance reports for all %d sites."
+msgstr "Generar informes de cumplimiento para todos los %d sitios."
+
+#: templates/admin/agency.php
+msgid "Auto-generate monthly compliance reports."
+msgstr "Auto-generar informes de cumplimiento mensuales."
+
+#: templates/admin/agency.php
+msgid "Enable scheduled monthly reports"
+msgstr "Habilitar informes mensuales programados"
+
+#: templates/admin/agency.php
+msgid "Save Schedule"
+msgstr "Guardar Programación"
+
+#: templates/admin/agency.php
+msgid "Add Team Member"
+msgstr "Añadir Miembro del Equipo"
+
+#: templates/admin/agency.php
+msgid "Admin"
+msgstr "Administrador"
+
+#: templates/admin/agency.php
+msgid "Manager"
+msgstr "Gerente"
+
+#: templates/admin/agency.php
+msgid "Editor"
+msgstr "Editor"
+
+#: templates/admin/agency.php
+msgid "Contributor"
+msgstr "Colaborador"
+
+#: templates/admin/agency.php
+msgid "Team Members"
+msgstr "Miembros del Equipo"
+
+#: templates/admin/agency.php
+msgid "User"
+msgstr "Usuario"
+
+#: templates/admin/agency.php
+msgid "Role"
+msgstr "Rol"
+
+#: templates/admin/agency.php
+msgid "Remove this member?"
+msgstr "¿Eliminar este miembro?"
+
+#: templates/admin/agency.php
+msgid "No team members added."
+msgstr "No se añadieron miembros del equipo."
+
+#: templates/admin/agency.php
+msgid "Plan Details"
+msgstr "Detalles del Plan"
+
+#: templates/admin/agency.php
+msgid "Plan"
+msgstr "Plan"
+
+#: templates/admin/agency.php
+msgid "Site Limit"
+msgstr "Límite de Sitios"
+
+#: templates/admin/agency.php
+msgid "Included"
+msgstr "Incluido"
+
+#: templates/admin/agency.php
+msgid "Team Access"
+msgstr "Acceso de Equipo"
+
+# ============================================
+# GOVERNANCE CENTER
+# ============================================
+
+#: templates/admin/tab-governance.php
+msgid "Regulatory Intelligence"
+msgstr "Inteligencia Regulatoria"
+
+#: templates/admin/tab-governance.php
+msgid "Live"
+msgstr "En Vivo"
+
+#: templates/admin/tab-governance.php
+msgid "Total Directives"
+msgstr "Total de Directivas"
+
+#: templates/admin/tab-governance.php
+msgid "Jurisdictions"
+msgstr "Jurisdicciones"
+
+#: templates/admin/tab-governance.php
+msgid "Source Tier"
+msgstr "Nivel de Fuente"
+
+#: templates/admin/tab-governance.php
+msgid "Verified"
+msgstr "Verificado"
+
+#: templates/admin/tab-governance.php
+msgid "Latest Directives"
+msgstr "Últimas Directivas"
+
+#: templates/admin/tab-governance.php
+msgid "No regulatory alerts yet."
+msgstr "Aún no hay alertas regulatorias."
+
+#: templates/admin/tab-governance.php
+msgid "Mark All as Read"
+msgstr "Marcar Todo como Leído"
+
+#: templates/admin/tab-governance.php
+msgid "Full Regulatory Feed"
+msgstr "Fuente Regulatoria Completa"
+
+#: templates/admin/tab-governance.php
+msgid "Unlock live jurisdiction filtering, verified source feeds, and automated alert tracking."
+msgstr "Desbloquea filtrado de jurisdicción en vivo, fuentes verificadas y seguimiento automático de alertas."
+
+#: templates/admin/tab-governance.php
+msgid "EU AI Act — Article Coverage"
+msgstr "Ley de IA de la UE — Cobertura de Artículos"
+
+#: templates/admin/tab-governance.php
+msgid "Overall Coverage Score"
+msgstr "Puntuación General de Cobertura"
+
+#: templates/admin/tab-governance.php
+msgid "%d of %d directives covered"
+msgstr "%d de %d directivas cubiertas"
+
+#: templates/admin/tab-governance.php
+msgid "Action Item:"
+msgstr "Elemento de Acción:"
+
+#: templates/admin/tab-governance.php
+msgid "Review uncovered directives"
+msgstr "Revisar directivas no cubiertas"
+
+# ============================================
+# AI NOTICE SETTINGS
+# ============================================
+
+#: templates/admin/notice-settings.php
+msgid "AI Notice Settings"
+msgstr "Configuración de Aviso de IA"
+
+#: templates/admin/notice-settings.php
+msgid "Customize the AI transparency notice bar displayed on your website."
+msgstr "Personaliza la barra de aviso de transparencia de IA que se muestra en tu sitio web."
+
+#: templates/admin/notice-settings.php
+msgid "Show AI transparency notice on the frontend."
+msgstr "Muestra el aviso de transparencia de IA en el frontend."
+
+#: templates/admin/notice-settings.php
+msgid "Position"
+msgstr "Posición"
+
+#: templates/admin/notice-settings.php
+msgid "Top of page"
+msgstr "Parte superior de la página"
+
+#: templates/admin/notice-settings.php
+msgid "Bottom of page"
+msgstr "Parte inferior de la página"
+
+#: templates/admin/notice-settings.php
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: templates/admin/notice-settings.php
+msgid "Display MegaGovern logo in the notice."
+msgstr "Muestra el logo de MegaGovern en el aviso."
+
+#: templates/admin/notice-settings.php
+msgid "Display AI shield icon in the notice."
+msgstr "Muestra el icono de escudo de IA en el aviso."
+
+#: templates/admin/notice-settings.php
+msgid "— Select page —"
+msgstr "— Seleccionar página —"
+
+#: templates/admin/notice-settings.php
+msgid "Select the page where your AI policy is displayed."
+msgstr "Selecciona la página donde se muestra tu política de IA."
+
+#: templates/admin/notice-settings.php
+msgid "Custom Text"
+msgstr "Texto Personalizado"
+
+#: templates/admin/notice-settings.php
+msgid "Custom notice text. Leave empty for default."
+msgstr "Texto de aviso personalizado. Déjalo vacío para el predeterminado."
+
+# ============================================
+# PUBLIC — Transparent Site Badge
+# ============================================
+
+#: templates/public/badge.php
+msgid "Transparent Site"
+msgstr "Sitio Transparente"
+
+# ============================================
+# PUBLIC — Transparency Drawer
+# ============================================
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Toggle transparency information"
+msgstr "Alternar información de transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Center"
+msgstr "Centro de Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Summary"
+msgstr "Resumen de Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Human Written"
+msgstr "Declarado como Escrito por Humanos"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Assisted"
+msgstr "Declarado como Asistido por IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Generated"
+msgstr "Declarado como Generado por IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Synthetic Media"
+msgstr "Declarado como Medios Sintéticos"
+
+#: templates/public/transparency-drawer.php
+msgid "Last Declaration"
+msgstr "Última Declaración"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Records"
+msgstr "Registros de Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Verification Status"
+msgstr "Estado de Verificación"
+
+#: templates/public/transparency-drawer.php
+msgid "Verified"
+msgstr "Verificado"
+
+#: templates/public/transparency-drawer.php
+msgid "View Transparency Page"
+msgstr "Ver Página de Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Read AI Policy"
+msgstr "Leer Política de IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Download AI.txt"
+msgstr "Descargar AI.txt"
+
+#: templates/public/transparency-drawer.php
+msgid "Verify Transparency"
+msgstr "Verificar Transparencia"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency information aligned with EU AI Act Article 50 disclosure goals."
+msgstr "Información de transparencia alineada con los objetivos de divulgación del Artículo 50 de la Ley de IA de la UE."
+
+#: templates/public/transparency-drawer.php
+msgid "Powered by MegaGovern"
+msgstr "Desarrollado por MegaGovern"
+
+# ============================================
+# PUBLIC — Verification Page
+# ============================================
+
+#: templates/public/verify-page.php
+msgid "Not available"
+msgstr "No disponible"
+
+#: templates/public/verify-page.php
+msgid "About This Page"
+msgstr "Acerca de Esta Página"
+
+#: templates/public/verify-page.php
+msgid "This website voluntarily maintains an AI Content Transparency Registry and publishes AI disclosure information. All content sources are declared and recorded in a verifiable transparency registry, providing proof of responsible AI governance."
+msgstr "Este sitio web mantiene voluntariamente un Registro de Transparencia de Contenido de IA y publica información de divulgación de IA. Todas las fuentes de contenido están declaradas y registradas en un registro de transparencia verificable, proporcionando prueba de una gobernanza responsable de IA."
+
+#: templates/public/verify-page.php
+msgid "Total Declared Articles"
+msgstr "Total de Artículos Declarados"
+
+#: templates/public/verify-page.php
+msgid "Machine-readable file"
+msgstr "Archivo legible por máquina"
+
+#: templates/public/verify-page.php
+msgid "Verification"
+msgstr "Verificación"
+
+#: templates/public/verify-page.php
+msgid "Registry ID"
+msgstr "ID de Registro"
+
+#: templates/public/verify-page.php
+msgid "Generated"
+msgstr "Generado"
+
+#: templates/public/verify-page.php
+msgid "Generated automatically from the website's Transparency Registry by megagovern.com."
+msgstr "Generado automáticamente desde el Registro de Transparencia del sitio web por megagovern.com."
+
+# ============================================
+# PDF REPORT
+# ============================================
+
+#: templates/public/report-pdf.php
+msgid "MegaGovern — AI Transparency & Compliance Report"
+msgstr "MegaGovern — Informe de Transparencia y Cumplimiento de IA"
+
+#: templates/public/report-pdf.php
+msgid "Site:"
+msgstr "Sitio:"
+
+#: templates/public/report-pdf.php
+msgid "URL:"
+msgstr "URL:"
+
+#: templates/public/report-pdf.php
+msgid "Generated:"
+msgstr "Generado:"
+
+#: templates/public/report-pdf.php
+msgid "Period:"
+msgstr "Período:"
+
+#: templates/public/report-pdf.php
+msgid "%1$s of %2$s published items declared"
+msgstr "%1$s de %2$s elementos publicados declarados"
+
+#: templates/public/report-pdf.php
+msgid "Declaration Breakdown"
+msgstr "Desglose de Declaraciones"
+
+#: templates/public/report-pdf.php
+msgid "Synthetic / Deepfake"
+msgstr "Sintético / Deepfake"
+
+#: templates/public/report-pdf.php
+msgid "Transparency Measures"
+msgstr "Medidas de Transparencia"
+
+#: templates/public/report-pdf.php
+msgid "Measure"
+msgstr "Medida"
+
+#: templates/public/report-pdf.php
+msgid "Details"
+msgstr "Detalles"
+
+#: templates/public/report-pdf.php
+msgid "Not started"
+msgstr "No iniciado"
+
+#: templates/public/report-pdf.php
+msgid "posts declared"
+msgstr "publicaciones declaradas"
+
+#: templates/public/report-pdf.php
+msgid "Not published"
+msgstr "No publicado"
+
+#: templates/public/report-pdf.php
+msgid "Not active"
+msgstr "No activo"
+
+#: templates/public/report-pdf.php
+msgid "Content Labels"
+msgstr "Etiquetas de Contenido"
+
+#: templates/public/report-pdf.php
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: templates/public/report-pdf.php
+msgid "SHA-256 Integrity"
+msgstr "Integridad SHA-256"
+
+#: templates/public/report-pdf.php
+msgid "Content hashes generated on declaration"
+msgstr "Hashes de contenido generados en la declaración"
+
+#: templates/public/report-pdf.php
+msgid "IMPORTANT LEGAL DISCLAIMER"
+msgstr "AVISO LEGAL IMPORTANTE"
+
+#: templates/public/report-pdf.php
+msgid "This report is generated by the MegaGovern plugin for transparency and documentation purposes only. It does NOT constitute legal advice, legal compliance certification, or a guarantee of regulatory compliance. Legal compliance depends on your jurisdiction, your content, and your legal counsel."
+msgstr "Este informe es generado por el plugin MegaGovern únicamente con fines de transparencia y documentación. NO constituye asesoramiento legal, certificación de cumplimiento legal ni una garantía de cumplimiento regulatorio. El cumplimiento legal depende de tu jurisdicción, tu contenido y tu asesor legal."
+
+#: templates/public/report-pdf.php
+msgid "Meganova Agency makes no representations or warranties regarding the completeness or accuracy of this data for legal purposes. Users should consult qualified legal counsel for compliance determinations specific to their situation."
+msgstr "Meganova Agency no hace declaraciones ni garantías sobre la integridad o precisión de estos datos para fines legales. Los usuarios deben consultar con asesor legal calificado para determinaciones de cumplimiento específicas de su situación."
+
+#: templates/public/report-pdf.php
+msgid "Generated by MegaGovern v%s — AI Transparency & Documentation Toolkit"
+msgstr "Generado por MegaGovern v%s — Kit de Transparencia y Documentación de IA"
+
+#: templates/public/report-pdf.php
+msgid "https://megagovern.com"
+msgstr "https://megagovern.com"
+
+# ============================================
+# CORE — META REGISTRATION
+# ============================================
+
+#: includes/Core.php
+msgid "Content declaration type (human, ai_assisted, ai_generated, deepfake)"
+msgstr "Tipo de declaración de contenido (human, ai_assisted, ai_generated, deepfake)"
+
+#: includes/Core.php
+msgid "User ID who declared the content"
+msgstr "ID del usuario que declaró el contenido"
+
+#: includes/Core.php
+msgid "Timestamp when content was declared"
+msgstr "Marca de tiempo cuando se declaró el contenido"
+
+#: includes/Core.php
+msgid "Flag if declaration is stale due to content edits exceeding threshold"
+msgstr "Indicador si la declaración está obsoleta debido a ediciones de contenido que superan el umbral"
+
+#: includes/Core.php
+msgid "SHA-256 hash of published content"
+msgstr "Hash SHA-256 del contenido publicado"
+
+#: includes/Core.php
+msgid "Legacy archive exemption flag"
+msgstr "Indicador de exención de archivo heredado"
+
+#: includes/Core.php
+msgid "Exemption revocation flag"
+msgstr "Indicador de revocación de exención"
+
+#: includes/Core.php
+msgid "Action dismissed flag"
+msgstr "Indicador de acción descartada"
+
+#: includes/Core.php
+msgid "Action pending flag"
+msgstr "Indicador de acción pendiente"
+
+# ============================================
+# MISC
+# ============================================
+
+#: includes/Helpers.php
+msgid "Enacted"
+msgstr "Promulgada"
+
+#: includes/Helpers.php
+msgid "Proposed"
+msgstr "Propuesta"
+
+#: includes/Helpers.php
+msgid "Framework"
+msgstr "Marco"
+
+#: includes/Helpers.php
+msgid "Voluntary"
+msgstr "Voluntario"
+
+#: includes/Helpers.php
+msgid "Text"
+msgstr "Texto"
+
+#: includes/Helpers.php
+msgid "Images"
+msgstr "Imágenes"
+
+#: includes/Helpers.php
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/Helpers.php
+msgid "Video"
+msgstr "Video"
+
+#: includes/Helpers.php
+msgid "Deepfakes"
+msgstr "Deepfakes"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "No has iniciado sesión."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "No se proporcionó ID de alerta."
+
+#: includes/Evidence.php
+msgid "No description provided."
+msgstr "No se proporcionó descripción."
+
+#: includes/Evidence.php
+msgid "Free plan shows International alerts only."
+msgstr "El plan Gratis muestra solo alertas Internacionales."
+
+#: includes/Evidence.php
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: mega-govern.php
+msgid "MegaGovern Test Report"
+msgstr "Informe de Prueba de MegaGovern"
+
+#: mega-govern.php
+msgid "This is a test report from MegaGovern.\n\nIf you're seeing this, your email settings are working correctly."
+msgstr "Este es un informe de prueba de MegaGovern.\n\nSi estás viendo esto, tu configuración de correo funciona correctamente."

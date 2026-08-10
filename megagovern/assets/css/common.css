@@ -1,0 +1,541 @@
+/**
+ * MegaGovern — Common Styles — V1.0.4
+ * Shared across Admin + Frontend
+ *
+ * @package MegaGovern
+ * @since   1.0.4
+ *
+ * TABLE OF CONTENTS
+ * 1.  CSS Variables
+ * 2.  Top Bar
+ * 3.  Plan Badges
+ * 4.  Pills & Badges
+ * 5.  Buttons
+ * 6.  Toggle Switches
+ * 7.  Layout & Grid
+ * 8.  Upgrade Banners
+ * 9.  Cards
+ * 10. Typography
+ * 11. RTL Support
+ * 12. Animations
+ * 13. Dark Mode
+ */
+
+/* ============================================================ */
+/* 1. CSS VARIABLES                                             */
+/* ============================================================ */
+:root {
+    /* Primary */
+    --mga-primary: #0f172a;
+    --mga-primary-light: #1e293b;
+    --mga-primary-lighter: #334155;
+    --mga-secondary: #475569;
+    --mga-accent: #2271b1;
+    --mga-accent-hover: #135e96;
+    --mga-accent-light: #e8f0fe;
+
+    /* Brand (legacy) */
+    --mga-brand: #2271b1;
+    --mga-brand-hover: #135e96;
+
+    /* Status */
+    --mga-success: #00a32a;
+    --mga-success-bg: #ecfdf5;
+    --mga-success-text: #065f46;
+    --mga-warning: #dba617;
+    --mga-warning-bg: #fffbeb;
+    --mga-warning-text: #92400e;
+    --mga-danger: #d63638;
+    --mga-danger-bg: #fef2f2;
+    --mga-danger-text: #991b1b;
+    --mga-info: #0ea5e9;
+    --mga-info-bg: #f0f9ff;
+
+    /* Neutral */
+    --mga-bg: #f0f0f1;
+    --mga-bg-light: #f8f9fa;
+    --mga-card: #ffffff;
+    --mga-border: #c3c4c7;
+    --mga-border-light: #e5e5e5;
+    --mga-text: #1d2327;
+    --mga-text-light: #50575e;
+    --mga-text-secondary: #475569;
+    --mga-text-muted: #94a3b8;
+    --mga-muted: #646970;
+
+    /* Spacing */
+    --mga-radius: 12px;
+    --mga-radius-sm: 8px;
+    --mga-radius-xs: 6px;
+    --mga-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    --mga-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --mga-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --mga-transition: 0.2s ease;
+
+    /* Typography */
+    --mga-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ============================================================ */
+/* 2. TOP BAR                                                   */
+/* ============================================================ */
+.mga-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 0 12px;
+    border-bottom: 1px solid var(--mga-border);
+    margin-bottom: 20px;
+}
+
+.mga-topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mga-topbar-left h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--mga-text);
+    letter-spacing: -0.3px;
+}
+
+.mga-topbar-sub {
+    font-size: 13px;
+    color: var(--mga-text-muted);
+}
+
+.mga-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mga-topbar-docs,
+.mga-btn-refresh {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--mga-radius-xs);
+    color: var(--mga-text-secondary);
+    text-decoration: none;
+    transition: all var(--mga-transition);
+    border: 1px solid transparent;
+}
+
+.mga-topbar-docs:hover,
+.mga-btn-refresh:hover {
+    background: var(--mga-accent-light);
+    color: var(--mga-accent);
+    border-color: var(--mga-accent);
+}
+
+/* ============================================================ */
+/* 3. PLAN BADGES                                               */
+/* ============================================================ */
+.mga-plan-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.mga-plan--free { background: #e2e8f0; color: #475569; }
+.mga-plan--pro { background: var(--mga-accent); color: #fff; }
+.mga-plan--agency { background: #7c3aed; color: #fff; }
+.mga-plan--lifetime { background: #fffbeb; color: #dba617; }
+
+/* ============================================================ */
+/* 4. PILLS & BADGES                                            */
+/* ============================================================ */
+.mga-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.mga-pill--ok { background: var(--mga-success-bg); color: var(--mga-success-text); }
+.mga-pill--warn { background: var(--mga-warning-bg); color: var(--mga-warning-text); }
+.mga-pill--danger { background: var(--mga-danger-bg); color: var(--mga-danger-text); }
+.mga-pill--info { background: var(--mga-info-bg); color: #0c4a6e; }
+.mga-pill--free { background: #e2e8f0; color: #475569; }
+.mga-pill--pro { background: var(--mga-accent); color: #fff; }
+.mga-pill--neutral { background: #f0f0f1; color: #646970; }
+.mga-pill--compact { padding: 1px 6px; font-size: 9px; }
+
+.mga-badge-count {
+    background: var(--mga-danger);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    line-height: 1.2;
+}
+
+/* ============================================================ */
+/* 5. BUTTONS                                                   */
+/* ============================================================ */
+.mga-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.mga-btn-primary { background: var(--mga-brand); color: #fff; border-color: var(--mga-brand); }
+.mga-btn-primary:hover { background: var(--mga-brand-hover); border-color: var(--mga-brand-hover); }
+.mga-btn-secondary { background: #f0f0f1; color: var(--mga-text); border-color: var(--mga-border); }
+.mga-btn-secondary:hover { background: #e0e0e1; }
+.mga-btn-danger { background: var(--mga-danger); color: #fff; border-color: var(--mga-danger); }
+.mga-btn-danger:hover { background: #b91c1c; border-color: #b91c1c; }
+.mga-btn-small { padding: 3px 10px; font-size: 11px; }
+
+.mga-btn-upgrade {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #fff;
+    border: none;
+    border-radius: var(--mga-radius-xs);
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all var(--mga-transition);
+    box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
+.mga-btn-upgrade:hover {
+    background: linear-gradient(135deg, #d97706, #b45309);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(217, 119, 6, 0.35);
+    color: #fff;
+}
+
+.mga-btn-upgrade-hero {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.25);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.mga-btn-upgrade-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+    color: #fff;
+}
+
+.mga-btn-upgrade-small {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: var(--mga-radius-xs);
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.mga-btn-upgrade-small:hover {
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.mga-btn-upgrade-banner {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 28px;
+    background: #0f172a;
+    color: #ffffff !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.mga-btn-upgrade-banner:hover {
+    background: #1e293b;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+
+/* ============================================================ */
+/* 6. TOGGLE SWITCHES                                           */
+/* ============================================================ */
+.mga-toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--mga-border-light);
+}
+
+.mga-toggle-row:last-child { border-bottom: none; }
+
+.mga-toggle-info { flex: 1; min-width: 0; }
+.mga-toggle-info strong { display: block; font-size: 13px; color: var(--mga-text); margin-bottom: 2px; }
+.mga-toggle-info small { display: block; font-size: 11px; color: var(--mga-text-muted); line-height: 1.4; }
+
+.mga-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.mga-toggle-switch input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.mga-toggle-slider {
+    position: absolute;
+    inset: 0;
+    background: #cbd5e1;
+    border-radius: 24px;
+    transition: background 0.2s ease;
+    z-index: 0;
+}
+
+.mga-toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mga-toggle-switch input:checked + .mga-toggle-slider { background: var(--mga-success); }
+.mga-toggle-switch input:checked + .mga-toggle-slider::before { transform: translateX(20px); }
+.mga-toggle-switch input:focus-visible + .mga-toggle-slider { outline: 2px solid var(--mga-accent); outline-offset: 2px; }
+.mga-toggle-switch:hover input:not(:checked) + .mga-toggle-slider { background: #94a3b8; }
+
+.mga-toggle-switch--compact { width: 36px; height: 20px; }
+.mga-toggle-switch--compact .mga-toggle-slider::before { height: 14px; width: 14px; left: 3px; bottom: 3px; }
+.mga-toggle-switch--compact input:checked + .mga-toggle-slider::before { transform: translateX(16px); }
+.mga-toggle-switch input:disabled + .mga-toggle-slider { opacity: 0.5; cursor: not-allowed; }
+
+/* ============================================================ */
+/* 7. LAYOUT & GRID                                             */
+/* ============================================================ */
+.mga-row { display: grid; gap: 20px; margin-bottom: 20px; }
+.mga-row-3col { grid-template-columns: repeat(3, 1fr); }
+.mga-row-2col { grid-template-columns: repeat(2, 1fr); }
+
+@media (max-width: 782px) {
+    .mga-row-3col,
+    .mga-row-2col { grid-template-columns: 1fr; }
+}
+
+/* ============================================================ */
+/* 8. UPGRADE BANNERS                                           */
+/* ============================================================ */
+.mga-upgrade-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mga-upgrade-banner:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.mga-upgrade-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.mga-upgrade-banner-content strong { color: #0f172a; font-size: 14px; font-weight: 600; display: block; margin-bottom: 2px; }
+.mga-upgrade-banner-content span { color: #64748b; font-size: 12px; line-height: 1.5; }
+
+/* ============================================================ */
+/* 9. CARDS                                                     */
+/* ============================================================ */
+.mga-card {
+    background: var(--mga-card);
+    border: 1px solid var(--mga-border);
+    border-radius: var(--mga-radius);
+    padding: 20px 22px;
+    box-shadow: var(--mga-shadow);
+    transition: all var(--mga-transition);
+}
+
+.mga-card:hover { box-shadow: var(--mga-shadow-md); }
+
+.mga-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.mga-card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--mga-text);
+    margin: 0 0 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mga-card-title svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--mga-accent); }
+.mga-card-header .mga-card-title { margin-bottom: 0; }
+
+.mga-card-desc {
+    font-size: 12px;
+    color: var(--mga-muted);
+    margin: 0 0 12px;
+}
+
+/* ============================================================ */
+/* 10. TYPOGRAPHY                                               */
+/* ============================================================ */
+.mga-empty-text { text-align: center; padding: 24px 0; color: var(--mga-text-muted); font-size: 12px; }
+.mga-ok { color: var(--mga-success); font-size: 13px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+
+/* ============================================================ */
+/* 11. RTL SUPPORT                                              */
+/* ============================================================ */
+[dir="rtl"] .mga-topbar-left { flex-direction: row-reverse; }
+[dir="rtl"] .mga-topbar-right { flex-direction: row-reverse; }
+
+/* ============================================================ */
+/* 12. ANIMATIONS                                               */
+/* ============================================================ */
+@keyframes mga-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes mga-modal-in {
+    0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+    100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* ============================================================ */
+/* 13. DARK MODE                                                */
+/* ============================================================ */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --mga-bg: #0f0f0f;
+        --mga-bg-light: #1a1a1a;
+        --mga-card: #1e1e1e;
+        --mga-border: #2c2c2c;
+        --mga-border-light: #2c2c2c;
+        --mga-text: #e0e0e0;
+        --mga-text-light: #b0b0b0;
+        --mga-text-secondary: #a0a0a0;
+        --mga-text-muted: #6b7280;
+        --mga-muted: #6b7280;
+        --mga-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        --mga-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+        --mga-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+        --mga-accent-light: #1a2a3a;
+    }
+
+    .mga-topbar { border-color: var(--mga-border); }
+    .mga-topbar-left h1 { color: var(--mga-text); }
+    .mga-topbar-sub { color: var(--mga-text-muted); }
+
+    .mga-card { background: var(--mga-card); border-color: var(--mga-border); }
+    .mga-card-title { color: var(--mga-text); }
+    .mga-card-desc { color: var(--mga-text-muted); }
+
+    .mga-plan--free { background: #2a2a2a; color: #9ca3af; }
+    .mga-plan--pro { background: #1a3a6a; color: #93c5fd; }
+    .mga-plan--agency { background: #3a1a6a; color: #a78bfa; }
+
+    .mga-pill--ok { background: #1a2a1a; color: #6ee7b7; }
+    .mga-pill--warn { background: #2a2a1a; color: #fcd34d; }
+    .mga-pill--danger { background: #2a1a1a; color: #fca5a5; }
+    .mga-pill--info { background: #1a2a3a; color: #7dd3fc; }
+    .mga-pill--neutral { background: #2a2a2a; color: #9ca3af; }
+
+    .mga-btn-secondary { background: #2a2a2a; color: var(--mga-text); border-color: var(--mga-border); }
+    .mga-btn-secondary:hover { background: #3a3a3a; }
+
+    .mga-upgrade-banner {
+        background: #1a1a1a;
+        border-color: #2a2a2a;
+    }
+    .mga-upgrade-banner-content strong { color: var(--mga-text); }
+    .mga-upgrade-banner-content span { color: var(--mga-text-muted); }
+
+    .mga-toggle-row { border-color: var(--mga-border-light); }
+    .mga-toggle-info strong { color: var(--mga-text); }
+    .mga-toggle-info small { color: var(--mga-text-muted); }
+}

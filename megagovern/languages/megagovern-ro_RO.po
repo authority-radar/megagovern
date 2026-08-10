@@ -1,0 +1,3854 @@
+# MegaGovern — AI Transparency Toolkit
+# Copyright (C) 2026 MegaGovern
+# This file is distributed under the same license as the MegaGovern package.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: MegaGovern 1.0.6\n"
+"Report-Msgid-Bugs-To: https://megagovern.com/support\n"
+"POT-Creation-Date: 2026-05-30 12:00+0000\n"
+"PO-Revision-Date: 2026-05-30 18:00+0100\n"
+"Last-Translator: Numele Tău <emailul.tau@exemplu.ro>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Domain: megagovern\n"
+"X-Generator: Poedit 3.0\n"
+
+#. Plugin Name
+msgid "MegaGovern — AI Transparency Toolkit"
+msgstr "MegaGovern — Kit de Transparență pentru IA"
+
+#. Plugin Description
+msgid "EU AI Act Article 50 compliant transparency labels, AI content declaration, AI.txt generator, and governance dashboard for WordPress."
+msgstr "Etichete de transparență conforme cu Articolul 50 din Actul UE privind IA, declararea conținutului AI, generator AI.txt și panou de guvernanță pentru WordPress."
+
+# ============================================
+# ADMIN — Menu & Pages
+# ============================================
+
+#: includes/Admin.php
+msgid "MegaGovern"
+msgstr "MegaGovern"
+
+#: includes/Admin.php templates/admin/dashboard.php
+msgid "Dashboard"
+msgstr "Panou de Control"
+
+#: includes/Admin.php templates/admin/transparency-center.php
+msgid "Transparency Center"
+msgstr "Centru de Transparență"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/settings.php
+msgid "Regulatory Alerts"
+msgstr "Alerte de Reglementare"
+
+#: includes/Admin.php includes/Score.php templates/admin/tab-reports.php
+msgid "Reports & Evidence"
+msgstr "Rapoarte și Dovezi"
+
+#: includes/Admin.php templates/admin/settings.php
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/Admin.php templates/admin/agency.php
+msgid "Agency Hub"
+msgstr "Hub Agenție"
+
+#: includes/Admin.php includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy"
+msgstr "Politică IA"
+
+#: includes/Admin.php
+msgid "Mission Control"
+msgstr "Centru de Control"
+
+#: includes/Admin.php
+msgid "Agency"
+msgstr "Agenție"
+
+# ============================================
+# ADMIN — Top Bar & Common
+# ============================================
+
+#: includes/Admin.php
+msgid "Documentation"
+msgstr "Documentație"
+
+#: includes/Admin.php
+msgid "Refresh"
+msgstr "Reîmprospătează"
+
+#: includes/Admin.php
+msgid "AI transparency governance at a glance."
+msgstr "Guvernanța transparenței IA dintr-o privire."
+
+#: includes/Admin.php
+msgid "Manage content classifications, AI disclosures, and compliance records."
+msgstr "Gestionați clasificările de conținut, dezvăluirile IA și înregistrările de conformitate."
+
+#: includes/Admin.php
+msgid "Track AI regulations affecting your content. Updated with each plugin release."
+msgstr "Urmăriți reglementările IA care afectează conținutul dvs. Actualizat cu fiecare lansare a plugin-ului."
+
+#: includes/Admin.php
+msgid "Compliance reports, evidence bundles, and audit trails."
+msgstr "Rapoarte de conformitate, pachete de dovezi și trasee de audit."
+
+#: includes/Admin.php
+msgid "Configure MegaGovern for your compliance needs."
+msgstr "Configurați MegaGovern pentru nevoile dvs. de conformitate."
+
+#: includes/Admin.php
+msgid "Manage multiple sites, white label settings, and team access."
+msgstr "Gestionați mai multe site-uri, setări white label și acces în echipă."
+
+#: includes/Admin.php
+msgid "Manage your public AI usage policy."
+msgstr "Gestionați politica dvs. publică de utilizare a IA."
+
+# ============================================
+# ADMIN — Common Messages
+# ============================================
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "You do not have permission to access this page."
+msgstr "Nu aveți permisiunea de a accesa această pagină."
+
+#: includes/Admin.php
+msgid "Access Denied"
+msgstr "Acces Interzis"
+
+#: includes/Admin.php
+msgid "Fixing..."
+msgstr "Repar..."
+
+#: includes/Admin.php templates/admin/tab-disclosures.php
+msgid "Done"
+msgstr "Gata"
+
+#: includes/Admin.php
+msgid "Error — Click to retry"
+msgstr "Eroare — Faceți clic pentru a reîncerca"
+
+#: includes/Admin.php
+msgid "Refreshing dashboard..."
+msgstr "Reîmprospătare panou..."
+
+#: includes/Admin.php
+msgid "Syncing..."
+msgstr "Sincronizare..."
+
+#: includes/Admin.php
+msgid "Please select a classification."
+msgstr "Vă rugăm să selectați o clasificare."
+
+#: includes/Admin.php
+msgid "Please select at least one item."
+msgstr "Vă rugăm să selectați cel puțin un element."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "Processing..."
+msgstr "Procesare..."
+
+#: includes/Admin.php
+msgid "Error."
+msgstr "Eroare."
+
+#: includes/Admin.php
+msgid "Failed."
+msgstr "Eșuat."
+
+#: includes/Admin.php templates/admin/tab-content.php
+msgid "Loading..."
+msgstr "Se încarcă..."
+
+#: includes/Admin.php
+msgid "No history found."
+msgstr "Nu s-a găsit niciun istoric."
+
+#: includes/Admin.php
+msgid "Failed to load."
+msgstr "Încărcarea a eșuat."
+
+#: includes/Admin.php
+msgid "This section is coming soon."
+msgstr "Această secțiune va fi disponibilă în curând."
+
+#: includes/Admin.php templates/admin/settings.php templates/admin/tab-alerts.php
+msgid "Free"
+msgstr "Gratuit"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/tab-content.php templates/admin/settings.php
+msgid "Pro"
+msgstr "Pro"
+
+# ============================================
+# PHP VERSION CHECK
+# ============================================
+
+#: mega-govern.php
+msgid "requires PHP %1$s or higher. Your site is running PHP %2$s."
+msgstr "necesită PHP %1$s sau o versiune superioară. Site-ul dvs. rulează PHP %2$s."
+
+# ============================================
+# DECLARATION TYPES
+# ============================================
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Human Made"
+msgstr "Creat de Oameni"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "AI Modified"
+msgstr "Modificat de IA"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Fully AI-Generated"
+msgstr "Generat Integral de IA"
+
+#: includes/Declaration.php includes/Helpers.php includes/Labels.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Synthetic Media"
+msgstr "Media Sintetică"
+
+#: includes/Declaration.php
+msgid "Content created by a human"
+msgstr "Conținut creat de un om"
+
+#: includes/Declaration.php
+msgid "AI Modified content - AI was used to modify pre-existing human content"
+msgstr "Conținut modificat de IA - IA a fost utilizată pentru a modifica conținutul uman preexistent"
+
+#: includes/Declaration.php
+msgid "Fully AI-Generated content - No human editorial control"
+msgstr "Conținut generat integral de IA - Fără control editorial uman"
+
+#: includes/Declaration.php
+msgid "AI Generated or manipulated content (Synthetic Media) - May not be authentic"
+msgstr "Conținut generat sau manipulat de IA (Media Sintetică) - Poate să nu fie autentic"
+
+# ============================================
+# DECLARATION — META BOX
+# ============================================
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration"
+msgstr "Declarația Actului UE privind IA"
+
+#: includes/Declaration.php
+msgid "Select content source (EU AI Act Art. 50):"
+msgstr "Selectați sursa conținutului (Art. 50 din Actul UE privind IA):"
+
+#: includes/Declaration.php
+msgid "Current: %s"
+msgstr "Curent: %s"
+
+#: includes/Declaration.php
+msgid "Snapshot captured"
+msgstr "Captură instantanee realizată"
+
+#: includes/Declaration.php
+msgid "Required before publishing — EU AI Act Art. 50"
+msgstr "Necesar înainte de publicare — Art. 50 din Actul UE privind IA"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration required."
+msgstr "Declarația Actului UE privind IA este necesară."
+
+#: includes/Declaration.php
+msgid "Please select the content source before publishing (Article 50)."
+msgstr "Vă rugăm să selectați sursa conținutului înainte de publicare (Articolul 50)."
+
+# ============================================
+# DECLARATION — AJAX
+# ============================================
+
+#: includes/Declaration.php includes/Ajax.php
+msgid "Permission denied."
+msgstr "Permisiune refuzată."
+
+#: includes/Declaration.php
+msgid "Invalid data."
+msgstr "Date invalide."
+
+#: includes/Declaration.php
+msgid "Content declared as %s."
+msgstr "Conținut declarat ca %s."
+
+#: includes/Declaration.php
+msgid "Declaration failed."
+msgstr "Declarația a eșuat."
+
+# ============================================
+# HELPERS — Labels & Types
+# ============================================
+
+#: includes/Helpers.php
+msgid "Human Authored"
+msgstr "Scris de Oameni"
+
+#: includes/Helpers.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Assisted"
+msgstr "Asistat de IA"
+
+#: includes/Helpers.php includes/Media.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Generated"
+msgstr "Generat de IA"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic"
+msgstr "Deepfake / Sintetic"
+
+#: includes/Helpers.php
+msgid "None"
+msgstr "Niciunul"
+
+#: includes/Helpers.php
+msgid "Human Created"
+msgstr "Creat de Oameni"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic Media"
+msgstr "Deepfake / Media Sintetică"
+
+#: includes/Helpers.php
+msgid "Article declared"
+msgstr "Articol declarat"
+
+#: includes/Helpers.php
+msgid "Declaration updated"
+msgstr "Declarație actualizată"
+
+#: includes/Helpers.php
+msgid "Registry updated"
+msgstr "Registru actualizat"
+
+#: includes/Helpers.php
+msgid "AI.txt regenerated"
+msgstr "AI.txt regenerat"
+
+#: includes/Helpers.php
+msgid "Label displayed"
+msgstr "Etichetă afișată"
+
+#: includes/Helpers.php
+msgid "Report generated"
+msgstr "Raport generat"
+
+#: includes/Helpers.php
+msgid "Verification updated"
+msgstr "Verificare actualizată"
+
+#: includes/Helpers.php
+msgid "Alert received"
+msgstr "Alertă primită"
+
+#: includes/Helpers.php
+msgid "Issue fixed"
+msgstr "Problemă rezolvată"
+
+#: includes/Helpers.php
+msgid "Services refreshed"
+msgstr "Servicii reîmprospătate"
+
+#: includes/Helpers.php
+msgid "Crawler blocked"
+msgstr "Crawler blocat"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "High"
+msgstr "Ridicat"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Medium"
+msgstr "Mediu"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Low"
+msgstr "Scăzut"
+
+#: includes/Helpers.php
+msgid "Healthy"
+msgstr "Sănătos"
+
+#: includes/Helpers.php
+msgid "Warning"
+msgstr "Avertisment"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Critical"
+msgstr "Critic"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "European Union"
+msgstr "Uniunea Europeană"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "United States"
+msgstr "Statele Unite"
+
+#: includes/Helpers.php includes/Alerts.php includes/SetupWizard.php templates/admin/settings.php
+msgid "Global"
+msgstr "Global"
+
+#: includes/Helpers.php templates/admin/settings.php
+msgid "General"
+msgstr "General"
+
+#: includes/Helpers.php
+msgid "Excellent"
+msgstr "Excelent"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Good"
+msgstr "Bun"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Fair"
+msgstr "Acceptabil"
+
+#: includes/Helpers.php
+msgid "Needs Attention"
+msgstr "Necesită Atenție"
+
+#: includes/Helpers.php includes/Scanner.php
+msgid "Unknown"
+msgstr "Necunoscut"
+
+# ============================================
+# GOVERNANCE
+# ============================================
+
+#: includes/Governance.php
+msgid "Dependent services refreshed."
+msgstr "Servicii dependente reîmprospătate."
+
+# ============================================
+# CRAWLER
+# ============================================
+
+#: includes/Crawler.php templates/admin/dashboard.php
+msgid "ago"
+msgstr "în urmă"
+
+#: includes/Crawler.php
+msgid "Never"
+msgstr "Niciodată"
+
+#: includes/Crawler.php
+msgid "AI.txt, LLMs.txt, and Robots.txt regenerated."
+msgstr "AI.txt, LLMs.txt și Robots.txt regenerate."
+
+#: includes/Crawler.php
+msgid "Just Now"
+msgstr "Chiar Acum"
+
+# ============================================
+# LABELS
+# ============================================
+
+#: includes/Labels.php templates/admin/settings.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "Human Written"
+msgstr "Scris de Oameni"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Assisted"
+msgstr "Asistat de IA"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Generated"
+msgstr "Generat de IA"
+
+#: templates/public/label.php
+msgid "EU AI Act Art. 50"
+msgstr "Art. 50 Actul UE privind IA"
+
+# ============================================
+# MEDIA
+# ============================================
+
+#: includes/Media.php
+msgid "File not found."
+msgstr "Fișierul nu a fost găsit."
+
+#: includes/Media.php
+msgid "File too large for analysis."
+msgstr "Fișier prea mare pentru analiză."
+
+#: includes/Media.php
+msgid "Unsupported format."
+msgstr "Format neacceptat."
+
+#: includes/Media.php
+msgid "No AI markers detected."
+msgstr "Nu s-au detectat markeri IA."
+
+#: includes/Media.php
+msgid "EXIF metadata indicates AI tool: %s"
+msgstr "Metadatele EXIF indică instrument IA: %s"
+
+#: includes/Media.php
+msgid "EXIF contains AI generation keywords."
+msgstr "EXIF conține cuvinte cheie de generare IA."
+
+#: includes/Media.php
+msgid "C2PA Content Credentials detected — image has verifiable AI provenance."
+msgstr "Credențiale de Conținut C2PA detectate — imaginea are proveniență IA verificabilă."
+
+#: includes/Media.php
+msgid "Stable Diffusion generation parameters detected."
+msgstr "Parametri de generare Stable Diffusion detectați."
+
+#: includes/Media.php
+msgid "AI Declaration"
+msgstr "Declarație IA"
+
+#: includes/Media.php
+msgid "AI Detected"
+msgstr "IA Detectată"
+
+#: includes/Media.php
+msgid "Undeclared"
+msgstr "Nedeclarat"
+
+#: includes/Media.php
+msgid "— Select —"
+msgstr "— Selectați —"
+
+#: includes/Media.php
+msgid "Detection:"
+msgstr "Detecție:"
+
+#: includes/Media.php
+msgid "Analyze Image"
+msgstr "Analizează Imaginea"
+
+#: includes/Media.php
+msgid "Invalid attachment."
+msgstr "Atașament invalid."
+
+#: includes/Media.php
+msgid "Media declared."
+msgstr "Media declarată."
+
+#: includes/Media.php
+msgid "Declaration saved."
+msgstr "Declarație salvată."
+
+#: includes/Media.php
+msgid "Bulk declaration is available in Pro and Agency plans."
+msgstr "Declarația în masă este disponibilă în planurile Pro și Agenție."
+
+#: includes/Media.php
+msgid "%d image declared."
+msgid_plural "%d images declared."
+msgstr[0] "%d imagine declarată."
+msgstr[1] "%d imagini declarate."
+msgstr[2] "%d de imagini declarate."
+
+# ============================================
+# VERIFICATION
+# ============================================
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "AI Transparency Verification"
+msgstr "Verificarea Transparenței IA"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verified Transparent Site"
+msgstr "Site Transparent Verificat"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "This website is committed to AI transparency and maintains a documented governance record through MegaGovern."
+msgstr "Acest site web este angajat în transparența IA și menține o înregistrare documentată de guvernanță prin MegaGovern."
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Total Declared"
+msgstr "Total Declarat"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Last Updated"
+msgstr "Ultima Actualizare"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verification Hash:"
+msgstr "Hash Verificare:"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Powered by MegaGovern — AI Transparency & Disclosure Governance"
+msgstr "Susținut de MegaGovern — Guvernanța Transparenței și Dezvăluirii IA"
+
+#: includes/Verification.php
+msgid "Verification data refreshed."
+msgstr "Date de verificare reîmprospătate."
+
+# ============================================
+# POLICY
+# ============================================
+
+#: includes/Policy.php
+msgid "AI Usage Policy"
+msgstr "Politica de Utilizare a IA"
+
+#: includes/Policy.php
+msgid "Policy updated."
+msgstr "Politică actualizată."
+
+#: includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy Settings"
+msgstr "Setări Politică IA"
+
+#: includes/Policy.php
+msgid "View Policy"
+msgstr "Vezi Politica"
+
+#: includes/Policy.php
+msgid "Saved."
+msgstr "Salvat."
+
+#: includes/Policy.php
+msgid "Customize Policy"
+msgstr "Personalizează Politica"
+
+#: includes/Policy.php
+msgid "Custom Introduction"
+msgstr "Introducere Personalizată"
+
+#: includes/Policy.php
+msgid "Appears at the top of your AI Policy page."
+msgstr "Apare în partea de sus a paginii Politicii IA."
+
+#: includes/Policy.php
+msgid "Custom introduction is a Pro feature."
+msgstr "Introducerea personalizată este o funcție Pro."
+
+#: includes/Policy.php
+msgid "Contact Email"
+msgstr "Email de Contact"
+
+#: includes/Policy.php
+msgid "Contact Page URL"
+msgstr "URL Pagină de Contact"
+
+#: includes/Policy.php
+msgid "Save"
+msgstr "Salvează"
+
+# ============================================
+# ALERTS
+# ============================================
+
+#: includes/Alerts.php
+msgid "EU AI Act — General Provisions (Enacted)"
+msgstr "Actul UE privind IA — Dispoziții Generale (Promulgat)"
+
+#: includes/Alerts.php
+msgid "EU AI Act — Article 50 Transparency (Effective August 2026)"
+msgstr "Actul UE privind IA — Articolul 50 Transparență (Efectiv din August 2026)"
+
+#: includes/Alerts.php
+msgid "US Executive Order 14110 — Safe & Secure AI"
+msgstr "Ordinul Executiv SUA 14110 — IA Sigură și Securizată"
+
+#: includes/Alerts.php
+msgid "US NO AI FRAUD Act (Proposed)"
+msgstr "Actul SUA NO AI FRAUD (Propus)"
+
+#: includes/Alerts.php
+msgid "California SB 942 — AI Transparency Act (Signed)"
+msgstr "California SB 942 — Actul Transparenței IA (Semnat)"
+
+#: includes/Alerts.php
+msgid "California AB 2013 — AI Training Data Disclosure (Signed)"
+msgstr "California AB 2013 — Dezvăluirea Datelor de Antrenare IA (Semnat)"
+
+#: includes/Alerts.php
+msgid "Colorado AI Act (SB 24-205) — Effective February 2026"
+msgstr "Actul IA Colorado (SB 24-205) — Efectiv din Februarie 2026"
+
+#: includes/Alerts.php
+msgid "Utah AI Policy Act (SB 149) — Enacted"
+msgstr "Actul Politicii IA Utah (SB 149) — Promulgat"
+
+#: includes/Alerts.php
+msgid "China — Deep Synthesis Provisions (Enacted)"
+msgstr "China — Dispoziții de Sinteză Profundă (Promulgate)"
+
+#: includes/Alerts.php
+msgid "China — Generative AI Measures (Enacted)"
+msgstr "China — Măsuri IA Generativă (Promulgate)"
+
+#: includes/Alerts.php
+msgid "UK — AI Regulation Framework (In Development)"
+msgstr "UK — Cadru de Reglementare IA (În Dezvoltare)"
+
+#: includes/Alerts.php
+msgid "Canada — AIDA (Bill C-27) — Proposed"
+msgstr "Canada — AIDA (Proiect de Lege C-27) — Propus"
+
+#: includes/Alerts.php
+msgid "Brazil — AI Bill (PL 2338/2023) — In Progress"
+msgstr "Brazilia — Proiect de Lege IA (PL 2338/2023) — În Progres"
+
+#: includes/Alerts.php
+msgid "Japan — AI Business Guidelines (Published 2024)"
+msgstr "Japonia — Ghiduri de Afaceri IA (Publicate 2024)"
+
+#: includes/Alerts.php
+msgid "South Korea — AI Basic Act (Proposed 2024)"
+msgstr "Coreea de Sud — Actul de Bază IA (Propus 2024)"
+
+#: includes/Alerts.php
+msgid "Australia — AI Ethics Framework (Voluntary)"
+msgstr "Australia — Cadru Etic IA (Voluntar)"
+
+#: includes/Alerts.php
+msgid "G7 — International AI Code of Conduct (Agreed 2023)"
+msgstr "G7 — Codul Internațional de Conduită IA (Acordat 2023)"
+
+#: includes/Alerts.php
+msgid "UN — General Assembly AI Resolution (Adopted March 2024)"
+msgstr "ONU — Rezoluția IA a Adunării Generale (Adoptată Martie 2024)"
+
+#: includes/Alerts.php
+msgid "Council of Europe — AI Treaty (Opened for Signature 2024)"
+msgstr "Consiliul Europei — Tratatul IA (Deschis pentru Semnare 2024)"
+
+#: includes/Alerts.php
+msgid "The EU AI Act entered into force on August 1, 2024. General provisions and prohibited practices apply from February 2, 2025. Transparency obligations for GPAI models apply from August 2, 2025. High-risk AI system obligations phase in through August 2, 2027."
+msgstr "Actul UE privind IA a intrat în vigoare la 1 august 2024. Dispozițiile generale și practicile interzise se aplică de la 2 februarie 2025. Obligațiile de transparență pentru modelele GPAI se aplică de la 2 august 2025. Obligațiile pentru sistemele IA cu risc ridicat sunt introduse treptat până la 2 august 2027."
+
+#: includes/Alerts.php
+msgid "Article 50 requires clear labeling of AI-generated content including text, images, audio, and video. Deepfakes must be explicitly marked. Limited exemptions for artistic and satirical content. Applies to all content accessible in the EU."
+msgstr "Articolul 50 necesită etichetarea clară a conținutului generat de IA, inclusiv text, imagini, audio și video. Deepfake-urile trebuie marcate explicit. Excepții limitate pentru conținut artistic și satiric. Se aplică tuturor conținuturilor accesibile în UE."
+
+#: includes/Alerts.php
+msgid "Executive Order on Safe, Secure, and Trustworthy Development and Use of AI (October 2023). Requires developers of powerful AI systems to share safety test results. NIST developing AI content authentication and watermarking standards."
+msgstr "Ordinul Executiv privind Dezvoltarea și Utilizarea Sigură, Securizată și de Încredere a IA (Octombrie 2023). Necesită ca dezvoltatorii de sisteme IA puternice să împărtășească rezultatele testelor de siguranță. NIST dezvoltă standarde de autentificare și marcare a conținutului IA."
+
+#: includes/Alerts.php
+msgid "Federal bill proposed in January 2024 to establish intellectual property rights over voice and likeness against unauthorized AI-generated replicas."
+msgstr "Proiect de lege federal propus în ianuarie 2024 pentru a stabili drepturi de proprietate intelectuală asupra vocii și asemănării împotriva replicilor neautorizate generate de IA."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires providers of generative AI systems to include provenance disclosures in AI-generated content. Mandates visible and machine-readable labels for AI-generated images, video, and audio."
+msgstr "Semnat în septembrie 2024. Necesită ca furnizorii de sisteme IA generativă să includă dezvăluiri de proveniență în conținutul generat de IA. Impune etichete vizibile și citibile de mașină pentru imagini, video și audio generate de IA."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires developers of generative AI systems to publicly disclose information about the datasets used to train their models, including data sources and copyright status."
+msgstr "Semnat în septembrie 2024. Necesită ca dezvoltatorii de sisteme IA generativă să dezvăluie public informații despre seturile de date utilizate pentru antrenarea modelelor lor, inclusiv sursele de date și statutul drepturilor de autor."
+
+#: includes/Alerts.php
+msgid "Signed May 2024. First comprehensive state AI law in the US. Requires developers and deployers of high-risk AI systems to use reasonable care to protect consumers from algorithmic discrimination. Effective February 1, 2026."
+msgstr "Semnat în mai 2024. Prima lege IA cuprinzătoare la nivel de stat din SUA. Necesită ca dezvoltatorii și implementatorii de sisteme IA cu risc ridicat să utilizeze îngrijire rezonabilă pentru a proteja consumatorii de discriminarea algoritmică. Efectiv din 1 februarie 2026."
+
+#: includes/Alerts.php
+msgid "Enacted March 2024. First state AI law in the US to take effect. Requires disclosure when consumers interact with generative AI in regulated occupations (healthcare, legal, financial). Effective May 1, 2024."
+msgstr "Promulgat în martie 2024. Prima lege IA la nivel de stat din SUA care intră în vigoare. Necesită dezvăluire atunci când consumatorii interacționează cu IA generativă în ocupații reglementate (asistență medicală, juridic, financiar). Efectiv din 1 mai 2024."
+
+#: includes/Alerts.php
+msgid "Effective January 10, 2023. Requires AI-generated content to be watermarked and clearly labeled. Deep synthesis service providers must obtain user consent, verify identities, and maintain audit logs. Applies to content accessible within China."
+msgstr "Efectiv din 10 ianuarie 2023. Necesită ca conținutul generat de IA să fie marcat cu filigran și etichetat clar. Furnizorii de servicii de sinteză profundă trebuie să obțină consimțământul utilizatorului, să verifice identitățile și să mențină jurnale de audit. Se aplică conținutului accesibil în China."
+
+#: includes/Alerts.php
+msgid "Effective August 15, 2023. Regulates generative AI services available to the Chinese public. Requires content filtering, labeling of AI-generated output, protection of user data, and adherence to socialist core values."
+msgstr "Efectiv din 15 august 2023. Reglementează serviciile IA generativă disponibile publicului chinez. Necesită filtrarea conținutului, etichetarea rezultatelor generate de IA, protecția datelor utilizatorilor și aderarea la valorile fundamentale socialiste."
+
+#: includes/Alerts.php
+msgid "The UK follows a principles-based, sector-led approach via existing regulators (ICO, CMA, Ofcom, FCA). The AI Safety Institute was launched in November 2023. No comprehensive AI legislation yet; the government is consulting on targeted requirements for frontier AI."
+msgstr "Regatul Unit urmează o abordare bazată pe principii, condusă de sectoare, prin intermediul regulatorilor existenți (ICO, CMA, Ofcom, FCA). Institutul pentru Siguranța IA a fost lansat în noiembrie 2023. Încă nu există o legislație IA cuprinzătoare; guvernul consultă privind cerințele direcționate pentru IA de frontieră."
+
+#: includes/Alerts.php
+msgid "The Artificial Intelligence and Data Act (AIDA) is part of Bill C-27, currently in parliamentary committee. Would establish requirements for high-impact AI systems including transparency, risk assessment, and human oversight."
+msgstr "Actul privind Inteligența Artificială și Datele (AIDA) face parte din Proiectul de Lege C-27, aflat în prezent în comisia parlamentară. Ar stabili cerințe pentru sistemele IA cu impact ridicat, inclusiv transparență, evaluarea riscurilor și supraveghere umană."
+
+#: includes/Alerts.php
+msgid "Comprehensive AI regulation under debate in the Brazilian Senate. Would establish risk-based classification of AI systems, require transparency for AI-generated content, and mandate human oversight for high-risk applications."
+msgstr "Reglementare cuprinzătoare a IA în dezbatere în Senatul brazilian. Ar stabili clasificarea bazată pe risc a sistemelor IA, ar necesita transparență pentru conținutul generat de IA și ar impune supraveghere umană pentru aplicațiile cu risc ridicat."
+
+#: includes/Alerts.php
+msgid "Japan's Ministry of Economy, Trade and Industry (METI) published updated AI Guidelines in April 2024. Currently voluntary but signals future regulatory direction. Focuses on transparency, fairness, and human-centric AI."
+msgstr "Ministerul Economiei, Comerțului și Industriei al Japoniei (METI) a publicat Ghiduri IA actualizate în aprilie 2024. În prezent voluntare, dar semnalează direcția de reglementare viitoare. Se concentrează pe transparență, echitate și IA centrată pe om."
+
+#: includes/Alerts.php
+msgid "Proposed comprehensive AI legislation introduced in the National Assembly. Would establish a legal framework for AI development, require high-risk AI transparency, and mandate labeling of AI-generated content."
+msgstr "Legislație IA cuprinzătoare propusă introdusă în Adunarea Națională. Ar stabili un cadru legal pentru dezvoltarea IA, ar necesita transparență pentru IA cu risc ridicat și ar impune etichetarea conținutului generat de IA."
+
+#: includes/Alerts.php
+msgid "Australia's voluntary AI Ethics Framework (updated 2024) outlines 8 principles including transparency, explainability, and accountability. The government is consulting on mandatory guardrails for high-risk AI."
+msgstr "Cadrul Etic IA voluntar al Australiei (actualizat 2024) prezintă 8 principii, inclusiv transparență, explicabilitate și responsabilitate. Guvernul consultă privind gardurile obligatorii pentru IA cu risc ridicat."
+
+#: includes/Alerts.php
+msgid "Agreed October 30, 2023 by G7 leaders. Establishes 11 guiding principles for AI developers including transparency, accountability, and content authentication. While non-binding, it signals international regulatory direction."
+msgstr "Acordat la 30 octombrie 2023 de liderii G7. Stabilește 11 principii de ghidare pentru dezvoltatorii de IA, inclusiv transparență, responsabilitate și autentificarea conținutului. Deși nu este obligatoriu, semnalează direcția de reglementare internațională."
+
+#: includes/Alerts.php
+msgid "Adopted unanimously March 21, 2024. First-ever standalone UN General Assembly resolution on AI. Calls for safe, secure, and trustworthy AI systems that respect human rights. Encourages member states to develop regulatory frameworks."
+msgstr "Adoptat în unanimitate la 21 martie 2024. Prima rezoluție independentă a Adunării Generale a ONU privind IA. Solicită sisteme IA sigure, securizate și de încredere care respectă drepturile omului. Încurajează statele membre să dezvolte cadre de reglementare."
+
+#: includes/Alerts.php
+msgid "The Framework Convention on AI and Human Rights, Democracy, and the Rule of Law opened for signature September 2024. First legally binding international treaty on AI. Signed by EU, US, UK, and others. Requires transparency, oversight, and accountability."
+msgstr "Convenția-cadru privind IA și Drepturile Omului, Democrația și Statul de Drept a fost deschisă pentru semnare în septembrie 2024. Primul tratat internațional juridic obligatoriu privind IA. Semnat de UE, SUA, UK și alții. Necesită transparență, supraveghere și responsabilitate."
+
+#: includes/Alerts.php
+msgid "All"
+msgstr "Toate"
+
+#: includes/Alerts.php
+msgid "EU"
+msgstr "UE"
+
+#: includes/Alerts.php
+msgid "USA"
+msgstr "SUA"
+
+#: includes/Alerts.php
+msgid "China"
+msgstr "China"
+
+#: includes/Alerts.php
+msgid "UK"
+msgstr "UK"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "Nu sunteți autentificat."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "Nu s-a furnizat un ID de alertă."
+
+# ============================================
+# ALERTS — UI
+# ============================================
+
+#: templates/admin/tab-alerts.php
+msgid "Alert"
+msgstr "Alertă"
+
+#: templates/admin/tab-alerts.php
+msgid "Total"
+msgstr "Total"
+
+#: templates/admin/tab-alerts.php
+msgid "Unread"
+msgstr "Necitite"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark All Read"
+msgstr "Marchează Toate ca Citite"
+
+#: templates/admin/tab-alerts.php
+msgid "Region"
+msgstr "Regiune"
+
+#: templates/admin/tab-alerts.php
+msgid "Risk"
+msgstr "Risc"
+
+#: templates/admin/tab-alerts.php
+msgid "Status"
+msgstr "Status"
+
+#: templates/admin/tab-alerts.php
+msgid "Upcoming"
+msgstr "Următoare"
+
+#: templates/admin/tab-alerts.php
+msgid "Clear Filters"
+msgstr "Curăță Filtrele"
+
+#: templates/admin/tab-alerts.php
+msgid "View All Alerts"
+msgstr "Vezi Toate Alertele"
+
+#: templates/admin/tab-alerts.php
+msgid "No Alerts Found"
+msgstr "Nu s-au Găsit Alerte"
+
+#: templates/admin/tab-alerts.php
+msgid "No regulatory alerts match your current filters. Try adjusting or clearing your filters."
+msgstr "Nicio alertă de reglementare nu se potrivește cu filtrele dvs. curente. Încercați să ajustați sau să curățați filtrele."
+
+#: templates/admin/tab-alerts.php
+msgid "All regulatory alerts have been reviewed. New alerts will appear with the next plugin update."
+msgstr "Toate alertele de reglementare au fost revizuite. Noi alerte vor apărea cu următoarea actualizare a plugin-ului."
+
+#: templates/admin/tab-alerts.php
+msgid "New"
+msgstr "Nouă"
+
+#: templates/admin/tab-alerts.php
+msgid "Official Source"
+msgstr "Sursă Oficială"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark as Read"
+msgstr "Marchează ca Citită"
+
+#: templates/admin/tab-alerts.php
+msgid "Data updated with plugin releases. No external API calls."
+msgstr "Date actualizate cu lansările plugin-ului. Fără apeluri externe API."
+
+#: templates/admin/tab-alerts.php
+msgid "Showing %d alert"
+msgid_plural "Showing %d alerts"
+msgstr[0] "Se afișează %d alertă"
+msgstr[1] "Se afișează %d alerte"
+msgstr[2] "Se afișează %d de alerte"
+
+#: templates/admin/tab-alerts.php
+msgid "%d days remaining"
+msgstr "%d zile rămase"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline passed"
+msgstr "Termenul a expirat"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline"
+msgstr "Termen"
+
+#: templates/admin/tab-alerts.php
+msgid "International"
+msgstr "Internațional"
+
+#: templates/admin/tab-alerts.php
+msgid "Regulatory Alert"
+msgstr "Alertă de Reglementare"
+
+#: templates/admin/tab-alerts.php
+msgid "Free plan shows International alerts only."
+msgstr "Planul Gratuit afișează doar alertele Internaționale."
+
+#: templates/admin/tab-alerts.php
+msgid "Upgrade to Pro"
+msgstr "Actualizați la Pro"
+
+# ============================================
+# ISSUES
+# ============================================
+
+#: includes/Issues.php
+msgid "%s without declaration"
+msgstr "%s fără declarație"
+
+#: includes/Issues.php
+msgid "Published content has no source classification."
+msgstr "Conținutul publicat nu are clasificarea sursei."
+
+#: includes/Issues.php
+msgid "Declare Now"
+msgstr "Declară Acum"
+
+#: includes/Issues.php
+msgid "AI.txt not updated recently"
+msgstr "AI.txt nu a fost actualizat recent"
+
+#: includes/Issues.php
+msgid "Your AI.txt file may be stale."
+msgstr "Fișierul dvs. AI.txt poate fi învechit."
+
+#: includes/Issues.php
+msgid "Regenerate Now"
+msgstr "Regenerează Acum"
+
+#: includes/Issues.php
+msgid "Verification page may be outdated"
+msgstr "Pagina de verificare poate fi învechită"
+
+#: includes/Issues.php
+msgid "Your public verification page may not reflect the latest data."
+msgstr "Pagina dvs. publică de verificare poate să nu reflecte cele mai recente date."
+
+#: includes/Issues.php
+msgid "Refresh Now"
+msgstr "Reîmprospătează Acum"
+
+#: includes/Issues.php
+msgid "%d unread regulatory alert"
+msgid_plural "%d unread regulatory alerts"
+msgstr[0] "%d alertă de reglementare necitită"
+msgstr[1] "%d alerte de reglementare necitite"
+msgstr[2] "%d de alerte de reglementare necitite"
+
+#: includes/Issues.php
+msgid "You have regulatory updates to review."
+msgstr "Aveți actualizări de reglementare de revizuit."
+
+#: includes/Issues.php
+msgid "View Alerts"
+msgstr "Vezi Alertele"
+
+#: includes/Issues.php
+msgid "No recent transparency activity"
+msgstr "Nicio activitate recentă de transparență"
+
+#: includes/Issues.php
+msgid "Your site hasn't declared any content sources in over 30 days."
+msgstr "Site-ul dvs. nu a declarat nicio sursă de conținut în peste 30 de zile."
+
+#: includes/Issues.php
+msgid "Declare Content"
+msgstr "Declară Conținut"
+
+#: includes/Issues.php
+msgid "%d media files lack AI declaration"
+msgstr "%d fișiere media nu au declarație IA"
+
+#: includes/Issues.php
+msgid "Review Media"
+msgstr "Revizuiește Media"
+
+# ============================================
+# SCORE
+# ============================================
+
+#: includes/Score.php
+msgid "Content Declaration"
+msgstr "Declarația Conținutului"
+
+#: includes/Score.php
+msgid "Transparency Labels"
+msgstr "Etichete de Transparență"
+
+#: includes/Score.php
+msgid "AI.txt File"
+msgstr "Fișier AI.txt"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Crawler Protection"
+msgstr "Protecție Crawler"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Verification Page"
+msgstr "Pagină de Verificare"
+
+#: includes/Score.php
+msgid "Transparency for AI-generated content"
+msgstr "Transparență pentru conținut generat de IA"
+
+#: includes/Score.php
+msgid "Content Declaration + Labels"
+msgstr "Declarația Conținutului + Etichete"
+
+#: includes/Score.php
+msgid "Disclosure of AI-manipulated media"
+msgstr "Dezvăluirea media manipulate de IA"
+
+#: includes/Score.php
+msgid "C2PA Image Metadata (Enterprise)"
+msgstr "Metadate Imagine C2PA (Enterprise)"
+
+#: includes/Score.php
+msgid "Emotion recognition & biometric disclosure"
+msgstr "Recunoașterea emoțiilor și dezvăluire biometrică"
+
+#: includes/Score.php
+msgid "Not in scope"
+msgstr "Nu este în domeniu"
+
+#: includes/Score.php
+msgid "Machine-readable AI labeling"
+msgstr "Etichetare IA citibilă de mașină"
+
+#: includes/Score.php
+msgid "AI.txt Generator"
+msgstr "Generator AI.txt"
+
+#: includes/Score.php
+msgid "Transparency obligations for AI systems"
+msgstr "Obligații de transparență pentru sistemele IA"
+
+#: includes/Score.php
+msgid "Verification Page + Registry"
+msgstr "Pagină de Verificare + Registru"
+
+# ============================================
+# REPORTS
+# ============================================
+
+#: includes/Reports.php
+msgid "All time"
+msgstr "Tot timpul"
+
+#: includes/Reports.php
+msgid "Present"
+msgstr "Prezent"
+
+#: includes/Reports.php
+msgid "PDF report generated."
+msgstr "Raport PDF generat."
+
+#: includes/Reports.php
+msgid ""
+"Hello,\n"
+"\n"
+"Your scheduled compliance report is attached.\n"
+"\n"
+"Summary:\n"
+"- Total Declared: %d\n"
+"- Human Written: %d\n"
+"- AI Assisted: %d\n"
+"- AI Generated: %d\n"
+"\n"
+"View full transparency: %s\n"
+"\n"
+"— MegaGovern"
+msgstr ""
+"Bună ziua,\n"
+"\n"
+"Raportul dvs. de conformitate programat este atașat.\n"
+"\n"
+"Rezumat:\n"
+"- Total Declarat: %d\n"
+"- Scris de Oameni: %d\n"
+"- Asistat de IA: %d\n"
+"- Generat de IA: %d\n"
+"\n"
+"Vezi transparența completă: %s\n"
+"\n"
+"— MegaGovern"
+
+#: includes/Reports.php templates/public/report-pdf.php
+msgid "MegaGovern Compliance Report"
+msgstr "Raport de Conformitate MegaGovern"
+
+#: includes/Reports.php
+msgid "You do not have sufficient permissions."
+msgstr "Nu aveți permisiuni suficiente."
+
+#: includes/Reports.php
+msgid "Scheduled report emailed to %s."
+msgstr "Raport programat trimis prin email la %s."
+
+#: includes/Reports.php
+msgid "[%1$s] Transparency Report — %2$d%% Coverage — %3$s"
+msgstr "[%1$s] Raport de Transparență — %2$d%% Acoperire — %3$s"
+
+#: includes/Reports.php
+msgid "Your scheduled transparency report is attached."
+msgstr "Raportul dvs. de transparență programat este atașat."
+
+#: includes/Reports.php
+msgid "Coverage:"
+msgstr "Acoperire:"
+
+#: includes/Reports.php
+msgid "Declared:"
+msgstr "Declarat:"
+
+#: includes/Reports.php
+msgid "published items"
+msgstr "elemente publicate"
+
+#: includes/Reports.php
+msgid "View Verification Page"
+msgstr "Vezi Pagina de Verificare"
+
+#: includes/Reports.php
+msgid "View AI.txt"
+msgstr "Vezi AI.txt"
+
+#: includes/Reports.php
+msgid "DISCLAIMER:"
+msgstr "DECLINARE DE RĂSPUNDERE:"
+
+#: includes/Reports.php
+msgid "This report is generated for transparency and documentation purposes only. It does not constitute legal compliance certification or legal advice. Consult qualified legal counsel for compliance determinations specific to your jurisdiction."
+msgstr "Acest raport este generat doar în scopuri de transparență și documentare. Nu constituie certificare de conformitate legală sau sfat juridic. Consultați un consilier juridic calificat pentru determinări de conformitate specifice jurisdicției dvs."
+
+#: includes/Reports.php
+msgid "This report was automatically generated by MegaGovern — AI Content Governance & Transparency Platform. Sent to %s on a %s schedule."
+msgstr "Acest raport a fost generat automat de MegaGovern — Platforma de Guvernanță și Transparență a Conținutului IA. Trimis la %s pe un program %s."
+
+# ============================================
+# EVIDENCE
+# ============================================
+
+#: includes/Evidence.php
+msgid "Security check failed."
+msgstr "Verificarea de securitate a eșuat."
+
+#: includes/Evidence.php
+msgid "You do not have permission to download evidence bundles."
+msgstr "Nu aveți permisiunea de a descărca pachete de dovezi."
+
+#: includes/Evidence.php
+msgid "Failed to initialize zip compressor."
+msgstr "Nu s-a putut inițializa compresorul zip."
+
+#: includes/Evidence.php
+msgid "No AI usage policy published yet."
+msgstr "Încă nu s-a publicat nicio politică de utilizare a IA."
+
+#: includes/Evidence.php
+msgid "Evidence bundle file not found."
+msgstr "Fișierul pachet de dovezi nu a fost găsit."
+
+#: includes/Evidence.php
+msgid "Content Snapshot"
+msgstr "Captură Instantanee a Conținutului"
+
+#: includes/Evidence.php
+msgid "Post ID"
+msgstr "ID Postare"
+
+#: includes/Evidence.php
+msgid "Declared As"
+msgstr "Declarat Ca"
+
+#: includes/Evidence.php
+msgid "Declared At"
+msgstr "Declarat La"
+
+#: includes/Evidence.php
+msgid "Content Hash (SHA-256)"
+msgstr "Hash Conținut (SHA-256)"
+
+#: includes/Evidence.php
+msgid "This evidence bundle is a transparency and documentation toolkit output. It does NOT constitute legal compliance certification or legal advice."
+msgstr "Acest pachet de dovezi este o ieșire a kitului de transparență și documentare. NU constituie certificare de conformitate legală sau sfat juridic."
+
+# ============================================
+# SCANNER
+# ============================================
+
+#: includes/Scanner.php
+msgid "Content Review requires Pro or Agency plan."
+msgstr "Revizuirea Conținutului necesită planul Pro sau Agenție."
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Find Undeclared Content"
+msgstr "Găsește Conținut Nedeclarat"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Scanning..."
+msgstr "Se scanează..."
+
+#: includes/Scanner.php
+msgid "%d post ready for review."
+msgid_plural "%d posts ready for review."
+msgstr[0] "%d postare gata de revizuire."
+msgstr[1] "%d postări gata de revizuire."
+msgstr[2] "%d de postări gata de revizuire."
+
+#: includes/Scanner.php
+msgid "No declarations provided."
+msgstr "Nu s-au furnizat declarații."
+
+#: includes/Scanner.php
+msgid "%d declaration applied."
+msgid_plural "%d declarations applied."
+msgstr[0] "%d declarație aplicată."
+msgstr[1] "%d declarații aplicate."
+msgstr[2] "%d de declarații aplicate."
+
+#: includes/Scanner.php
+msgid "Review results dismissed."
+msgstr "Rezultatele revizuirii au fost eliminate."
+
+# ============================================
+# AJAX
+# ============================================
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "Date invalide."
+
+#: includes/Ajax.php
+msgid "No valid post IDs provided."
+msgstr "Nu s-au furnizat ID-uri de postare valide."
+
+#: includes/Ajax.php
+msgid "Invalid declaration type."
+msgstr "Tip de declarație invalid."
+
+#: includes/Ajax.php
+msgid "%d post updated."
+msgid_plural "%d posts updated."
+msgstr[0] "%d postare actualizată."
+msgstr[1] "%d postări actualizate."
+msgstr[2] "%d de postări actualizate."
+
+#: includes/Ajax.php
+msgid "Bulk declaration"
+msgstr "Declarație în masă"
+
+#: includes/Ajax.php
+msgid "Required classes not found."
+msgstr "Clasele necesare nu au fost găsite."
+
+#: includes/Ajax.php
+msgid "Declared as"
+msgstr "Declarat ca"
+
+#: includes/Ajax.php
+msgid "Updated to"
+msgstr "Actualizat la"
+
+#: includes/Ajax.php
+msgid "System"
+msgstr "Sistem"
+
+#: includes/Ajax.php
+msgid "Agency class not found."
+msgstr "Clasa Agenție nu a fost găsită."
+
+#: includes/Ajax.php
+msgid "Site not found."
+msgstr "Site-ul nu a fost găsit."
+
+#: includes/Ajax.php
+msgid "Agency bulk report for %s."
+msgstr "Raport în masă agenție pentru %s."
+
+#: includes/Ajax.php
+msgid "Report generated for %s."
+msgstr "Raport generat pentru %s."
+
+#: includes/Ajax.php
+msgid "Archive class not found."
+msgstr "Clasa Arhivă nu a fost găsită."
+
+#: includes/Ajax.php
+msgid "Invalid post ID."
+msgstr "ID postare invalid."
+
+#: includes/Ajax.php
+msgid "Exemption revoked."
+msgstr "Scutire revocată."
+
+#: includes/Ajax.php
+msgid "Failed to revoke exemption."
+msgstr "Revocarea scutirii a eșuat."
+
+#: includes/Ajax.php
+msgid "Exemption restored."
+msgstr "Scutire restaurată."
+
+#: includes/Ajax.php
+msgid "Failed to restore exemption."
+msgstr "Restaurarea scutirii a eșuat."
+
+#: includes/Ajax.php
+msgid "Crawler class not found."
+msgstr "Clasa Crawler nu a fost găsită."
+
+#: includes/Ajax.php
+msgid "AI.txt regenerated."
+msgstr "AI.txt regenerat."
+
+#: includes/Ajax.php
+msgid "LLMs.txt regenerated."
+msgstr "LLMs.txt regenerat."
+
+#: includes/Ajax.php
+msgid "Robots.txt regenerated."
+msgstr "Robots.txt regenerat."
+
+#: includes/Ajax.php
+msgid "Invalid file type."
+msgstr "Tip de fișier invalid."
+
+#: includes/Ajax.php
+msgid "All assets regenerated."
+msgstr "Toate activele regenerate."
+
+#: includes/Ajax.php
+msgid "Cache cleared."
+msgstr "Cache șters."
+
+#: includes/Ajax.php
+msgid "Public files rebuilt."
+msgstr "Fișiere publice reconstruite."
+
+#: includes/Ajax.php
+msgid "Too many auto-fix requests. Please wait."
+msgstr "Prea multe solicitări de reparare automată. Vă rugăm să așteptați."
+
+#: includes/Ajax.php
+msgid "AI detection and file generation completed."
+msgstr "Detecția IA și generarea fișierelor au fost finalizate."
+
+#: includes/Ajax.php
+msgid "Verification class not found."
+msgstr "Clasa Verificare nu a fost găsită."
+
+#: includes/Ajax.php
+msgid "Verification page refreshed successfully."
+msgstr "Pagina de verificare a fost reîmprospătată cu succes."
+
+#: includes/Ajax.php
+msgid "Unknown issue type."
+msgstr "Tip de problemă necunoscut."
+
+#: includes/Ajax.php
+msgid "AIAccess class not found."
+msgstr "Clasa AIAccess nu a fost găsită."
+
+#: includes/Ajax.php
+msgid "Policy updated."
+msgstr "Politică actualizată."
+
+#: includes/Ajax.php
+msgid "Option name required."
+msgstr "Numele opțiunii este necesar."
+
+#: includes/Ajax.php
+msgid "Invalid data format."
+msgstr "Format de date invalid."
+
+#: includes/Ajax.php
+msgid "Saved"
+msgstr "Salvat"
+
+#: includes/Ajax.php
+msgid "Test report sent."
+msgstr "Raport de test trimis."
+
+#: includes/Ajax.php
+msgid "Failed to send email. Check your server settings."
+msgstr "Trimiterea email-ului a eșuat. Verificați setările serverului dvs."
+
+#: includes/Ajax.php
+msgid "Content scanned and index refreshed."
+msgstr "Conținut scanat și index reîmprospătat."
+
+#: includes/Ajax.php
+msgid "Synced"
+msgstr "Sincronizat"
+
+#: includes/Ajax.php
+msgid "AI Smart Declaration applied"
+msgstr "Declarația Inteligentă IA aplicată"
+
+# ============================================
+# CRON
+# ============================================
+
+#: includes/Cron.php
+msgid "Unknown Site"
+msgstr "Site Necunoscut"
+
+#: includes/Cron.php
+msgid "Score dropped: %d%% → %d%%"
+msgstr "Scorul a scăzut: %d%% → %d%%"
+
+#: includes/Cron.php
+msgid "%d undeclared posts"
+msgstr "%d postări nedeclarate"
+
+#: includes/Cron.php
+msgid "%d undeclared posts — no declarations in %d days"
+msgstr "%d postări nedeclarate — nicio declarație în %d zile"
+
+#: includes/Cron.php
+msgid "Content needs source declaration"
+msgstr "Conținutul necesită declarația sursei"
+
+#: includes/Cron.php
+msgid "AI.txt not updated — %d days"
+msgstr "AI.txt nu a fost actualizat — %d zile"
+
+#: includes/Cron.php
+msgid "Regenerate AI.txt on client site"
+msgstr "Regenerează AI.txt pe site-ul clientului"
+
+#: includes/Cron.php
+msgid "Site health check failed — API unreachable"
+msgstr "Verificarea sănătății site-ului a eșuat — API inaccesibil"
+
+#: includes/Cron.php
+msgid "Check site connectivity"
+msgstr "Verifică conectivitatea site-ului"
+
+#: includes/Cron.php
+msgid "No reason provided"
+msgstr "Nu s-a furnizat niciun motiv"
+
+# ============================================
+# AGENCY
+# ============================================
+
+#: includes/Agency.php
+msgid "Site limit reached. Maximum %d sites allowed."
+msgstr "Limita de site-uri a fost atinsă. Maxim %d site-uri permise."
+
+#: includes/Agency.php
+msgid "License system not available."
+msgstr "Sistemul de licență nu este disponibil."
+
+#: includes/Agency.php
+msgid "User is already a team member."
+msgstr "Utilizatorul este deja membru al echipei."
+
+#: includes/Agency.php
+msgid "Site not found."
+msgstr "Site-ul nu a fost găsit."
+
+#: includes/Agency.php
+msgid "Site synced."
+msgstr "Site sincronizat."
+
+# ============================================
+# USAGE
+# ============================================
+
+#: includes/Usage.php
+msgid "Unlimited"
+msgstr "Nelimitat"
+
+#: includes/Usage.php
+msgid "Scans"
+msgstr "Scanări"
+
+#: includes/Usage.php templates/admin/tab-content.php
+msgid "Words"
+msgstr "Cuvinte"
+
+# ============================================
+# SETUP WIZARD
+# ============================================
+
+#: includes/SetupWizard.php
+msgid "MegaGovern Setup"
+msgstr "Configurare MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "Welcome to MegaGovern"
+msgstr "Bun venit la MegaGovern"
+
+#: includes/SetupWizard.php
+msgid "AI Transparency & Disclosure Governance Platform"
+msgstr "Platforma de Guvernanță a Transparenței și Dezvăluirii IA"
+
+#: includes/SetupWizard.php
+msgid "Where do you operate?"
+msgstr "Unde operați?"
+
+#: includes/SetupWizard.php
+msgid "This helps us show you relevant regulatory alerts."
+msgstr "Acest lucru ne ajută să vă arătăm alerte de reglementare relevante."
+
+#: includes/SetupWizard.php
+msgid "EU AI Act compliance alerts"
+msgstr "Alerte de conformitate cu Actul UE privind IA"
+
+#: includes/SetupWizard.php
+msgid "Colorado AI Act & state law alerts"
+msgstr "Alerte Actul IA Colorado și legi de stat"
+
+#: includes/SetupWizard.php
+msgid "All regulatory alerts"
+msgstr "Toate alertele de reglementare"
+
+#: includes/SetupWizard.php
+msgid "How should disclosure labels appear?"
+msgstr "Cum ar trebui să apară etichetele de dezvăluire?"
+
+#: includes/SetupWizard.php
+msgid "Choose where the AI transparency label shows on your content."
+msgstr "Alegeți unde apare eticheta de transparență IA pe conținutul dvs."
+
+#: includes/SetupWizard.php
+msgid "Top of content"
+msgstr "Partea superioară a conținutului"
+
+#: includes/SetupWizard.php
+msgid "Label appears before the article"
+msgstr "Eticheta apare înaintea articolului"
+
+#: includes/SetupWizard.php
+msgid "Bottom of content"
+msgstr "Partea inferioară a conținutului"
+
+#: includes/SetupWizard.php
+msgid "Label appears after the article"
+msgstr "Eticheta apare după articol"
+
+#: includes/SetupWizard.php
+msgid "Both top and bottom"
+msgstr "Atât sus, cât și jos"
+
+#: includes/SetupWizard.php
+msgid "Maximum visibility"
+msgstr "Vizibilitate maximă"
+
+#: includes/SetupWizard.php
+msgid "Before you start"
+msgstr "Înainte de a începe"
+
+#: includes/SetupWizard.php
+msgid "Important — Please Read"
+msgstr "Important — Vă Rugăm să Citiți"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does:"
+msgstr "Ce face MegaGovern:"
+
+#: includes/SetupWizard.php
+msgid "Document how AI is used in your content"
+msgstr "Documentează modul în care IA este utilizată în conținutul dvs."
+
+#: includes/SetupWizard.php
+msgid "Publish transparency labels and AI.txt files"
+msgstr "Publică etichete de transparență și fișiere AI.txt"
+
+#: includes/SetupWizard.php
+msgid "Generate governance records and reports"
+msgstr "Generează înregistrări și rapoarte de guvernanță"
+
+#: includes/SetupWizard.php
+msgid "Alert you to major regulatory developments"
+msgstr "Vă alertează cu privire la evoluțiile majore de reglementare"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does NOT Do:"
+msgstr "Ce NU face MegaGovern:"
+
+#: includes/SetupWizard.php
+msgid "It does NOT detect AI-generated content"
+msgstr "NU detectează conținutul generat de IA"
+
+#: includes/SetupWizard.php
+msgid "It does NOT guarantee legal compliance"
+msgstr "NU garantează conformitatea legală"
+
+#: includes/SetupWizard.php
+msgid "It does NOT replace legal advice from a qualified attorney"
+msgstr "NU înlocuiește sfatul juridic al unui avocat calificat"
+
+#: includes/SetupWizard.php
+msgid "You are in control."
+msgstr "Dvs. aveți controlul."
+
+#: includes/SetupWizard.php
+msgid "You declare the source of each piece of content. MegaGovern documents your declarations and helps you disclose them."
+msgstr "Dvs. declarați sursa fiecărei bucăți de conținut. MegaGovern documentează declarațiile dvs. și vă ajută să le dezvăluiți."
+
+#: includes/SetupWizard.php
+msgid "I understand that MegaGovern is a documentation tool, not a compliance guarantee or legal advisor."
+msgstr "Înțeleg că MegaGovern este un instrument de documentare, nu o garanție de conformitate sau un consilier juridic."
+
+#: includes/SetupWizard.php
+msgid "← Back"
+msgstr "← Înapoi"
+
+#: includes/SetupWizard.php
+msgid "Next Step →"
+msgstr "Pasul Următor →"
+
+#: includes/SetupWizard.php
+msgid "Complete Setup"
+msgstr "Finalizează Configurarea"
+
+#: includes/SetupWizard.php
+msgid "You must accept the disclaimer to continue."
+msgstr "Trebuie să acceptați declinarea de răspundere pentru a continua."
+
+#: includes/SetupWizard.php
+msgid "You do not have permission."
+msgstr "Nu aveți permisiunea."
+
+#: includes/SetupWizard.php
+msgid "Display"
+msgstr "Afișare"
+
+#: includes/SetupWizard.php
+msgid "Ready"
+msgstr "Gata"
+
+# ============================================
+# DASHBOARD — Mission Control
+# ============================================
+
+#: templates/admin/dashboard.php
+msgid "AI Transparency Governance"
+msgstr "Guvernanța Transparenței IA"
+
+#: templates/admin/dashboard.php
+msgid "Governance Score"
+msgstr "Scor de Guvernanță"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Declared"
+msgstr "Declarat"
+
+#: templates/admin/dashboard.php
+msgid "Pending"
+msgstr "În așteptare"
+
+#: templates/admin/dashboard.php
+msgid "Issues"
+msgstr "Probleme"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Content Review"
+msgstr "Revizuire Conținut"
+
+#: templates/admin/dashboard.php
+msgid "Available on Pro plan."
+msgstr "Disponibil în planul Pro."
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr "Status Sistem"
+
+#: templates/admin/dashboard.php templates/admin/tab-disclosures.php
+msgid "AI.txt"
+msgstr "AI.txt"
+
+#: templates/admin/dashboard.php
+msgid "Labels"
+msgstr "Etichete"
+
+#: templates/admin/dashboard.php
+msgid "Action Center"
+msgstr "Centru Acțiune"
+
+#: templates/admin/dashboard.php
+msgid "All systems compliant."
+msgstr "Toate sistemele sunt conforme."
+
+#: templates/admin/dashboard.php
+msgid "Compliance Journey"
+msgstr "Călătoria Conformității"
+
+#: templates/admin/dashboard.php
+msgid "Recent Activity"
+msgstr "Activitate Recentă"
+
+#: templates/admin/dashboard.php
+msgid "No activity yet."
+msgstr "Nicio activitate încă."
+
+#: templates/admin/dashboard.php
+msgid "Unlock Pro"
+msgstr "Deblochează Pro"
+
+#: templates/admin/dashboard.php
+msgid "Quick Links"
+msgstr "Legături Rapide"
+
+#: templates/admin/dashboard.php templates/admin/transparency-center.php
+msgid "Content Hub"
+msgstr "Centru Conținut"
+
+#: templates/admin/dashboard.php
+msgid "Verification"
+msgstr "Verificare"
+
+#: templates/admin/dashboard.php templates/admin/settings.php
+msgid "Reports"
+msgstr "Rapoarte"
+
+#: templates/admin/dashboard.php
+msgid "New Post"
+msgstr "Postare Nouă"
+
+#: templates/admin/dashboard.php
+msgid "Access Denied"
+msgstr "Acces Interzis"
+
+#: templates/admin/dashboard.php
+msgid "Invalid security token."
+msgstr "Token de securitate invalid."
+
+#: templates/admin/dashboard.php
+msgid "Security Check Failed"
+msgstr "Verificarea de Securitate a Eșuat"
+
+#: templates/admin/dashboard.php
+msgid "New here? Three steps to get started:"
+msgstr "Nou aici? Trei pași pentru a începe:"
+
+#: templates/admin/dashboard.php
+msgid "Classify your first piece of content"
+msgstr "Clasificați primul dvs. conținut"
+
+#: templates/admin/dashboard.php
+msgid "Go"
+msgstr "Du-te"
+
+#: templates/admin/dashboard.php
+msgid "Confirm transparency labels are enabled"
+msgstr "Confirmați că etichetele de transparență sunt activate"
+
+#: templates/admin/dashboard.php
+msgid "View your public transparency page"
+msgstr "Vedeți pagina dvs. publică de transparență"
+
+#: templates/admin/dashboard.php
+msgid "View"
+msgstr "Vezi"
+
+#: templates/admin/dashboard.php
+msgid "View Public Page"
+msgstr "Vezi Pagina Publică"
+
+#: templates/admin/dashboard.php
+msgid "~%d day left at your current pace"
+msgid_plural "~%d days left at your current pace"
+msgstr[0] "~%d zi rămasă la ritmul dvs. actual"
+msgstr[1] "~%d zile rămase la ritmul dvs. actual"
+msgstr[2] "~%d de zile rămase la ritmul dvs. actual"
+
+#: templates/admin/dashboard.php
+msgid "No declarations yet"
+msgstr "Încă nicio declarație"
+
+#: templates/admin/dashboard.php
+msgid "to full coverage"
+msgstr "până la acoperirea completă"
+
+#: templates/admin/dashboard.php
+msgid "Content Status"
+msgstr "Status Conținut"
+
+#: templates/admin/dashboard.php
+msgid "%d items need declaration."
+msgstr "%d elemente necesită declarație."
+
+#: templates/admin/dashboard.php
+msgid "Full Content Hub"
+msgstr "Centru Conținut Complet"
+
+#: templates/admin/dashboard.php
+msgid "All content declared. Great job!"
+msgstr "Tot conținutul declarat. Treabă grozavă!"
+
+#: templates/admin/dashboard.php
+msgid "Fix All Auto-Fixable (%d)"
+msgstr "Repară Toate Auto-Re parabile (%d)"
+
+#: templates/admin/dashboard.php
+msgid "All systems in good standing."
+msgstr "Toate sistemele sunt în stare bună."
+
+#: templates/admin/dashboard.php
+msgid "Transparency Journey"
+msgstr "Călătoria Transparenței"
+
+#: templates/admin/dashboard.php
+msgid "Verification hash"
+msgstr "Hash verificare"
+
+#: templates/admin/dashboard.php
+msgid "Upgrade Now"
+msgstr "Actualizați Acum"
+
+# ============================================
+# TRANSPARENCY CENTER — Content Hub
+# ============================================
+
+#: templates/admin/transparency-center.php
+msgid "Access Denied"
+msgstr "Acces Interzis"
+
+#: templates/admin/transparency-center.php templates/admin/tab-disclosures.php templates/admin/tab-archive.php
+msgid "Active"
+msgstr "Activ"
+
+#: templates/admin/transparency-center.php
+msgid "Disclosures & AI Files"
+msgstr "Dezvăluiri și Fișiere IA"
+
+#: templates/admin/transparency-center.php templates/admin/tab-archive.php
+msgid "Legacy Archive"
+msgstr "Arhivă Moștenită"
+
+#: templates/admin/transparency-center.php
+msgid "Just now"
+msgstr "Chiar acum"
+
+# ============================================
+# TAB — Content Hub
+# ============================================
+
+#: templates/admin/tab-content.php templates/admin/tab-reports.php
+msgid "Total Indexed"
+msgstr "Total Indexat"
+
+#: templates/admin/tab-content.php
+msgid "%d unclassified items detected."
+msgstr "%d elemente neclasificate detectate."
+
+#: templates/admin/tab-content.php
+msgid "Review Undeclared"
+msgstr "Revizuiește Nedeclaratele"
+
+#: templates/admin/tab-content.php
+msgid "Review undeclared content and apply declarations manually."
+msgstr "Revizuiți conținutul nedeclarat și aplicați declarații manual."
+
+#: templates/admin/tab-content.php
+msgid "items ready for review."
+msgstr "elemente gata de revizuire."
+
+#: templates/admin/tab-content.php
+msgid "Last review: %s"
+msgstr "Ultima revizuire: %s"
+
+#: templates/admin/tab-content.php
+msgid "%d undeclared posts ready for review."
+msgstr "%d postări nedeclarate gata de revizuire."
+
+#: templates/admin/tab-content.php
+msgid "Review & Apply"
+msgstr "Revizuiește și Aplică"
+
+#: templates/admin/tab-content.php
+msgid "Dismiss"
+msgstr "Elimină"
+
+#: templates/admin/tab-content.php
+msgid "Loading results..."
+msgstr "Se încarcă rezultatele..."
+
+#: templates/admin/tab-content.php
+msgid "All content declared."
+msgstr "Tot conținutul declarat."
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Title"
+msgstr "Titlu"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Type"
+msgstr "Tip"
+
+#: templates/admin/tab-content.php
+msgid "Declaration"
+msgstr "Declarație"
+
+#: templates/admin/tab-content.php
+msgid "Human"
+msgstr "Uman"
+
+#: templates/admin/tab-content.php
+msgid "Apply Selected"
+msgstr "Aplică Selectatele"
+
+#: templates/admin/tab-content.php
+msgid "Applying..."
+msgstr "Se aplică..."
+
+#: templates/admin/tab-content.php
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#: templates/admin/tab-content.php
+msgid "Failed to load results."
+msgstr "Încărcarea rezultatelor a eșuat."
+
+#: templates/admin/tab-content.php
+msgid "Bulk Declaration"
+msgstr "Declarație în Masă"
+
+#: templates/admin/tab-content.php
+msgid "Select posts and classify them all at once."
+msgstr "Selectați postări și clasificați-le pe toate odată."
+
+#: templates/admin/tab-content.php
+msgid "Select classification..."
+msgstr "Selectați clasificarea..."
+
+#: templates/admin/tab-content.php
+msgid "Classify Selected"
+msgstr "Clasifică Selectatele"
+
+#: templates/admin/tab-content.php
+msgid "selected"
+msgstr "selectate"
+
+#: templates/admin/tab-content.php
+msgid "Filter & Search"
+msgstr "Filtru și Căutare"
+
+#: templates/admin/tab-content.php
+msgid "All Statuses"
+msgstr "Toate Statusurile"
+
+#: templates/admin/tab-content.php
+msgid "All Types"
+msgstr "Toate Tipurile"
+
+#: templates/admin/tab-content.php
+msgid "Search..."
+msgstr "Căutați..."
+
+#: templates/admin/tab-content.php
+msgid "Apply"
+msgstr "Aplică"
+
+#: templates/admin/tab-content.php
+msgid "Reset"
+msgstr "Resetează"
+
+#: templates/admin/tab-content.php
+msgid "results"
+msgstr "rezultate"
+
+#: templates/admin/tab-content.php
+msgid "Content"
+msgstr "Conținut"
+
+#: templates/admin/tab-content.php
+msgid "Authorized By"
+msgstr "Autorizat De"
+
+#: templates/admin/tab-content.php
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: templates/admin/tab-content.php
+msgid "Unassigned"
+msgstr "Neatribuit"
+
+#: templates/admin/tab-content.php
+msgid "Edit"
+msgstr "Editează"
+
+#: templates/admin/tab-content.php
+msgid "View History"
+msgstr "Vezi Istoricul"
+
+#: templates/admin/tab-content.php
+msgid "No Content Found"
+msgstr "Nu s-a Găsit Conținut"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or create new content."
+msgstr "Ajustați filtrele sau creați conținut nou."
+
+#: templates/admin/tab-content.php
+msgid "Create Content"
+msgstr "Creează Conținut"
+
+#: templates/admin/tab-content.php
+msgid "Declaration History"
+msgstr "Istoric Declarații"
+
+#: templates/admin/tab-content.php
+msgid "Please select a classification type."
+msgstr "Vă rugăm să selectați un tip de clasificare."
+
+#: templates/admin/tab-content.php
+msgid "Please select at least one post."
+msgstr "Vă rugăm să selectați cel puțin o postare."
+
+#: templates/admin/tab-content.php
+msgid "Loading history..."
+msgstr "Se încarcă istoricul..."
+
+#: templates/admin/tab-content.php
+msgid "Failed to load history."
+msgstr "Încărcarea istoricului a eșuat."
+
+#: templates/admin/tab-content.php
+msgid "(No Title)"
+msgstr "(Fără Titlu)"
+
+#: templates/admin/tab-content.php
+msgid "Clear"
+msgstr "Curăță"
+
+#: templates/admin/tab-content.php
+msgid "Review Now"
+msgstr "Revizuiește Acum"
+
+#: templates/admin/tab-content.php
+msgid "Re-scan"
+msgstr "Rescanează"
+
+#: templates/admin/tab-content.php
+msgid "Review..."
+msgstr "Revizuiește..."
+
+#: templates/admin/tab-content.php
+msgid "Modified"
+msgstr "Modificat"
+
+#: templates/admin/tab-content.php
+msgid "Generated"
+msgstr "Generat"
+
+#: templates/admin/tab-content.php
+msgid "Synthetic"
+msgstr "Sintetic"
+
+#: templates/admin/tab-content.php
+msgid "Error updating declaration."
+msgstr "Eroare la actualizarea declarației."
+
+#: templates/admin/tab-content.php
+msgid "Server error occurred."
+msgstr "A apărut o eroare de server."
+
+#: templates/admin/tab-content.php
+msgid "Apply this classification to all selected items?"
+msgstr "Aplicați această clasificare tuturor elementelor selectate?"
+
+#: templates/admin/tab-content.php
+msgid "Failed to apply declarations."
+msgstr "Aplicarea declarațiilor a eșuat."
+
+#: templates/admin/tab-content.php
+msgid "Security token missing. Please refresh the page."
+msgstr "Token de securitate lipsă. Vă rugăm să reîmprospătați pagina."
+
+#: templates/admin/tab-content.php
+msgid "Could not load history."
+msgstr "Nu s-a putut încărca istoricul."
+
+#: templates/admin/tab-content.php
+msgid "Scan failed."
+msgstr "Scanarea a eșuat."
+
+#: templates/admin/tab-content.php
+msgid "Server error. Please try again."
+msgstr "Eroare de server. Vă rugăm să încercați din nou."
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or run a new Review to find undeclared content."
+msgstr "Ajustați filtrele sau rulați o nouă Revizuire pentru a găsi conținut nedeclarat."
+
+#: templates/admin/tab-content.php
+msgid "Content Review Queue"
+msgstr "Coada de Revizuire a Conținutului"
+
+#: templates/admin/tab-content.php
+msgid "Undeclared posts found. Run a review to classify them."
+msgstr "Postări nedeclarate găsite. Rulați o revizuire pentru a le clasifica."
+
+#: templates/admin/tab-content.php
+msgid "All content has been declared."
+msgstr "Tot conținutul a fost declarat."
+
+# ============================================
+# TAB — Disclosures & AI Files
+# ============================================
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Labels"
+msgstr "Etichete de Conținut"
+
+#: templates/admin/tab-disclosures.php
+msgid "Configure how AI transparency labels appear on your content."
+msgstr "Configurați modul în care etichetele de transparență IA apar pe conținutul dvs."
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Position"
+msgstr "Poziția Etichetei"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current position:"
+msgstr "Poziția curentă:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current style:"
+msgstr "Stilul curent:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Change in Settings"
+msgstr "Schimbă în Setări"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Preview"
+msgstr "Previzualizare Etichetă"
+
+#: templates/admin/tab-disclosures.php
+msgid "Labels Active"
+msgstr "Etichete Active"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "Fișiere de Dezvăluire IA"
+
+#: templates/admin/tab-disclosures.php
+msgid "Machine-readable transparency files for AI systems and crawlers."
+msgstr "Fișiere de transparență citibile de mașină pentru sisteme IA și crawler-e."
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto"
+msgstr "Auto"
+
+#: templates/admin/tab-disclosures.php
+msgid "Manual"
+msgstr "Manual"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — AI usage, governance, compliance."
+msgstr "Dezvăluire completă de transparență — Utilizare IA, guvernanță, conformitate."
+
+#: templates/admin/tab-disclosures.php
+msgid "View"
+msgstr "Vezi"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy"
+msgstr "Copiază"
+
+#: templates/admin/tab-disclosures.php
+msgid "LLMs.txt"
+msgstr "LLMs.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index — grouped by declaration type."
+msgstr "Index de conținut citibil de IA — grupat pe tip de declarație."
+
+#: templates/admin/tab-disclosures.php
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 30 bots, 3-tier policy."
+msgstr "Control acces crawler — 30 de boți, politică pe 3 niveluri."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Files"
+msgstr "Regenerează Toate Fișierele"
+
+#: templates/admin/tab-disclosures.php
+msgid "Force regeneration of AI.txt, LLMs.txt, and Robots.txt."
+msgstr "Forțează regenerarea AI.txt, LLMs.txt și Robots.txt."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All"
+msgstr "Regenerează Tot"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Pages"
+msgstr "Pagini Publice de Transparență"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages that demonstrate your AI transparency commitment."
+msgstr "Pagini publice care demonstrează angajamentul dvs. față de transparența IA."
+
+#: templates/admin/tab-disclosures.php
+msgid "Editable"
+msgstr "Editabil"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Only"
+msgstr "Doar Vizualizare"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Policy"
+msgstr "Vezi Politica"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy URL"
+msgstr "Copiază URL"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Page"
+msgstr "Vezi Pagina"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verification Active"
+msgstr "Verificare Activă"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copied"
+msgstr "Copiat"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerating..."
+msgstr "Se regenerează..."
+
+#: templates/admin/tab-disclosures.php
+msgid "N/A"
+msgstr "N/A"
+
+#: templates/admin/tab-disclosures.php
+msgid "Last Updated: %s"
+msgstr "Ultima Actualizare: %s"
+
+#: templates/admin/tab-disclosures.php
+msgid "Your AI.txt reflects only %d%% of published content."
+msgstr "AI.txt dvs. reflectă doar %d%% din conținutul publicat."
+
+#: templates/admin/tab-disclosures.php
+msgid "%d items remain undeclared."
+msgstr "%d elemente rămân nedeclarate."
+
+#: templates/admin/tab-disclosures.php
+msgid "Review Undeclared Items"
+msgstr "Revizuiește Elementele Nedeclarate"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verify"
+msgstr "Verifică"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "Fișiere de Dezvăluire IA"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — 16 sections."
+msgstr "Dezvăluire completă de transparență — 16 secțiuni."
+
+#: templates/admin/tab-disclosures.php
+msgid "View Raw"
+msgstr "Vezi Raw"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy as MD"
+msgstr "Copiază ca MD"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto-regenerated on declaration change."
+msgstr "Auto-regenerat la modificarea declarației."
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index with Priority Signals."
+msgstr "Index de conținut citibil de IA cu Semnale de Prioritate."
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 34 bots, 3-tier policy."
+msgstr "Control acces crawler — 34 de boți, politică pe 3 niveluri."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Documents"
+msgstr "Documente Publice de Transparență"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages for visitors, auditors, and regulators."
+msgstr "Pagini publice pentru vizitatori, auditori și reglementatori."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public"
+msgstr "Public"
+
+#: templates/admin/tab-disclosures.php
+msgid "Open"
+msgstr "Deschis"
+
+#: templates/admin/tab-disclosures.php
+msgid "Upgrade to Edit"
+msgstr "Actualizați pentru a Edita"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Snapshots & Evidence"
+msgstr "Capturi Instantanee de Conținut și Dovezi"
+
+#: templates/admin/tab-disclosures.php
+msgid "PDF Reports"
+msgstr "Rapoarte PDF"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Maintenance"
+msgstr "Întreținerea Transparenței"
+
+#: templates/admin/tab-disclosures.php
+msgid "System diagnostics and maintenance tools."
+msgstr "Instrumente de diagnosticare și întreținere a sistemului."
+
+#: templates/admin/tab-disclosures.php
+msgid "Diagnostics"
+msgstr "Diagnosticare"
+
+#: templates/admin/tab-disclosures.php
+msgid "WordPress Rewrites"
+msgstr "Rescrieri WordPress"
+
+#: templates/admin/tab-disclosures.php
+msgid "File Permissions"
+msgstr "Permisiuni Fișier"
+
+#: templates/admin/tab-disclosures.php
+msgid "Output Directory"
+msgstr "Director de Ieșire"
+
+#: templates/admin/tab-disclosures.php
+msgid "Writable"
+msgstr "Scriere permisă"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Assets"
+msgstr "Active de Transparență"
+
+#: templates/admin/tab-disclosures.php
+msgid "Up-to-date"
+msgstr "Actualizat"
+
+#: templates/admin/tab-disclosures.php
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Assets"
+msgstr "Regenerează Toate Activele"
+
+#: templates/admin/tab-disclosures.php
+msgid "Clear Generated Cache"
+msgstr "Șterge Cache-ul Generat"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuild Public Files"
+msgstr "Reconstruiește Fișierele Publice"
+
+#: templates/admin/tab-disclosures.php
+msgid "Failed to copy."
+msgstr "Copierea a eșuat."
+
+#: templates/admin/tab-disclosures.php
+msgid "Fetching..."
+msgstr "Se preia..."
+
+#: templates/admin/tab-disclosures.php
+msgid "..."
+msgstr "..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Clearing..."
+msgstr "Se șterge..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Cleared"
+msgstr "Șters"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuilding..."
+msgstr "Se reconstruiește..."
+
+# ============================================
+# TAB — Legacy Archive
+# ============================================
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content"
+msgstr "Conținut Scutit"
+
+#: templates/admin/tab-archive.php
+msgid "Cutoff Date"
+msgstr "Data Limită"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold"
+msgstr "Prag de Editare"
+
+#: templates/admin/tab-archive.php
+msgid "Archive Settings"
+msgstr "Setări Arhivă"
+
+#: templates/admin/tab-archive.php
+msgid "Compliance Cutoff Date"
+msgstr "Data Limită de Conformitate"
+
+#: templates/admin/tab-archive.php
+msgid "Content before this date is exempt."
+msgstr "Conținutul anterior acestei date este scutit."
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold (%)"
+msgstr "Prag de Editare (%)"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke exemption if edit exceeds this %."
+msgstr "Revocă scutirea dacă editarea depășește acest %."
+
+#: templates/admin/tab-archive.php
+msgid "Save Settings"
+msgstr "Salvează Setările"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content Log"
+msgstr "Jurnal Conținut Scutit"
+
+#: templates/admin/tab-archive.php
+msgid "Items"
+msgstr "Elemente"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke"
+msgstr "Revocă"
+
+#: templates/admin/tab-archive.php
+msgid "Restore"
+msgstr "Restaurează"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt"
+msgstr "Scutit"
+
+#: templates/admin/tab-archive.php
+msgid "Revoked"
+msgstr "Revocat"
+
+#: templates/admin/tab-archive.php
+msgid "How Legacy Archive Works"
+msgstr "Cum Funcționează Arhiva Moștenită"
+
+#: templates/admin/tab-archive.php
+msgid "Set Cutoff Date"
+msgstr "Setează Data Limită"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold Monitoring"
+msgstr "Monitorizare Prag de Editare"
+
+#: templates/admin/tab-archive.php
+msgid "Manual Override"
+msgstr "Anulare Manuală"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date. Classified as Legacy — Exempt from mandatory AI declaration under EU AI Act Article 50."
+msgstr "Conținut istoric publicat înainte de data limită. Clasificat ca Moștenit — Scutit de declarația obligatorie IA conform Articolului 50 din Actul UE privind IA."
+
+#: templates/admin/tab-archive.php
+msgid "EU AI Act — Article 50"
+msgstr "Actul UE privind IA — Articolul 50"
+
+#: templates/admin/tab-archive.php
+msgid "The EU AI Act enters into force on August 2, 2025. Content published before the cutoff date is classified as Legacy and is exempt from mandatory AI declaration requirements. All content published after this date must be declared."
+msgstr "Actul UE privind IA intră în vigoare la 2 august 2025. Conținutul publicat înainte de data limită este clasificat ca Moștenit și este scutit de cerințele obligatorii de declarare IA. Tot conținutul publicat după această dată trebuie declarat."
+
+#: templates/admin/tab-archive.php
+msgid "Undeclared Legacy"
+msgstr "Moștenit Nedeclarat"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date, classified as Legacy — Exempt."
+msgstr "Conținut istoric publicat înainte de data limită, clasificat ca Moștenit — Scutit."
+
+#: templates/admin/tab-archive.php
+msgid "(No title)"
+msgstr "(Fără titlu)"
+
+#: templates/admin/tab-archive.php
+msgid "No exempt content found. Content published after the cutoff date will not be automatically exempt."
+msgstr "Nu s-a găsit conținut scutit. Conținutul publicat după data limită nu va fi automat scutit."
+
+#: templates/admin/tab-archive.php
+msgid "Define the compliance cutoff date. Content published before this date is eligible for legacy exemption."
+msgstr "Definiți data limită de conformitate. Conținutul publicat înainte de această dată este eligibil pentru scutirea moștenită."
+
+#: templates/admin/tab-archive.php
+msgid "If an exempt article is edited and changes exceed the threshold, the exemption is automatically revoked."
+msgstr "Dacă un articol scutit este editat și modificările depășesc pragul, scutirea este revocată automat."
+
+#: templates/admin/tab-archive.php
+msgid "You can manually revoke or restore exemptions from the Exempt Content Log above."
+msgstr "Puteți revoca sau restaura manual scutirile din Jurnalul Conținutului Scutit de mai sus."
+
+#: templates/admin/tab-archive.php
+msgid "Are you sure you want to revoke this exemption? The post will return to the Content Hub for standard declaration."
+msgstr "Sigur doriți să revocați această scutire? Postarea va reveni în Centrul de Conținut pentru declarația standard."
+
+#: templates/admin/tab-archive.php
+msgid "An error occurred. Please try again."
+msgstr "A apărut o eroare. Vă rugăm să încercați din nou."
+
+#: templates/admin/tab-archive.php
+msgid "Settings saved."
+msgstr "Setări salvate."
+
+#: templates/admin/tab-archive.php
+msgid "Unlock Full Archive Management"
+msgstr "Deblochează Gestionarea Completă a Arhivei"
+
+#: templates/admin/tab-archive.php
+msgid "Advanced filtering, bulk exemption, and audit trail for legacy content."
+msgstr "Filtrare avansată, scutire în masă și traseu de audit pentru conținutul moștenit."
+
+#: templates/admin/tab-archive.php
+msgid "Published"
+msgstr "Publicat"
+
+# ============================================
+# TAB — Reports & Evidence
+# ============================================
+
+#: templates/admin/tab-reports.php
+msgid "Compliance Reports"
+msgstr "Rapoarte de Conformitate"
+
+#: templates/admin/tab-reports.php
+msgid "Generate compliance documentation for your records."
+msgstr "Generați documentație de conformitate pentru înregistrările dvs."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report"
+msgstr "Raport PDF"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report (Pro)"
+msgstr "Raport PDF (Pro)"
+
+#: templates/admin/tab-reports.php
+msgid "Export CSV"
+msgstr "Exportă CSV"
+
+#: templates/admin/tab-reports.php
+msgid "Date Range"
+msgstr "Interval de Date"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Schedule Reports"
+msgstr "Programează Rapoarte"
+
+#: templates/admin/tab-reports.php
+msgid "Weekly/Monthly auto-delivery to "
+msgstr "Livrare automată săptămânală/lunară către "
+
+#: templates/admin/tab-reports.php
+msgid "Configure scheduling"
+msgstr "Configurează programarea"
+
+#: templates/admin/tab-reports.php
+msgid "Transparency Registry"
+msgstr "Registru de Transparență"
+
+#: templates/admin/tab-reports.php
+msgid "Local"
+msgstr "Local"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Site ID"
+msgstr "ID Site"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Trail"
+msgstr "Traseu Dovezi"
+
+#: templates/admin/tab-reports.php
+msgid "No evidence logs yet. Governance actions will appear here."
+msgstr "Încă nu există jurnale de dovezi. Acțiunile de guvernanță vor apărea aici."
+
+#: templates/admin/tab-reports.php
+msgid "Attestation & Archiving"
+msgstr "Atestare și Arhivare"
+
+#: templates/admin/tab-reports.php
+msgid "Registry Integrity"
+msgstr "Integritatea Registrului"
+
+#: templates/admin/tab-reports.php
+msgid "Active & Secure"
+msgstr "Activ și Securizat"
+
+#: templates/admin/tab-reports.php
+msgid "Anchored Logs"
+msgstr "Jurnale Ancorate"
+
+#: templates/admin/tab-reports.php
+msgid "Records"
+msgstr "Înregistrări"
+
+#: templates/admin/tab-reports.php
+msgid "Tamper Protection"
+msgstr "Protecție împotriva Manipulării"
+
+#: templates/admin/tab-reports.php
+msgid "SHA-256 Enabled"
+msgstr "SHA-256 Activat"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Retention"
+msgstr "Păstrarea Dovezilor"
+
+#: templates/admin/tab-reports.php
+msgid "Days"
+msgstr "Zile"
+
+#: templates/admin/tab-reports.php
+msgid "Download Evidence Bundle (.zip)"
+msgstr "Descarcă Pachetul de Dovezi (.zip)"
+
+#: templates/admin/tab-reports.php
+msgid "Includes AI.txt, classification snapshot, and governance timeline."
+msgstr "Include AI.txt, captură instantanee de clasificare și cronologie de guvernanță."
+
+#: templates/admin/tab-reports.php
+msgid "Action"
+msgstr "Acțiune"
+
+#: templates/admin/tab-reports.php
+msgid "Scheduled Reports"
+msgstr "Rapoarte Programate"
+
+#: templates/admin/tab-reports.php
+msgid "%1$s delivery to %2$s"
+msgstr "Livrare %1$s către %2$s"
+
+#: templates/admin/tab-reports.php
+msgid "Not scheduled"
+msgstr "Nu este programat"
+
+#: templates/admin/tab-reports.php
+msgid "This evidence bundle is for transparency and documentation purposes only. It does not constitute legal compliance certification."
+msgstr "Acest pachet de dovezi este doar în scopuri de transparență și documentare. Nu constituie certificare de conformitate legală."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Reports & Structured Evidence Bundles"
+msgstr "Rapoarte PDF și Pachete de Dovezi Structurate"
+
+#: templates/admin/tab-reports.php
+msgid "Content Snapshots at Time of Declaration"
+msgstr "Capturi Instantanee de Conținut la Momentul Declarației"
+
+#: templates/admin/tab-reports.php
+msgid "Media Provenance Capture (EXIF/IPTC/C2PA)"
+msgstr "Captura Provenienței Media (EXIF/IPTC/C2PA)"
+
+#: templates/admin/tab-reports.php
+msgid "Custom Label Text & Colors"
+msgstr "Text și Culori Personalizate pentru Etichete"
+
+# ============================================
+# SETTINGS
+# ============================================
+
+#: templates/admin/settings.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu aveți permisiuni suficiente pentru a accesa această pagină."
+
+#: templates/admin/settings.php
+msgid "Platform Settings"
+msgstr "Setări Platformă"
+
+#: templates/admin/settings.php
+msgid "Configure license, content types, labels, automation, alerts, and reports."
+msgstr "Configurați licența, tipurile de conținut, etichetele, automatizarea, alertele și rapoartele."
+
+#: templates/admin/settings.php
+msgid "Content & Labels"
+msgstr "Conținut și Etichete"
+
+#: templates/admin/settings.php
+msgid "Automation"
+msgstr "Automatizare"
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr "Licență"
+
+#: templates/admin/settings.php
+msgid "Site ID:"
+msgstr "ID Site:"
+
+#: templates/admin/settings.php
+msgid "Sync Free License"
+msgstr "Sincronizează Licența Gratuită"
+
+#: templates/admin/settings.php
+msgid "Opt-in to enable automatic updates and support."
+msgstr "Optați pentru a activa actualizările automate și asistența."
+
+#: templates/admin/settings.php
+msgid "Upgrade License"
+msgstr "Actualizează Licența"
+
+#: templates/admin/settings.php
+msgid "Manage Account"
+msgstr "Gestionați Contul"
+
+#: templates/admin/settings.php
+msgid "You previously skipped this. Connect to enable automatic updates."
+msgstr "Ați omis anterior acest lucru. Conectați-vă pentru a activa actualizările automate."
+
+#: templates/admin/settings.php
+msgid "Jurisdiction"
+msgstr "Jurisdicție"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering."
+msgstr "Selectați jurisdicția dvs. de reglementare principală pentru filtrarea alertelor."
+
+#: templates/admin/settings.php
+msgid "Save Region"
+msgstr "Salvează Regiunea"
+
+#: templates/admin/settings.php
+msgid "Label Style"
+msgstr "Stil Etichetă"
+
+#: templates/admin/settings.php
+msgid "Choose how AI transparency labels appear on your content."
+msgstr "Alegeți cum apar etichetele de transparență IA pe conținutul dvs."
+
+#: templates/admin/settings.php
+msgid "Official EU Icon"
+msgstr "Iconiță Oficială UE"
+
+#: templates/admin/settings.php
+msgid "Pill Style"
+msgstr "Stil Pastilă"
+
+#: templates/admin/settings.php
+msgid "Minimal Text"
+msgstr "Text Minimal"
+
+#: templates/admin/settings.php
+msgid "Banner Style"
+msgstr "Stil Banner"
+
+#: templates/admin/settings.php
+msgid "Outline Card"
+msgstr "Card Contur"
+
+#: templates/admin/settings.php
+msgid "Default"
+msgstr "Implicit"
+
+#: templates/admin/settings.php
+msgid "Placement"
+msgstr "Amplasare"
+
+#: templates/admin/settings.php
+msgid "Top of Content (Recommended)"
+msgstr "Partea Superioară a Conținutului (Recomandat)"
+
+#: templates/admin/settings.php
+msgid "Both Top & Bottom"
+msgstr "Atât Sus, cât și Jos"
+
+#: templates/admin/settings.php
+msgid "Manual Only (Shortcode)"
+msgstr "Doar Manual (Shortcode)"
+
+#: templates/admin/settings.php
+msgid "Disclosure must appear before or at the point of exposure to comply with transparency principles."
+msgstr "Dezvăluirea trebuie să apară înainte sau în momentul expunerii pentru a respecta principiile de transparență."
+
+#: templates/admin/settings.php
+msgid "Uses the EU's official AI content icons; this does not constitute formal adherence to the Code of Practice."
+msgstr "Folosește iconițele oficiale de conținut IA ale UE; aceasta nu constituie o aderare formală la Codul de Practică."
+
+#: templates/admin/settings.php
+msgid "Save Label Settings"
+msgstr "Salvează Setările Etichetelor"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Text Personalizat pentru Etichete"
+
+#: templates/admin/settings.php
+msgid "Customize the text displayed for each declaration type."
+msgstr "Personalizați textul afișat pentru fiecare tip de declarație."
+
+#: templates/admin/settings.php
+msgid "Custom label text is available on Pro and Agency plans."
+msgstr "Textul personalizat pentru etichete este disponibil în planurile Pro și Agenție."
+
+#: templates/admin/settings.php
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: templates/admin/settings.php
+msgid "Save Custom Text"
+msgstr "Salvează Textul Personalizat"
+
+#: templates/admin/settings.php
+msgid "Tracked Post Types"
+msgstr "Tipuri de Postări Urmărite"
+
+#: templates/admin/settings.php
+msgid "Select which content types require a source declaration before publishing."
+msgstr "Selectați ce tipuri de conținut necesită o declarație a sursei înainte de publicare."
+
+#: templates/admin/settings.php
+msgid "PRO"
+msgstr "PRO"
+
+#: templates/admin/settings.php
+msgid "Save Content Types"
+msgstr "Salvează Tipurile de Conținut"
+
+#: templates/admin/settings.php
+msgid "Auto-regenerate disclosure files"
+msgstr "Auto-regenerare fișiere de dezvăluire"
+
+#: templates/admin/settings.php
+msgid "Rebuild AI.txt, LLMs.txt, and Robots.txt automatically when a declaration changes."
+msgstr "Reconstruiește AI.txt, LLMs.txt și Robots.txt automat când se modifică o declarație."
+
+#: templates/admin/settings.php
+msgid "Auto-update verification"
+msgstr "Auto-actualizare verificare"
+
+#: templates/admin/settings.php
+msgid "Keep the public verification page in sync with declarations."
+msgstr "Menține pagina publică de verificare sincronizată cu declarațiile."
+
+#: templates/admin/settings.php
+msgid "Automatic on Pro/Agency (always on):"
+msgstr "Automat în Pro/Agenție (întotdeauna activ):"
+
+#: templates/admin/settings.php
+msgid "Content Snapshot captured at the moment of each declaration"
+msgstr "Captură instantanee de conținut capturată în momentul fiecărei declarații"
+
+#: templates/admin/settings.php
+msgid "Media Provenance metadata captured at upload time"
+msgstr "Metadate de proveniență media capturate la încărcare"
+
+#: templates/admin/settings.php
+msgid "Save Automation"
+msgstr "Salvează Automatizarea"
+
+#: templates/admin/settings.php
+msgid "Email & Reports"
+msgstr "Email și Rapoarte"
+
+#: templates/admin/settings.php
+msgid "Report Frequency"
+msgstr "Frecvența Rapoartelor"
+
+#: templates/admin/settings.php
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: templates/admin/settings.php
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: templates/admin/settings.php
+msgid "Monthly"
+msgstr "Lunar"
+
+#: templates/admin/settings.php
+msgid "Quarterly"
+msgstr "Trimestrial"
+
+#: templates/admin/settings.php
+msgid "Report Email"
+msgstr "Email pentru Rapoarte"
+
+#: templates/admin/settings.php
+msgid "Save Email Settings"
+msgstr "Salvează Setările Email"
+
+#: templates/admin/settings.php
+msgid "Regulatory alerts are pulled from a public, non-personal data feed. No site content or data is ever transmitted."
+msgstr "Alertele de reglementare sunt preluate dintr-un flux de date public, nepersonal. Nu se transmite niciodată conținut sau date ale site-ului."
+
+#: templates/admin/settings.php
+msgid "Source"
+msgstr "Sursă"
+
+#: templates/admin/settings.php
+msgid "Public Regulatory Feed (read-only)"
+msgstr "Flux de Reglementare Public (doar citire)"
+
+#: templates/admin/settings.php
+msgid "Frequency"
+msgstr "Frecvență"
+
+#: templates/admin/settings.php
+msgid "Daily"
+msgstr "Zilnic"
+
+#: templates/admin/settings.php
+msgid "This is the only external data fetch in MegaGovern. All other features operate entirely locally."
+msgstr "Aceasta este singura preluare de date externe în MegaGovern. Toate celelalte funcții funcționează în întregime local."
+
+#: templates/admin/settings.php
+msgid "White Label — Active"
+msgstr "White Label — Activ"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding is removed from public-facing elements."
+msgstr "Marca MegaGovern este eliminată din elementele publice."
+
+#: templates/admin/settings.php
+msgid "Unlock Pro — Full Transparency Suite"
+msgstr "Deblochează Pro — Suita Completă de Transparență"
+
+#: templates/admin/settings.php
+msgid "Custom AI Policy Editor"
+msgstr "Editor Personalizat de Politică IA"
+
+#: templates/admin/settings.php
+msgid "Content Snapshots & Evidence Bundles"
+msgstr "Capturi Instantanee de Conținut și Pachete de Dovezi"
+
+#: templates/admin/settings.php
+msgid "PDF Reports & Evidence Export"
+msgstr "Rapoarte PDF și Export Dovezi"
+
+#: templates/admin/settings.php
+msgid "Regulatory Alerts — All Jurisdictions"
+msgstr "Alerte de Reglementare — Toate Jurisdicțiile"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Text Personalizat pentru Etichete"
+
+#: templates/admin/settings.php
+msgid "365-Day Evidence Retention"
+msgstr "Păstrarea Dovezilor 365 de Zile"
+
+#: templates/admin/settings.php
+msgid "All Post Types Support"
+msgstr "Suport pentru Toate Tipurile de Postări"
+
+#: templates/admin/settings.php
+msgid "Priority Support"
+msgstr "Suport Prioritar"
+
+#: templates/admin/settings.php
+msgid "When someone asks you to prove it, this is what you hand them."
+msgstr "Când cineva vă cere să dovediți, aceasta este ceea ce îi dați."
+
+#: templates/admin/settings.php
+msgid "Upgrade Now"
+msgstr "Actualizați Acum"
+
+#: templates/admin/settings.php
+msgid "AI Transparency Notice"
+msgstr "Notificare de Transparență IA"
+
+#: templates/admin/settings.php
+msgid "Display a professional AI transparency notice bar on your frontend to inform visitors about AI-generated content."
+msgstr "Afișați o bară de notificare profesională de transparență IA pe frontend pentru a informa vizitatorii despre conținutul generat de IA."
+
+#: templates/admin/settings.php
+msgid "Enable Notice"
+msgstr "Activează Notificarea"
+
+#: templates/admin/settings.php
+msgid "Show the AI transparency notice on your frontend."
+msgstr "Afișați notificarea de transparență IA pe frontend-ul dvs."
+
+#: templates/admin/settings.php
+msgid "Notice Position"
+msgstr "Poziția Notificării"
+
+#: templates/admin/settings.php
+msgid "Top of Page"
+msgstr "Partea Superioară a Paginii"
+
+#: templates/admin/settings.php
+msgid "Bottom of Page"
+msgstr "Partea Inferioară a Paginii"
+
+#: templates/admin/settings.php
+msgid "Dismiss Duration (Days)"
+msgstr "Durata de Eliminare (Zile)"
+
+#: templates/admin/settings.php
+msgid "How many days to hide the notice after dismissal."
+msgstr "Câte zile să se ascundă notificarea după eliminare."
+
+#: templates/admin/settings.php
+msgid "Color customization is available on Pro and Agency plans."
+msgstr "Personalizarea culorilor este disponibilă în planurile Pro și Agenție."
+
+#: templates/admin/settings.php
+msgid "Background"
+msgstr "Fundal"
+
+#: templates/admin/settings.php
+msgid "Text Color"
+msgstr "Culoare Text"
+
+#: templates/admin/settings.php
+msgid "Link Color"
+msgstr "Culoare Link"
+
+#: templates/admin/settings.php
+msgid "Upgrade to Pro to customize colors."
+msgstr "Actualizați la Pro pentru a personaliza culorile."
+
+#: templates/admin/settings.php
+msgid "Show Logo"
+msgstr "Afișează Logo"
+
+#: templates/admin/settings.php
+msgid "Display MegaGovern logo."
+msgstr "Afișează logo-ul MegaGovern."
+
+#: templates/admin/settings.php
+msgid "Show Icon"
+msgstr "Afișează Iconița"
+
+#: templates/admin/settings.php
+msgid "Display AI shield icon."
+msgstr "Afișează iconița scut IA."
+
+#: templates/admin/settings.php
+msgid "AI Policy Page"
+msgstr "Pagina Politicii IA"
+
+#: templates/admin/settings.php
+msgid "— Default Transparency Page —"
+msgstr "— Pagina de Transparență Implicită —"
+
+#: templates/admin/settings.php
+msgid "Select a custom page for your AI policy. Leave empty to use /transparency."
+msgstr "Selectați o pagină personalizată pentru politica dvs. IA. Lăsați gol pentru a utiliza /transparency."
+
+#: templates/admin/settings.php
+msgid "Custom Notice Text"
+msgstr "Text Personalizat pentru Notificare"
+
+#: templates/admin/settings.php
+msgid "Leave empty for default text. Custom text is available on Pro and Agency plans."
+msgstr "Lăsați gol pentru textul implicit. Textul personalizat este disponibil în planurile Pro și Agenție."
+
+#: templates/admin/settings.php
+msgid "White Label Active"
+msgstr "White Label Activ"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding removed from the notice bar."
+msgstr "Marca MegaGovern eliminată din bara de notificare."
+
+#: templates/admin/settings.php
+msgid "Save Notice Settings"
+msgstr "Salvează Setările Notificării"
+
+#: templates/admin/settings.php
+msgid "Live Preview"
+msgstr "Previzualizare Live"
+
+#: templates/admin/settings.php
+msgid "This is how the notice will appear on your frontend:"
+msgstr "Așa va apărea notificarea pe frontend-ul dvs.:"
+
+#: templates/admin/settings.php
+msgid "This website uses artificial intelligence in some of its content."
+msgstr "Acest site web utilizează inteligența artificială în unele dintre conținuturile sale."
+
+#: templates/admin/settings.php
+msgid "View AI Policy"
+msgstr "Vezi Politica IA"
+
+#: templates/admin/settings.php
+msgid "Preview updates based on your settings above."
+msgstr "Previzualizarea se actualizează pe baza setărilor dvs. de mai sus."
+
+#: templates/admin/settings.php
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/admin/settings.php
+msgid "Manually display the notice anywhere using this shortcode:"
+msgstr "Afișați manual notificarea oriunde folosind acest shortcode:"
+
+#: templates/admin/settings.php
+msgid "Use this in posts, pages, or widget areas."
+msgstr "Utilizați acest lucru în postări, pagini sau zone de widget-uri."
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering and compliance defaults."
+msgstr "Selectați jurisdicția dvs. de reglementare principală pentru filtrarea alertelor și valorile implicite de conformitate."
+
+#: templates/admin/settings.php
+msgid "Automation & Reports"
+msgstr "Automatizare și Rapoarte"
+
+#: templates/admin/settings.php
+msgid "AI Notice"
+msgstr "Notificare IA"
+
+# ============================================
+# AGENCY
+# ============================================
+
+#: templates/admin/agency.php
+msgid "You do not have permission to manage agency settings."
+msgstr "Nu aveți permisiunea de a gestiona setările agenției."
+
+#: templates/admin/agency.php
+msgid "Manage sites, white label, team, and reports."
+msgstr "Gestionați site-uri, white label, echipă și rapoarte."
+
+#: templates/admin/agency.php
+msgid "Site limit reached. Upgrade to add more sites."
+msgstr "Limita de site-uri a fost atinsă. Actualizați pentru a adăuga mai multe site-uri."
+
+#: templates/admin/agency.php
+msgid "Invalid site URL. Please enter a valid URL."
+msgstr "URL site invalid. Vă rugăm să introduceți un URL valid."
+
+#: templates/admin/agency.php
+msgid "Site added."
+msgstr "Site adăugat."
+
+#: templates/admin/agency.php
+msgid "Site removed."
+msgstr "Site eliminat."
+
+#: templates/admin/agency.php
+msgid "White Label saved."
+msgstr "White Label salvat."
+
+#: templates/admin/agency.php
+msgid "Member added."
+msgstr "Membru adăugat."
+
+#: templates/admin/agency.php
+msgid "Member removed."
+msgstr "Membru eliminat."
+
+#: templates/admin/agency.php
+msgid "You're using %1$d/%2$d sites — only %3$d site(s) remaining."
+msgstr "Utilizați %1$d/%2$d site-uri — doar %3$d site-uri rămase."
+
+#: templates/admin/agency.php
+msgid "Sites"
+msgstr "Site-uri"
+
+#: templates/admin/agency.php
+msgid "White Label"
+msgstr "White Label"
+
+#: templates/admin/agency.php
+msgid "Bulk Reports"
+msgstr "Rapoarte în Masă"
+
+#: templates/admin/agency.php
+msgid "Team"
+msgstr "Echipă"
+
+#: templates/admin/agency.php
+msgid "Total Sites"
+msgstr "Total Site-uri"
+
+#: templates/admin/agency.php
+msgid "Compliant"
+msgstr "Conform"
+
+#: templates/admin/agency.php
+msgid "Attention"
+msgstr "Atenție"
+
+#: templates/admin/agency.php
+msgid "Managed Sites"
+msgstr "Site-uri Gestionate"
+
+#: templates/admin/agency.php
+msgid "Site"
+msgstr "Site"
+
+#: templates/admin/agency.php
+msgid "Score"
+msgstr "Scor"
+
+#: templates/admin/agency.php
+msgid "Poor"
+msgstr "Slab"
+
+#: templates/admin/agency.php
+msgid "Open"
+msgstr "Deschide"
+
+#: templates/admin/agency.php
+msgid "No sites added."
+msgstr "Nu s-au adăugat site-uri."
+
+#: templates/admin/agency.php
+msgid "sites used"
+msgstr "site-uri utilizate"
+
+#: templates/admin/agency.php
+msgid "remaining"
+msgstr "rămase"
+
+#: templates/admin/agency.php
+msgid "Add Site"
+msgstr "Adaugă Site"
+
+#: templates/admin/agency.php
+msgid "Site Name"
+msgstr "Nume Site"
+
+#: templates/admin/agency.php
+msgid "Add"
+msgstr "Adaugă"
+
+#: templates/admin/agency.php
+msgid "Site limit reached."
+msgstr "Limita de site-uri a fost atinsă."
+
+#: templates/admin/agency.php
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/agency.php
+msgid "Remove this site?"
+msgstr "Eliminați acest site?"
+
+#: templates/admin/agency.php
+msgid "White Label Branding"
+msgstr "Branding White Label"
+
+#: templates/admin/agency.php
+msgid "Agency Name"
+msgstr "Nume Agenție"
+
+#: templates/admin/agency.php
+msgid "Logo URL"
+msgstr "URL Logo"
+
+#: templates/admin/agency.php
+msgid "Brand Color"
+msgstr "Culoare Brand"
+
+#: templates/admin/agency.php
+msgid "Footer Text"
+msgstr "Text Subsol"
+
+#: templates/admin/agency.php
+msgid "Powered by [Agency]"
+msgstr "Susținut de [Agenție]"
+
+#: templates/admin/agency.php
+msgid "Hide Branding"
+msgstr "Ascunde Brandingul"
+
+#: templates/admin/agency.php
+msgid "Remove MegaGovern from public pages"
+msgstr "Elimină MegaGovern din paginile publice"
+
+#: templates/admin/agency.php
+msgid "Save Changes"
+msgstr "Salvează Modificările"
+
+#: templates/admin/agency.php
+msgid "Generate All Reports"
+msgstr "Generează Toate Rapoartele"
+
+#: templates/admin/agency.php
+msgid "Generate compliance reports for all %d sites."
+msgstr "Generează rapoarte de conformitate pentru toate cele %d site-uri."
+
+#: templates/admin/agency.php
+msgid "Auto-generate monthly compliance reports."
+msgstr "Auto-generare rapoarte de conformitate lunare."
+
+#: templates/admin/agency.php
+msgid "Enable scheduled monthly reports"
+msgstr "Activează rapoartele lunare programate"
+
+#: templates/admin/agency.php
+msgid "Save Schedule"
+msgstr "Salvează Programarea"
+
+#: templates/admin/agency.php
+msgid "Add Team Member"
+msgstr "Adaugă Membru în Echipă"
+
+#: templates/admin/agency.php
+msgid "Admin"
+msgstr "Administrator"
+
+#: templates/admin/agency.php
+msgid "Manager"
+msgstr "Manager"
+
+#: templates/admin/agency.php
+msgid "Editor"
+msgstr "Editor"
+
+#: templates/admin/agency.php
+msgid "Contributor"
+msgstr "Contribuitor"
+
+#: templates/admin/agency.php
+msgid "Team Members"
+msgstr "Membrii Echipei"
+
+#: templates/admin/agency.php
+msgid "User"
+msgstr "Utilizator"
+
+#: templates/admin/agency.php
+msgid "Role"
+msgstr "Rol"
+
+#: templates/admin/agency.php
+msgid "Remove this member?"
+msgstr "Eliminați acest membru?"
+
+#: templates/admin/agency.php
+msgid "No team members added."
+msgstr "Nu s-au adăugat membri în echipă."
+
+#: templates/admin/agency.php
+msgid "Plan Details"
+msgstr "Detalii Plan"
+
+#: templates/admin/agency.php
+msgid "Plan"
+msgstr "Plan"
+
+#: templates/admin/agency.php
+msgid "Site Limit"
+msgstr "Limita Site-uri"
+
+#: templates/admin/agency.php
+msgid "Included"
+msgstr "Inclus"
+
+#: templates/admin/agency.php
+msgid "Team Access"
+msgstr "Acces Echipă"
+
+# ============================================
+# GOVERNANCE CENTER
+# ============================================
+
+#: templates/admin/tab-governance.php
+msgid "Regulatory Intelligence"
+msgstr "Inteligență de Reglementare"
+
+#: templates/admin/tab-governance.php
+msgid "Live"
+msgstr "Live"
+
+#: templates/admin/tab-governance.php
+msgid "Total Directives"
+msgstr "Total Directive"
+
+#: templates/admin/tab-governance.php
+msgid "Jurisdictions"
+msgstr "Jurisdicții"
+
+#: templates/admin/tab-governance.php
+msgid "Source Tier"
+msgstr "Nivel Sursă"
+
+#: templates/admin/tab-governance.php
+msgid "Verified"
+msgstr "Verificat"
+
+#: templates/admin/tab-governance.php
+msgid "Latest Directives"
+msgstr "Cele Mai Noi Directive"
+
+#: templates/admin/tab-governance.php
+msgid "No regulatory alerts yet."
+msgstr "Încă nu există alerte de reglementare."
+
+#: templates/admin/tab-governance.php
+msgid "Mark All as Read"
+msgstr "Marchează Toate ca Citite"
+
+#: templates/admin/tab-governance.php
+msgid "Full Regulatory Feed"
+msgstr "Flux de Reglementare Complet"
+
+#: templates/admin/tab-governance.php
+msgid "Unlock live jurisdiction filtering, verified source feeds, and automated alert tracking."
+msgstr "Deblochează filtrarea live a jurisdicțiilor, fluxuri de surse verificate și urmărirea automată a alertelor."
+
+#: templates/admin/tab-governance.php
+msgid "EU AI Act — Article Coverage"
+msgstr "Actul UE privind IA — Acoperirea Articolelor"
+
+#: templates/admin/tab-governance.php
+msgid "Overall Coverage Score"
+msgstr "Scor General de Acoperire"
+
+#: templates/admin/tab-governance.php
+msgid "%d of %d directives covered"
+msgstr "%d din %d directive acoperite"
+
+#: templates/admin/tab-governance.php
+msgid "Action Item:"
+msgstr "Element de Acțiune:"
+
+#: templates/admin/tab-governance.php
+msgid "Review uncovered directives"
+msgstr "Revizuiește directivele neacoperite"
+
+# ============================================
+# AI NOTICE SETTINGS
+# ============================================
+
+#: templates/admin/notice-settings.php
+msgid "AI Notice Settings"
+msgstr "Setări Notificare IA"
+
+#: templates/admin/notice-settings.php
+msgid "Customize the AI transparency notice bar displayed on your website."
+msgstr "Personalizați bara de notificare de transparență IA afișată pe site-ul dvs."
+
+#: templates/admin/notice-settings.php
+msgid "Show AI transparency notice on the frontend."
+msgstr "Afișați notificarea de transparență IA pe frontend."
+
+#: templates/admin/notice-settings.php
+msgid "Position"
+msgstr "Poziție"
+
+#: templates/admin/notice-settings.php
+msgid "Top of page"
+msgstr "Partea superioară a paginii"
+
+#: templates/admin/notice-settings.php
+msgid "Bottom of page"
+msgstr "Partea inferioară a paginii"
+
+#: templates/admin/notice-settings.php
+msgid "Background Color"
+msgstr "Culoare Fundal"
+
+#: templates/admin/notice-settings.php
+msgid "Display MegaGovern logo in the notice."
+msgstr "Afișează logo-ul MegaGovern în notificare."
+
+#: templates/admin/notice-settings.php
+msgid "Display AI shield icon in the notice."
+msgstr "Afișează iconița scut IA în notificare."
+
+#: templates/admin/notice-settings.php
+msgid "— Select page —"
+msgstr "— Selectați pagina —"
+
+#: templates/admin/notice-settings.php
+msgid "Select the page where your AI policy is displayed."
+msgstr "Selectați pagina unde este afișată politica dvs. IA."
+
+#: templates/admin/notice-settings.php
+msgid "Custom Text"
+msgstr "Text Personalizat"
+
+#: templates/admin/notice-settings.php
+msgid "Custom notice text. Leave empty for default."
+msgstr "Text personalizat pentru notificare. Lăsați gol pentru implicit."
+
+# ============================================
+# PUBLIC — Transparent Site Badge
+# ============================================
+
+#: templates/public/badge.php
+msgid "Transparent Site"
+msgstr "Site Transparent"
+
+# ============================================
+# PUBLIC — Transparency Drawer
+# ============================================
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency"
+msgstr "Transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Toggle transparency information"
+msgstr "Comută informațiile de transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Center"
+msgstr "Centru de Transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Close"
+msgstr "Închide"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Summary"
+msgstr "Rezumat Transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Human Written"
+msgstr "Declarat ca Scris de Oameni"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Assisted"
+msgstr "Declarat ca Asistat de IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Generated"
+msgstr "Declarat ca Generat de IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Synthetic Media"
+msgstr "Declarat ca Media Sintetică"
+
+#: templates/public/transparency-drawer.php
+msgid "Last Declaration"
+msgstr "Ultima Declarație"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Records"
+msgstr "Înregistrări de Transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Verification Status"
+msgstr "Status Verificare"
+
+#: templates/public/transparency-drawer.php
+msgid "Verified"
+msgstr "Verificat"
+
+#: templates/public/transparency-drawer.php
+msgid "View Transparency Page"
+msgstr "Vezi Pagina de Transparență"
+
+#: templates/public/transparency-drawer.php
+msgid "Read AI Policy"
+msgstr "Citește Politica IA"
+
+#: templates/public/transparency-drawer.php
+msgid "Download AI.txt"
+msgstr "Descarcă AI.txt"
+
+#: templates/public/transparency-drawer.php
+msgid "Verify Transparency"
+msgstr "Verifică Transparența"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency information aligned with EU AI Act Article 50 disclosure goals."
+msgstr "Informații de transparență aliniate cu obiectivele de dezvăluire ale Articolului 50 din Actul UE privind IA."
+
+#: templates/public/transparency-drawer.php
+msgid "Powered by MegaGovern"
+msgstr "Susținut de MegaGovern"
+
+# ============================================
+# PUBLIC — Verification Page
+# ============================================
+
+#: templates/public/verify-page.php
+msgid "Not available"
+msgstr "Nu este disponibil"
+
+#: templates/public/verify-page.php
+msgid "About This Page"
+msgstr "Despre Această Pagină"
+
+#: templates/public/verify-page.php
+msgid "This website voluntarily maintains an AI Content Transparency Registry and publishes AI disclosure information. All content sources are declared and recorded in a verifiable transparency registry, providing proof of responsible AI governance."
+msgstr "Acest site web menține voluntar un Registru de Transparență a Conținutului IA și publică informații de dezvăluire IA. Toate sursele de conținut sunt declarate și înregistrate într-un registru de transparență verificabil, oferind dovada unei guvernanțe responsabile a IA."
+
+#: templates/public/verify-page.php
+msgid "Total Declared Articles"
+msgstr "Total Articole Declarate"
+
+#: templates/public/verify-page.php
+msgid "Machine-readable file"
+msgstr "Fișier citibil de mașină"
+
+#: templates/public/verify-page.php
+msgid "Verification"
+msgstr "Verificare"
+
+#: templates/public/verify-page.php
+msgid "Registry ID"
+msgstr "ID Registru"
+
+#: templates/public/verify-page.php
+msgid "Generated"
+msgstr "Generat"
+
+#: templates/public/verify-page.php
+msgid "Generated automatically from the website's Transparency Registry by megagovern.com."
+msgstr "Generat automat din Registrul de Transparență al site-ului de către megagovern.com."
+
+# ============================================
+# PDF REPORT
+# ============================================
+
+#: templates/public/report-pdf.php
+msgid "MegaGovern — AI Transparency & Compliance Report"
+msgstr "MegaGovern — Raport de Transparență și Conformitate IA"
+
+#: templates/public/report-pdf.php
+msgid "Site:"
+msgstr "Site:"
+
+#: templates/public/report-pdf.php
+msgid "URL:"
+msgstr "URL:"
+
+#: templates/public/report-pdf.php
+msgid "Generated:"
+msgstr "Generat:"
+
+#: templates/public/report-pdf.php
+msgid "Period:"
+msgstr "Perioadă:"
+
+#: templates/public/report-pdf.php
+msgid "%1$s of %2$s published items declared"
+msgstr "%1$s din %2$s elemente publicate declarate"
+
+#: templates/public/report-pdf.php
+msgid "Declaration Breakdown"
+msgstr "Defalcarea Declarațiilor"
+
+#: templates/public/report-pdf.php
+msgid "Synthetic / Deepfake"
+msgstr "Sintetic / Deepfake"
+
+#: templates/public/report-pdf.php
+msgid "Transparency Measures"
+msgstr "Măsuri de Transparență"
+
+#: templates/public/report-pdf.php
+msgid "Measure"
+msgstr "Măsură"
+
+#: templates/public/report-pdf.php
+msgid "Details"
+msgstr "Detalii"
+
+#: templates/public/report-pdf.php
+msgid "Not started"
+msgstr "Nu a început"
+
+#: templates/public/report-pdf.php
+msgid "posts declared"
+msgstr "postări declarate"
+
+#: templates/public/report-pdf.php
+msgid "Not published"
+msgstr "Nepublicat"
+
+#: templates/public/report-pdf.php
+msgid "Not active"
+msgstr "Inactiv"
+
+#: templates/public/report-pdf.php
+msgid "Content Labels"
+msgstr "Etichete de Conținut"
+
+#: templates/public/report-pdf.php
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: templates/public/report-pdf.php
+msgid "SHA-256 Integrity"
+msgstr "Integritate SHA-256"
+
+#: templates/public/report-pdf.php
+msgid "Content hashes generated on declaration"
+msgstr "Hash-uri de conținut generate la declarație"
+
+#: templates/public/report-pdf.php
+msgid "IMPORTANT LEGAL DISCLAIMER"
+msgstr "DECLINARE DE RĂSPUNDERE LEGALĂ IMPORTANTĂ"
+
+#: templates/public/report-pdf.php
+msgid "This report is generated by the MegaGovern plugin for transparency and documentation purposes only. It does NOT constitute legal advice, legal compliance certification, or a guarantee of regulatory compliance. Legal compliance depends on your jurisdiction, your content, and your legal counsel."
+msgstr "Acest raport este generat de plugin-ul MegaGovern doar în scopuri de transparență și documentare. NU constituie sfat juridic, certificare de conformitate legală sau o garanție de conformitate de reglementare. Conformitatea legală depinde de jurisdicția dvs., de conținutul dvs. și de consilierul dvs. juridic."
+
+#: templates/public/report-pdf.php
+msgid "Meganova Agency makes no representations or warranties regarding the completeness or accuracy of this data for legal purposes. Users should consult qualified legal counsel for compliance determinations specific to their situation."
+msgstr "Meganova Agency nu face nicio declarație sau garanție cu privire la exhaustivitatea sau acuratețea acestor date în scopuri legale. Utilizatorii ar trebui să consulte un consilier juridic calificat pentru determinări de conformitate specifice situației lor."
+
+#: templates/public/report-pdf.php
+msgid "Generated by MegaGovern v%s — AI Transparency & Documentation Toolkit"
+msgstr "Generat de MegaGovern v%s — Kit de Transparență și Documentare IA"
+
+#: templates/public/report-pdf.php
+msgid "https://megagovern.com"
+msgstr "https://megagovern.com"
+
+# ============================================
+# CORE — META REGISTRATION
+# ============================================
+
+#: includes/Core.php
+msgid "Content declaration type (human, ai_assisted, ai_generated, deepfake)"
+msgstr "Tip de declarație a conținutului (human, ai_assisted, ai_generated, deepfake)"
+
+#: includes/Core.php
+msgid "User ID who declared the content"
+msgstr "ID-ul utilizatorului care a declarat conținutul"
+
+#: includes/Core.php
+msgid "Timestamp when content was declared"
+msgstr "Marcaj temporal când a fost declarat conținutul"
+
+#: includes/Core.php
+msgid "Flag if declaration is stale due to content edits exceeding threshold"
+msgstr "Indicator dacă declarația este învechită din cauza editărilor de conținut care depășesc pragul"
+
+#: includes/Core.php
+msgid "SHA-256 hash of published content"
+msgstr "Hash SHA-256 al conținutului publicat"
+
+#: includes/Core.php
+msgid "Legacy archive exemption flag"
+msgstr "Indicator scutire arhivă moștenită"
+
+#: includes/Core.php
+msgid "Exemption revocation flag"
+msgstr "Indicator revocare scutire"
+
+#: includes/Core.php
+msgid "Action dismissed flag"
+msgstr "Indicator acțiune eliminată"
+
+#: includes/Core.php
+msgid "Action pending flag"
+msgstr "Indicator acțiune în așteptare"
+
+# ============================================
+# MISC
+# ============================================
+
+#: includes/Helpers.php
+msgid "Enacted"
+msgstr "Promulgat"
+
+#: includes/Helpers.php
+msgid "Proposed"
+msgstr "Propus"
+
+#: includes/Helpers.php
+msgid "Framework"
+msgstr "Cadru"
+
+#: includes/Helpers.php
+msgid "Voluntary"
+msgstr "Voluntar"
+
+#: includes/Helpers.php
+msgid "Text"
+msgstr "Text"
+
+#: includes/Helpers.php
+msgid "Images"
+msgstr "Imagini"
+
+#: includes/Helpers.php
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/Helpers.php
+msgid "Video"
+msgstr "Video"
+
+#: includes/Helpers.php
+msgid "Deepfakes"
+msgstr "Deepfake-uri"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "Nu sunteți autentificat."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "Nu s-a furnizat un ID de alertă."
+
+#: includes/Evidence.php
+msgid "No description provided."
+msgstr "Nu s-a furnizat nicio descriere."
+
+#: includes/Evidence.php
+msgid "Free plan shows International alerts only."
+msgstr "Planul Gratuit afișează doar alertele Internaționale."
+
+#: includes/Evidence.php
+msgid "Upgrade to Pro"
+msgstr "Actualizați la Pro"
+
+#: mega-govern.php
+msgid "MegaGovern Test Report"
+msgstr "Raport de Test MegaGovern"
+
+#: mega-govern.php
+msgid "This is a test report from MegaGovern.\n\nIf you're seeing this, your email settings are working correctly."
+msgstr "Acesta este un raport de test de la MegaGovern.\n\nDacă vedeți acest mesaj, setările dvs. de email funcționează corect."

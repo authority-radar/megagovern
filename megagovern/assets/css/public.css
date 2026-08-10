@@ -1,0 +1,396 @@
+/**
+ * MegaGovern — AI Transparency Toolkit
+ * Public Stylesheet — V1.0.4
+ *
+ * @package MegaGovern
+ * @since   1.0.4
+ *
+ * TABLE OF CONTENTS
+ * 1. EU AI Act Labels (5 Variants)
+ * 2. Post Meta Row
+ * 3. Trust Badge
+ * 4. Media Overlay
+ * 5. Deepfake Warning
+ * 6. Verification Page
+ * 7. Legacy Labels (Backward Compatibility)
+ * 8. Screen Reader
+ * 9. Responsive
+ * 10. RTL Support
+ * 11. Dark Mode
+ */
+
+/* ============================================================ */
+/* 1. EU AI ACT LABELS — 5 Variants                             */
+/* ============================================================ */
+
+/* ── Base ── */
+.mga-eu-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.mga-eu-label img {
+    display: inline-block !important;
+    height: 44px !important;
+    width: auto !important;
+    max-width: none !important;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+/* ── Variant 1: Official EU Icon Only ── */
+.mga-eu-label--eu-icon img {
+    height: 24px;
+    width: auto;
+}
+.mga-eu-label--eu-icon .mga-eu-label__text {
+    font-size: 12px;
+    color: #646970;
+    margin-left: 4px;
+}
+
+/* ── Variant 2: Pill ── */
+.mga-eu-label--pill {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 6px;
+}
+.mga-eu-label--pill.mga-eu-label--human        { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+.mga-eu-label--pill.mga-eu-label--ai_assisted  { background: #fffbeb; color: #92400e; border: 1px solid #fcd34d; }
+.mga-eu-label--pill.mga-eu-label--ai_generated { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.mga-eu-label--pill.mga-eu-label--deepfake     { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.mga-eu-label--pill img { height: 16px !important; }
+.mga-eu-label--pill .mga-eu-label__text { white-space: nowrap; }
+
+/* ── Variant 3: Minimal Text ── */
+.mga-eu-label--minimal {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    gap: 4px;
+}
+.mga-eu-label--minimal.mga-eu-label--human        { color: #1d4ed8; }
+.mga-eu-label--minimal.mga-eu-label--ai_assisted  { color: #92400e; }
+.mga-eu-label--minimal.mga-eu-label--ai_generated { color: #991b1b; }
+.mga-eu-label--minimal.mga-eu-label--deepfake     { color: #991b1b; }
+.mga-eu-label--minimal .mga-eu-label__text::before { content: '•'; margin-right: 6px; font-weight: 700; }
+
+/* ── Variant 4: Banner ── */
+.mga-eu-label--banner {
+    display: block;
+    margin: 12px 0;
+}
+.mga-eu-label--banner .mga-eu-label__inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-left: 4px solid;
+}
+.mga-eu-label--banner.mga-eu-label--human .mga-eu-label__inner        { background: #eff6ff; border-color: #1d4ed8; }
+.mga-eu-label--banner.mga-eu-label--ai_assisted .mga-eu-label__inner  { background: #fffbeb; border-color: #d97706; }
+.mga-eu-label--banner.mga-eu-label--ai_generated .mga-eu-label__inner { background: #fef2f2; border-color: #dc2626; }
+.mga-eu-label--banner.mga-eu-label--deepfake .mga-eu-label__inner     { background: #fef2f2; border-color: #dc2626; }
+.mga-eu-label--banner img { height: 20px !important; }
+.mga-eu-label--banner .mga-eu-label__title { font-size: 13px; font-weight: 600; color: #1d2327; display: block; }
+.mga-eu-label--banner .mga-eu-label__desc { font-size: 11px; color: #646970; display: block; margin-top: 2px; }
+
+/* ── Variant 5: Outline Card ── */
+.mga-eu-label--outline {
+    padding: 10px 14px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    gap: 8px;
+}
+.mga-eu-label--outline.mga-eu-label--human        { border-color: #1d4ed8; color: #1d4ed8; }
+.mga-eu-label--outline.mga-eu-label--ai_assisted  { border-color: #d97706; color: #92400e; }
+.mga-eu-label--outline.mga-eu-label--ai_generated { border-color: #dc2626; color: #991b1b; }
+.mga-eu-label--outline.mga-eu-label--deepfake     { border-color: #dc2626; color: #991b1b; }
+.mga-eu-label--outline img { height: 18px !important; }
+.mga-eu-label--outline .mga-eu-label__text { white-space: nowrap; }
+
+/* ── Legacy EU Label (with icon + text + meta + trigger) ── */
+.megagovern-eu-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0;
+    padding: 10px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px;
+    color: #1d2327;
+    line-height: 1.5;
+    position: relative;
+    box-sizing: border-box;
+}
+.megagovern-eu-label--human        { border-left: 4px solid #2271b1; background: #f0f6fc; }
+.megagovern-eu-label--ai_assisted  { border-left: 4px solid #096778; background: #fffbeb; }
+.megagovern-eu-label--ai_generated { border-left: 4px solid #d63638; background: #fef2f2; }
+.megagovern-eu-label__icon {
+    flex-shrink: 0; line-height: 0; height: 24px;
+    display: inline-flex; align-items: center;
+}
+.megagovern-eu-label__icon img {
+    display: inline-block !important; height: 24px !important; width: auto !important;
+    min-height: 24px !important; max-height: 24px !important;
+    vertical-align: middle; flex-shrink: 0;
+}
+.megagovern-eu-label__text { flex: 1; min-width: 0; }
+.megagovern-eu-label--human .megagovern-eu-label__title        { color: #2271b1; }
+.megagovern-eu-label--ai_assisted .megagovern-eu-label__title  { color: #292928; }
+.megagovern-eu-label--ai_generated .megagovern-eu-label__title { color: #2998de; }
+.megagovern-eu-label__meta { color: #646970; font-size: 11px; margin-left: 6px; white-space: nowrap; }
+.megagovern-eu-label__trigger {
+    flex-shrink: 0; background: none; border: none; cursor: pointer;
+    padding: 2px 4px; color: #2271b1; font-size: 14px; line-height: 1; border-radius: 3px;
+}
+.megagovern-eu-label__trigger:hover,
+.megagovern-eu-label__trigger:focus-visible { background: rgba(34, 113, 177, 0.1); outline: none; }
+.megagovern-eu-label__watermark {
+    position: absolute; top: 4px; right: 8px; opacity: 0.12;
+    pointer-events: none; user-select: none; line-height: 0;
+}
+.megagovern-eu-label__watermark img {
+    display: block !important; width: 12px !important; height: 12px !important;
+    min-width: 12px !important; max-width: 12px !important;
+}
+.megagovern-eu-info-layer { margin-top: 6px; }
+.megagovern-eu-info-layer__card {
+    background: #fff; border: 1px solid #c3c4c7; border-radius: 8px;
+    padding: 14px 16px; max-width: 400px; box-shadow: 0 8px 20px rgba(0,0,0,0.12); position: relative;
+}
+.megagovern-eu-info-layer__close {
+    position: absolute; top: 8px; right: 8px; background: none; border: none;
+    font-size: 18px; cursor: pointer; color: #646970; padding: 0 4px; line-height: 1; border-radius: 3px;
+}
+.megagovern-eu-info-layer__close:hover { background: #f0f0f1; }
+.megagovern-eu-info-layer__title { margin: 0 0 6px; font-size: 14px; font-weight: 600; color: #1d2327; }
+.megagovern-eu-info-layer__desc { margin: 0 0 8px; font-size: 12px; color: #646970; line-height: 1.5; }
+.megagovern-eu-info-layer__link { font-size: 11px; color: #2271b1; text-decoration: none; font-weight: 600; }
+.megagovern-eu-info-layer__link:hover { text-decoration: underline; }
+
+/* ============================================================ */
+/* 2. POST META ROW                                             */
+/* ============================================================ */
+.mga-eu-meta {
+    display: flex; align-items: center; gap: 8px; margin: 0 0 16px;
+    font-size: 13px; color: #646970; flex-wrap: wrap;
+    padding: 8px 0; border-bottom: 1px solid #f0f0f1;
+}
+.mga-eu-meta img {
+    display: inline-block !important; height: 20px !important; width: auto !important;
+    max-width: none !important; vertical-align: middle; flex-shrink: 0;
+}
+.mga-eu-meta-author { font-weight: 500; color: #1d2327; }
+.mga-eu-meta-sep { color: #c3c4c7; }
+.mga-eu-meta-label {
+    font-size: 11px; color: #646970; background: #f0f0f1;
+    padding: 2px 8px; border-radius: 3px; font-weight: 400;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+
+/* ============================================================ */
+/* 3. TRUST BADGE                                               */
+/* ============================================================ */
+.megagovern-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #2271b1; color: #fff; text-decoration: none; border-radius: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600; line-height: 1.5; transition: background 0.2s ease;
+}
+.megagovern-badge:hover { background: #135e96; color: #fff; text-decoration: none; }
+.megagovern-badge .mga-icon {
+    display: inline-block; width: 16px; height: 16px; fill: none;
+    stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0;
+}
+.megagovern-badge-small { font-size: 11px; padding: 4px 10px; }
+.megagovern-badge-medium { font-size: 13px; padding: 6px 14px; }
+.megagovern-badge-large { font-size: 15px; padding: 8px 18px; }
+.megagovern-badge-small .mga-icon { width: 14px; height: 14px; }
+.megagovern-badge-medium .mga-icon { width: 16px; height: 16px; }
+.megagovern-badge-large .mga-icon { width: 20px; height: 20px; }
+
+/* ============================================================ */
+/* 4. MEDIA OVERLAY                                             */
+/* ============================================================ */
+.mga-media-wrap { position: relative; display: inline-block; line-height: 0; }
+.mga-media-label { position: absolute; bottom: 8px; right: 8px; z-index: 10; line-height: 1; }
+.mga-media-label .megagovern-eu-label {
+    margin: 0; padding: 4px 8px; border-radius: 4px;
+    background: rgba(0,0,0,0.75) !important; border: none !important; backdrop-filter: blur(4px);
+}
+.mga-media-label .megagovern-eu-label__text,
+.mga-media-label .megagovern-eu-label__watermark { display: none; }
+.mga-media-label .megagovern-eu-label__icon img {
+    height: 16px !important; min-height: 16px !important; max-height: 16px !important;
+}
+
+/* ============================================================ */
+/* 5. DEEPFAKE WARNING                                          */
+/* ============================================================ */
+.megagovern-eu-label--deepfake {
+    border-left: 4px solid #d63638; background: #fef2f2;
+    animation: mga-pulse-warning 2s infinite;
+}
+.megagovern-eu-label--deepfake .megagovern-eu-label__title { color: #d63638; }
+@keyframes mga-pulse-warning {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(214, 54, 56, 0.4); }
+    50% { box-shadow: 0 0 0 6px rgba(214, 54, 56, 0); }
+}
+.mga-media-label .megagovern-eu-label--deepfake {
+    animation: mga-pulse-warning 2s infinite;
+    background: rgba(180, 0, 0, 0.85) !important;
+}
+
+/* ============================================================ */
+/* 6. VERIFICATION PAGE                                         */
+/* ============================================================ */
+.megagovern-verify-page {
+    max-width: 650px !important; width: 650px !important;
+    margin-left: auto !important; margin-right: auto !important;
+}
+.megagovern-verify-page h1 { margin: 0 0 8px; font-size: 24px; color: #1d2327; }
+.megagovern-verify-page .verified-badge { margin: 0 0 24px; font-size: 16px; color: #00a32a; font-weight: 600; }
+.megagovern-verify-table { width: 100%; border-collapse: collapse; margin: 24px 0; border-top: 1px solid #c3c4c7; }
+.megagovern-verify-table td { padding: 8px 0; border-bottom: 1px solid #c3c4c7; }
+.megagovern-verify-table .stat-label { color: #646970; }
+.megagovern-verify-table .stat-value { text-align: right; font-weight: 600; }
+.megagovern-verify-table .stat-total { font-size: 18px; color: #2271b1; }
+.megagovern-verify-hash { padding: 12px; background: #f0f0f1; border-radius: 2px; font-size: 12px; color: #646970; word-break: break-all; }
+.megagovern-verify-footer { margin-top: 24px; font-size: 12px; color: #a7aaad; text-align: center; }
+
+/* ============================================================ */
+/* 7. LEGACY LABELS (Backward Compatibility)                    */
+/* ============================================================ */
+.megagovern-label {
+    clear: both; box-sizing: border-box; margin: 16px 0; padding: 10px 14px; border-radius: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px; color: #1d2327; line-height: 1.5;
+}
+.megagovern-label-human        { background: #f0f6fc; border-left: 4px solid #2271b1; }
+.megagovern-label-ai_assisted  { background: #f0f6fc; border-left: 4px solid #2271b1; }
+.megagovern-label-ai_generated { background: #fcf0f1; border-left: 4px solid #d63638; }
+.megagovern-label .mga-icon {
+    display: inline-block; vertical-align: text-bottom; margin-right: 4px;
+    width: 16px; height: 16px; fill: none; stroke: currentColor;
+    stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+}
+.megagovern-label .megagovern-label-text { color: #646970; font-size: 11px; margin-left: 8px; }
+
+/* ============================================================ */
+/* 8. SCREEN READER                                             */
+/* ============================================================ */
+.screen-reader-text {
+    border: 0; clip: rect(1px,1px,1px,1px); clip-path: inset(50%);
+    height: 1px; margin: -1px; overflow: hidden; padding: 0;
+    position: absolute; width: 1px; word-wrap: normal !important;
+}
+
+/* ============================================================ */
+/* 9. RESPONSIVE                                                */
+/* ============================================================ */
+@media (max-width: 768px) {
+    .megagovern-label { font-size: 12px; padding: 8px 10px; }
+    .megagovern-eu-label { font-size: 12px; padding: 8px 10px; }
+    .megagovern-verify-page { max-width: 100% !important; width: 100% !important; margin: 20px; padding: 20px; }
+    .mga-media-label .megagovern-eu-label { padding: 2px 6px; }
+    .mga-eu-meta { font-size: 11px; }
+    .mga-eu-meta img { height: 16px !important; }
+    .mga-eu-label--banner .mga-eu-label__inner { flex-direction: column; align-items: flex-start; }
+    .mga-eu-label--outline { width: 100%; }
+}
+
+/* ============================================================ */
+/* 10. RTL SUPPORT                                              */
+/* ============================================================ */
+.rtl .megagovern-label { border-left: none; border-right-width: 4px; border-right-style: solid; }
+.rtl .megagovern-label-human,
+.rtl .megagovern-label-ai_assisted { border-right-color: #2271b1; }
+.rtl .megagovern-label-ai_generated { border-right-color: #d63638; }
+.rtl .megagovern-label .mga-icon { margin-right: 0; margin-left: 4px; }
+.rtl .megagovern-label .megagovern-label-text { margin-left: 0; margin-right: 8px; }
+.rtl .megagovern-verify-table .stat-value { text-align: left; }
+.rtl .megagovern-eu-label--human { border-left: none; border-right: 4px solid #2271b1; }
+.rtl .megagovern-eu-label--ai_assisted { border-left: none; border-right: 4px solid #0d8c81; }
+.rtl .megagovern-eu-label--ai_generated { border-left: none; border-right: 4px solid #d63638; }
+.rtl .megagovern-eu-label--deepfake { border-left: none; border-right: 4px solid #d63638; }
+.rtl .megagovern-eu-label__meta { margin-left: 0; margin-right: 6px; }
+.rtl .megagovern-eu-label__watermark { right: auto; left: 8px; }
+.rtl .mga-media-label { right: auto; left: 8px; }
+.rtl .mga-eu-label--banner .mga-eu-label__inner { border-left: none; border-right: 4px solid; }
+.rtl .mga-eu-label--banner.mga-eu-label--human .mga-eu-label__inner { border-right-color: #1d4ed8; }
+.rtl .mga-eu-label--banner.mga-eu-label--ai_assisted .mga-eu-label__inner { border-right-color: #d97706; }
+.rtl .mga-eu-label--banner.mga-eu-label--ai_generated .mga-eu-label__inner { border-right-color: #dc2626; }
+.rtl .mga-eu-label--banner.mga-eu-label--deepfake .mga-eu-label__inner { border-right-color: #dc2626; }
+
+/* ============================================================ */
+/* 11. DARK MODE                                                */
+/* ============================================================ */
+@media (prefers-color-scheme: dark) {
+    .mga-eu-meta { color: #9ca3af; border-bottom-color: #2c2c2c; }
+    .mga-eu-meta-author { color: #e0e0e0; }
+    .mga-eu-meta-sep { color: #4b5563; }
+    .mga-eu-meta-label { background: #2c2c2c; color: #9ca3af; }
+
+    .mga-eu-label--pill.mga-eu-label--human { background: #1a2a3a; border-color: #60a5fa; color: #93c5fd; }
+    .mga-eu-label--pill.mga-eu-label--ai_assisted { background: #2a2a1a; border-color: #fbbf24; color: #fde68a; }
+    .mga-eu-label--pill.mga-eu-label--ai_generated { background: #2a1a1a; border-color: #f87171; color: #fca5a5; }
+    .mga-eu-label--pill.mga-eu-label--deepfake { background: #2a1a1a; border-color: #f87171; color: #fca5a5; }
+
+    .mga-eu-label--minimal.mga-eu-label--human { color: #60a5fa; }
+    .mga-eu-label--minimal.mga-eu-label--ai_assisted { color: #fbbf24; }
+    .mga-eu-label--minimal.mga-eu-label--ai_generated { color: #f87171; }
+    .mga-eu-label--minimal.mga-eu-label--deepfake { color: #f87171; }
+
+    .mga-eu-label--banner .mga-eu-label__title { color: #e0e0e0; }
+    .mga-eu-label--banner .mga-eu-label__desc { color: #9ca3af; }
+    .mga-eu-label--banner.mga-eu-label--human .mga-eu-label__inner { background: #1a2a3a; border-color: #60a5fa; }
+    .mga-eu-label--banner.mga-eu-label--ai_assisted .mga-eu-label__inner { background: #2a2a1a; border-color: #fbbf24; }
+    .mga-eu-label--banner.mga-eu-label--ai_generated .mga-eu-label__inner { background: #2a1a1a; border-color: #f87171; }
+    .mga-eu-label--banner.mga-eu-label--deepfake .mga-eu-label__inner { background: #2a1a1a; border-color: #f87171; }
+
+    .mga-eu-label--outline.mga-eu-label--human { border-color: #60a5fa; color: #93c5fd; }
+    .mga-eu-label--outline.mga-eu-label--ai_assisted { border-color: #fbbf24; color: #fde68a; }
+    .mga-eu-label--outline.mga-eu-label--ai_generated { border-color: #f87171; color: #fca5a5; }
+    .mga-eu-label--outline.mga-eu-label--deepfake { border-color: #f87171; color: #fca5a5; }
+
+    .megagovern-label-human,
+    .megagovern-label-ai_assisted { background: #1a2a3a; border-left-color: #60a5fa; color: #e0e0e0; }
+    .megagovern-label-ai_generated { background: #2a1a1a; border-left-color: #f87171; color: #e0e0e0; }
+    .megagovern-label .megagovern-label-text { color: #9ca3af; }
+
+    .megagovern-eu-label--human { border-left-color: #60a5fa; background: #1a2a3a; color: #e0e0e0; }
+    .megagovern-eu-label--ai_assisted { border-left-color: #fbbf24; background: #2a2a1a; color: #e0e0e0; }
+    .megagovern-eu-label--ai_generated { border-left-color: #f87171; background: #2a1a1a; color: #e0e0e0; }
+    .megagovern-eu-label--deepfake { border-left-color: #f87171; background: #2a1a1a; }
+    .megagovern-eu-label--human .megagovern-eu-label__title { color: #60a5fa; }
+    .megagovern-eu-label--ai_assisted .megagovern-eu-label__title { color: #fbbf24; }
+    .megagovern-eu-label--ai_generated .megagovern-eu-label__title { color: #f87171; }
+    .megagovern-eu-label--deepfake .megagovern-eu-label__title { color: #f87171; }
+    .megagovern-eu-label__meta { color: #9ca3af; }
+
+    .megagovern-eu-info-layer__card { background: #1e1e1e; border-color: #2c2c2c; }
+    .megagovern-eu-info-layer__title { color: #e0e0e0; }
+    .megagovern-eu-info-layer__desc { color: #9ca3af; }
+
+    .megagovern-verify-page h1 { color: #e0e0e0; }
+    .megagovern-verify-table { border-top-color: #2c2c2c; }
+    .megagovern-verify-table td { border-bottom-color: #2c2c2c; color: #9ca3af; }
+    .megagovern-verify-table .stat-label { color: #9ca3af; }
+    .megagovern-verify-table .stat-total { color: #60a5fa; }
+    .megagovern-verify-hash { background: #1a1a1a; color: #9ca3af; }
+    .megagovern-verify-footer { color: #6b7280; }
+    .megagovern-badge { background: #3b82f6; }
+    .megagovern-badge:hover { background: #2563eb; }
+}

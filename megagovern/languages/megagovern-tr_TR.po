@@ -1,0 +1,3671 @@
+# MegaGovern — AI Transparency Toolkit
+# Copyright (C) 2026 MegaGovern
+# This file is distributed under the same license as the MegaGovern package.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: MegaGovern 1.0.4\n"
+"Report-Msgid-Bugs-To: https://megagovern.com/support\n"
+"POT-Creation-Date: 2026-05-30 12:00+0000\n"
+"PO-Revision-Date: 2026-05-30 22:00+0100\n"
+"Last-Translator: Adınız <emailiniz@ornek.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: megagovern\n"
+"X-Generator: Poedit 3.0\n"
+
+#. Plugin Name
+msgid "MegaGovern — AI Transparency Toolkit"
+msgstr "MegaGovern — AI Şeffaflık Araç Takımı"
+
+#. Plugin Description
+msgid "EU AI Act Article 50 compliant transparency labels, AI content declaration, AI.txt generator, and governance dashboard for WordPress."
+msgstr "AB Yapay Zeka Yasası Madde 50 uyumlu şeffaflık etiketleri, AI içerik beyanı, AI.txt oluşturucu ve WordPress için yönetişim panosu."
+
+#: includes/Admin.php
+msgid "MegaGovern"
+msgstr "MegaGovern"
+
+#: includes/Admin.php templates/admin/dashboard.php
+msgid "Dashboard"
+msgstr "Pano"
+
+#: includes/Admin.php templates/admin/transparency-center.php
+msgid "Transparency Center"
+msgstr "Şeffaflık Merkezi"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/settings.php
+msgid "Regulatory Alerts"
+msgstr "Düzenleyici Uyarılar"
+
+#: includes/Admin.php includes/Score.php templates/admin/tab-reports.php
+msgid "Reports & Evidence"
+msgstr "Raporlar ve Kanıtlar"
+
+#: includes/Admin.php templates/admin/settings.php
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/Admin.php templates/admin/agency.php
+msgid "Agency Hub"
+msgstr "Ajans Merkezi"
+
+#: includes/Admin.php includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy"
+msgstr "AI Politikası"
+
+#: includes/Admin.php
+msgid "Mission Control"
+msgstr "Görev Kontrol"
+
+#: includes/Admin.php
+msgid "Agency"
+msgstr "Ajans"
+
+#: includes/Admin.php
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: includes/Admin.php
+msgid "Refresh"
+msgstr "Yenile"
+
+#: includes/Admin.php
+msgid "AI transparency governance at a glance."
+msgstr "AI şeffaflık yönetişimi bir bakışta."
+
+#: includes/Admin.php
+msgid "Manage content classifications, AI disclosures, and compliance records."
+msgstr "İçerik sınıflandırmalarını, AI açıklamalarını ve uyumluluk kayıtlarını yönetin."
+
+#: includes/Admin.php
+msgid "Track AI regulations affecting your content. Updated with each plugin release."
+msgstr "İçeriğinizi etkileyen AI düzenlemelerini takip edin. Her eklenti sürümüyle güncellenir."
+
+#: includes/Admin.php
+msgid "Compliance reports, evidence bundles, and audit trails."
+msgstr "Uyumluluk raporları, kanıt paketleri ve denetim izleri."
+
+#: includes/Admin.php
+msgid "Configure MegaGovern for your compliance needs."
+msgstr "MegaGovern'ı uyumluluk ihtiyaçlarınıza göre yapılandırın."
+
+#: includes/Admin.php
+msgid "Manage multiple sites, white label settings, and team access."
+msgstr "Birden fazla siteyi, beyaz etiket ayarlarını ve ekip erişimini yönetin."
+
+#: includes/Admin.php
+msgid "Manage your public AI usage policy."
+msgstr "Genel AI kullanım politikanızı yönetin."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "You do not have permission to access this page."
+msgstr "Bu sayfaya erişim izniniz yok."
+
+#: includes/Admin.php
+msgid "Access Denied"
+msgstr "Erişim Engellendi"
+
+#: includes/Admin.php
+msgid "Fixing..."
+msgstr "Düzeltiliyor..."
+
+#: includes/Admin.php templates/admin/tab-disclosures.php
+msgid "Done"
+msgstr "Tamam"
+
+#: includes/Admin.php
+msgid "Error — Click to retry"
+msgstr "Hata — Yeniden denemek için tıklayın"
+
+#: includes/Admin.php
+msgid "Refreshing dashboard..."
+msgstr "Pano yenileniyor..."
+
+#: includes/Admin.php
+msgid "Syncing..."
+msgstr "Senkronize ediliyor..."
+
+#: includes/Admin.php
+msgid "Please select a classification."
+msgstr "Lütfen bir sınıflandırma seçin."
+
+#: includes/Admin.php
+msgid "Please select at least one item."
+msgstr "Lütfen en az bir öğe seçin."
+
+#: includes/Admin.php templates/admin/tab-content.php templates/admin/tab-archive.php
+msgid "Processing..."
+msgstr "İşleniyor..."
+
+#: includes/Admin.php
+msgid "Error."
+msgstr "Hata."
+
+#: includes/Admin.php
+msgid "Failed."
+msgstr "Başarısız."
+
+#: includes/Admin.php templates/admin/tab-content.php
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: includes/Admin.php
+msgid "No history found."
+msgstr "Geçmiş bulunamadı."
+
+#: includes/Admin.php
+msgid "Failed to load."
+msgstr "Yüklenemedi."
+
+#: includes/Admin.php
+msgid "This section is coming soon."
+msgstr "Bu bölüm yakında gelecek."
+
+#: includes/Admin.php templates/admin/settings.php templates/admin/tab-alerts.php
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: includes/Admin.php templates/admin/tab-alerts.php templates/admin/tab-content.php templates/admin/settings.php
+msgid "Pro"
+msgstr "Pro"
+
+#: mega-govern.php
+msgid "requires PHP %1$s or higher. Your site is running PHP %2$s."
+msgstr "PHP %1$s veya daha yüksek bir sürüm gerektirir. Siteniz PHP %2$s çalıştırıyor."
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Human Made"
+msgstr "İnsan Yapımı"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "AI Modified"
+msgstr "AI Tarafından Değiştirilmiş"
+
+#: includes/Declaration.php includes/Governance.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Fully AI-Generated"
+msgstr "Tamamen AI Tarafından Oluşturulmuş"
+
+#: includes/Declaration.php includes/Helpers.php includes/Labels.php templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Synthetic Media"
+msgstr "Sentetik Medya"
+
+#: includes/Declaration.php
+msgid "Content created by a human"
+msgstr "Bir insan tarafından oluşturulan içerik"
+
+#: includes/Declaration.php
+msgid "AI Modified content - AI was used to modify pre-existing human content"
+msgstr "AI tarafından değiştirilmiş içerik - Önceden var olan insan içeriğini değiştirmek için AI kullanıldı"
+
+#: includes/Declaration.php
+msgid "Fully AI-Generated content - No human editorial control"
+msgstr "Tamamen AI tarafından oluşturulmuş içerik - İnsan editöryal kontrolü yok"
+
+#: includes/Declaration.php
+msgid "AI Generated or manipulated content (Synthetic Media) - May not be authentic"
+msgstr "AI tarafından oluşturulmuş veya manipüle edilmiş içerik (Sentetik Medya) - Otantik olmayabilir"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration"
+msgstr "AB Yapay Zeka Yasası Beyanı"
+
+#: includes/Declaration.php
+msgid "Select content source (EU AI Act Art. 50):"
+msgstr "İçerik kaynağını seçin (AB Yapay Zeka Yasası Md. 50):"
+
+#: includes/Declaration.php
+msgid "Current: %s"
+msgstr "Güncel: %s"
+
+#: includes/Declaration.php
+msgid "Snapshot captured"
+msgstr "Anlık görüntü alındı"
+
+#: includes/Declaration.php
+msgid "Required before publishing — EU AI Act Art. 50"
+msgstr "Yayınlamadan önce gerekli — AB Yapay Zeka Yasası Md. 50"
+
+#: includes/Declaration.php
+msgid "EU AI Act Declaration required."
+msgstr "AB Yapay Zeka Yasası Beyanı gerekli."
+
+#: includes/Declaration.php
+msgid "Please select the content source before publishing (Article 50)."
+msgstr "Lütfen yayınlamadan önce içerik kaynağını seçin (Madde 50)."
+
+#: includes/Declaration.php includes/Ajax.php
+msgid "Permission denied."
+msgstr "İzin reddedildi."
+
+#: includes/Declaration.php
+msgid "Invalid data."
+msgstr "Geçersiz veri."
+
+#: includes/Declaration.php
+msgid "Content declared as %s."
+msgstr "İçerik %s olarak beyan edildi."
+
+#: includes/Declaration.php
+msgid "Declaration failed."
+msgstr "Beyan başarısız oldu."
+
+#: includes/Helpers.php
+msgid "Human Authored"
+msgstr "İnsan Tarafından Yazılmış"
+
+#: includes/Helpers.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Assisted"
+msgstr "AI Destekli"
+
+#: includes/Helpers.php includes/Media.php templates/admin/tab-content.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "AI Generated"
+msgstr "AI Tarafından Oluşturulmuş"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic"
+msgstr "Derin Sahte / Sentetik"
+
+#: includes/Helpers.php
+msgid "None"
+msgstr "Yok"
+
+#: includes/Helpers.php
+msgid "Human Created"
+msgstr "İnsan Tarafından Oluşturulmuş"
+
+#: includes/Helpers.php
+msgid "Deepfake / Synthetic Media"
+msgstr "Derin Sahte / Sentetik Medya"
+
+#: includes/Helpers.php
+msgid "Article declared"
+msgstr "Makale beyan edildi"
+
+#: includes/Helpers.php
+msgid "Declaration updated"
+msgstr "Beyan güncellendi"
+
+#: includes/Helpers.php
+msgid "Registry updated"
+msgstr "Kayıt güncellendi"
+
+#: includes/Helpers.php
+msgid "AI.txt regenerated"
+msgstr "AI.txt yeniden oluşturuldu"
+
+#: includes/Helpers.php
+msgid "Label displayed"
+msgstr "Etiket gösterildi"
+
+#: includes/Helpers.php
+msgid "Report generated"
+msgstr "Rapor oluşturuldu"
+
+#: includes/Helpers.php
+msgid "Verification updated"
+msgstr "Doğrulama güncellendi"
+
+#: includes/Helpers.php
+msgid "Alert received"
+msgstr "Uyarı alındı"
+
+#: includes/Helpers.php
+msgid "Issue fixed"
+msgstr "Sorun düzeltildi"
+
+#: includes/Helpers.php
+msgid "Services refreshed"
+msgstr "Hizmetler yenilendi"
+
+#: includes/Helpers.php
+msgid "Crawler blocked"
+msgstr "Tarayıcı engellendi"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "High"
+msgstr "Yüksek"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Medium"
+msgstr "Orta"
+
+#: includes/Helpers.php templates/admin/tab-alerts.php
+msgid "Low"
+msgstr "Düşük"
+
+#: includes/Helpers.php
+msgid "Healthy"
+msgstr "Sağlıklı"
+
+#: includes/Helpers.php
+msgid "Warning"
+msgstr "Uyarı"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Critical"
+msgstr "Kritik"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "European Union"
+msgstr "Avrupa Birliği"
+
+#: includes/Helpers.php includes/SetupWizard.php templates/admin/settings.php
+msgid "United States"
+msgstr "Amerika Birleşik Devletleri"
+
+#: includes/Helpers.php includes/Alerts.php includes/SetupWizard.php templates/admin/settings.php
+msgid "Global"
+msgstr "Küresel"
+
+#: includes/Helpers.php templates/admin/settings.php
+msgid "General"
+msgstr "Genel"
+
+#: includes/Helpers.php
+msgid "Excellent"
+msgstr "Mükemmel"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Good"
+msgstr "İyi"
+
+#: includes/Helpers.php templates/admin/agency.php
+msgid "Fair"
+msgstr "Orta"
+
+#: includes/Helpers.php
+msgid "Needs Attention"
+msgstr "İlgi Gerektiriyor"
+
+#: includes/Helpers.php includes/Scanner.php
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: includes/Governance.php
+msgid "Dependent services refreshed."
+msgstr "Bağımlı hizmetler yenilendi."
+
+#: includes/Crawler.php templates/admin/dashboard.php
+msgid "ago"
+msgstr "önce"
+
+#: includes/Crawler.php
+msgid "Never"
+msgstr "Hiç"
+
+#: includes/Crawler.php
+msgid "AI.txt, LLMs.txt, and Robots.txt regenerated."
+msgstr "AI.txt, LLMs.txt ve Robots.txt yeniden oluşturuldu."
+
+#: includes/Crawler.php
+msgid "Just Now"
+msgstr "Şimdi"
+
+#: includes/Labels.php templates/admin/settings.php templates/public/label.php templates/public/verify-page.php templates/public/report-pdf.php
+msgid "Human Written"
+msgstr "İnsan Tarafından Yazılmış"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Assisted"
+msgstr "AI Destekli"
+
+#: includes/Labels.php templates/admin/settings.php
+msgid "AI-Generated"
+msgstr "AI Tarafından Oluşturulmuş"
+
+#: templates/public/label.php
+msgid "EU AI Act Art. 50"
+msgstr "AB Yapay Zeka Yasası Md. 50"
+
+#: includes/Media.php
+msgid "File not found."
+msgstr "Dosya bulunamadı."
+
+#: includes/Media.php
+msgid "File too large for analysis."
+msgstr "Dosya analiz için çok büyük."
+
+#: includes/Media.php
+msgid "Unsupported format."
+msgstr "Desteklenmeyen format."
+
+#: includes/Media.php
+msgid "No AI markers detected."
+msgstr "AI işareti tespit edilmedi."
+
+#: includes/Media.php
+msgid "EXIF metadata indicates AI tool: %s"
+msgstr "EXIF meta verileri AI aracını gösteriyor: %s"
+
+#: includes/Media.php
+msgid "EXIF contains AI generation keywords."
+msgstr "EXIF, AI oluşturma anahtar kelimeleri içeriyor."
+
+#: includes/Media.php
+msgid "C2PA Content Credentials detected — image has verifiable AI provenance."
+msgstr "C2PA İçerik Kimlik Bilgileri tespit edildi — görselin doğrulanabilir AI kaynağı var."
+
+#: includes/Media.php
+msgid "Stable Diffusion generation parameters detected."
+msgstr "Stable Diffusion oluşturma parametreleri tespit edildi."
+
+#: includes/Media.php
+msgid "AI Declaration"
+msgstr "AI Beyanı"
+
+#: includes/Media.php
+msgid "AI Detected"
+msgstr "AI Tespit Edildi"
+
+#: includes/Media.php
+msgid "Undeclared"
+msgstr "Beyan Edilmemiş"
+
+#: includes/Media.php
+msgid "— Select —"
+msgstr "— Seçin —"
+
+#: includes/Media.php
+msgid "Detection:"
+msgstr "Tespit:"
+
+#: includes/Media.php
+msgid "Analyze Image"
+msgstr "Görseli Analiz Et"
+
+#: includes/Media.php
+msgid "Invalid attachment."
+msgstr "Geçersiz ek."
+
+#: includes/Media.php
+msgid "Media declared."
+msgstr "Medya beyan edildi."
+
+#: includes/Media.php
+msgid "Declaration saved."
+msgstr "Beyan kaydedildi."
+
+#: includes/Media.php
+msgid "Bulk declaration is available in Pro and Agency plans."
+msgstr "Toplu beyan, Pro ve Ajans planlarında mevcuttur."
+
+#: includes/Media.php
+msgid "%d image declared."
+msgid_plural "%d images declared."
+msgstr[0] "%d görsel beyan edildi."
+msgstr[1] "%d görsel beyan edildi."
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "AI Transparency Verification"
+msgstr "AI Şeffaflık Doğrulaması"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verified Transparent Site"
+msgstr "Doğrulanmış Şeffaf Site"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "This website is committed to AI transparency and maintains a documented governance record through MegaGovern."
+msgstr "Bu web sitesi AI şeffaflığına bağlıdır ve MegaGovern aracılığıyla belgelenmiş bir yönetişim kaydı tutar."
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Total Declared"
+msgstr "Toplam Beyan Edilen"
+
+#: includes/Verification.php templates/admin/tab-reports.php templates/public/verify-page.php
+msgid "Last Updated"
+msgstr "Son Güncelleme"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Verification Hash:"
+msgstr "Doğrulama Karma Değeri:"
+
+#: includes/Verification.php templates/public/verify-page.php
+msgid "Powered by MegaGovern — AI Transparency & Disclosure Governance"
+msgstr "MegaGovern tarafından desteklenmektedir — AI Şeffaflık ve Açıklama Yönetişimi"
+
+#: includes/Verification.php
+msgid "Verification data refreshed."
+msgstr "Doğrulama verileri yenilendi."
+
+#: includes/Policy.php
+msgid "AI Usage Policy"
+msgstr "AI Kullanım Politikası"
+
+#: includes/Policy.php
+msgid "Policy updated."
+msgstr "Politika güncellendi."
+
+#: includes/Policy.php templates/admin/tab-disclosures.php
+msgid "AI Policy Settings"
+msgstr "AI Politikası Ayarları"
+
+#: includes/Policy.php
+msgid "View Policy"
+msgstr "Politikayı Görüntüle"
+
+#: includes/Policy.php
+msgid "Saved."
+msgstr "Kaydedildi."
+
+#: includes/Policy.php
+msgid "Customize Policy"
+msgstr "Politikayı Özelleştir"
+
+#: includes/Policy.php
+msgid "Custom Introduction"
+msgstr "Özel Giriş"
+
+#: includes/Policy.php
+msgid "Appears at the top of your AI Policy page."
+msgstr "AI Politikası sayfanızın en üstünde görünür."
+
+#: includes/Policy.php
+msgid "Custom introduction is a Pro feature."
+msgstr "Özel giriş bir Pro özelliğidir."
+
+#: includes/Policy.php
+msgid "Contact Email"
+msgstr "İletişim E-postası"
+
+#: includes/Policy.php
+msgid "Contact Page URL"
+msgstr "İletişim Sayfası URL'si"
+
+#: includes/Policy.php
+msgid "Save"
+msgstr "Kaydet"
+
+#: includes/Alerts.php
+msgid "EU AI Act — General Provisions (Enacted)"
+msgstr "AB Yapay Zeka Yasası — Genel Hükümler (Yürürlükte)"
+
+#: includes/Alerts.php
+msgid "EU AI Act — Article 50 Transparency (Effective August 2026)"
+msgstr "AB Yapay Zeka Yasası — Madde 50 Şeffaflık (Ağustos 2026'da yürürlükte)"
+
+#: includes/Alerts.php
+msgid "US Executive Order 14110 — Safe & Secure AI"
+msgstr "ABD Yürütme Emri 14110 — Güvenli ve Emniyetli AI"
+
+#: includes/Alerts.php
+msgid "US NO AI FRAUD Act (Proposed)"
+msgstr "ABD NO AI FRAUD Yasası (Önerilen)"
+
+#: includes/Alerts.php
+msgid "California SB 942 — AI Transparency Act (Signed)"
+msgstr "Kaliforniya SB 942 — AI Şeffaflık Yasası (İmzalandı)"
+
+#: includes/Alerts.php
+msgid "California AB 2013 — AI Training Data Disclosure (Signed)"
+msgstr "Kaliforniya AB 2013 — AI Eğitim Verileri Açıklaması (İmzalandı)"
+
+#: includes/Alerts.php
+msgid "Colorado AI Act (SB 24-205) — Effective February 2026"
+msgstr "Colorado AI Yasası (SB 24-205) — Şubat 2026'da yürürlükte"
+
+#: includes/Alerts.php
+msgid "Utah AI Policy Act (SB 149) — Enacted"
+msgstr "Utah AI Politikası Yasası (SB 149) — Yürürlükte"
+
+#: includes/Alerts.php
+msgid "China — Deep Synthesis Provisions (Enacted)"
+msgstr "Çin — Derin Sentez Hükümleri (Yürürlükte)"
+
+#: includes/Alerts.php
+msgid "China — Generative AI Measures (Enacted)"
+msgstr "Çin — Üretken AI Önlemleri (Yürürlükte)"
+
+#: includes/Alerts.php
+msgid "UK — AI Regulation Framework (In Development)"
+msgstr "İngiltere — AI Düzenleme Çerçevesi (Geliştirme aşamasında)"
+
+#: includes/Alerts.php
+msgid "Canada — AIDA (Bill C-27) — Proposed"
+msgstr "Kanada — AIDA (C-27 Yasası) — Önerilen"
+
+#: includes/Alerts.php
+msgid "Brazil — AI Bill (PL 2338/2023) — In Progress"
+msgstr "Brezilya — AI Yasası (PL 2338/2023) — Devam ediyor"
+
+#: includes/Alerts.php
+msgid "Japan — AI Business Guidelines (Published 2024)"
+msgstr "Japonya — AI İş Kılavuzları (2024'te yayınlandı)"
+
+#: includes/Alerts.php
+msgid "South Korea — AI Basic Act (Proposed 2024)"
+msgstr "Güney Kore — AI Temel Yasası (2024'te önerildi)"
+
+#: includes/Alerts.php
+msgid "Australia — AI Ethics Framework (Voluntary)"
+msgstr "Avustralya — AI Etik Çerçevesi (Gönüllü)"
+
+#: includes/Alerts.php
+msgid "G7 — International AI Code of Conduct (Agreed 2023)"
+msgstr "G7 — Uluslararası AI Davranış Kuralları (2023'te kabul edildi)"
+
+#: includes/Alerts.php
+msgid "UN — General Assembly AI Resolution (Adopted March 2024)"
+msgstr "BM — Genel Kurul AI Kararı (Mart 2024'te kabul edildi)"
+
+#: includes/Alerts.php
+msgid "Council of Europe — AI Treaty (Opened for Signature 2024)"
+msgstr "Avrupa Konseyi — AI Antlaşması (2024'te imzaya açıldı)"
+
+#: includes/Alerts.php
+msgid "The EU AI Act entered into force on August 1, 2024. General provisions and prohibited practices apply from February 2, 2025. Transparency obligations for GPAI models apply from August 2, 2025. High-risk AI system obligations phase in through August 2, 2027."
+msgstr "AB Yapay Zeka Yasası 1 Ağustos 2024'te yürürlüğe girdi. Genel hükümler ve yasaklanan uygulamalar 2 Şubat 2025'ten itibaren geçerlidir. GPAI modelleri için şeffaflık yükümlülükleri 2 Ağustos 2025'ten itibaren geçerlidir. Yüksek riskli AI sistemleri yükümlülükleri 2 Ağustos 2027'ye kadar aşamalı olarak uygulanır."
+
+#: includes/Alerts.php
+msgid "Article 50 requires clear labeling of AI-generated content including text, images, audio, and video. Deepfakes must be explicitly marked. Limited exemptions for artistic and satirical content. Applies to all content accessible in the EU."
+msgstr "Madde 50, metin, görsel, ses ve video dahil olmak üzere AI tarafından oluşturulan içeriğin açıkça etiketlenmesini gerektirir. Derin sahteler açıkça işaretlenmelidir. Sanatsal ve hiciv içeriği için sınırlı muafiyetler vardır. AB'de erişilebilen tüm içerikler için geçerlidir."
+
+#: includes/Alerts.php
+msgid "Executive Order on Safe, Secure, and Trustworthy Development and Use of AI (October 2023). Requires developers of powerful AI systems to share safety test results. NIST developing AI content authentication and watermarking standards."
+msgstr "AI'nın Güvenli, Emniyetli ve Güvenilir Geliştirilmesi ve Kullanımı Hakkında Yürütme Emri (Ekim 2023). Güçlü AI sistemlerinin geliştiricilerinin güvenlik test sonuçlarını paylaşmasını gerektirir. NIST, AI içerik kimlik doğrulama ve filigranlama standartları geliştiriyor."
+
+#: includes/Alerts.php
+msgid "Federal bill proposed in January 2024 to establish intellectual property rights over voice and likeness against unauthorized AI-generated replicas."
+msgstr "Ocak 2024'te, yetkisiz AI tarafından oluşturulan kopyalara karşı ses ve benzerlik üzerinde fikri mülkiyet hakları oluşturmak için federal yasa teklifi."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires providers of generative AI systems to include provenance disclosures in AI-generated content. Mandates visible and machine-readable labels for AI-generated images, video, and audio."
+msgstr "Eylül 2024'te imzalandı. Üretken AI sistemleri sağlayıcılarının, AI tarafından oluşturulan içerikte kaynak açıklamalarına yer vermesini gerektirir. AI tarafından oluşturulan görseller, video ve ses için görünür ve makine tarafından okunabilir etiketler zorunlu kılar."
+
+#: includes/Alerts.php
+msgid "Signed September 2024. Requires developers of generative AI systems to publicly disclose information about the datasets used to train their models, including data sources and copyright status."
+msgstr "Eylül 2024'te imzalandı. Üretken AI sistemleri geliştiricilerinin, modellerini eğitmek için kullanılan veri kümeleri hakkında veri kaynakları ve telif hakkı durumu dahil olmak üzere bilgileri kamuya açıklamasını gerektirir."
+
+#: includes/Alerts.php
+msgid "Signed May 2024. First comprehensive state AI law in the US. Requires developers and deployers of high-risk AI systems to use reasonable care to protect consumers from algorithmic discrimination. Effective February 1, 2026."
+msgstr "Mayıs 2024'te imzalandı. ABD'deki ilk kapsamlı eyalet AI yasası. Yüksek riskli AI sistemlerinin geliştiricilerinin ve dağıtıcılarının, tüketicileri algoritmik ayrımcılıktan korumak için makul özen göstermesini gerektirir. 1 Şubat 2026'da yürürlükte."
+
+#: includes/Alerts.php
+msgid "Enacted March 2024. First state AI law in the US to take effect. Requires disclosure when consumers interact with generative AI in regulated occupations (healthcare, legal, financial). Effective May 1, 2024."
+msgstr "Mart 2024'te yürürlüğe girdi. ABD'de yürürlüğe giren ilk eyalet AI yasası. Tüketicilerin düzenlenmiş mesleklerde (sağlık, hukuk, finans) üretken AI ile etkileşime girdiğinde açıklama yapılmasını gerektirir. 1 Mayıs 2024'te yürürlükte."
+
+#: includes/Alerts.php
+msgid "Effective January 10, 2023. Requires AI-generated content to be watermarked and clearly labeled. Deep synthesis service providers must obtain user consent, verify identities, and maintain audit logs. Applies to content accessible within China."
+msgstr "10 Ocak 2023'te yürürlükte. AI tarafından oluşturulan içeriğin filigranlı ve açıkça etiketlenmesini gerektirir. Derin sentez hizmeti sağlayıcıları, kullanıcı onayı almalı, kimlikleri doğrulamalı ve denetim günlükleri tutmalıdır. Çin içinde erişilebilen içerikler için geçerlidir."
+
+#: includes/Alerts.php
+msgid "Effective August 15, 2023. Regulates generative AI services available to the Chinese public. Requires content filtering, labeling of AI-generated output, protection of user data, and adherence to socialist core values."
+msgstr "15 Ağustos 2023'te yürürlükte. Çin halkına sunulan üretken AI hizmetlerini düzenler. İçerik filtreleme, AI tarafından oluşturulan çıktıların etiketlenmesi, kullanıcı verilerinin korunması ve sosyalist temel değerlere bağlılık gerektirir."
+
+#: includes/Alerts.php
+msgid "The UK follows a principles-based, sector-led approach via existing regulators (ICO, CMA, Ofcom, FCA). The AI Safety Institute was launched in November 2023. No comprehensive AI legislation yet; the government is consulting on targeted requirements for frontier AI."
+msgstr "İngiltere, mevcut düzenleyiciler (ICO, CMA, Ofcom, FCA) aracılığıyla ilkelere dayalı, sektör liderliğinde bir yaklaşım izlemektedir. AI Güvenlik Enstitüsü Kasım 2023'te kuruldu. Henüz kapsamlı bir AI mevzuatı yok; hükümet sınır AI'sı için hedeflenmiş gereksinimler üzerinde danışma yapıyor."
+
+#: includes/Alerts.php
+msgid "The Artificial Intelligence and Data Act (AIDA) is part of Bill C-27, currently in parliamentary committee. Would establish requirements for high-impact AI systems including transparency, risk assessment, and human oversight."
+msgstr "Yapay Zeka ve Veri Yasası (AIDA), halen parlamento komitesinde bulunan C-27 Yasası'nın bir parçasıdır. Şeffaflık, risk değerlendirmesi ve insan gözetimi dahil olmak üzere yüksek etkili AI sistemleri için gereksinimler oluşturacaktır."
+
+#: includes/Alerts.php
+msgid "Comprehensive AI regulation under debate in the Brazilian Senate. Would establish risk-based classification of AI systems, require transparency for AI-generated content, and mandate human oversight for high-risk applications."
+msgstr "Brezilya Senatosu'nda tartışılan kapsamlı AI düzenlemesi. AI sistemlerinin riske dayalı sınıflandırmasını oluşturacak, AI tarafından oluşturulan içerik için şeffaflık gerektirecek ve yüksek riskli uygulamalar için insan gözetimini zorunlu kılacaktır."
+
+#: includes/Alerts.php
+msgid "Japan's Ministry of Economy, Trade and Industry (METI) published updated AI Guidelines in April 2024. Currently voluntary but signals future regulatory direction. Focuses on transparency, fairness, and human-centric AI."
+msgstr "Japonya Ekonomi, Ticaret ve Sanayi Bakanlığı (METI) Nisan 2024'te güncellenmiş AI Kılavuzları yayınladı. Şu anda gönüllü ancak gelecekteki düzenleme yönünü işaret ediyor. Şeffaflık, adillik ve insan merkezli AI'ya odaklanıyor."
+
+#: includes/Alerts.php
+msgid "Proposed comprehensive AI legislation introduced in the National Assembly. Would establish a legal framework for AI development, require high-risk AI transparency, and mandate labeling of AI-generated content."
+msgstr "Ulusal Meclis'te sunulan önerilen kapsamlı AI mevzuatı. AI gelişimi için yasal bir çerçeve oluşturacak, yüksek riskli AI şeffaflığı gerektirecek ve AI tarafından oluşturulan içeriğin etiketlenmesini zorunlu kılacaktır."
+
+#: includes/Alerts.php
+msgid "Australia's voluntary AI Ethics Framework (updated 2024) outlines 8 principles including transparency, explainability, and accountability. The government is consulting on mandatory guardrails for high-risk AI."
+msgstr "Avustralya'nın gönüllü AI Etik Çerçevesi (2024'te güncellendi) şeffaflık, açıklanabilirlik ve hesap verebilirlik dahil 8 ilkeyi özetliyor. Hükümet yüksek riskli AI için zorunlu güvenlik çitleri üzerinde danışma yapıyor."
+
+#: includes/Alerts.php
+msgid "Agreed October 30, 2023 by G7 leaders. Establishes 11 guiding principles for AI developers including transparency, accountability, and content authentication. While non-binding, it signals international regulatory direction."
+msgstr "30 Ekim 2023'te G7 liderleri tarafından kabul edildi. AI geliştiricileri için şeffaflık, hesap verebilirlik ve içerik kimlik doğrulama dahil 11 yol gösterici ilke belirler. Bağlayıcı olmasa da, uluslararası düzenleme yönünü işaret eder."
+
+#: includes/Alerts.php
+msgid "Adopted unanimously March 21, 2024. First-ever standalone UN General Assembly resolution on AI. Calls for safe, secure, and trustworthy AI systems that respect human rights. Encourages member states to develop regulatory frameworks."
+msgstr "21 Mart 2024'te oybirliğiyle kabul edildi. AI hakkında ilk bağımsız BM Genel Kurul kararı. İnsan haklarına saygı duyan güvenli, emniyetli ve güvenilir AI sistemleri çağrısı yapar. Üye devletleri düzenleyici çerçeveler geliştirmeye teşvik eder."
+
+#: includes/Alerts.php
+msgid "The Framework Convention on AI and Human Rights, Democracy, and the Rule of Law opened for signature September 2024. First legally binding international treaty on AI. Signed by EU, US, UK, and others. Requires transparency, oversight, and accountability."
+msgstr "AI ve İnsan Hakları, Demokrasi ve Hukukun Üstünlüğü Hakkında Çerçeve Sözleşmesi Eylül 2024'te imzaya açıldı. AI hakkında ilk yasal olarak bağlayıcı uluslararası antlaşma. AB, ABD, İngiltere ve diğerleri tarafından imzalandı. Şeffaflık, gözetim ve hesap verebilirlik gerektirir."
+
+#: includes/Alerts.php
+msgid "All"
+msgstr "Tümü"
+
+#: includes/Alerts.php
+msgid "EU"
+msgstr "AB"
+
+#: includes/Alerts.php
+msgid "USA"
+msgstr "ABD"
+
+#: includes/Alerts.php
+msgid "China"
+msgstr "Çin"
+
+#: includes/Alerts.php
+msgid "UK"
+msgstr "İngiltere"
+
+#: includes/Alerts.php
+msgid "Not logged in."
+msgstr "Oturum açılmadı."
+
+#: includes/Alerts.php
+msgid "No alert ID provided."
+msgstr "Uyarı ID'si sağlanmadı."
+
+#: templates/admin/tab-alerts.php
+msgid "Alert"
+msgstr "Uyarı"
+
+#: templates/admin/tab-alerts.php
+msgid "Total"
+msgstr "Toplam"
+
+#: templates/admin/tab-alerts.php
+msgid "Unread"
+msgstr "Okunmamış"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark All Read"
+msgstr "Tümünü Okundu İşaretle"
+
+#: templates/admin/tab-alerts.php
+msgid "Region"
+msgstr "Bölge"
+
+#: templates/admin/tab-alerts.php
+msgid "Risk"
+msgstr "Risk"
+
+#: templates/admin/tab-alerts.php
+msgid "Status"
+msgstr "Durum"
+
+#: templates/admin/tab-alerts.php
+msgid "Upcoming"
+msgstr "Yaklaşan"
+
+#: templates/admin/tab-alerts.php
+msgid "Clear Filters"
+msgstr "Filtreleri Temizle"
+
+#: templates/admin/tab-alerts.php
+msgid "View All Alerts"
+msgstr "Tüm Uyarıları Görüntüle"
+
+#: templates/admin/tab-alerts.php
+msgid "No Alerts Found"
+msgstr "Uyarı Bulunamadı"
+
+#: templates/admin/tab-alerts.php
+msgid "No regulatory alerts match your current filters. Try adjusting or clearing your filters."
+msgstr "Mevcut filtrelerinizle eşleşen düzenleyici uyarı yok. Filtrelerinizi ayarlamayı veya temizlemeyi deneyin."
+
+#: templates/admin/tab-alerts.php
+msgid "All regulatory alerts have been reviewed. New alerts will appear with the next plugin update."
+msgstr "Tüm düzenleyici uyarılar incelendi. Yeni uyarılar bir sonraki eklenti güncellemesiyle görünecektir."
+
+#: templates/admin/tab-alerts.php
+msgid "New"
+msgstr "Yeni"
+
+#: templates/admin/tab-alerts.php
+msgid "Official Source"
+msgstr "Resmi Kaynak"
+
+#: templates/admin/tab-alerts.php
+msgid "Mark as Read"
+msgstr "Okundu Olarak İşaretle"
+
+#: templates/admin/tab-alerts.php
+msgid "Data updated with plugin releases. No external API calls."
+msgstr "Veriler eklenti sürümleriyle güncellenir. Harici API çağrısı yok."
+
+#: templates/admin/tab-alerts.php
+msgid "Showing %d alert"
+msgid_plural "Showing %d alerts"
+msgstr[0] "%d uyarı gösteriliyor"
+msgstr[1] "%d uyarı gösteriliyor"
+
+#: templates/admin/tab-alerts.php
+msgid "%d days remaining"
+msgstr "%d gün kaldı"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline passed"
+msgstr "Son tarih geçti"
+
+#: templates/admin/tab-alerts.php
+msgid "Deadline"
+msgstr "Son Tarih"
+
+#: templates/admin/tab-alerts.php
+msgid "International"
+msgstr "Uluslararası"
+
+#: templates/admin/tab-alerts.php
+msgid "Regulatory Alert"
+msgstr "Düzenleyici Uyarı"
+
+#: templates/admin/tab-alerts.php
+msgid "Free plan shows International alerts only."
+msgstr "Ücretsiz plan yalnızca Uluslararası uyarıları gösterir."
+
+#: templates/admin/tab-alerts.php
+msgid "Upgrade to Pro"
+msgstr "Pro'ya Yükselt"
+
+#: includes/Issues.php
+msgid "%s without declaration"
+msgstr "%s beyan olmadan"
+
+#: includes/Issues.php
+msgid "Published content has no source classification."
+msgstr "Yayınlanan içeriğin kaynak sınıflandırması yok."
+
+#: includes/Issues.php
+msgid "Declare Now"
+msgstr "Şimdi Beyan Et"
+
+#: includes/Issues.php
+msgid "AI.txt not updated recently"
+msgstr "AI.txt yakın zamanda güncellenmedi"
+
+#: includes/Issues.php
+msgid "Your AI.txt file may be stale."
+msgstr "AI.txt dosyanız güncel olmayabilir."
+
+#: includes/Issues.php
+msgid "Regenerate Now"
+msgstr "Şimdi Yeniden Oluştur"
+
+#: includes/Issues.php
+msgid "Verification page may be outdated"
+msgstr "Doğrulama sayfası güncel olmayabilir"
+
+#: includes/Issues.php
+msgid "Your public verification page may not reflect the latest data."
+msgstr "Genel doğrulama sayfanız en son verileri yansıtmayabilir."
+
+#: includes/Issues.php
+msgid "Refresh Now"
+msgstr "Şimdi Yenile"
+
+#: includes/Issues.php
+msgid "%d unread regulatory alert"
+msgid_plural "%d unread regulatory alerts"
+msgstr[0] "%d okunmamış düzenleyici uyarı"
+msgstr[1] "%d okunmamış düzenleyici uyarı"
+
+#: includes/Issues.php
+msgid "You have regulatory updates to review."
+msgstr "İnceleyeceğiniz düzenleyici güncellemeler var."
+
+#: includes/Issues.php
+msgid "View Alerts"
+msgstr "Uyarıları Görüntüle"
+
+#: includes/Issues.php
+msgid "No recent transparency activity"
+msgstr "Yakın zamanda şeffaflık etkinliği yok"
+
+#: includes/Issues.php
+msgid "Your site hasn't declared any content sources in over 30 days."
+msgstr "Siteniz 30 günden fazla süredir herhangi bir içerik kaynağı beyan etmedi."
+
+#: includes/Issues.php
+msgid "Declare Content"
+msgstr "İçerik Beyan Et"
+
+#: includes/Issues.php
+msgid "%d media files lack AI declaration"
+msgstr "%d medya dosyasında AI beyanı eksik"
+
+#: includes/Issues.php
+msgid "Review Media"
+msgstr "Medyayı İncele"
+
+#: includes/Score.php
+msgid "Content Declaration"
+msgstr "İçerik Beyanı"
+
+#: includes/Score.php
+msgid "Transparency Labels"
+msgstr "Şeffaflık Etiketleri"
+
+#: includes/Score.php
+msgid "AI.txt File"
+msgstr "AI.txt Dosyası"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Crawler Protection"
+msgstr "Tarayıcı Koruması"
+
+#: includes/Score.php templates/admin/dashboard.php
+msgid "Verification Page"
+msgstr "Doğrulama Sayfası"
+
+#: includes/Score.php
+msgid "Transparency for AI-generated content"
+msgstr "AI tarafından oluşturulan içerik için şeffaflık"
+
+#: includes/Score.php
+msgid "Content Declaration + Labels"
+msgstr "İçerik Beyanı + Etiketler"
+
+#: includes/Score.php
+msgid "Disclosure of AI-manipulated media"
+msgstr "AI tarafından manipüle edilen medyanın açıklanması"
+
+#: includes/Score.php
+msgid "C2PA Image Metadata (Enterprise)"
+msgstr "C2PA Görsel Meta Verileri (Kurumsal)"
+
+#: includes/Score.php
+msgid "Emotion recognition & biometric disclosure"
+msgstr "Duygu tanıma ve biyometrik açıklama"
+
+#: includes/Score.php
+msgid "Not in scope"
+msgstr "Kapsamda değil"
+
+#: includes/Score.php
+msgid "Machine-readable AI labeling"
+msgstr "Makine tarafından okunabilir AI etiketleme"
+
+#: includes/Score.php
+msgid "AI.txt Generator"
+msgstr "AI.txt Oluşturucu"
+
+#: includes/Score.php
+msgid "Transparency obligations for AI systems"
+msgstr "AI sistemleri için şeffaflık yükümlülükleri"
+
+#: includes/Score.php
+msgid "Verification Page + Registry"
+msgstr "Doğrulama Sayfası + Kayıt"
+
+#: includes/Reports.php
+msgid "All time"
+msgstr "Tüm zamanlar"
+
+#: includes/Reports.php
+msgid "Present"
+msgstr "Mevcut"
+
+#: includes/Reports.php
+msgid "PDF report generated."
+msgstr "PDF raporu oluşturuldu."
+
+#: includes/Reports.php
+msgid ""
+"Hello,\n"
+"\n"
+"Your scheduled compliance report is attached.\n"
+"\n"
+"Summary:\n"
+"- Total Declared: %d\n"
+"- Human Written: %d\n"
+"- AI Assisted: %d\n"
+"- AI Generated: %d\n"
+"\n"
+"View full transparency: %s\n"
+"\n"
+"— MegaGovern"
+msgstr ""
+"Merhaba,\n"
+"\n"
+"Planlanmış uyumluluk raporunuz ekte yer almaktadır.\n"
+"\n"
+"Özet:\n"
+"- Toplam Beyan Edilen: %d\n"
+"- İnsan Tarafından Yazılan: %d\n"
+"- AI Destekli: %d\n"
+"- AI Tarafından Oluşturulan: %d\n"
+"\n"
+"Tam şeffaflığı görüntüleyin: %s\n"
+"\n"
+"— MegaGovern"
+
+#: includes/Reports.php templates/public/report-pdf.php
+msgid "MegaGovern Compliance Report"
+msgstr "MegaGovern Uyumluluk Raporu"
+
+#: includes/Reports.php
+msgid "You do not have sufficient permissions."
+msgstr "Yeterli izniniz yok."
+
+#: includes/Reports.php
+msgid "Scheduled report emailed to %s."
+msgstr "Planlanmış rapor %s adresine e-postalandı."
+
+#: includes/Reports.php
+msgid "[%1$s] Transparency Report — %2$d%% Coverage — %3$s"
+msgstr "[%1$s] Şeffaflık Raporu — %2$d%% Kapsam — %3$s"
+
+#: includes/Reports.php
+msgid "Your scheduled transparency report is attached."
+msgstr "Planlanmış şeffaflık raporunuz ekte yer almaktadır."
+
+#: includes/Reports.php
+msgid "Coverage:"
+msgstr "Kapsam:"
+
+#: includes/Reports.php
+msgid "Declared:"
+msgstr "Beyan Edilen:"
+
+#: includes/Reports.php
+msgid "published items"
+msgstr "yayınlanan öğeler"
+
+#: includes/Reports.php
+msgid "View Verification Page"
+msgstr "Doğrulama Sayfasını Görüntüle"
+
+#: includes/Reports.php
+msgid "View AI.txt"
+msgstr "AI.txt'yi Görüntüle"
+
+#: includes/Reports.php
+msgid "DISCLAIMER:"
+msgstr "YASAL UYARI:"
+
+#: includes/Reports.php
+msgid "This report is generated for transparency and documentation purposes only. It does not constitute legal compliance certification or legal advice. Consult qualified legal counsel for compliance determinations specific to your jurisdiction."
+msgstr "Bu rapor yalnızca şeffaflık ve belgelendirme amaçları için oluşturulmuştur. Yasal uyumluluk sertifikası veya yasal tavsiye teşkil etmez. Yargı alanınıza özgü uyumluluk kararları için nitelikli bir hukuk danışmanına danışın."
+
+#: includes/Reports.php
+msgid "This report was automatically generated by MegaGovern — AI Content Governance & Transparency Platform. Sent to %s on a %s schedule."
+msgstr "Bu rapor, MegaGovern — AI İçerik Yönetişimi ve Şeffaflık Platformu tarafından otomatik olarak oluşturulmuştur. %s programıyla %s adresine gönderildi."
+
+#: includes/Evidence.php
+msgid "Security check failed."
+msgstr "Güvenlik kontrolü başarısız oldu."
+
+#: includes/Evidence.php
+msgid "You do not have permission to download evidence bundles."
+msgstr "Kanıt paketlerini indirme izniniz yok."
+
+#: includes/Evidence.php
+msgid "Failed to initialize zip compressor."
+msgstr "Zip sıkıştırıcı başlatılamadı."
+
+#: includes/Evidence.php
+msgid "No AI usage policy published yet."
+msgstr "Henüz AI kullanım politikası yayınlanmadı."
+
+#: includes/Evidence.php
+msgid "Evidence bundle file not found."
+msgstr "Kanıt paketi dosyası bulunamadı."
+
+#: includes/Evidence.php
+msgid "Content Snapshot"
+msgstr "İçerik Anlık Görüntüsü"
+
+#: includes/Evidence.php
+msgid "Post ID"
+msgstr "Gönderi ID'si"
+
+#: includes/Evidence.php
+msgid "Declared As"
+msgstr "Olarak Beyan Edildi"
+
+#: includes/Evidence.php
+msgid "Declared At"
+msgstr "Beyan Tarihi"
+
+#: includes/Evidence.php
+msgid "Content Hash (SHA-256)"
+msgstr "İçerik Karma Değeri (SHA-256)"
+
+#: includes/Evidence.php
+msgid "This evidence bundle is a transparency and documentation toolkit output. It does NOT constitute legal compliance certification or legal advice."
+msgstr "Bu kanıt paketi, bir şeffaflık ve belgelendirme araç takımı çıktısıdır. Yasal uyumluluk sertifikası veya yasal tavsiye teşkil etmez."
+
+#: includes/Scanner.php
+msgid "Content Review requires Pro or Agency plan."
+msgstr "İçerik İncelemesi Pro veya Ajans planı gerektirir."
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Find Undeclared Content"
+msgstr "Beyan Edilmemiş İçeriği Bul"
+
+#: includes/Scanner.php templates/admin/tab-content.php
+msgid "Scanning..."
+msgstr "Taranıyor..."
+
+#: includes/Scanner.php
+msgid "%d post ready for review."
+msgid_plural "%d posts ready for review."
+msgstr[0] "%d gönderi incelemeye hazır."
+msgstr[1] "%d gönderi incelemeye hazır."
+
+#: includes/Scanner.php
+msgid "No declarations provided."
+msgstr "Beyan sağlanmadı."
+
+#: includes/Scanner.php
+msgid "%d declaration applied."
+msgid_plural "%d declarations applied."
+msgstr[0] "%d beyan uygulandı."
+msgstr[1] "%d beyan uygulandı."
+
+#: includes/Scanner.php
+msgid "Review results dismissed."
+msgstr "İnceleme sonuçları kapatıldı."
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "Geçersiz veri."
+
+#: includes/Ajax.php
+msgid "No valid post IDs provided."
+msgstr "Geçerli gönderi ID'si sağlanmadı."
+
+#: includes/Ajax.php
+msgid "Invalid declaration type."
+msgstr "Geçersiz beyan türü."
+
+#: includes/Ajax.php
+msgid "%d post updated."
+msgid_plural "%d posts updated."
+msgstr[0] "%d gönderi güncellendi."
+msgstr[1] "%d gönderi güncellendi."
+
+#: includes/Ajax.php
+msgid "Bulk declaration"
+msgstr "Toplu beyan"
+
+#: includes/Ajax.php
+msgid "Required classes not found."
+msgstr "Gerekli sınıflar bulunamadı."
+
+#: includes/Ajax.php
+msgid "Declared as"
+msgstr "Olarak beyan edildi"
+
+#: includes/Ajax.php
+msgid "Updated to"
+msgstr "Güncellendi"
+
+#: includes/Ajax.php
+msgid "System"
+msgstr "Sistem"
+
+#: includes/Ajax.php
+msgid "Agency class not found."
+msgstr "Ajans sınıfı bulunamadı."
+
+#: includes/Ajax.php
+msgid "Site not found."
+msgstr "Site bulunamadı."
+
+#: includes/Ajax.php
+msgid "Agency bulk report for %s."
+msgstr "%s için ajans toplu raporu."
+
+#: includes/Ajax.php
+msgid "Report generated for %s."
+msgstr "%s için rapor oluşturuldu."
+
+#: includes/Ajax.php
+msgid "Archive class not found."
+msgstr "Arşiv sınıfı bulunamadı."
+
+#: includes/Ajax.php
+msgid "Invalid post ID."
+msgstr "Geçersiz gönderi ID'si."
+
+#: includes/Ajax.php
+msgid "Exemption revoked."
+msgstr "Muafiyet iptal edildi."
+
+#: includes/Ajax.php
+msgid "Failed to revoke exemption."
+msgstr "Muafiyet iptal edilemedi."
+
+#: includes/Ajax.php
+msgid "Exemption restored."
+msgstr "Muafiyet geri yüklendi."
+
+#: includes/Ajax.php
+msgid "Failed to restore exemption."
+msgstr "Muafiyet geri yüklenemedi."
+
+#: includes/Ajax.php
+msgid "Crawler class not found."
+msgstr "Tarayıcı sınıfı bulunamadı."
+
+#: includes/Ajax.php
+msgid "AI.txt regenerated."
+msgstr "AI.txt yeniden oluşturuldu."
+
+#: includes/Ajax.php
+msgid "LLMs.txt regenerated."
+msgstr "LLMs.txt yeniden oluşturuldu."
+
+#: includes/Ajax.php
+msgid "Robots.txt regenerated."
+msgstr "Robots.txt yeniden oluşturuldu."
+
+#: includes/Ajax.php
+msgid "Invalid file type."
+msgstr "Geçersiz dosya türü."
+
+#: includes/Ajax.php
+msgid "All assets regenerated."
+msgstr "Tüm varlıklar yeniden oluşturuldu."
+
+#: includes/Ajax.php
+msgid "Cache cleared."
+msgstr "Önbellek temizlendi."
+
+#: includes/Ajax.php
+msgid "Public files rebuilt."
+msgstr "Genel dosyalar yeniden oluşturuldu."
+
+#: includes/Ajax.php
+msgid "Too many auto-fix requests. Please wait."
+msgstr "Çok fazla otomatik düzeltme isteği. Lütfen bekleyin."
+
+#: includes/Ajax.php
+msgid "AI detection and file generation completed."
+msgstr "AI tespiti ve dosya oluşturma tamamlandı."
+
+#: includes/Ajax.php
+msgid "Verification class not found."
+msgstr "Doğrulama sınıfı bulunamadı."
+
+#: includes/Ajax.php
+msgid "Verification page refreshed successfully."
+msgstr "Doğrulama sayfası başarıyla yenilendi."
+
+#: includes/Ajax.php
+msgid "Unknown issue type."
+msgstr "Bilinmeyen sorun türü."
+
+#: includes/Ajax.php
+msgid "AIAccess class not found."
+msgstr "AIAccess sınıfı bulunamadı."
+
+#: includes/Ajax.php
+msgid "Policy updated."
+msgstr "Politika güncellendi."
+
+#: includes/Ajax.php
+msgid "Option name required."
+msgstr "Seçenek adı gerekli."
+
+#: includes/Ajax.php
+msgid "Invalid data format."
+msgstr "Geçersiz veri formatı."
+
+#: includes/Ajax.php
+msgid "Saved"
+msgstr "Kaydedildi"
+
+#: includes/Ajax.php
+msgid "Test report sent."
+msgstr "Test raporu gönderildi."
+
+#: includes/Ajax.php
+msgid "Failed to send email. Check your server settings."
+msgstr "E-posta gönderilemedi. Sunucu ayarlarınızı kontrol edin."
+
+#: includes/Ajax.php
+msgid "Content scanned and index refreshed."
+msgstr "İçerik tarandı ve indeks yenilendi."
+
+#: includes/Ajax.php
+msgid "Synced"
+msgstr "Senkronize edildi"
+
+#: includes/Ajax.php
+msgid "AI Smart Declaration applied"
+msgstr "AI Akıllı Beyan uygulandı"
+
+#: includes/Cron.php
+msgid "Unknown Site"
+msgstr "Bilinmeyen Site"
+
+#: includes/Cron.php
+msgid "Score dropped: %d%% → %d%%"
+msgstr "Puan düştü: %d%% → %d%%"
+
+#: includes/Cron.php
+msgid "%d undeclared posts"
+msgstr "%d beyan edilmemiş gönderi"
+
+#: includes/Cron.php
+msgid "%d undeclared posts — no declarations in %d days"
+msgstr "%d beyan edilmemiş gönderi — %d gün içinde beyan yok"
+
+#: includes/Cron.php
+msgid "Content needs source declaration"
+msgstr "İçerik kaynak beyanı gerektiriyor"
+
+#: includes/Cron.php
+msgid "AI.txt not updated — %d days"
+msgstr "AI.txt güncellenmedi — %d gün"
+
+#: includes/Cron.php
+msgid "Regenerate AI.txt on client site"
+msgstr "Müşteri sitesinde AI.txt'yi yeniden oluştur"
+
+#: includes/Cron.php
+msgid "Site health check failed — API unreachable"
+msgstr "Site sağlık kontrolü başarısız oldu — API'ye erişilemiyor"
+
+#: includes/Cron.php
+msgid "Check site connectivity"
+msgstr "Site bağlantısını kontrol et"
+
+#: includes/Cron.php
+msgid "No reason provided"
+msgstr "Sebep belirtilmedi"
+
+#: includes/Agency.php
+msgid "Site limit reached. Maximum %d sites allowed."
+msgstr "Site sınırına ulaşıldı. Maksimum %d site izin verilir."
+
+#: includes/Agency.php
+msgid "License system not available."
+msgstr "Lisans sistemi mevcut değil."
+
+#: includes/Agency.php
+msgid "User is already a team member."
+msgstr "Kullanıcı zaten bir ekip üyesi."
+
+#: includes/Agency.php
+msgid "Site not found."
+msgstr "Site bulunamadı."
+
+#: includes/Agency.php
+msgid "Site synced."
+msgstr "Site senkronize edildi."
+
+#: includes/Usage.php
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: includes/Usage.php
+msgid "Scans"
+msgstr "Tarama"
+
+#: includes/Usage.php templates/admin/tab-content.php
+msgid "Words"
+msgstr "Kelime"
+
+#: includes/SetupWizard.php
+msgid "MegaGovern Setup"
+msgstr "MegaGovern Kurulumu"
+
+#: includes/SetupWizard.php
+msgid "Welcome to MegaGovern"
+msgstr "MegaGovern'a Hoş Geldiniz"
+
+#: includes/SetupWizard.php
+msgid "AI Transparency & Disclosure Governance Platform"
+msgstr "AI Şeffaflık ve Açıklama Yönetişim Platformu"
+
+#: includes/SetupWizard.php
+msgid "Where do you operate?"
+msgstr "Nerede faaliyet gösteriyorsunuz?"
+
+#: includes/SetupWizard.php
+msgid "This helps us show you relevant regulatory alerts."
+msgstr "Bu, size ilgili düzenleyici uyarıları göstermemize yardımcı olur."
+
+#: includes/SetupWizard.php
+msgid "EU AI Act compliance alerts"
+msgstr "AB Yapay Zeka Yasası uyumluluk uyarıları"
+
+#: includes/SetupWizard.php
+msgid "Colorado AI Act & state law alerts"
+msgstr "Colorado AI Yasası ve eyalet yasası uyarıları"
+
+#: includes/SetupWizard.php
+msgid "All regulatory alerts"
+msgstr "Tüm düzenleyici uyarılar"
+
+#: includes/SetupWizard.php
+msgid "How should disclosure labels appear?"
+msgstr "Açıklama etiketleri nasıl görünmeli?"
+
+#: includes/SetupWizard.php
+msgid "Choose where the AI transparency label shows on your content."
+msgstr "AI şeffaflık etiketinin içeriğinizde nerede görüneceğini seçin."
+
+#: includes/SetupWizard.php
+msgid "Top of content"
+msgstr "İçeriğin üstü"
+
+#: includes/SetupWizard.php
+msgid "Label appears before the article"
+msgstr "Etiket makaleden önce görünür"
+
+#: includes/SetupWizard.php
+msgid "Bottom of content"
+msgstr "İçeriğin altı"
+
+#: includes/SetupWizard.php
+msgid "Label appears after the article"
+msgstr "Etiket makaleden sonra görünür"
+
+#: includes/SetupWizard.php
+msgid "Both top and bottom"
+msgstr "Hem üstte hem altta"
+
+#: includes/SetupWizard.php
+msgid "Maximum visibility"
+msgstr "Maksimum görünürlük"
+
+#: includes/SetupWizard.php
+msgid "Before you start"
+msgstr "Başlamadan önce"
+
+#: includes/SetupWizard.php
+msgid "Important — Please Read"
+msgstr "Önemli — Lütfen Okuyun"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does:"
+msgstr "MegaGovern'ın Yaptıkları:"
+
+#: includes/SetupWizard.php
+msgid "Document how AI is used in your content"
+msgstr "AI'nın içeriğinizde nasıl kullanıldığını belgeleyin"
+
+#: includes/SetupWizard.php
+msgid "Publish transparency labels and AI.txt files"
+msgstr "Şeffaflık etiketleri ve AI.txt dosyaları yayınlayın"
+
+#: includes/SetupWizard.php
+msgid "Generate governance records and reports"
+msgstr "Yönetişim kayıtları ve raporları oluşturun"
+
+#: includes/SetupWizard.php
+msgid "Alert you to major regulatory developments"
+msgstr "Sizi önemli düzenleyici gelişmeler hakkında uyarır"
+
+#: includes/SetupWizard.php
+msgid "What MegaGovern Does NOT Do:"
+msgstr "MegaGovern'ın YAPMADIĞI Şeyler:"
+
+#: includes/SetupWizard.php
+msgid "It does NOT detect AI-generated content"
+msgstr "AI tarafından oluşturulan içeriği TESPİT ETMEZ"
+
+#: includes/SetupWizard.php
+msgid "It does NOT guarantee legal compliance"
+msgstr "Yasal uyumluluğu GARANTİ ETMEZ"
+
+#: includes/SetupWizard.php
+msgid "It does NOT replace legal advice from a qualified attorney"
+msgstr "Nitelikli bir avukatın yasal tavsiyesinin YERİNİ ALMAZ"
+
+#: includes/SetupWizard.php
+msgid "You are in control."
+msgstr "Kontrol sizde."
+
+#: includes/SetupWizard.php
+msgid "You declare the source of each piece of content. MegaGovern documents your declarations and helps you disclose them."
+msgstr "Her bir içerik parçasının kaynağını siz beyan edersiniz. MegaGovern beyanlarınızı belgeler ve bunları açıklamanıza yardımcı olur."
+
+#: includes/SetupWizard.php
+msgid "I understand that MegaGovern is a documentation tool, not a compliance guarantee or legal advisor."
+msgstr "MegaGovern'ın bir belgelendirme aracı olduğunu, bir uyumluluk garantisi veya yasal danışman olmadığını anlıyorum."
+
+#: includes/SetupWizard.php
+msgid "← Back"
+msgstr "← Geri"
+
+#: includes/SetupWizard.php
+msgid "Next Step →"
+msgstr "Sonraki Adım →"
+
+#: includes/SetupWizard.php
+msgid "Complete Setup"
+msgstr "Kurulumu Tamamla"
+
+#: includes/SetupWizard.php
+msgid "You must accept the disclaimer to continue."
+msgstr "Devam etmek için yasal uyarıyı kabul etmelisiniz."
+
+#: includes/SetupWizard.php
+msgid "You do not have permission."
+msgstr "İzniniz yok."
+
+#: includes/SetupWizard.php
+msgid "Display"
+msgstr "Göster"
+
+#: includes/SetupWizard.php
+msgid "Ready"
+msgstr "Hazır"
+
+#: templates/admin/dashboard.php
+msgid "AI Transparency Governance"
+msgstr "AI Şeffaflık Yönetişimi"
+
+#: templates/admin/dashboard.php
+msgid "Governance Score"
+msgstr "Yönetişim Puanı"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Declared"
+msgstr "Beyan Edildi"
+
+#: templates/admin/dashboard.php
+msgid "Pending"
+msgstr "Beklemede"
+
+#: templates/admin/dashboard.php
+msgid "Issues"
+msgstr "Sorunlar"
+
+#: templates/admin/dashboard.php templates/admin/tab-content.php
+msgid "Content Review"
+msgstr "İçerik İncelemesi"
+
+#: templates/admin/dashboard.php
+msgid "Available on Pro plan."
+msgstr "Pro planında mevcuttur."
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr "Sistem Durumu"
+
+#: templates/admin/dashboard.php templates/admin/tab-disclosures.php
+msgid "AI.txt"
+msgstr "AI.txt"
+
+#: templates/admin/dashboard.php
+msgid "Labels"
+msgstr "Etiketler"
+
+#: templates/admin/dashboard.php
+msgid "Action Center"
+msgstr "Eylem Merkezi"
+
+#: templates/admin/dashboard.php
+msgid "All systems compliant."
+msgstr "Tüm sistemler uyumludur."
+
+#: templates/admin/dashboard.php
+msgid "Compliance Journey"
+msgstr "Uyumluluk Yolculuğu"
+
+#: templates/admin/dashboard.php
+msgid "Recent Activity"
+msgstr "Son Etkinlikler"
+
+#: templates/admin/dashboard.php
+msgid "No activity yet."
+msgstr "Henüz etkinlik yok."
+
+#: templates/admin/dashboard.php
+msgid "Unlock Pro"
+msgstr "Pro'yu Aç"
+
+#: templates/admin/dashboard.php
+msgid "Quick Links"
+msgstr "Hızlı Bağlantılar"
+
+#: templates/admin/dashboard.php templates/admin/transparency-center.php
+msgid "Content Hub"
+msgstr "İçerik Merkezi"
+
+#: templates/admin/dashboard.php
+msgid "Verification"
+msgstr "Doğrulama"
+
+#: templates/admin/dashboard.php templates/admin/settings.php
+msgid "Reports"
+msgstr "Raporlar"
+
+#: templates/admin/dashboard.php
+msgid "New Post"
+msgstr "Yeni Gönderi"
+
+#: templates/admin/dashboard.php
+msgid "Access Denied"
+msgstr "Erişim Engellendi"
+
+#: templates/admin/dashboard.php
+msgid "Invalid security token."
+msgstr "Geçersiz güvenlik belirteci."
+
+#: templates/admin/dashboard.php
+msgid "Security Check Failed"
+msgstr "Güvenlik Kontrolü Başarısız"
+
+#: templates/admin/dashboard.php
+msgid "New here? Three steps to get started:"
+msgstr "Yeni misiniz? Başlamak için üç adım:"
+
+#: templates/admin/dashboard.php
+msgid "Classify your first piece of content"
+msgstr "İlk içerik parçanızı sınıflandırın"
+
+#: templates/admin/dashboard.php
+msgid "Go"
+msgstr "Git"
+
+#: templates/admin/dashboard.php
+msgid "Confirm transparency labels are enabled"
+msgstr "Şeffaflık etiketlerinin etkinleştirildiğini onaylayın"
+
+#: templates/admin/dashboard.php
+msgid "View your public transparency page"
+msgstr "Genel şeffaflık sayfanızı görüntüleyin"
+
+#: templates/admin/dashboard.php
+msgid "View"
+msgstr "Görüntüle"
+
+#: templates/admin/dashboard.php
+msgid "View Public Page"
+msgstr "Genel Sayfayı Görüntüle"
+
+#: templates/admin/dashboard.php
+msgid "~%d day left at your current pace"
+msgid_plural "~%d days left at your current pace"
+msgstr[0] "Mevcut hızınızda yaklaşık %d gün kaldı"
+msgstr[1] "Mevcut hızınızda yaklaşık %d gün kaldı"
+
+#: templates/admin/dashboard.php
+msgid "No declarations yet"
+msgstr "Henüz beyan yok"
+
+#: templates/admin/dashboard.php
+msgid "to full coverage"
+msgstr "tam kapsama"
+
+#: templates/admin/dashboard.php
+msgid "Content Status"
+msgstr "İçerik Durumu"
+
+#: templates/admin/dashboard.php
+msgid "%d items need declaration."
+msgstr "%d öğenin beyan edilmesi gerekiyor."
+
+#: templates/admin/dashboard.php
+msgid "Full Content Hub"
+msgstr "Tam İçerik Merkezi"
+
+#: templates/admin/dashboard.php
+msgid "All content declared. Great job!"
+msgstr "Tüm içerik beyan edildi. Harika iş!"
+
+#: templates/admin/dashboard.php
+msgid "Fix All Auto-Fixable (%d)"
+msgstr "Tüm Otomatik Düzeltilebilirleri Düzelt (%d)"
+
+#: templates/admin/dashboard.php
+msgid "All systems in good standing."
+msgstr "Tüm sistemler iyi durumda."
+
+#: templates/admin/dashboard.php
+msgid "Transparency Journey"
+msgstr "Şeffaflık Yolculuğu"
+
+#: templates/admin/dashboard.php
+msgid "Verification hash"
+msgstr "Doğrulama karma değeri"
+
+#: templates/admin/dashboard.php
+msgid "Upgrade Now"
+msgstr "Şimdi Yükselt"
+
+#: templates/admin/transparency-center.php
+msgid "Access Denied"
+msgstr "Erişim Engellendi"
+
+#: templates/admin/transparency-center.php templates/admin/tab-disclosures.php templates/admin/tab-archive.php
+msgid "Active"
+msgstr "Aktif"
+
+#: templates/admin/transparency-center.php
+msgid "Disclosures & AI Files"
+msgstr "Açıklamalar ve AI Dosyaları"
+
+#: templates/admin/transparency-center.php templates/admin/tab-archive.php
+msgid "Legacy Archive"
+msgstr "Eski Arşiv"
+
+#: templates/admin/transparency-center.php
+msgid "Just now"
+msgstr "Şimdi"
+
+#: templates/admin/tab-content.php templates/admin/tab-reports.php
+msgid "Total Indexed"
+msgstr "Toplam İndekslenen"
+
+#: templates/admin/tab-content.php
+msgid "%d unclassified items detected."
+msgstr "%d sınıflandırılmamış öğe tespit edildi."
+
+#: templates/admin/tab-content.php
+msgid "Review Undeclared"
+msgstr "Beyan Edilmemişleri İncele"
+
+#: templates/admin/tab-content.php
+msgid "Review undeclared content and apply declarations manually."
+msgstr "Beyan edilmemiş içeriği inceleyin ve manuel olarak beyan uygulayın."
+
+#: templates/admin/tab-content.php
+msgid "items ready for review."
+msgstr "öğe incelemeye hazır."
+
+#: templates/admin/tab-content.php
+msgid "Last review: %s"
+msgstr "Son inceleme: %s"
+
+#: templates/admin/tab-content.php
+msgid "%d undeclared posts ready for review."
+msgstr "%d beyan edilmemiş gönderi incelemeye hazır."
+
+#: templates/admin/tab-content.php
+msgid "Review & Apply"
+msgstr "İncele ve Uygula"
+
+#: templates/admin/tab-content.php
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: templates/admin/tab-content.php
+msgid "Loading results..."
+msgstr "Sonuçlar yükleniyor..."
+
+#: templates/admin/tab-content.php
+msgid "All content declared."
+msgstr "Tüm içerik beyan edildi."
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Title"
+msgstr "Başlık"
+
+#: templates/admin/tab-content.php templates/public/report-pdf.php
+msgid "Type"
+msgstr "Tür"
+
+#: templates/admin/tab-content.php
+msgid "Declaration"
+msgstr "Beyan"
+
+#: templates/admin/tab-content.php
+msgid "Human"
+msgstr "İnsan"
+
+#: templates/admin/tab-content.php
+msgid "Apply Selected"
+msgstr "Seçilenleri Uygula"
+
+#: templates/admin/tab-content.php
+msgid "Applying..."
+msgstr "Uygulanıyor..."
+
+#: templates/admin/tab-content.php
+msgid "Retry"
+msgstr "Yeniden Dene"
+
+#: templates/admin/tab-content.php
+msgid "Failed to load results."
+msgstr "Sonuçlar yüklenemedi."
+
+#: templates/admin/tab-content.php
+msgid "Bulk Declaration"
+msgstr "Toplu Beyan"
+
+#: templates/admin/tab-content.php
+msgid "Select posts and classify them all at once."
+msgstr "Gönderileri seçin ve hepsini tek seferde sınıflandırın."
+
+#: templates/admin/tab-content.php
+msgid "Select classification..."
+msgstr "Sınıflandırma seçin..."
+
+#: templates/admin/tab-content.php
+msgid "Classify Selected"
+msgstr "Seçilenleri Sınıflandır"
+
+#: templates/admin/tab-content.php
+msgid "selected"
+msgstr "seçildi"
+
+#: templates/admin/tab-content.php
+msgid "Filter & Search"
+msgstr "Filtrele ve Ara"
+
+#: templates/admin/tab-content.php
+msgid "All Statuses"
+msgstr "Tüm Durumlar"
+
+#: templates/admin/tab-content.php
+msgid "All Types"
+msgstr "Tüm Türler"
+
+#: templates/admin/tab-content.php
+msgid "Search..."
+msgstr "Ara..."
+
+#: templates/admin/tab-content.php
+msgid "Apply"
+msgstr "Uygula"
+
+#: templates/admin/tab-content.php
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: templates/admin/tab-content.php
+msgid "results"
+msgstr "sonuç"
+
+#: templates/admin/tab-content.php
+msgid "Content"
+msgstr "İçerik"
+
+#: templates/admin/tab-content.php
+msgid "Authorized By"
+msgstr "Yetkili Kişi"
+
+#: templates/admin/tab-content.php
+msgid "Actions"
+msgstr "Eylemler"
+
+#: templates/admin/tab-content.php
+msgid "Unassigned"
+msgstr "Atanmamış"
+
+#: templates/admin/tab-content.php
+msgid "Edit"
+msgstr "Düzenle"
+
+#: templates/admin/tab-content.php
+msgid "View History"
+msgstr "Geçmişi Görüntüle"
+
+#: templates/admin/tab-content.php
+msgid "No Content Found"
+msgstr "İçerik Bulunamadı"
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or create new content."
+msgstr "Filtreleri ayarlayın veya yeni içerik oluşturun."
+
+#: templates/admin/tab-content.php
+msgid "Create Content"
+msgstr "İçerik Oluştur"
+
+#: templates/admin/tab-content.php
+msgid "Declaration History"
+msgstr "Beyan Geçmişi"
+
+#: templates/admin/tab-content.php
+msgid "Please select a classification type."
+msgstr "Lütfen bir sınıflandırma türü seçin."
+
+#: templates/admin/tab-content.php
+msgid "Please select at least one post."
+msgstr "Lütfen en az bir gönderi seçin."
+
+#: templates/admin/tab-content.php
+msgid "Loading history..."
+msgstr "Geçmiş yükleniyor..."
+
+#: templates/admin/tab-content.php
+msgid "Failed to load history."
+msgstr "Geçmiş yüklenemedi."
+
+#: templates/admin/tab-content.php
+msgid "(No Title)"
+msgstr "(Başlık Yok)"
+
+#: templates/admin/tab-content.php
+msgid "Clear"
+msgstr "Temizle"
+
+#: templates/admin/tab-content.php
+msgid "Review Now"
+msgstr "Şimdi İncele"
+
+#: templates/admin/tab-content.php
+msgid "Re-scan"
+msgstr "Yeniden Tara"
+
+#: templates/admin/tab-content.php
+msgid "Review..."
+msgstr "İncele..."
+
+#: templates/admin/tab-content.php
+msgid "Modified"
+msgstr "Değiştirilmiş"
+
+#: templates/admin/tab-content.php
+msgid "Generated"
+msgstr "Oluşturulmuş"
+
+#: templates/admin/tab-content.php
+msgid "Synthetic"
+msgstr "Sentetik"
+
+#: templates/admin/tab-content.php
+msgid "Error updating declaration."
+msgstr "Beyan güncellenirken hata oluştu."
+
+#: templates/admin/tab-content.php
+msgid "Server error occurred."
+msgstr "Sunucu hatası oluştu."
+
+#: templates/admin/tab-content.php
+msgid "Apply this classification to all selected items?"
+msgstr "Bu sınıflandırmayı tüm seçili öğelere uygula?"
+
+#: templates/admin/tab-content.php
+msgid "Failed to apply declarations."
+msgstr "Beyanlar uygulanamadı."
+
+#: templates/admin/tab-content.php
+msgid "Security token missing. Please refresh the page."
+msgstr "Güvenlik belirteci eksik. Lütfen sayfayı yenileyin."
+
+#: templates/admin/tab-content.php
+msgid "Could not load history."
+msgstr "Geçmiş yüklenemedi."
+
+#: templates/admin/tab-content.php
+msgid "Scan failed."
+msgstr "Tarama başarısız oldu."
+
+#: templates/admin/tab-content.php
+msgid "Server error. Please try again."
+msgstr "Sunucu hatası. Lütfen tekrar deneyin."
+
+#: templates/admin/tab-content.php
+msgid "Adjust filters or run a new Review to find undeclared content."
+msgstr "Filtreleri ayarlayın veya beyan edilmemiş içerik bulmak için yeni bir İnceleme çalıştırın."
+
+#: templates/admin/tab-content.php
+msgid "Content Review Queue"
+msgstr "İçerik İnceleme Kuyruğu"
+
+#: templates/admin/tab-content.php
+msgid "Undeclared posts found. Run a review to classify them."
+msgstr "Beyan edilmemiş gönderiler bulundu. Bunları sınıflandırmak için bir inceleme çalıştırın."
+
+#: templates/admin/tab-content.php
+msgid "All content has been declared."
+msgstr "Tüm içerik beyan edildi."
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Labels"
+msgstr "İçerik Etiketleri"
+
+#: templates/admin/tab-disclosures.php
+msgid "Configure how AI transparency labels appear on your content."
+msgstr "AI şeffaflık etiketlerinin içeriğinizde nasıl görüneceğini yapılandırın."
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Position"
+msgstr "Etiket Konumu"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current position:"
+msgstr "Mevcut konum:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Current style:"
+msgstr "Mevcut stil:"
+
+#: templates/admin/tab-disclosures.php
+msgid "Change in Settings"
+msgstr "Ayarlarda Değiştir"
+
+#: templates/admin/tab-disclosures.php
+msgid "Label Preview"
+msgstr "Etiket Önizlemesi"
+
+#: templates/admin/tab-disclosures.php
+msgid "Labels Active"
+msgstr "Etiketler Aktif"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI Açıklama Dosyaları"
+
+#: templates/admin/tab-disclosures.php
+msgid "Machine-readable transparency files for AI systems and crawlers."
+msgstr "AI sistemleri ve tarayıcılar için makine tarafından okunabilir şeffaflık dosyaları."
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto"
+msgstr "Otomatik"
+
+#: templates/admin/tab-disclosures.php
+msgid "Manual"
+msgstr "Manuel"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — AI usage, governance, compliance."
+msgstr "Tam şeffaflık açıklaması — AI kullanımı, yönetişim, uyumluluk."
+
+#: templates/admin/tab-disclosures.php
+msgid "View"
+msgstr "Görüntüle"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy"
+msgstr "Kopyala"
+
+#: templates/admin/tab-disclosures.php
+msgid "LLMs.txt"
+msgstr "LLMs.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index — grouped by declaration type."
+msgstr "AI tarafından okunabilir içerik indeksi — beyan türüne göre gruplandırılmıştır."
+
+#: templates/admin/tab-disclosures.php
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 30 bots, 3-tier policy."
+msgstr "Tarayıcı erişim kontrolü — 30 bot, 3 katmanlı politika."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Files"
+msgstr "Tüm Dosyaları Yeniden Oluştur"
+
+#: templates/admin/tab-disclosures.php
+msgid "Force regeneration of AI.txt, LLMs.txt, and Robots.txt."
+msgstr "AI.txt, LLMs.txt ve Robots.txt'yi yeniden oluşturmaya zorla."
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All"
+msgstr "Tümünü Yeniden Oluştur"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Pages"
+msgstr "Genel Şeffaflık Sayfaları"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages that demonstrate your AI transparency commitment."
+msgstr "AI şeffaflık taahhüdünüzü gösteren halka açık sayfalar."
+
+#: templates/admin/tab-disclosures.php
+msgid "Editable"
+msgstr "Düzenlenebilir"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Only"
+msgstr "Yalnızca Görüntüle"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Policy"
+msgstr "Politikayı Görüntüle"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy URL"
+msgstr "URL'yi Kopyala"
+
+#: templates/admin/tab-disclosures.php
+msgid "View Page"
+msgstr "Sayfayı Görüntüle"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verification Active"
+msgstr "Doğrulama Aktif"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copied"
+msgstr "Kopyalandı"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerating..."
+msgstr "Yeniden oluşturuluyor..."
+
+#: templates/admin/tab-disclosures.php
+msgid "N/A"
+msgstr "Yok"
+
+#: templates/admin/tab-disclosures.php
+msgid "Last Updated: %s"
+msgstr "Son Güncelleme: %s"
+
+#: templates/admin/tab-disclosures.php
+msgid "Your AI.txt reflects only %d%% of published content."
+msgstr "AI.txt'niz yayınlanan içeriğin yalnızca %d%%'sini yansıtıyor."
+
+#: templates/admin/tab-disclosures.php
+msgid "%d items remain undeclared."
+msgstr "%d öğe beyan edilmemiş durumda."
+
+#: templates/admin/tab-disclosures.php
+msgid "Review Undeclared Items"
+msgstr "Beyan Edilmemiş Öğeleri İncele"
+
+#: templates/admin/tab-disclosures.php
+msgid "Verify"
+msgstr "Doğrula"
+
+#: templates/admin/tab-disclosures.php
+msgid "AI Disclosure Files"
+msgstr "AI Açıklama Dosyaları"
+
+#: templates/admin/tab-disclosures.php
+msgid "Full transparency disclosure — 16 sections."
+msgstr "Tam şeffaflık açıklaması — 16 bölüm."
+
+#: templates/admin/tab-disclosures.php
+msgid "View Raw"
+msgstr "Ham Görüntüle"
+
+#: templates/admin/tab-disclosures.php
+msgid "Copy as MD"
+msgstr "MD Olarak Kopyala"
+
+#: templates/admin/tab-disclosures.php
+msgid "Auto-regenerated on declaration change."
+msgstr "Beyan değişikliğinde otomatik olarak yeniden oluşturulur."
+
+#: templates/admin/tab-disclosures.php
+msgid "AI-readable content index with Priority Signals."
+msgstr "Öncelik Sinyalleri ile AI tarafından okunabilir içerik indeksi."
+
+#: templates/admin/tab-disclosures.php
+msgid "Crawler access control — 34 bots, 3-tier policy."
+msgstr "Tarayıcı erişim kontrolü — 34 bot, 3 katmanlı politika."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public Transparency Documents"
+msgstr "Genel Şeffaflık Belgeleri"
+
+#: templates/admin/tab-disclosures.php
+msgid "Public-facing pages for visitors, auditors, and regulators."
+msgstr "Ziyaretçiler, denetçiler ve düzenleyiciler için halka açık sayfalar."
+
+#: templates/admin/tab-disclosures.php
+msgid "Public"
+msgstr "Genel"
+
+#: templates/admin/tab-disclosures.php
+msgid "Open"
+msgstr "Aç"
+
+#: templates/admin/tab-disclosures.php
+msgid "Upgrade to Edit"
+msgstr "Düzenlemek için Yükselt"
+
+#: templates/admin/tab-disclosures.php
+msgid "Content Snapshots & Evidence"
+msgstr "İçerik Anlık Görüntüleri ve Kanıtlar"
+
+#: templates/admin/tab-disclosures.php
+msgid "PDF Reports"
+msgstr "PDF Raporlar"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Maintenance"
+msgstr "Şeffaflık Bakımı"
+
+#: templates/admin/tab-disclosures.php
+msgid "System diagnostics and maintenance tools."
+msgstr "Sistem tanılama ve bakım araçları."
+
+#: templates/admin/tab-disclosures.php
+msgid "Diagnostics"
+msgstr "Tanılama"
+
+#: templates/admin/tab-disclosures.php
+msgid "WordPress Rewrites"
+msgstr "WordPress Yeniden Yazımları"
+
+#: templates/admin/tab-disclosures.php
+msgid "File Permissions"
+msgstr "Dosya İzinleri"
+
+#: templates/admin/tab-disclosures.php
+msgid "Output Directory"
+msgstr "Çıktı Dizini"
+
+#: templates/admin/tab-disclosures.php
+msgid "Writable"
+msgstr "Yazılabilir"
+
+#: templates/admin/tab-disclosures.php
+msgid "Transparency Assets"
+msgstr "Şeffaflık Varlıkları"
+
+#: templates/admin/tab-disclosures.php
+msgid "Up-to-date"
+msgstr "Güncel"
+
+#: templates/admin/tab-disclosures.php
+msgid "Actions"
+msgstr "Eylemler"
+
+#: templates/admin/tab-disclosures.php
+msgid "Regenerate All Assets"
+msgstr "Tüm Varlıkları Yeniden Oluştur"
+
+#: templates/admin/tab-disclosures.php
+msgid "Clear Generated Cache"
+msgstr "Oluşturulan Önbelleği Temizle"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuild Public Files"
+msgstr "Genel Dosyaları Yeniden Oluştur"
+
+#: templates/admin/tab-disclosures.php
+msgid "Failed to copy."
+msgstr "Kopyalama başarısız oldu."
+
+#: templates/admin/tab-disclosures.php
+msgid "Fetching..."
+msgstr "Getiriliyor..."
+
+#: templates/admin/tab-disclosures.php
+msgid "..."
+msgstr "..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Clearing..."
+msgstr "Temizleniyor..."
+
+#: templates/admin/tab-disclosures.php
+msgid "Cleared"
+msgstr "Temizlendi"
+
+#: templates/admin/tab-disclosures.php
+msgid "Rebuilding..."
+msgstr "Yeniden oluşturuluyor..."
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content"
+msgstr "Muaf İçerik"
+
+#: templates/admin/tab-archive.php
+msgid "Cutoff Date"
+msgstr "Kesim Tarihi"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold"
+msgstr "Düzenleme Eşiği"
+
+#: templates/admin/tab-archive.php
+msgid "Archive Settings"
+msgstr "Arşiv Ayarları"
+
+#: templates/admin/tab-archive.php
+msgid "Compliance Cutoff Date"
+msgstr "Uyumluluk Kesim Tarihi"
+
+#: templates/admin/tab-archive.php
+msgid "Content before this date is exempt."
+msgstr "Bu tarihten önceki içerik muaf tutulur."
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold (%)"
+msgstr "Düzenleme Eşiği (%)"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke exemption if edit exceeds this %."
+msgstr "Düzenleme bu %'yi aşarsa muafiyeti iptal et."
+
+#: templates/admin/tab-archive.php
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt Content Log"
+msgstr "Muaf İçerik Günlüğü"
+
+#: templates/admin/tab-archive.php
+msgid "Items"
+msgstr "Öğeler"
+
+#: templates/admin/tab-archive.php
+msgid "Revoke"
+msgstr "İptal Et"
+
+#: templates/admin/tab-archive.php
+msgid "Restore"
+msgstr "Geri Yükle"
+
+#: templates/admin/tab-archive.php
+msgid "Exempt"
+msgstr "Muaf"
+
+#: templates/admin/tab-archive.php
+msgid "Revoked"
+msgstr "İptal Edildi"
+
+#: templates/admin/tab-archive.php
+msgid "How Legacy Archive Works"
+msgstr "Eski Arşiv Nasıl Çalışır"
+
+#: templates/admin/tab-archive.php
+msgid "Set Cutoff Date"
+msgstr "Kesim Tarihini Ayarla"
+
+#: templates/admin/tab-archive.php
+msgid "Edit Threshold Monitoring"
+msgstr "Düzenleme Eşiği İzleme"
+
+#: templates/admin/tab-archive.php
+msgid "Manual Override"
+msgstr "Manuel Geçersiz Kılma"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date. Classified as Legacy — Exempt from mandatory AI declaration under EU AI Act Article 50."
+msgstr "Kesim tarihinden önce yayınlanan tarihsel içerik. Eski olarak sınıflandırılmıştır — AB Yapay Zeka Yasası Madde 50 uyarınca zorunlu AI beyanından muaftır."
+
+#: templates/admin/tab-archive.php
+msgid "EU AI Act — Article 50"
+msgstr "AB Yapay Zeka Yasası — Madde 50"
+
+#: templates/admin/tab-archive.php
+msgid "The EU AI Act enters into force on August 2, 2025. Content published before the cutoff date is classified as Legacy and is exempt from mandatory AI declaration requirements. All content published after this date must be declared."
+msgstr "AB Yapay Zeka Yasası 2 Ağustos 2025'te yürürlüğe girer. Kesim tarihinden önce yayınlanan içerik Eski olarak sınıflandırılır ve zorunlu AI beyan gereksinimlerinden muaftır. Bu tarihten sonra yayınlanan tüm içerik beyan edilmelidir."
+
+#: templates/admin/tab-archive.php
+msgid "Undeclared Legacy"
+msgstr "Beyan Edilmemiş Eski"
+
+#: templates/admin/tab-archive.php
+msgid "Historical content published before the cutoff date, classified as Legacy — Exempt."
+msgstr "Kesim tarihinden önce yayınlanan tarihsel içerik, Eski olarak sınıflandırılmıştır — Muaf."
+
+#: templates/admin/tab-archive.php
+msgid "(No title)"
+msgstr "(Başlık Yok)"
+
+#: templates/admin/tab-archive.php
+msgid "No exempt content found. Content published after the cutoff date will not be automatically exempt."
+msgstr "Muaf içerik bulunamadı. Kesim tarihinden sonra yayınlanan içerik otomatik olarak muaf tutulmayacaktır."
+
+#: templates/admin/tab-archive.php
+msgid "Define the compliance cutoff date. Content published before this date is eligible for legacy exemption."
+msgstr "Uyumluluk kesim tarihini tanımlayın. Bu tarihten önce yayınlanan içerik eski muafiyeti için uygundur."
+
+#: templates/admin/tab-archive.php
+msgid "If an exempt article is edited and changes exceed the threshold, the exemption is automatically revoked."
+msgstr "Muaf bir makale düzenlenirse ve değişiklikler eşiği aşarsa, muafiyet otomatik olarak iptal edilir."
+
+#: templates/admin/tab-archive.php
+msgid "You can manually revoke or restore exemptions from the Exempt Content Log above."
+msgstr "Yukarıdaki Muaf İçerik Günlüğü'nden muafiyetleri manuel olarak iptal edebilir veya geri yükleyebilirsiniz."
+
+#: templates/admin/tab-archive.php
+msgid "Are you sure you want to revoke this exemption? The post will return to the Content Hub for standard declaration."
+msgstr "Bu muafiyeti iptal etmek istediğinizden emin misiniz? Gönderi standart beyan için İçerik Merkezi'ne dönecektir."
+
+#: templates/admin/tab-archive.php
+msgid "An error occurred. Please try again."
+msgstr "Bir hata oluştu. Lütfen tekrar deneyin."
+
+#: templates/admin/tab-archive.php
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: templates/admin/tab-archive.php
+msgid "Unlock Full Archive Management"
+msgstr "Tam Arşiv Yönetimini Aç"
+
+#: templates/admin/tab-archive.php
+msgid "Advanced filtering, bulk exemption, and audit trail for legacy content."
+msgstr "Eski içerik için gelişmiş filtreleme, toplu muafiyet ve denetim izi."
+
+#: templates/admin/tab-archive.php
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: templates/admin/tab-reports.php
+msgid "Compliance Reports"
+msgstr "Uyumluluk Raporları"
+
+#: templates/admin/tab-reports.php
+msgid "Generate compliance documentation for your records."
+msgstr "Kayıtlarınız için uyumluluk belgeleri oluşturun."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report"
+msgstr "PDF Rapor"
+
+#: templates/admin/tab-reports.php
+msgid "PDF Report (Pro)"
+msgstr "PDF Rapor (Pro)"
+
+#: templates/admin/tab-reports.php
+msgid "Export CSV"
+msgstr "CSV Dışa Aktar"
+
+#: templates/admin/tab-reports.php
+msgid "Date Range"
+msgstr "Tarih Aralığı"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Schedule Reports"
+msgstr "Raporları Planla"
+
+#: templates/admin/tab-reports.php
+msgid "Weekly/Monthly auto-delivery to "
+msgstr "Haftalık/Aylık otomatik teslimat "
+
+#: templates/admin/tab-reports.php
+msgid "Configure scheduling"
+msgstr "Planlamayı yapılandır"
+
+#: templates/admin/tab-reports.php
+msgid "Transparency Registry"
+msgstr "Şeffaflık Kaydı"
+
+#: templates/admin/tab-reports.php
+msgid "Local"
+msgstr "Yerel"
+
+#: templates/admin/tab-reports.php templates/admin/agency.php
+msgid "Site ID"
+msgstr "Site ID'si"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Trail"
+msgstr "Kanıt İzi"
+
+#: templates/admin/tab-reports.php
+msgid "No evidence logs yet. Governance actions will appear here."
+msgstr "Henüz kanıt günlüğü yok. Yönetişim eylemleri burada görünecektir."
+
+#: templates/admin/tab-reports.php
+msgid "Attestation & Archiving"
+msgstr "Tasdik ve Arşivleme"
+
+#: templates/admin/tab-reports.php
+msgid "Registry Integrity"
+msgstr "Kayıt Bütünlüğü"
+
+#: templates/admin/tab-reports.php
+msgid "Active & Secure"
+msgstr "Aktif ve Güvenli"
+
+#: templates/admin/tab-reports.php
+msgid "Anchored Logs"
+msgstr "Bağlı Günlükler"
+
+#: templates/admin/tab-reports.php
+msgid "Records"
+msgstr "Kayıtlar"
+
+#: templates/admin/tab-reports.php
+msgid "Tamper Protection"
+msgstr "Kurcalama Koruması"
+
+#: templates/admin/tab-reports.php
+msgid "SHA-256 Enabled"
+msgstr "SHA-256 Etkin"
+
+#: templates/admin/tab-reports.php
+msgid "Evidence Retention"
+msgstr "Kanıt Saklama"
+
+#: templates/admin/tab-reports.php
+msgid "Days"
+msgstr "Gün"
+
+#: templates/admin/tab-reports.php
+msgid "Download Evidence Bundle (.zip)"
+msgstr "Kanıt Paketini İndir (.zip)"
+
+#: templates/admin/tab-reports.php
+msgid "Includes AI.txt, classification snapshot, and governance timeline."
+msgstr "AI.txt, sınıflandırma anlık görüntüsü ve yönetişim zaman çizelgesini içerir."
+
+#: templates/admin/tab-reports.php
+msgid "Action"
+msgstr "Eylem"
+
+#: templates/admin/tab-reports.php
+msgid "Scheduled Reports"
+msgstr "Planlanmış Raporlar"
+
+#: templates/admin/tab-reports.php
+msgid "%1$s delivery to %2$s"
+msgstr "%1$s teslimi %2$s"
+
+#: templates/admin/tab-reports.php
+msgid "Not scheduled"
+msgstr "Planlanmadı"
+
+#: templates/admin/tab-reports.php
+msgid "This evidence bundle is for transparency and documentation purposes only. It does not constitute legal compliance certification."
+msgstr "Bu kanıt paketi yalnızca şeffaflık ve belgelendirme amaçları içindir. Yasal uyumluluk sertifikası teşkil etmez."
+
+#: templates/admin/tab-reports.php
+msgid "PDF Reports & Structured Evidence Bundles"
+msgstr "PDF Raporlar ve Yapılandırılmış Kanıt Paketleri"
+
+#: templates/admin/tab-reports.php
+msgid "Content Snapshots at Time of Declaration"
+msgstr "Beyan Anındaki İçerik Anlık Görüntüleri"
+
+#: templates/admin/tab-reports.php
+msgid "Media Provenance Capture (EXIF/IPTC/C2PA)"
+msgstr "Medya Kaynağı Yakalama (EXIF/IPTC/C2PA)"
+
+#: templates/admin/tab-reports.php
+msgid "Custom Label Text & Colors"
+msgstr "Özel Etiket Metni ve Renkleri"
+
+#: templates/admin/settings.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bu sayfaya erişmek için yeterli izniniz yok."
+
+#: templates/admin/settings.php
+msgid "Platform Settings"
+msgstr "Platform Ayarları"
+
+#: templates/admin/settings.php
+msgid "Configure license, content types, labels, automation, alerts, and reports."
+msgstr "Lisans, içerik türleri, etiketler, otomasyon, uyarılar ve raporları yapılandırın."
+
+#: templates/admin/settings.php
+msgid "Content & Labels"
+msgstr "İçerik ve Etiketler"
+
+#: templates/admin/settings.php
+msgid "Automation"
+msgstr "Otomasyon"
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr "Lisans"
+
+#: templates/admin/settings.php
+msgid "Site ID:"
+msgstr "Site ID'si:"
+
+#: templates/admin/settings.php
+msgid "Sync Free License"
+msgstr "Ücretsiz Lisansı Senkronize Et"
+
+#: templates/admin/settings.php
+msgid "Opt-in to enable automatic updates and support."
+msgstr "Otomatik güncellemeleri ve desteği etkinleştirmek için katılın."
+
+#: templates/admin/settings.php
+msgid "Upgrade License"
+msgstr "Lisansı Yükselt"
+
+#: templates/admin/settings.php
+msgid "Manage Account"
+msgstr "Hesabı Yönet"
+
+#: templates/admin/settings.php
+msgid "You previously skipped this. Connect to enable automatic updates."
+msgstr "Bunu daha önce atladınız. Otomatik güncellemeleri etkinleştirmek için bağlanın."
+
+#: templates/admin/settings.php
+msgid "Jurisdiction"
+msgstr "Yargı Alanı"
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering."
+msgstr "Uyarı filtrelemesi için birincil düzenleyici yargı alanınızı seçin."
+
+#: templates/admin/settings.php
+msgid "Save Region"
+msgstr "Bölgeyi Kaydet"
+
+#: templates/admin/settings.php
+msgid "Label Style"
+msgstr "Etiket Stili"
+
+#: templates/admin/settings.php
+msgid "Choose how AI transparency labels appear on your content."
+msgstr "AI şeffaflık etiketlerinin içeriğinizde nasıl görüneceğini seçin."
+
+#: templates/admin/settings.php
+msgid "Official EU Icon"
+msgstr "Resmi AB Simgesi"
+
+#: templates/admin/settings.php
+msgid "Pill Style"
+msgstr "Hap Stili"
+
+#: templates/admin/settings.php
+msgid "Minimal Text"
+msgstr "Minimal Metin"
+
+#: templates/admin/settings.php
+msgid "Banner Style"
+msgstr "Afiş Stili"
+
+#: templates/admin/settings.php
+msgid "Outline Card"
+msgstr "Anahat Kartı"
+
+#: templates/admin/settings.php
+msgid "Default"
+msgstr "Varsayılan"
+
+#: templates/admin/settings.php
+msgid "Placement"
+msgstr "Yerleşim"
+
+#: templates/admin/settings.php
+msgid "Top of Content (Recommended)"
+msgstr "İçeriğin Üstü (Önerilen)"
+
+#: templates/admin/settings.php
+msgid "Both Top & Bottom"
+msgstr "Hem Üst hem Alt"
+
+#: templates/admin/settings.php
+msgid "Manual Only (Shortcode)"
+msgstr "Yalnızca Manuel (Kısa Kod)"
+
+#: templates/admin/settings.php
+msgid "Disclosure must appear before or at the point of exposure to comply with transparency principles."
+msgstr "Şeffaflık ilkelerine uymak için açıklama, maruz kalma noktasından önce veya bu noktada görünmelidir."
+
+#: templates/admin/settings.php
+msgid "Uses the EU's official AI content icons; this does not constitute formal adherence to the Code of Practice."
+msgstr "AB'nin resmi AI içerik simgelerini kullanır; bu, Uygulama Koduna resmi bağlılık teşkil etmez."
+
+#: templates/admin/settings.php
+msgid "Save Label Settings"
+msgstr "Etiket Ayarlarını Kaydet"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Özel Etiket Metni"
+
+#: templates/admin/settings.php
+msgid "Customize the text displayed for each declaration type."
+msgstr "Her beyan türü için görüntülenen metni özelleştirin."
+
+#: templates/admin/settings.php
+msgid "Custom label text is available on Pro and Agency plans."
+msgstr "Özel etiket metni Pro ve Ajans planlarında mevcuttur."
+
+#: templates/admin/settings.php
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: templates/admin/settings.php
+msgid "Save Custom Text"
+msgstr "Özel Metni Kaydet"
+
+#: templates/admin/settings.php
+msgid "Tracked Post Types"
+msgstr "İzlenen Gönderi Türleri"
+
+#: templates/admin/settings.php
+msgid "Select which content types require a source declaration before publishing."
+msgstr "Yayınlamadan önce hangi içerik türlerinin kaynak beyanı gerektirdiğini seçin."
+
+#: templates/admin/settings.php
+msgid "PRO"
+msgstr "PRO"
+
+#: templates/admin/settings.php
+msgid "Save Content Types"
+msgstr "İçerik Türlerini Kaydet"
+
+#: templates/admin/settings.php
+msgid "Auto-regenerate disclosure files"
+msgstr "Açıklama dosyalarını otomatik olarak yeniden oluştur"
+
+#: templates/admin/settings.php
+msgid "Rebuild AI.txt, LLMs.txt, and Robots.txt automatically when a declaration changes."
+msgstr "Bir beyan değiştiğinde AI.txt, LLMs.txt ve Robots.txt'yi otomatik olarak yeniden oluştur."
+
+#: templates/admin/settings.php
+msgid "Auto-update verification"
+msgstr "Otomatik doğrulama güncellemesi"
+
+#: templates/admin/settings.php
+msgid "Keep the public verification page in sync with declarations."
+msgstr "Genel doğrulama sayfasını beyanlarla senkronize tutun."
+
+#: templates/admin/settings.php
+msgid "Automatic on Pro/Agency (always on):"
+msgstr "Pro/Ajans'ta otomatik (her zaman açık):"
+
+#: templates/admin/settings.php
+msgid "Content Snapshot captured at the moment of each declaration"
+msgstr "Her beyan anında yakalanan İçerik Anlık Görüntüsü"
+
+#: templates/admin/settings.php
+msgid "Media Provenance metadata captured at upload time"
+msgstr "Yükleme sırasında yakalanan Medya Kaynağı meta verileri"
+
+#: templates/admin/settings.php
+msgid "Save Automation"
+msgstr "Otomasyonu Kaydet"
+
+#: templates/admin/settings.php
+msgid "Email & Reports"
+msgstr "E-posta ve Raporlar"
+
+#: templates/admin/settings.php
+msgid "Report Frequency"
+msgstr "Rapor Sıklığı"
+
+#: templates/admin/settings.php
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#: templates/admin/settings.php
+msgid "Weekly"
+msgstr "Haftalık"
+
+#: templates/admin/settings.php
+msgid "Monthly"
+msgstr "Aylık"
+
+#: templates/admin/settings.php
+msgid "Quarterly"
+msgstr "Üç Aylık"
+
+#: templates/admin/settings.php
+msgid "Report Email"
+msgstr "Rapor E-postası"
+
+#: templates/admin/settings.php
+msgid "Save Email Settings"
+msgstr "E-posta Ayarlarını Kaydet"
+
+#: templates/admin/settings.php
+msgid "Regulatory alerts are pulled from a public, non-personal data feed. No site content or data is ever transmitted."
+msgstr "Düzenleyici uyarılar, genel, kişisel olmayan bir veri akışından alınır. Hiçbir site içeriği veya verisi iletilmez."
+
+#: templates/admin/settings.php
+msgid "Source"
+msgstr "Kaynak"
+
+#: templates/admin/settings.php
+msgid "Public Regulatory Feed (read-only)"
+msgstr "Genel Düzenleyici Akış (salt okunur)"
+
+#: templates/admin/settings.php
+msgid "Frequency"
+msgstr "Sıklık"
+
+#: templates/admin/settings.php
+msgid "Daily"
+msgstr "Günlük"
+
+#: templates/admin/settings.php
+msgid "This is the only external data fetch in MegaGovern. All other features operate entirely locally."
+msgstr "Bu, MegaGovern'daki tek harici veri çekme işlemidir. Diğer tüm özellikler tamamen yerel olarak çalışır."
+
+#: templates/admin/settings.php
+msgid "White Label — Active"
+msgstr "Beyaz Etiket — Aktif"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding is removed from public-facing elements."
+msgstr "MegaGovern markası, halka açık öğelerden kaldırılmıştır."
+
+#: templates/admin/settings.php
+msgid "Unlock Pro — Full Transparency Suite"
+msgstr "Pro'yu Aç — Tam Şeffaflık Paketi"
+
+#: templates/admin/settings.php
+msgid "Custom AI Policy Editor"
+msgstr "Özel AI Politikası Düzenleyicisi"
+
+#: templates/admin/settings.php
+msgid "Content Snapshots & Evidence Bundles"
+msgstr "İçerik Anlık Görüntüleri ve Kanıt Paketleri"
+
+#: templates/admin/settings.php
+msgid "PDF Reports & Evidence Export"
+msgstr "PDF Raporlar ve Kanıt Dışa Aktarma"
+
+#: templates/admin/settings.php
+msgid "Regulatory Alerts — All Jurisdictions"
+msgstr "Düzenleyici Uyarılar — Tüm Yargı Alanları"
+
+#: templates/admin/settings.php
+msgid "Custom Label Text"
+msgstr "Özel Etiket Metni"
+
+#: templates/admin/settings.php
+msgid "365-Day Evidence Retention"
+msgstr "365 Gün Kanıt Saklama"
+
+#: templates/admin/settings.php
+msgid "All Post Types Support"
+msgstr "Tüm Gönderi Türleri Desteği"
+
+#: templates/admin/settings.php
+msgid "Priority Support"
+msgstr "Öncelikli Destek"
+
+#: templates/admin/settings.php
+msgid "When someone asks you to prove it, this is what you hand them."
+msgstr "Birisi sizden kanıtlamanızı istediğinde, bu onlara verdiğiniz şeydir."
+
+#: templates/admin/settings.php
+msgid "Upgrade Now"
+msgstr "Şimdi Yükselt"
+
+#: templates/admin/settings.php
+msgid "AI Transparency Notice"
+msgstr "AI Şeffaflık Bildirimi"
+
+#: templates/admin/settings.php
+msgid "Display a professional AI transparency notice bar on your frontend to inform visitors about AI-generated content."
+msgstr "Ziyaretçileri AI tarafından oluşturulan içerik hakkında bilgilendirmek için ön yüzünüzde profesyonel bir AI şeffaflık bildirim çubuğu görüntüleyin."
+
+#: templates/admin/settings.php
+msgid "Enable Notice"
+msgstr "Bildirimi Etkinleştir"
+
+#: templates/admin/settings.php
+msgid "Show the AI transparency notice on your frontend."
+msgstr "AI şeffaflık bildirimini ön yüzünüzde gösterin."
+
+#: templates/admin/settings.php
+msgid "Notice Position"
+msgstr "Bildirim Konumu"
+
+#: templates/admin/settings.php
+msgid "Top of Page"
+msgstr "Sayfanın Üstü"
+
+#: templates/admin/settings.php
+msgid "Bottom of Page"
+msgstr "Sayfanın Altı"
+
+#: templates/admin/settings.php
+msgid "Dismiss Duration (Days)"
+msgstr "Kapatma Süresi (Gün)"
+
+#: templates/admin/settings.php
+msgid "How many days to hide the notice after dismissal."
+msgstr "Kapatıldıktan sonra bildirimin kaç gün gizleneceği."
+
+#: templates/admin/settings.php
+msgid "Color customization is available on Pro and Agency plans."
+msgstr "Renk özelleştirme Pro ve Ajans planlarında mevcuttur."
+
+#: templates/admin/settings.php
+msgid "Background"
+msgstr "Arka Plan"
+
+#: templates/admin/settings.php
+msgid "Text Color"
+msgstr "Metin Rengi"
+
+#: templates/admin/settings.php
+msgid "Link Color"
+msgstr "Bağlantı Rengi"
+
+#: templates/admin/settings.php
+msgid "Upgrade to Pro to customize colors."
+msgstr "Renkleri özelleştirmek için Pro'ya yükseltin."
+
+#: templates/admin/settings.php
+msgid "Show Logo"
+msgstr "Logoyu Göster"
+
+#: templates/admin/settings.php
+msgid "Display MegaGovern logo."
+msgstr "MegaGovern logosunu göster."
+
+#: templates/admin/settings.php
+msgid "Show Icon"
+msgstr "Simgeyi Göster"
+
+#: templates/admin/settings.php
+msgid "Display AI shield icon."
+msgstr "AI kalkan simgesini göster."
+
+#: templates/admin/settings.php
+msgid "AI Policy Page"
+msgstr "AI Politikası Sayfası"
+
+#: templates/admin/settings.php
+msgid "— Default Transparency Page —"
+msgstr "— Varsayılan Şeffaflık Sayfası —"
+
+#: templates/admin/settings.php
+msgid "Select a custom page for your AI policy. Leave empty to use /transparency."
+msgstr "AI politikanız için özel bir sayfa seçin. /transparency kullanmak için boş bırakın."
+
+#: templates/admin/settings.php
+msgid "Custom Notice Text"
+msgstr "Özel Bildirim Metni"
+
+#: templates/admin/settings.php
+msgid "Leave empty for default text. Custom text is available on Pro and Agency plans."
+msgstr "Varsayılan metin için boş bırakın. Özel metin Pro ve Ajans planlarında mevcuttur."
+
+#: templates/admin/settings.php
+msgid "White Label Active"
+msgstr "Beyaz Etiket Aktif"
+
+#: templates/admin/settings.php
+msgid "MegaGovern branding removed from the notice bar."
+msgstr "MegaGovern markası bildirim çubuğundan kaldırıldı."
+
+#: templates/admin/settings.php
+msgid "Save Notice Settings"
+msgstr "Bildirim Ayarlarını Kaydet"
+
+#: templates/admin/settings.php
+msgid "Live Preview"
+msgstr "Canlı Önizleme"
+
+#: templates/admin/settings.php
+msgid "This is how the notice will appear on your frontend:"
+msgstr "Bildirim ön yüzünüzde şu şekilde görünecektir:"
+
+#: templates/admin/settings.php
+msgid "This website uses artificial intelligence in some of its content."
+msgstr "Bu web sitesi içeriğinin bir kısmında yapay zeka kullanmaktadır."
+
+#: templates/admin/settings.php
+msgid "View AI Policy"
+msgstr "AI Politikasını Görüntüle"
+
+#: templates/admin/settings.php
+msgid "Preview updates based on your settings above."
+msgstr "Önizleme, yukarıdaki ayarlarınıza göre güncellenir."
+
+#: templates/admin/settings.php
+msgid "Shortcode"
+msgstr "Kısa Kod"
+
+#: templates/admin/settings.php
+msgid "Manually display the notice anywhere using this shortcode:"
+msgstr "Bildirimi bu kısa kodu kullanarak istediğiniz yerde manuel olarak görüntüleyin:"
+
+#: templates/admin/settings.php
+msgid "Use this in posts, pages, or widget areas."
+msgstr "Bunu gönderilerde, sayfalarda veya widget alanlarında kullanın."
+
+#: templates/admin/settings.php
+msgid "Select your primary regulatory jurisdiction for alert filtering and compliance defaults."
+msgstr "Uyarı filtreleme ve uyumluluk varsayılanları için birincil düzenleyici yargı alanınızı seçin."
+
+#: templates/admin/settings.php
+msgid "Automation & Reports"
+msgstr "Otomasyon ve Raporlar"
+
+#: templates/admin/settings.php
+msgid "AI Notice"
+msgstr "AI Bildirimi"
+
+#: templates/admin/agency.php
+msgid "You do not have permission to manage agency settings."
+msgstr "Ajans ayarlarını yönetme izniniz yok."
+
+#: templates/admin/agency.php
+msgid "Manage sites, white label, team, and reports."
+msgstr "Siteleri, beyaz etiketi, ekibi ve raporları yönetin."
+
+#: templates/admin/agency.php
+msgid "Site limit reached. Upgrade to add more sites."
+msgstr "Site sınırına ulaşıldı. Daha fazla site eklemek için yükseltin."
+
+#: templates/admin/agency.php
+msgid "Invalid site URL. Please enter a valid URL."
+msgstr "Geçersiz site URL'si. Lütfen geçerli bir URL girin."
+
+#: templates/admin/agency.php
+msgid "Site added."
+msgstr "Site eklendi."
+
+#: templates/admin/agency.php
+msgid "Site removed."
+msgstr "Site kaldırıldı."
+
+#: templates/admin/agency.php
+msgid "White Label saved."
+msgstr "Beyaz Etiket kaydedildi."
+
+#: templates/admin/agency.php
+msgid "Member added."
+msgstr "Üye eklendi."
+
+#: templates/admin/agency.php
+msgid "Member removed."
+msgstr "Üye kaldırıldı."
+
+#: templates/admin/agency.php
+msgid "You're using %1$d/%2$d sites — only %3$d site(s) remaining."
+msgstr "%1$d/%2$d site kullanıyorsunuz — yalnızca %3$d site kaldı."
+
+#: templates/admin/agency.php
+msgid "Sites"
+msgstr "Siteler"
+
+#: templates/admin/agency.php
+msgid "White Label"
+msgstr "Beyaz Etiket"
+
+#: templates/admin/agency.php
+msgid "Bulk Reports"
+msgstr "Toplu Raporlar"
+
+#: templates/admin/agency.php
+msgid "Team"
+msgstr "Ekip"
+
+#: templates/admin/agency.php
+msgid "Total Sites"
+msgstr "Toplam Site"
+
+#: templates/admin/agency.php
+msgid "Compliant"
+msgstr "Uyumlu"
+
+#: templates/admin/agency.php
+msgid "Attention"
+msgstr "Dikkat"
+
+#: templates/admin/agency.php
+msgid "Managed Sites"
+msgstr "Yönetilen Siteler"
+
+#: templates/admin/agency.php
+msgid "Site"
+msgstr "Site"
+
+#: templates/admin/agency.php
+msgid "Score"
+msgstr "Puan"
+
+#: templates/admin/agency.php
+msgid "Poor"
+msgstr "Zayıf"
+
+#: templates/admin/agency.php
+msgid "Open"
+msgstr "Aç"
+
+#: templates/admin/agency.php
+msgid "No sites added."
+msgstr "Site eklenmedi."
+
+#: templates/admin/agency.php
+msgid "sites used"
+msgstr "kullanılan site"
+
+#: templates/admin/agency.php
+msgid "remaining"
+msgstr "kalan"
+
+#: templates/admin/agency.php
+msgid "Add Site"
+msgstr "Site Ekle"
+
+#: templates/admin/agency.php
+msgid "Site Name"
+msgstr "Site Adı"
+
+#: templates/admin/agency.php
+msgid "Add"
+msgstr "Ekle"
+
+#: templates/admin/agency.php
+msgid "Site limit reached."
+msgstr "Site sınırına ulaşıldı."
+
+#: templates/admin/agency.php
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/agency.php
+msgid "Remove this site?"
+msgstr "Bu siteyi kaldırmak istediğinizden emin misiniz?"
+
+#: templates/admin/agency.php
+msgid "White Label Branding"
+msgstr "Beyaz Etiket Markalama"
+
+#: templates/admin/agency.php
+msgid "Agency Name"
+msgstr "Ajans Adı"
+
+#: templates/admin/agency.php
+msgid "Logo URL"
+msgstr "Logo URL'si"
+
+#: templates/admin/agency.php
+msgid "Brand Color"
+msgstr "Marka Rengi"
+
+#: templates/admin/agency.php
+msgid "Footer Text"
+msgstr "Alt Bilgi Metni"
+
+#: templates/admin/agency.php
+msgid "Powered by [Agency]"
+msgstr "[Ajans] tarafından desteklenmektedir"
+
+#: templates/admin/agency.php
+msgid "Hide Branding"
+msgstr "Markalamayı Gizle"
+
+#: templates/admin/agency.php
+msgid "Remove MegaGovern from public pages"
+msgstr "MegaGovern'ı genel sayfalardan kaldır"
+
+#: templates/admin/agency.php
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: templates/admin/agency.php
+msgid "Generate All Reports"
+msgstr "Tüm Raporları Oluştur"
+
+#: templates/admin/agency.php
+msgid "Generate compliance reports for all %d sites."
+msgstr "Tüm %d site için uyumluluk raporları oluşturun."
+
+#: templates/admin/agency.php
+msgid "Auto-generate monthly compliance reports."
+msgstr "Aylık uyumluluk raporlarını otomatik oluştur."
+
+#: templates/admin/agency.php
+msgid "Enable scheduled monthly reports"
+msgstr "Planlanmış aylık raporları etkinleştir"
+
+#: templates/admin/agency.php
+msgid "Save Schedule"
+msgstr "Programı Kaydet"
+
+#: templates/admin/agency.php
+msgid "Add Team Member"
+msgstr "Ekip Üyesi Ekle"
+
+#: templates/admin/agency.php
+msgid "Admin"
+msgstr "Yönetici"
+
+#: templates/admin/agency.php
+msgid "Manager"
+msgstr "Yönetici"
+
+#: templates/admin/agency.php
+msgid "Editor"
+msgstr "Editör"
+
+#: templates/admin/agency.php
+msgid "Contributor"
+msgstr "Katkıda Bulunan"
+
+#: templates/admin/agency.php
+msgid "Team Members"
+msgstr "Ekip Üyeleri"
+
+#: templates/admin/agency.php
+msgid "User"
+msgstr "Kullanıcı"
+
+#: templates/admin/agency.php
+msgid "Role"
+msgstr "Rol"
+
+#: templates/admin/agency.php
+msgid "Remove this member?"
+msgstr "Bu üyeyi kaldırmak istediğinizden emin misiniz?"
+
+#: templates/admin/agency.php
+msgid "No team members added."
+msgstr "Ekip üyesi eklenmedi."
+
+#: templates/admin/agency.php
+msgid "Plan Details"
+msgstr "Plan Detayları"
+
+#: templates/admin/agency.php
+msgid "Plan"
+msgstr "Plan"
+
+#: templates/admin/agency.php
+msgid "Site Limit"
+msgstr "Site Sınırı"
+
+#: templates/admin/agency.php
+msgid "Included"
+msgstr "Dahil"
+
+#: templates/admin/agency.php
+msgid "Team Access"
+msgstr "Ekip Erişimi"
+
+#: templates/admin/tab-governance.php
+msgid "Regulatory Intelligence"
+msgstr "Düzenleyici İstihbarat"
+
+#: templates/admin/tab-governance.php
+msgid "Live"
+msgstr "Canlı"
+
+#: templates/admin/tab-governance.php
+msgid "Total Directives"
+msgstr "Toplam Direktif"
+
+#: templates/admin/tab-governance.php
+msgid "Jurisdictions"
+msgstr "Yargı Alanları"
+
+#: templates/admin/tab-governance.php
+msgid "Source Tier"
+msgstr "Kaynak Katmanı"
+
+#: templates/admin/tab-governance.php
+msgid "Verified"
+msgstr "Doğrulandı"
+
+#: templates/admin/tab-governance.php
+msgid "Latest Directives"
+msgstr "Son Direktifler"
+
+#: templates/admin/tab-governance.php
+msgid "No regulatory alerts yet."
+msgstr "Henüz düzenleyici uyarı yok."
+
+#: templates/admin/tab-governance.php
+msgid "Mark All as Read"
+msgstr "Tümünü Okundu Olarak İşaretle"
+
+#: templates/admin/tab-governance.php
+msgid "Full Regulatory Feed"
+msgstr "Tam Düzenleyici Akış"
+
+#: templates/admin/tab-governance.php
+msgid "Unlock live jurisdiction filtering, verified source feeds, and automated alert tracking."
+msgstr "Canlı yargı alanı filtreleme, doğrulanmış kaynak akışları ve otomatik uyarı takibini açın."
+
+#: templates/admin/tab-governance.php
+msgid "EU AI Act — Article Coverage"
+msgstr "AB Yapay Zeka Yasası — Madde Kapsamı"
+
+#: templates/admin/tab-governance.php
+msgid "Overall Coverage Score"
+msgstr "Genel Kapsam Puanı"
+
+#: templates/admin/tab-governance.php
+msgid "%d of %d directives covered"
+msgstr "%d direktiften %d'si kapsanıyor"
+
+#: templates/admin/tab-governance.php
+msgid "Action Item:"
+msgstr "Eylem Öğesi:"
+
+#: templates/admin/tab-governance.php
+msgid "Review uncovered directives"
+msgstr "Kapsanmayan direktifleri inceleyin"
+
+#: templates/admin/notice-settings.php
+msgid "AI Notice Settings"
+msgstr "AI Bildirimi Ayarları"
+
+#: templates/admin/notice-settings.php
+msgid "Customize the AI transparency notice bar displayed on your website."
+msgstr "Web sitenizde görüntülenen AI şeffaflık bildirim çubuğunu özelleştirin."
+
+#: templates/admin/notice-settings.php
+msgid "Show AI transparency notice on the frontend."
+msgstr "AI şeffaflık bildirimini ön yüzde göster."
+
+#: templates/admin/notice-settings.php
+msgid "Position"
+msgstr "Konum"
+
+#: templates/admin/notice-settings.php
+msgid "Top of page"
+msgstr "Sayfanın üstü"
+
+#: templates/admin/notice-settings.php
+msgid "Bottom of page"
+msgstr "Sayfanın altı"
+
+#: templates/admin/notice-settings.php
+msgid "Background Color"
+msgstr "Arka Plan Rengi"
+
+#: templates/admin/notice-settings.php
+msgid "Display MegaGovern logo in the notice."
+msgstr "Bildirimde MegaGovern logosunu göster."
+
+#: templates/admin/notice-settings.php
+msgid "Display AI shield icon in the notice."
+msgstr "Bildirimde AI kalkan simgesini göster."
+
+#: templates/admin/notice-settings.php
+msgid "— Select page —"
+msgstr "— Sayfa seçin —"
+
+#: templates/admin/notice-settings.php
+msgid "Select the page where your AI policy is displayed."
+msgstr "AI politikanızın görüntülendiği sayfayı seçin."
+
+#: templates/admin/notice-settings.php
+msgid "Custom Text"
+msgstr "Özel Metin"
+
+#: templates/admin/notice-settings.php
+msgid "Custom notice text. Leave empty for default."
+msgstr "Özel bildirim metni. Varsayılan için boş bırakın."
+
+#: templates/public/badge.php
+msgid "Transparent Site"
+msgstr "Şeffaf Site"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency"
+msgstr "Şeffaflık"
+
+#: templates/public/transparency-drawer.php
+msgid "Toggle transparency information"
+msgstr "Şeffaflık bilgilerini aç/kapat"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Center"
+msgstr "Şeffaflık Merkezi"
+
+#: templates/public/transparency-drawer.php
+msgid "Close"
+msgstr "Kapat"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Summary"
+msgstr "Şeffaflık Özeti"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Human Written"
+msgstr "İnsan Tarafından Yazılmış Olarak Beyan Edildi"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Assisted"
+msgstr "AI Destekli Olarak Beyan Edildi"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as AI Generated"
+msgstr "AI Tarafından Oluşturulmuş Olarak Beyan Edildi"
+
+#: templates/public/transparency-drawer.php
+msgid "Declared as Synthetic Media"
+msgstr "Sentetik Medya Olarak Beyan Edildi"
+
+#: templates/public/transparency-drawer.php
+msgid "Last Declaration"
+msgstr "Son Beyan"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency Records"
+msgstr "Şeffaflık Kayıtları"
+
+#: templates/public/transparency-drawer.php
+msgid "Verification Status"
+msgstr "Doğrulama Durumu"
+
+#: templates/public/transparency-drawer.php
+msgid "Verified"
+msgstr "Doğrulandı"
+
+#: templates/public/transparency-drawer.php
+msgid "View Transparency Page"
+msgstr "Şeffaflık Sayfasını Görüntüle"
+
+#: templates/public/transparency-drawer.php
+msgid "Read AI Policy"
+msgstr "AI Politikasını Oku"
+
+#: templates/public/transparency-drawer.php
+msgid "Download AI.txt"
+msgstr "AI.txt'yi İndir"
+
+#: templates/public/transparency-drawer.php
+msgid "Verify Transparency"
+msgstr "Şeffaflığı Doğrula"
+
+#: templates/public/transparency-drawer.php
+msgid "Transparency information aligned with EU AI Act Article 50 disclosure goals."
+msgstr "Şeffaflık bilgileri, AB Yapay Zeka Yasası Madde 50 açıklama hedefleriyle uyumludur."
+
+#: templates/public/transparency-drawer.php
+msgid "Powered by MegaGovern"
+msgstr "MegaGovern tarafından desteklenmektedir"
+
+#: templates/public/verify-page.php
+msgid "Not available"
+msgstr "Mevcut değil"
+
+#: templates/public/verify-page.php
+msgid "About This Page"
+msgstr "Bu Sayfa Hakkında"
+
+#: templates/public/verify-page.php
+msgid "This website voluntarily maintains an AI Content Transparency Registry and publishes AI disclosure information. All content sources are declared and recorded in a verifiable transparency registry, providing proof of responsible AI governance."
+msgstr "Bu web sitesi gönüllü olarak bir AI İçerik Şeffaflık Kaydı tutar ve AI açıklama bilgilerini yayınlar. Tüm içerik kaynakları, doğrulanabilir bir şeffaflık kaydında beyan edilir ve kaydedilir, bu da sorumlu AI yönetişiminin kanıtını sağlar."
+
+#: templates/public/verify-page.php
+msgid "Total Declared Articles"
+msgstr "Toplam Beyan Edilen Makale"
+
+#: templates/public/verify-page.php
+msgid "Machine-readable file"
+msgstr "Makine tarafından okunabilir dosya"
+
+#: templates/public/verify-page.php
+msgid "Verification"
+msgstr "Doğrulama"
+
+#: templates/public/verify-page.php
+msgid "Registry ID"
+msgstr "Kayıt ID'si"
+
+#: templates/public/verify-page.php
+msgid "Generated"
+msgstr "Oluşturuldu"
+
+#: templates/public/verify-page.php
+msgid "Generated automatically from the website's Transparency Registry by megagovern.com."
+msgstr "megagovern.com tarafından web sitesinin Şeffaflık Kaydı'ndan otomatik olarak oluşturulmuştur."
+
+#: templates/public/report-pdf.php
+msgid "MegaGovern — AI Transparency & Compliance Report"
+msgstr "MegaGovern — AI Şeffaflık ve Uyumluluk Raporu"
+
+#: templates/public/report-pdf.php
+msgid "Site:"
+msgstr "Site:"
+
+#: templates/public/report-pdf.php
+msgid "URL:"
+msgstr "URL:"
+
+#: templates/public/report-pdf.php
+msgid "Generated:"
+msgstr "Oluşturulma Tarihi:"
+
+#: templates/public/report-pdf.php
+msgid "Period:"
+msgstr "Dönem:"
+
+#: templates/public/report-pdf.php
+msgid "%1$s of %2$s published items declared"
+msgstr "%2$s yayınlanan öğenin %1$s'i beyan edildi"
+
+#: templates/public/report-pdf.php
+msgid "Declaration Breakdown"
+msgstr "Beyan Dağılımı"
+
+#: templates/public/report-pdf.php
+msgid "Synthetic / Deepfake"
+msgstr "Sentetik / Derin Sahte"
+
+#: templates/public/report-pdf.php
+msgid "Transparency Measures"
+msgstr "Şeffaflık Önlemleri"
+
+#: templates/public/report-pdf.php
+msgid "Measure"
+msgstr "Önlem"
+
+#: templates/public/report-pdf.php
+msgid "Details"
+msgstr "Detaylar"
+
+#: templates/public/report-pdf.php
+msgid "Not started"
+msgstr "Başlamadı"
+
+#: templates/public/report-pdf.php
+msgid "posts declared"
+msgstr "beyan edilen gönderi"
+
+#: templates/public/report-pdf.php
+msgid "Not published"
+msgstr "Yayınlanmadı"
+
+#: templates/public/report-pdf.php
+msgid "Not active"
+msgstr "Aktif değil"
+
+#: templates/public/report-pdf.php
+msgid "Content Labels"
+msgstr "İçerik Etiketleri"
+
+#: templates/public/report-pdf.php
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#: templates/public/report-pdf.php
+msgid "SHA-256 Integrity"
+msgstr "SHA-256 Bütünlüğü"
+
+#: templates/public/report-pdf.php
+msgid "Content hashes generated on declaration"
+msgstr "Beyan sırasında oluşturulan içerik karma değerleri"
+
+#: templates/public/report-pdf.php
+msgid "IMPORTANT LEGAL DISCLAIMER"
+msgstr "ÖNEMLİ YASAL UYARI"
+
+#: templates/public/report-pdf.php
+msgid "This report is generated by the MegaGovern plugin for transparency and documentation purposes only. It does NOT constitute legal advice, legal compliance certification, or a guarantee of regulatory compliance. Legal compliance depends on your jurisdiction, your content, and your legal counsel."
+msgstr "Bu rapor, MegaGovern eklentisi tarafından yalnızca şeffaflık ve belgelendirme amaçları için oluşturulmuştur. Yasal tavsiye, yasal uyumluluk sertifikası veya düzenleyici uyumluluk garantisi teşkil ETMEZ. Yasal uyumluluk, yargı alanınıza, içeriğinize ve hukuk danışmanınıza bağlıdır."
+
+#: templates/public/report-pdf.php
+msgid "Meganova Agency makes no representations or warranties regarding the completeness or accuracy of this data for legal purposes. Users should consult qualified legal counsel for compliance determinations specific to their situation."
+msgstr "Meganova Agency, bu verilerin yasal amaçlar için eksiksizliği veya doğruluğu konusunda hiçbir beyanda veya garanti vermez. Kullanıcılar, kendi durumlarına özgü uyumluluk kararları için nitelikli bir hukuk danışmanına danışmalıdır."
+
+#: templates/public/report-pdf.php
+msgid "Generated by MegaGovern v%s — AI Transparency & Documentation Toolkit"
+msgstr "MegaGovern v%s tarafından oluşturulmuştur — AI Şeffaflık ve Belgelendirme Araç Takımı"
+
+#: templates/public/report-pdf.php
+msgid "https://megagovern.com"
+msgstr "https://megagovern.com"
+
+#: includes/Core.php
+msgid "Content declaration type (human, ai_assisted, ai_generated, deepfake)"
+msgstr "İçerik beyan türü (human, ai_assisted, ai_generated, deepfake)"
+
+#: includes/Core.php
+msgid "User ID who declared the content"
+msgstr "İçeriği beyan eden kullanıcı ID'si"
+
+#: includes/Core.php
+msgid "Timestamp when content was declared"
+msgstr "İçeriğin beyan edildiği zaman damgası"
+
+#: includes/Core.php
+msgid "Flag if declaration is stale due to content edits exceeding threshold"
+msgstr "İçerik düzenlemeleri eşiği aştığı için beyanın güncel olmadığını belirten işaret"
+
+#: includes/Core.php
+msgid "SHA-256 hash of published content"
+msgstr "Yayınlanan içeriğin SHA-256 karma değeri"
+
+#: includes/Core.php
+msgid "Legacy archive exemption flag"
+msgstr "Eski arşiv muafiyet işareti"
+
+#: includes/Core.php
+msgid "Exemption revocation flag"
+msgstr "Muafiyet iptal işareti"
+
+#: includes/Core.php
+msgid "Action dismissed flag"
+msgstr "Eylem kapatıldı işareti"
+
+#: includes/Core.php
+msgid "Action pending flag"
+msgstr "Eylem beklemede işareti"
+
+#: includes/Helpers.php
+msgid "Enacted"
+msgstr "Yürürlükte"
+
+#: includes/Helpers.php
+msgid "Proposed"
+msgstr "Önerilen"
+
+#: includes/Helpers.php
+msgid "Framework"
+msgstr "Çerçeve"
+
+#: includes/Helpers.php
+msgid "Voluntary"
+msgstr "Gönüllü"
+
+#: includes/Helpers.php
+msgid "Text"
+msgstr "Metin"
+
+#: includes/Helpers.php
+msgid "Images"
+msgstr "Görseller"
+
+#: includes/Helpers.php
+msgid "Audio"
+msgstr "Ses"
+
+#: includes/Helpers.php
+msgid "Video"
+msgstr "Video"
+
+#: includes/Helpers.php
+msgid "Deepfakes"
+msgstr "Derin Sahteler"
+
+#: includes/Evidence.php
+msgid "No description provided."
+msgstr "Açıklama sağlanmadı."
+
+#: includes/Evidence.php
+msgid "Free plan shows International alerts only."
+msgstr "Ücretsiz plan yalnızca Uluslararası uyarıları gösterir."
+
+#: includes/Evidence.php
+msgid "Upgrade to Pro"
+msgstr "Pro'ya Yükselt"
+
+#: mega-govern.php
+msgid "MegaGovern Test Report"
+msgstr "MegaGovern Test Raporu"
+
+#: mega-govern.php
+msgid "This is a test report from MegaGovern.\n\nIf you're seeing this, your email settings are working correctly."
+msgstr "Bu, MegaGovern'dan bir test raporudur.\n\nBunu görüyorsanız, e-posta ayarlarınız doğru çalışıyor."

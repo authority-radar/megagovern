@@ -1,0 +1,337 @@
+/**
+ * Transparency Badge — V1.0.7
+ *
+ * @package MegaGovern
+ * @since   1.0.7
+ */
+
+/* ─── FLOATING BADGE CONTAINER ─── */
+.mga-transparency-badge {
+    position: fixed;
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ─── POSITIONS ─── */
+.mga-badge--bottom {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mga-badge--top {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mga-badge--bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.mga-badge--bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+
+.mga-badge--top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.mga-badge--top-right {
+    top: 20px;
+    right: 20px;
+}
+
+/* ─── TOGGLE BUTTON ─── */
+.mga-transparency-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+    background: var(--mga-bg-color, #0052CC);
+    color: var(--mga-text-color, #ffffff);
+}
+
+.mga-transparency-toggle:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mga-transparency-toggle:focus-visible {
+    outline: 2px solid var(--mga-bg-color, #0052CC);
+    outline-offset: 2px;
+}
+
+.mga-badge-logo {
+    height: 20px;
+    width: auto;
+    display: inline-block !important;
+    flex-shrink: 0;
+}
+
+.mga-badge-logo--free {
+    filter: brightness(0) invert(1);
+}
+
+.mga-badge-logo--pro {
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+}
+
+.mga-badge-text {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* ─── DRAWER ─── */
+.mga-transparency-drawer {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 380px;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 20px 24px;
+    color: #1d2327;
+    text-align: left;
+    z-index: 1000000;
+}
+
+/* ─── DRAWER POSITION ADJUSTMENTS ─── */
+.mga-badge--top .mga-transparency-drawer {
+    bottom: auto;
+    top: calc(100% + 12px);
+}
+
+.mga-badge--bottom-left .mga-transparency-drawer {
+    left: 0;
+    transform: none;
+}
+
+.mga-badge--bottom-right .mga-transparency-drawer {
+    left: auto;
+    right: 0;
+    transform: none;
+}
+
+.mga-badge--top-left .mga-transparency-drawer {
+    left: 0;
+    transform: none;
+    bottom: auto;
+    top: calc(100% + 12px);
+}
+
+.mga-badge--top-right .mga-transparency-drawer {
+    left: auto;
+    right: 0;
+    transform: none;
+    bottom: auto;
+    top: calc(100% + 12px);
+}
+
+/* ─── DRAWER HEADER ─── */
+.mga-drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.mga-drawer-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.mga-drawer-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: #6b7280;
+    transition: color 0.2s ease;
+}
+
+.mga-drawer-close:hover {
+    color: #1d2327;
+}
+
+.mga-drawer-close svg {
+    display: block;
+}
+
+/* ─── DRAWER BODY ─── */
+.mga-drawer-subtitle {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6b7280;
+    margin: 0 0 12px 0;
+}
+
+/* ─── STATS ─── */
+.mga-drawer-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.mga-stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 4px 0;
+}
+
+.mga-stat-label {
+    color: #4b5563;
+}
+
+.mga-stat-value {
+    font-weight: 600;
+    color: #1d2327;
+}
+
+/* ─── META ─── */
+.mga-drawer-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    padding: 12px 0;
+    border-top: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+    margin-bottom: 16px;
+}
+
+.mga-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+}
+
+.mga-meta-label {
+    color: #6b7280;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.mga-meta-value {
+    font-weight: 500;
+    color: #1d2327;
+}
+
+.mga-status-verified {
+    color: #16a34a;
+}
+
+/* ─── LINKS ─── */
+.mga-drawer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.mga-drawer-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 0;
+    transition: opacity 0.2s ease;
+    color: var(--mga-link-color, #93c5fd);
+}
+
+.mga-drawer-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.mga-drawer-link svg {
+    flex-shrink: 0;
+}
+
+/* ─── FOOTER ─── */
+.mga-drawer-footer {
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f1;
+}
+
+.mga-drawer-disclaimer {
+    font-size: 11px;
+    color: #6b7280;
+    margin: 0 0 8px 0;
+    line-height: 1.5;
+}
+
+.mga-drawer-powered {
+    font-size: 11px;
+    color: #9ca3af;
+    margin: 0;
+    text-align: center;
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 480px) {
+    .mga-transparency-drawer {
+        width: calc(100vw - 40px);
+        max-height: 70vh;
+        padding: 16px 20px;
+    }
+
+    .mga-transparency-toggle {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    .mga-badge-text {
+        font-size: 13px;
+    }
+}
+
+/* ─── SCROLLBAR ─── */
+.mga-transparency-drawer::-webkit-scrollbar {
+    width: 4px;
+}
+
+.mga-transparency-drawer::-webkit-scrollbar-track {
+    background: #f0f0f1;
+    border-radius: 2px;
+}
+
+.mga-transparency-drawer::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 2px;
+}
+
+.mga-transparency-drawer::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
